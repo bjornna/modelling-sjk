@@ -19,8 +19,10 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "628c80fc010c633a44c50a47c227ebd3",
-      "PARENT:MD5-CAM-1.0.1" : "8FE80F3E80C594AAF99D3BA540A53D73"
+      "MD5-CAM-1.0.1" : "48a63eb3bbc5de44134a20aae8e51130",
+      "PARENT:MD5-CAM-1.0.1" : "8FE80F3E80C594AAF99D3BA540A53D73",
+      "sem_ver" : "0.1.0",
+      "build_uid" : ""
     },
     "details" : {
       "de" : {
@@ -647,7 +649,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "10090b3513a0d6cf6f8dc94773c1c018"
+        "PARENT:MD5-CAM-1.0.1" : "5779BD381D047A909CCCF5E3E716A8E6"
       },
       "details" : {
         "nb" : {
@@ -1174,7 +1176,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "29BEE1D1CC0BBCC438371690811482D5"
+        "PARENT:MD5-CAM-1.0.1" : "F860292F286ADCAE2E776F553F9D4397"
       },
       "details" : {
         "fi" : {
@@ -1238,6 +1240,36 @@
           "use" : "*Use to create a framework for recording answers to pre-defined screening questions about the social context.\r\n\r\nCommon use cases include, but are not limited to:\r\n- Systematic enquiry in any consultation, for example:\r\n--- Are you homeless? Yes, No, Unknown\r\n--- Do you feel socially isolated?\r\n--- Do you feel safe at home/school/work?\r\n--- Do you think you are a problem gambler?\r\n--- How many children do you have under the age of 18?\r\n--- Are any individuals dependent on you?\r\n--- Do you need an interpreter when you visit the clinic?\r\n\r\nThe semantics of this archetype are intentionally loose, and querying this archetype would normally only be useful or safe within the context of each specific template. In a template, each data element would usually be renamed to the specific question asked. Where value sets have been proposed for common use cases, these can be adapted for local use by using the DV_TEXT or the DV_BOOLEAN datatypes choice to match each specific use case.\r\n\r\nThe EVENT structure from the reference model can be used to specify whether the questions relate to a point in time or over a period of time. Use a separate instance of this archetype to distinguish between a questionnaire recording information about a social context issue that has been present at any time in the past and information about a social context issue within a specified time interval - for example, the difference between \"Are you safe at home now?\" compared to \"Have you experienced any domestic violence in the past 4 weeks?\"\r\n\r\nThe source of the information in a questionnaire response may vary in different contexts but can be specifically identified using the 'Information provider' element in the Reference Model.\r\n\r\nThis archetype has been designed to be used as a screening tool or to record simple questionnaire-format data for use in situations such as a disease registry. If the screening process identifies a social context circumstance, issue or concern and it is intended that the details are to be recorded and persisted as part of an ongoing health record, any further specific details about the social context should be recorded using archetypes specific for the clinical purpose. (en)",
           "misuse" : "*Not to be used to record persistent details about social context-related concepts. Use existing archetypes for this purpose - for example EVALUATION.housing, EVALUATION.education, EVALUATION. occupation, EVALUATION.social_network and other archetypes within the Social context project - https://ckm.openehr.org/ckm/projects/1013.30.39. (en)",
           "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Crear un marc per registrar respostes a preguntes de cribratge predefinides sobre el context social.",
+          "keywords" : [ "sense llar", "habitatge", "joc d'atzar", "ocupació", "seguretat", "domèstic", "violència", "dependent", "tutor", "situació", "circumstàncies", "abús", "educació", "inseguretat", "inclusió", "exclusió", "transport", "equitat", "dificultats", "atur", "estrès", "connexió", "alfabetització", "benestar", "social", "sociològic", "socioeconòmic", "pobresa", "fam", "refugiat", "immigrant", "minoria" ],
+          "use" : "Utilitzeu-lo per crear un marc per registrar respostes a preguntes de cribratge predefinides sobre el context social.\r\n\r\nEls casos d'ús comuns inclouen, entre d'altres:\r\n- Consulta sistemàtica en qualsevol consulta, per exemple:\r\n--- Ets una persona sense llar? Sí, No, Desconegut\r\n--- Et sents socialment aïllat?\r\n--- Et sents segur a casa/escola/feina?\r\n--- Creus que tens problemes amb el joc?\r\n--- Hi ha alguna persona que depengui de tu?\r\n--- Necessites un intèrpret quan visites la clínica?\r\n\r\nLa semàntica d'aquest arquetip és intencionadament flexible, i consultar aquest arquetip normalment només seria útil o segur dins del context de cada plantilla específica. En una plantilla, cada element de dades normalment es canviaria de nom a la pregunta específica que es fa. Quan s'han proposat conjunts de valors per a casos d'ús comuns, aquests es poden adaptar per a l'ús local mitjançant l'opció de tipus de dades DV_TEXT o DV_BOOLEAN per coincidir amb cada cas d'ús específic.\r\n\r\nL'estructura EVENT del model de referència es pot utilitzar per especificar si les preguntes es refereixen a un punt en el temps o a un període de temps. Utilitzeu una instància separada d'aquest arquetip per distingir entre un qüestionari que registra informació sobre un problema de context social que ha estat present en qualsevol moment del passat i informació sobre un problema de context social dins d'un interval de temps especificat; per exemple, la diferència entre \"Esteu segur a casa ara?\" en comparació amb \"Heu experimentat violència domèstica en les darreres 4 setmanes?\".\r\n\r\nLa font de la informació en una resposta al qüestionari pot variar en diferents contextos, però es pot identificar específicament mitjançant l'element \"Information provider\" (\"Proveïdor d'informació\") del Model de Referència.\r\n\r\nAquest arquetip s'ha dissenyat per ser utilitzat com a eina de cribratge o per registrar dades simples en format de qüestionari per al seu ús en situacions com ara un registre de malalties. Si el procés de cribratge identifica una circumstància, problema o preocupació de context social i es pretén que els detalls es registrin i es preservin com a part d'un historial mèdic continu, qualsevol altre detall específic sobre el context social s'ha de registrar mitjançant arquetips específics per a la finalitat clínica.",
+          "misuse" : "No s'ha d'utilitzar per registrar detalls persistents sobre conceptes relacionats amb el context social. Utilitzeu arquetips existents per a aquest propòsit, per exemple, EVALUATION.housing, EVALUATION.education, EVALUATION.occupation, EVALUATION.social_network i altres arquetips dins del projecte Social context: https://ckm.openehr.org/ckm/projects/1013.30.39.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Crear un marco para registrar respuestas a preguntas de cribado predefinidas sobre el contexto social.",
+          "keywords" : [ "Sin hogar", "Vivienda", "Juego", "Empleo", "Seguridad", "Violencia doméstica", "Dependiente", "Tutor", "Situación", "Circunstancias", "Abuso", "Educación", "Inseguridad", "Inclusión", "Exclusión", "Transporte", "Equidad", "Dificultades", "Desempleo", "Estrés", "Conexión", "Alfabetización", "Bienestar", "Social", "Sociológico", "Socioeconómico", "Pobreza", "Hambre", "Refugiado", "Inmigrante", "Minoría" ],
+          "use" : "Usar para crear un marco para registrar las respuestas a preguntas de cribado predefinidas sobre el contexto social.\r\n\r\nLos casos de uso comunes incluyen, entre otros:\r\n- Investigación sistemática en cualquier consulta, por ejemplo:\r\n--- ¿Es usted una persona sin hogar? Sí, No, Desconocido\r\n--- ¿Se siente socialmente aislado?\r\n--- ¿Se siente seguro en casa, en la escuela o en el trabajo?\r\n--- ¿Cree que tiene problemas con el juego?\r\n--- ¿Hay alguna persona que dependa de usted?\r\n--- ¿Necesita un intérprete cuando visita la clínica?\r\n\r\nLa semántica de este arquetipo es intencionadamente flexible, y consultarlo normalmente solo sería útil o seguro dentro del contexto de cada plantilla específica. En una plantilla, cada elemento de datos se renombraría generalmente según la pregunta específica formulada. Cuando se han propuesto conjuntos de valores para casos de uso comunes, estos pueden adaptarse para uso local utilizando los tipos de datos DV_TEXT o DV_BOOLEAN para que coincidan con cada caso de uso específico.\r\n\r\nLa estructura EVENT del modelo de referencia permite especificar si las preguntas se refieren a un momento específico o a un período determinado. Utilice una instancia independiente de este arquetipo para distinguir entre un cuestionario que registra información sobre un problema de contexto social presente en algún momento del pasado y la información sobre un problema de contexto social dentro de un intervalo de tiempo específico; por ejemplo, la diferencia entre \"¿Se encuentra seguro en casa ahora?\" y \"¿Ha sufrido violencia doméstica en las últimas 4 semanas?\".\r\n\r\nLa fuente de información de una respuesta al cuestionario puede variar según el contexto, pero se puede identificar específicamente mediante el elemento \"Information provider\" (\"Proveedor de información\") del Modelo de Referencia.\r\n\r\nEste arquetipo se ha diseñado para utilizarse como herramienta de cribado o para registrar datos sencillos en formato de cuestionario para su uso en situaciones como un registro de enfermedades. Si el proceso de cribado identifica una circunstancia, problema o inquietud de contexto social y se pretende que los detalles se registren y conserven como parte de un historial clínico continuo, cualquier otro detalle específico sobre el contexto social debe registrarse utilizando arquetipos específicos para el propósito clínico.",
+          "misuse" : "No debe utilizarse para registrar detalles persistentes sobre conceptos relacionados con el contexto social. Para ello, utilice los arquetipos existentes, por ejemplo, EVALUACIÓN.housing, EVALUACIÓN.education, EVALUACIÓN.occupation, EVALUACIÓN.social_network y otros arquetipos del proyecto Contexto social: https://ckm.openehr.org/ckm/projects/1013.30.39.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -1488,7 +1520,9 @@
             "description" : "*Identification of a specific social circumstance, issue or concern relevant for the questionnaire or grouping of such, by name.  (en)",
             "comment" : "*This element offers a choice between free and coded text. It is anticipated that the list of coded values will grow as requirements are identified. Coding of the 'Context' with a terminology is preferred, where possible - for example, relevant terms within the Social context finding hierarchy in SNOMED CT (SCTID: 108329005). (en)"
           }
-        }
+        },
+        "ca" : { },
+        "es" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -1565,6 +1599,34 @@
         "codeString" : "it"
       },
       "author" : { },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez, Clara Calleja Vega",
+        "organisation" : "Sistema de Salut de Catalunya, CatSalut. Servei Català de la Salut.",
+        "email" : "lauramoral@catsalut.cat, ccalleja@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lauramoral@catsalut.cat"
+      },
       "otherDetails" : { }
     } ]
   } ],
