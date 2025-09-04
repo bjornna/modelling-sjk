@@ -19,7 +19,7 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "7f59ccdce759277e05902cd98eb47192",
+      "MD5-CAM-1.0.1" : "29391ade767a511f3ae60b1eec799a9d",
       "PARENT:MD5-CAM-1.0.1" : "8FE80F3E80C594AAF99D3BA540A53D73"
     },
     "details" : {
@@ -207,7 +207,7 @@
         "at0000.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0000.1",
-          "text" : "Stimulantia",
+          "text" : "Stimulantia_20",
           "description" : "A generic section header which should be renamed in a template to suit a specific clinical context."
         }
       },
