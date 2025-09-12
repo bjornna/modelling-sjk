@@ -24,8 +24,8 @@
       "custodian_namespace" : "",
       "sem_ver" : "6.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "ff6ea45ebb6de9877e85fd0c2a831df6",
-      "PARENT:MD5-CAM-1.0.1" : "37053661135B974855AAA356073EA23A",
+      "MD5-CAM-1.0.1" : "e94a646e67814f3ec6ca5ef6d783d097",
+      "PARENT:MD5-CAM-1.0.1" : "65F6678D2160D38515F5E4BD22EA1F45",
       "original_language" : "ISO_639-1::nb"
     },
     "details" : {
@@ -80,6 +80,36 @@
         "otherDetails" : {
           "notes" : "Generated automatically by Adl Designer"
         }
+      },
+      "sv" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "sv"
+        },
+        "purpose" : "Att registrera en sammanfattning eller ihållande information om en individs nuvarande och tidigare jobb och/eller roller.",
+        "keywords" : [ "sysselsättning", "studera", "jobb", "arbete", "vårdgivare", "roll", "pensionär", "studerande", "anställd", "arbetsgivare", "yrke", "arbetslöshet", "ockupation", "barn", "pensionär", "inaktiverad" ],
+        "use" : "Används för att spela in en sammanfattning eller ihållande information om en individs nuvarande och tidigare jobb och/eller roller.\r\n\r\nDenna arketyp har utformats för att användas som en fristående arketyp inom ramen för en socialhistorisk (eller liknande) mall. Den är avsedd att ge en sammanfattning av alla yrken, betraktade i vidaste bemärkelse. För varje jobb eller roll använder du en separat instans av CLUSTER.occupation_record inom SLOT för 'Yrkesepisod'.",
+        "misuse" : "Inte avsedd att användas för att spela in strukturerade detaljer om ett specifikt jobb eller roll. Använd CLUSTER.occupation_record-arketypen inom 'Yrkesregistrering' SLOT för detta ändamål.\r\n\r\nFår inte användas för detaljerade beskrivningar av hälsorisker eller exponering för farliga ämnen på arbetsplatsen. Använd arketypen EVALUATION.health_risk eller EVALUATION.exposure för dessa ändamål.\r\n\r\nFår inte användas för att registrera information om inkomstkällor eller inkomstuppgifter för individen. Använd arketypen CLUSTER.income_summary för detta ändamål.",
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "fr" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "fr"
+        },
+        "purpose" : "Enregistrer un résumé ou des informations persistantes sur les emplois et/ou rôles actuels et passés d'une personne.",
+        "keywords" : [ "emploi", "étude", "emploi", "travail", "soignant", "rôle", "retraité", "étudiant", "employé", "employeur", "profession", "chômage", "profession", "enfant", "retraité", "handicapé" ],
+        "use" : "À utiliser pour enregistrer un résumé ou des informations persistantes sur les emplois et/ou les rôles actuels et passés d'une personne.\r\n\r\nCet archétype a été conçu pour être utilisé de manière autonome dans le contexte d'un modèle d'histoire sociale (ou d'un modèle similaire). Il est destiné à fournir un résumé de toutes les professions, considérées dans leur sens le plus large. Pour chaque emploi ou rôle, utilisez une instance distincte de l'enregistrement CLUSTER.occupation_record dans le SLOT pour \"Occupation episode\".",
+        "misuse" : "Ne doit pas être utilisé pour enregistrer des détails structurés sur un emploi ou un rôle spécifique. Utiliser l'archétype CLUSTER.occupation_record dans le SLOT 'Occupation record' à cette fin.\r\n\r\nNe pas utiliser pour des descriptions détaillées des risques pour la santé ou de l'exposition à des substances dangereuses sur le lieu de travail. Utiliser l'archétype EVALUATION.health_risk ou EVALUATION.exposure à cette fin.\r\n\r\nNe pas utiliser pour enregistrer des informations sur les sources de revenus ou des détails sur les revenus de l'individu. Utilisez l'archétype CLUSTER.income_summary à cette fin.",
+        "originalResourceUri" : { },
+        "otherDetails" : { }
       }
     }
   },
@@ -214,7 +244,9 @@
         }
       },
       "it" : { },
-      "de" : { }
+      "de" : { },
+      "fr" : { },
+      "sv" : { }
     },
     "termBindings" : { },
     "terminologyExtracts" : { },
@@ -442,8 +474,8 @@
                     "lower" : 0.0,
                     "lowerIncluded" : true,
                     "upperIncluded" : false,
-                    "lowerUnbounded" : false,
-                    "upperUnbounded" : true
+                    "upperUnbounded" : true,
+                    "lowerUnbounded" : false
                   } ]
                 } ]
               }, {
@@ -458,15 +490,15 @@
                     "upper" : 1,
                     "lowerIncluded" : true,
                     "upperIncluded" : true,
-                    "lowerUnbounded" : false,
-                    "upperUnbounded" : false
+                    "upperUnbounded" : false,
+                    "lowerUnbounded" : false
                   }, {
                     "lower" : 2,
                     "upper" : 2,
                     "lowerIncluded" : true,
                     "upperIncluded" : true,
-                    "lowerUnbounded" : false,
-                    "upperUnbounded" : false
+                    "upperUnbounded" : false,
+                    "lowerUnbounded" : false
                   } ]
                 } ]
               } ],
@@ -526,8 +558,8 @@
                       "lower" : 0.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : false,
-                      "lowerUnbounded" : false,
-                      "upperUnbounded" : true
+                      "upperUnbounded" : true,
+                      "lowerUnbounded" : false
                     } ]
                   }, {
                     "@type" : "C_STRING",
@@ -539,8 +571,8 @@
                       "upper" : 2,
                       "lowerIncluded" : true,
                       "upperIncluded" : true,
-                      "lowerUnbounded" : false,
-                      "upperUnbounded" : false
+                      "upperUnbounded" : false,
+                      "lowerUnbounded" : false
                     } ]
                   } ]
                 }, {
@@ -551,8 +583,8 @@
                       "lower" : 0.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : false,
-                      "lowerUnbounded" : false,
-                      "upperUnbounded" : true
+                      "upperUnbounded" : true,
+                      "lowerUnbounded" : false
                     } ]
                   }, {
                     "@type" : "C_STRING",
@@ -564,8 +596,8 @@
                       "upper" : 2,
                       "lowerIncluded" : true,
                       "upperIncluded" : true,
-                      "lowerUnbounded" : false,
-                      "upperUnbounded" : false
+                      "upperUnbounded" : false,
+                      "lowerUnbounded" : false
                     } ]
                   } ]
                 }, {
@@ -576,8 +608,8 @@
                       "lower" : 0.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : false,
-                      "lowerUnbounded" : false,
-                      "upperUnbounded" : true
+                      "upperUnbounded" : true,
+                      "lowerUnbounded" : false
                     } ]
                   }, {
                     "@type" : "C_STRING",
@@ -589,8 +621,8 @@
                       "upper" : 2,
                       "lowerIncluded" : true,
                       "upperIncluded" : true,
-                      "lowerUnbounded" : false,
-                      "upperUnbounded" : false
+                      "upperUnbounded" : false,
+                      "lowerUnbounded" : false
                     } ]
                   } ]
                 }, {
@@ -601,8 +633,8 @@
                       "lower" : 0.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : false,
-                      "lowerUnbounded" : false,
-                      "upperUnbounded" : true
+                      "upperUnbounded" : true,
+                      "lowerUnbounded" : false
                     } ]
                   }, {
                     "@type" : "C_STRING",
@@ -614,8 +646,8 @@
                       "upper" : 2,
                       "lowerIncluded" : true,
                       "upperIncluded" : true,
-                      "lowerUnbounded" : false,
-                      "upperUnbounded" : false
+                      "upperUnbounded" : false,
+                      "lowerUnbounded" : false
                     } ]
                   } ]
                 }, {
@@ -626,8 +658,8 @@
                       "lower" : 0.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : false,
-                      "lowerUnbounded" : false,
-                      "upperUnbounded" : true
+                      "upperUnbounded" : true,
+                      "lowerUnbounded" : false
                     } ]
                   }, {
                     "@type" : "C_STRING",
@@ -639,8 +671,8 @@
                       "upper" : 2,
                       "lowerIncluded" : true,
                       "upperIncluded" : true,
-                      "lowerUnbounded" : false,
-                      "upperUnbounded" : false
+                      "upperUnbounded" : false,
+                      "lowerUnbounded" : false
                     } ]
                   } ]
                 }, {
@@ -651,8 +683,8 @@
                       "lower" : 0.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : false,
-                      "lowerUnbounded" : false,
-                      "upperUnbounded" : true
+                      "upperUnbounded" : true,
+                      "lowerUnbounded" : false
                     } ]
                   }, {
                     "@type" : "C_STRING",
@@ -664,8 +696,8 @@
                       "upper" : 2,
                       "lowerIncluded" : true,
                       "upperIncluded" : true,
-                      "lowerUnbounded" : false,
-                      "upperUnbounded" : false
+                      "upperUnbounded" : false,
+                      "lowerUnbounded" : false
                     } ]
                   } ]
                 }, {
@@ -676,8 +708,8 @@
                       "lower" : 0.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : false,
-                      "lowerUnbounded" : false,
-                      "upperUnbounded" : true
+                      "upperUnbounded" : true,
+                      "lowerUnbounded" : false
                     } ]
                   }, {
                     "@type" : "C_STRING",
@@ -689,8 +721,8 @@
                       "upper" : 2,
                       "lowerIncluded" : true,
                       "upperIncluded" : true,
-                      "lowerUnbounded" : false,
-                      "upperUnbounded" : false
+                      "upperUnbounded" : false,
+                      "lowerUnbounded" : false
                     } ]
                   } ]
                 }, {
@@ -701,8 +733,8 @@
                       "lower" : 0.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : false,
-                      "lowerUnbounded" : false,
-                      "upperUnbounded" : true
+                      "upperUnbounded" : true,
+                      "lowerUnbounded" : false
                     } ]
                   }, {
                     "@type" : "C_STRING",
@@ -714,8 +746,8 @@
                       "upper" : 2,
                       "lowerIncluded" : true,
                       "upperIncluded" : true,
-                      "lowerUnbounded" : false,
-                      "upperUnbounded" : false
+                      "upperUnbounded" : false,
+                      "lowerUnbounded" : false
                     } ]
                   } ]
                 }, {
@@ -726,8 +758,8 @@
                       "lower" : 0.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : false,
-                      "lowerUnbounded" : false,
-                      "upperUnbounded" : true
+                      "upperUnbounded" : true,
+                      "lowerUnbounded" : false
                     } ]
                   }, {
                     "@type" : "C_STRING",
@@ -739,8 +771,8 @@
                       "upper" : 2,
                       "lowerIncluded" : true,
                       "upperIncluded" : true,
-                      "lowerUnbounded" : false,
-                      "upperUnbounded" : false
+                      "upperUnbounded" : false,
+                      "lowerUnbounded" : false
                     } ]
                   } ]
                 }, {
@@ -751,8 +783,8 @@
                       "lower" : 0.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : false,
-                      "lowerUnbounded" : false,
-                      "upperUnbounded" : true
+                      "upperUnbounded" : true,
+                      "lowerUnbounded" : false
                     } ]
                   }, {
                     "@type" : "C_STRING",
@@ -764,8 +796,8 @@
                       "upper" : 2,
                       "lowerIncluded" : true,
                       "upperIncluded" : true,
-                      "lowerUnbounded" : false,
-                      "upperUnbounded" : false
+                      "upperUnbounded" : false,
+                      "lowerUnbounded" : false
                     } ]
                   } ]
                 } ]
@@ -1045,8 +1077,8 @@
                     "upper" : 2,
                     "lowerIncluded" : true,
                     "upperIncluded" : true,
-                    "lowerUnbounded" : false,
-                    "upperUnbounded" : false
+                    "upperUnbounded" : false,
+                    "lowerUnbounded" : false
                   } ]
                 } ]
               } ],
@@ -1058,16 +1090,7 @@
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
           "nodeId" : "at0004.1",
-          "attributes" : [ {
-            "@type" : "C_ATTRIBUTE",
-            "rmAttributeName" : "value",
-            "children" : [ {
-              "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "DV_DATE_TIME",
-              "attributes" : [ ],
-              "attributeTuples" : [ ]
-            } ]
-          } ],
+          "attributes" : [ ],
           "attributeTuples" : [ ]
         }, {
           "@type" : "C_COMPLEX_OBJECT",
@@ -1200,6 +1223,34 @@
       "name" : "Cecilia Mascia",
       "organisation" : "CRS4 - Center for advanced studies, research and development in Sardinia, Pula (Cagliari), Italy",
       "email" : "cecilia.mascia@crs4.it"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "sv"
+    },
+    "author" : {
+      "name" : "Therese Lindberg",
+      "organisation" : "Cambio CDS",
+      "email" : "therese.lindberg@cambio.se"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "fr"
+    },
+    "author" : {
+      "name" : "Vanessa Pereira",
+      "organisation" : "Luxembourg Institute of Health (LIH)",
+      "email" : "vanessapereira@protonmail.com"
     },
     "otherDetails" : { }
   } ]
