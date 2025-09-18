@@ -37,7 +37,7 @@
           },
           "codeString" : "nb"
         },
-        "purpose" : "For å registrere et individs utdanningsnivå i forbindelse med prosjektet Strukturert Kreftjournal.",
+        "purpose" : "For å registrere et individs utdanningsnivå i forbindelse med prosjektet Strukturert Kreftjournal.\n\nErstattes av  no.openehr::openEHR-EHR-SECTION.sjk_tidligere_kreft.v1.0.0-alpha.1.0.0",
         "keywords" : [ "kreftjournal, sjk" ],
         "use" : "Brukes for å registrere et individs utdanningsnivå i forbindelse med prosjektet Strukturert Kreftjournal. \n\nVerdisettet for dataelementet \"Høyeste fullførte utdanningsnivå\" er standardisert basert på krav utarbeidet av Helsedirektoratet.\n \nDette templatet vil bli brukt i prosjektet Strukturert Kreftjournal under sosialanamnese.\n\nSmåtemplatet med det standardiserte verdisettet kan benyttes utenfor Strukturert kreftjournal hvor det lagres data om arbeidsstatus.\n\nVerdisettet med tilhørende forklaring i dette templatet for utdanningsnivå er:\n- Ingen utdanning = Ingen skolegang.\n- Grunnskole = Grunnskole 7-10 år, framhaldsskole eller folkehøyskole.\n- Videregående = Inkluderer VGS I og VGS II, allmenn/ studiespesialisering. Yrkesfaglig, påbygning.\n- Universitet/Høyskole <4 år = Mindre enn 4 år.\n- Universitet/Høyskole ≥4 år = 4 år eller mer. Inkl. forskerutdanning.\n- Ukjent = Utdanningsnivået er ukjent.",
         "originalResourceUri" : { },
