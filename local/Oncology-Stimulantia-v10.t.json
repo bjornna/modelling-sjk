@@ -6,7 +6,7 @@
     "originalAuthor" : { },
     "otherContributors" : [ ],
     "lifecycleState" : {
-      "codeString" : "Initial"
+      "codeString" : "deprecated"
     },
     "ipAcknowledgements" : { },
     "references" : { },
@@ -24,8 +24,8 @@
       "Sign off" : "",
       "Speciality" : "",
       "User roles" : "",
-      "MD5-CAM-1.0.1" : "f7948bf86128ce7d7df8262b63607259",
-      "PARENT:MD5-CAM-1.0.1" : "E51B66549F2C04336B514E1DAE9B93C8",
+      "MD5-CAM-1.0.1" : "4d58e43f0d037cf7ba860b626d25c3f0",
+      "PARENT:MD5-CAM-1.0.1" : "6AFDF4A34EB96917079AC64DB5F65463",
       "original_language" : "ISO_639-1::nb",
       "sem_ver" : "5.0.0",
       "build_uid" : ""
@@ -351,7 +351,7 @@
     "valueSets" : { }
   },
   "adlVersion" : "1.4",
-  "buildUid" : "f7dc9bde-d493-38c4-b931-2a5e82b46220",
+  "buildUid" : "a7dd02c9-0892-35b6-9780-27e128a3e403",
   "rmName" : "openehr",
   "rmRelease" : "1.1.0",
   "generated" : true,
@@ -481,8 +481,8 @@
                         "lower" : 0,
                         "lowerIncluded" : true,
                         "upperIncluded" : false,
-                        "upperUnbounded" : true,
-                        "lowerUnbounded" : false
+                        "lowerUnbounded" : false,
+                        "upperUnbounded" : true
                       } ]
                     } ]
                   } ],
@@ -512,8 +512,8 @@
                         "lower" : 0,
                         "lowerIncluded" : true,
                         "upperIncluded" : false,
-                        "upperUnbounded" : true,
-                        "lowerUnbounded" : false
+                        "lowerUnbounded" : false,
+                        "upperUnbounded" : true
                       } ]
                     } ]
                   } ],
@@ -1010,8 +1010,8 @@
                             "lower" : 0,
                             "lowerIncluded" : true,
                             "upperIncluded" : false,
-                            "upperUnbounded" : true,
-                            "lowerUnbounded" : false
+                            "lowerUnbounded" : false,
+                            "upperUnbounded" : true
                           } ]
                         } ]
                       } ],
@@ -1126,8 +1126,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -1141,8 +1141,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -1156,8 +1156,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -1171,8 +1171,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -1214,8 +1214,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -1229,8 +1229,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -1244,8 +1244,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -1259,8 +1259,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -1274,8 +1274,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -1289,8 +1289,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -1304,8 +1304,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -1319,8 +1319,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -1334,8 +1334,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -1380,8 +1380,8 @@
                             "lower" : 0,
                             "lowerIncluded" : true,
                             "upperIncluded" : false,
-                            "upperUnbounded" : true,
-                            "lowerUnbounded" : false
+                            "lowerUnbounded" : false,
+                            "upperUnbounded" : true
                           } ]
                         } ]
                       } ],
@@ -1469,7 +1469,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "8FE80F3E80C594AAF99D3BA540A53D73"
+        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
       },
       "details" : {
         "de" : {
@@ -1625,6 +1625,36 @@
           "misuse" : "*Not to be left unchanged in a template.(en)",
           "originalResourceUri" : { },
           "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Proporcionar un encapçalament de secció genèric que serà rebatejat en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar per a construir un encapçalament de secció en una plantilla que serà rebatejada per adaptar-se al context clínic específic. Per exemple: «Títol ad hoc» rebatejat a «Resultats de l'examen».",
+          "misuse" : "No s'ha de deixar sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Per proporcionar una capçalera de secció genèrica que es canviarà de nom en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
+          "misuse" : "No es deixarà sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
         }
       }
     },
@@ -1681,7 +1711,9 @@
         "sv" : { },
         "de" : { },
         "it" : { },
-        "fr" : { }
+        "fr" : { },
+        "ca" : { },
+        "es" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -1820,6 +1852,34 @@
         "name" : "Vanessa Pereira",
         "organisation" : "Better - Pathfinder",
         "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com, lauramoral@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com"
       },
       "otherDetails" : { }
     } ]
