@@ -22,8 +22,10 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "MD5-CAM-1.0.1" : "6ab111931579b8dd6897c2d899842adb",
-      "PARENT:MD5-CAM-1.0.1" : "7992b64110455bb88760d5f0dd3a9006"
+      "MD5-CAM-1.0.1" : "4a59807dc785779889cdeef38d169a65",
+      "PARENT:MD5-CAM-1.0.1" : "7992b64110455bb88760d5f0dd3a9006",
+      "sem_ver" : "0.1.0",
+      "build_uid" : ""
     },
     "details" : {
       "nb" : {
@@ -241,7 +243,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "942CF0FB3C54F2949348CF29B1DD1E2D",
+        "PARENT:MD5-CAM-1.0.1" : "9F1B95B53D81FF86EF3DF128A51108E9",
         "ip_acknowledgements" : "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org."
       },
       "details" : {
@@ -332,6 +334,21 @@
           "keywords" : [ "Condició", "estat", "malaltia", "síndrome", "sondeig", "detecció", "qüestió" ],
           "use" : "Utilitzar per a crear una infraestructura per a registrar respostes a les preguntes de detecció predefinides sobre qüestions, problemes o diagnòstics. \r\n\r\nAquest arquetip s'ha modelat deliberadament amb poca exactitud perquè incloure un rang el més ampli possible de qüestions i preguntes, així com de diagnòstics. \r\n\r\nEls casos d’ús més freqüents, però no limitats a: \r\n\r\n-Preguntar sistemàticament en qualsevol consulta. Per exemple: \r\n\r\n---Diagnosticat amb càncer? Sí, No, Desconegut. \r\n\r\n---Diagnosticat amb COVID 19o grip en els últims dotze mesos? Sí, No, Desconegut. \r\n\r\n---Té alguna preocupació? Sí, No, Desconegut. \r\n\r\n-Sondeig específic relacionat amb la vigilància de malalties. \r\n\r\nLa semàntica d’aquest arquetip és intencionalment laxa, i consultar aquest arquetip només serà útil o segur dins del context de cada plantilla específica. En una plantilla, cada element de dades normalment es tornarà a nomenar en una pregunta específica. Quan s’hagi proposat els conjunts de valors per casos d’ús comú, aquests poden adaptar-se per al seu ús local utilitzant DV_TEXT o DV_BOOLEAN per ajustar-se a cada cas d’ús específic. \r\n\r\nL'estructura EVENT del model de referència es pot utilitzar per especificar si les preguntes estan relacionades a un moment donat o a un període de temps. Utilitzar una instància separada d’aquest arquetip per a distingir entre un sondeig que registra informació sobre un procediment que s’ha realitzat en qualsevol moment del passat i la informació sobre un procediment dins d’un interval de temps específic. Per exemple, la diferència entre “Vostè té grip?” comparat amb “Vostè ha tingut grip en les últimes 4 setmanes?” \r\n\r\nLa font d’informació en una resposta al sondeig pot variar en diferents contexts, però es pot identificar utilitzant l’element “Proveïdor d’informació” del Model de Referència. \r\n\r\nAquest arquetip s’ha dissenyat per a utilitzar-lo com ferramenta de detecció o per a registrar dades senzilles en format de sondeig per al seu ús en situacions com un registre de malalties. Si el sondeig de detecció identifica la presència d’un problema o diagnòstic, es recomana que es registri el sistema clínic i continuï els detalls específics sobre el problema o diagnòstic (com la data de reconeixement clínic), utilitzant l’arquetip EVALUATION.problem_diagnosis.",
           "misuse" : "No utilitzar per a registrar detalls sobre la presència o absència d'un problema o diagnòstic fora del context de l'objectiu de detecció. Utilitzar EVALUATION.problem_diagnosis o EVALUATION.exclusion_specific per aquest propòsit. \r\n\r\nNo utilitzar per a crear una infraestructura per a registrar respostes a les preguntes de detecció predefinides sobre els procediments que s'han realitzat en el passat. Utilitzar OBSERVATION.procedure_screening per aquest propòsit. \r\n\r\nNo utilitzar per a crear una infraestructura per a registrar respostes a les preguntes de detecció predefinides sobre reaccions adverses. Utilitzar un arquetip apropiat per aquest propòsit. \r\n\r\nNo utilitzar per a registrar dades sobre una llista de selecció simple on una pregunta es pot enregistrar tant com \"\"present\"\" o \"\"indeterminada\"\". Utilitzar OBSERVATION.selection_list per aquest propòsit.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Crear una infraestructura para registrar respuestas a las preguntas de detección predefinidas sobre cuestiones, problemas o diagnósticos.",
+          "keywords" : [ "Condición, estado, enfermedad, síndrome, cuestionario, cribaje, detección, cuestión" ],
+          "use" : "Utilizar para crear una infraestructura para registrar respuestas en las preguntas de detección predefinidas sobre cuestiones, problemas o diagnósticos. Este arquetipo se ha moldeado deliberadamente de forma flexible para poder incluir un rango lo más amplio posible de cuestiones y preguntas, así como de diagnósticos.\r\n\r\nLos casos de uso más frecuentes, pero no limitados, a:\r\n\r\n-Preguntar sistemáticamente en cualquier consulta. Por ejemplo:\r\n\r\n---¿Diagnosticado con cáncer? Sí, No, Desconocido.\r\n\r\n---¿Diagnosticado con COVID-19 o gripe en los últimos doce meses? Sí, No, Desconocido.\r\n\r\n---¿Tiene alguna preocupación? Sí, No, Desconocido.\r\n\r\n-Cuestionario específico relacionado con la vigilancia de enfermedades.\r\n\r\nLa semántica de este arquetipo es intencionalmente laxa, y consultar este arquetipo solo será útil o seguro dentro del contexto de cada plantilla específica. En una plantilla, cada elemento de datos normalmente se volverá a nombrar con una pregunta específica. Cuando se haya propuesto los conjuntos de valores por casos de uso común, estos pueden adaptarse para su uso local utilizando DV_TEXT o DV_BOOLEAN para ajustarse a cada caso de uso específico.\r\n\r\nLa estructura EVENT del modelo de referencia se puede utilizar para especificar si las preguntas están relacionadas con un momento dado o a un período de tiempo. Utilizar una instancia separada de este arquetipo para distinguir entre un cuestionario que registra información sobre un procedimiento realizado en cualquier momento del pasado y la información sobre un procedimiento dentro de un intervalo de tiempo específico. Por ejemplo, la diferencia entre “¿Usted tiene gripe?”, comparado con “¿Usted ha tenido gripe en las últimas 4 semanas?”\r\n\r\nLa fuente de información en una respuesta del cuestionario puede variar en diferentes contextos, pero puede identificarse utilizando el elemento 'Information provider' (Proveedor de información) del Modelo de Referencia.\r\n\r\nEste arquetipo se ha diseñado para utilizarlo como herramienta de detección o para registrar datos sencillos en formato de cuestionario para su uso en situaciones como un registro de enfermedades. Si el cuestionario de detección identifica la presencia de un problema o diagnóstico, se recomienda que se registre el sistema clínico y continúe los detalles específicos sobre el problema o diagnóstico (como la fecha de reconocimiento clínico), utilizando el arquetipo EVALUATION.problem_diagnosis.",
+          "misuse" : "No utilizar para registrar detalles sobre la presencia o ausencia de un problema o diagnóstico, fuera de un contexto de cribado. Para estos fines, utilizar EVALUATION.problem_diagnosis o EVALUATION.exclusion_specific.\r\n\r\nNo utilizar para crear un marco para registrar respuestas a preguntas de cribado predefinidas sobre procedimientos realizados en el pasado. Para este propósito, utilizar OBSERVATION.procedure_screening.\r\n\r\nNo utilizar para crear un marco para registrar respuestas a preguntas de cribado predefinidas sobre reacciones adversas; utilizar un arquetipo apropiado para este propósito.\r\n\r\nNo utilizar para registrar detalles sobre una lista de selección simple en la que una pregunta pueda registrarse como \"presente\" o \"indeterminada\". Para ello, utilice OBSERVATION.selection_list.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -598,6 +615,14 @@
             "code" : "ac0.1",
             "description" : ""
           }
+        },
+        "es" : {
+          "ac0.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.1",
+            "description" : ""
+          }
         }
       },
       "termBindings" : { },
@@ -693,6 +718,22 @@
       },
       "otherDetails" : {
         "other_contributors" : "Servei Català de la Salut"
+      }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lauramoral@catsalut.cat"
+      },
+      "otherDetails" : {
+        "other_contributors" : "Tradcrea"
       }
     } ]
   }, {
@@ -1246,7 +1287,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "9D358EB1048EA1401802C3E1FDFB9A29"
+        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
       },
       "details" : {
         "de" : {
@@ -1402,6 +1443,36 @@
           "misuse" : "*Not to be left unchanged in a template.(en)",
           "originalResourceUri" : { },
           "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Proporcionar un encapçalament de secció genèric que serà rebatejat en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar per a construir un encapçalament de secció en una plantilla que serà rebatejada per adaptar-se al context clínic específic. Per exemple: «Títol ad hoc» rebatejat a «Resultats de l'examen».",
+          "misuse" : "No s'ha de deixar sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Per proporcionar una capçalera de secció genèrica que es canviarà de nom en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
+          "misuse" : "No es deixarà sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
         }
       }
     },
@@ -1515,7 +1586,9 @@
             "text" : "Gruppering ICD10 kapittel",
             "description" : "Un en-tête de section générique qui doit être renommé dans un modèle pour s'adapter à un contexte clinique spécifique."
           }
-        }
+        },
+        "ca" : { },
+        "es" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -1654,6 +1727,34 @@
         "name" : "Vanessa Pereira",
         "organisation" : "Better - Pathfinder",
         "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com, lauramoral@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com"
       },
       "otherDetails" : { }
     } ]
@@ -2023,7 +2124,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "9D358EB1048EA1401802C3E1FDFB9A29"
+        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
       },
       "details" : {
         "de" : {
@@ -2179,6 +2280,36 @@
           "misuse" : "*Not to be left unchanged in a template.(en)",
           "originalResourceUri" : { },
           "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Proporcionar un encapçalament de secció genèric que serà rebatejat en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar per a construir un encapçalament de secció en una plantilla que serà rebatejada per adaptar-se al context clínic específic. Per exemple: «Títol ad hoc» rebatejat a «Resultats de l'examen».",
+          "misuse" : "No s'ha de deixar sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Per proporcionar una capçalera de secció genèrica que es canviarà de nom en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
+          "misuse" : "No es deixarà sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
         }
       }
     },
@@ -2292,7 +2423,9 @@
             "text" : "ICD10",
             "description" : "Un en-tête de section générique qui doit être renommé dans un modèle pour s'adapter à un contexte clinique spécifique."
           }
-        }
+        },
+        "ca" : { },
+        "es" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -2433,6 +2566,34 @@
         "email" : "vanessapereira@protonmail.com"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com, lauramoral@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com"
+      },
+      "otherDetails" : { }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -2458,7 +2619,7 @@
         "original_publisher" : "openEHR Foundation",
         "custodian_namespace" : "org.openehr",
         "MD5-CAM-1.0.1" : "9e767869e613a0f0192aee14618efc4b",
-        "PARENT:MD5-CAM-1.0.1" : "9D358EB1048EA1401802C3E1FDFB9A29",
+        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960",
         "sem_ver" : "8.0.0",
         "build_uid" : "",
         "original_language" : "ISO_639-1::nb"
@@ -2594,6 +2755,36 @@
           "otherDetails" : {
             "notes" : "Generated automatically by Adl Designer"
           }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Proporcionar un encapçalament de secció genèric que serà rebatejat en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar per a construir un encapçalament de secció en una plantilla que serà rebatejada per adaptar-se al context clínic específic. Per exemple: «Títol ad hoc» rebatejat a «Resultats de l'examen».",
+          "misuse" : "No s'ha de deixar sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Per proporcionar una capçalera de secció genèrica que es canviarà de nom en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
+          "misuse" : "No es deixarà sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
         }
       }
     },
@@ -2725,7 +2916,9 @@
             "text" : "Komorbiditet_utredning",
             "description" : "Un en-tête de section générique qui doit être renommé dans un modèle pour s'adapter à un contexte clinique spécifique."
           }
-        }
+        },
+        "ca" : { },
+        "es" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -2866,6 +3059,34 @@
         "email" : "vanessapereira@protonmail.com"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com, lauramoral@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com"
+      },
+      "otherDetails" : { }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -2878,7 +3099,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "29BEE1D1CC0BBCC438371690811482D5",
+        "PARENT:MD5-CAM-1.0.1" : "4C480DDF0FB01319D297CBAFCDE50415",
         "ip_acknowledgements" : "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org."
       },
       "details" : {
@@ -2943,6 +3164,66 @@
           "use" : "*Use to create a framework for recording answers to pre-defined screening questions about the social context.\r\n\r\nCommon use cases include, but are not limited to:\r\n- Systematic enquiry in any consultation, for example:\r\n--- Are you homeless? Yes, No, Unknown\r\n--- Do you feel socially isolated?\r\n--- Do you feel safe at home/school/work?\r\n--- Do you think you are a problem gambler?\r\n--- How many children do you have under the age of 18?\r\n--- Are any individuals dependent on you?\r\n--- Do you need an interpreter when you visit the clinic?\r\n\r\nThe semantics of this archetype are intentionally loose, and querying this archetype would normally only be useful or safe within the context of each specific template. In a template, each data element would usually be renamed to the specific question asked. Where value sets have been proposed for common use cases, these can be adapted for local use by using the DV_TEXT or the DV_BOOLEAN datatypes choice to match each specific use case.\r\n\r\nThe EVENT structure from the reference model can be used to specify whether the questions relate to a point in time or over a period of time. Use a separate instance of this archetype to distinguish between a questionnaire recording information about a social context issue that has been present at any time in the past and information about a social context issue within a specified time interval - for example, the difference between \"Are you safe at home now?\" compared to \"Have you experienced any domestic violence in the past 4 weeks?\"\r\n\r\nThe source of the information in a questionnaire response may vary in different contexts but can be specifically identified using the 'Information provider' element in the Reference Model.\r\n\r\nThis archetype has been designed to be used as a screening tool or to record simple questionnaire-format data for use in situations such as a disease registry. If the screening process identifies a social context circumstance, issue or concern and it is intended that the details are to be recorded and persisted as part of an ongoing health record, any further specific details about the social context should be recorded using archetypes specific for the clinical purpose. (en)",
           "misuse" : "*Not to be used to record persistent details about social context-related concepts. Use existing archetypes for this purpose - for example EVALUATION.housing, EVALUATION.education, EVALUATION. occupation, EVALUATION.social_network and other archetypes within the Social context project - https://ckm.openehr.org/ckm/projects/1013.30.39. (en)",
           "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "de" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "de"
+          },
+          "purpose" : "Schaffung von Rahmenbedingungen für die Darstellung von Antworten auf vordefinierte Screening-Fragen zum sozialen Kontext.",
+          "keywords" : [ "Obdachlosigkeit", "obdachlos", "Wohnraum", "wohnen", "Glücksspiel", "spielsüchtig", "Beschäftigung", "Arbeit", "Ausbildung", "Schule", "Bildung", "Sicherheit", "Häusliche Gewalt", "Gewalt", "Abhängigkeit", "Sucht", "Vormundschaft", "Missbrauch", "Unsicherheit", "Inklusion", "Ausgrenzung", "Transport", "Mobilität", "Gerechtigkeit", "Notlage", "Arbeitslosigkeit", "Stress", "Alphabetisierung", "Wohlbefinden", "Sozial", "Soziologisch", "Sozioökonomisch", "Armut", "Hunger", "Flüchtling", "Migration", "Migrant", "Einwanderer", "Minderheit" ],
+          "use" : "Verwendung als Rahmenbedingung für die Erfassung von Antworten auf vordefinierte Screening-Fragen zum sozialen Kontext.\r\n\r\nHäufige Anwendungsfälle sind unter anderem:\r\n- Systematische Befragung während Konsultationen, zum Beispiel:\r\n--- Sind Sie obdachlos? Ja, Nein, Unbekannt\r\n--- Fühlen Sie sich sozial isoliert?\r\n--- Fühlen Sie sich zu Hause/in der Schule/bei der Arbeit sicher?\r\n--- Glauben Sie, dass Sie spielsüchtig zu sein?\r\n--- Sind Personen von Ihnen abhängig?\r\n--- Benötigen Sie einen Dolmetscher, wenn Sie die Klinik besuchen?\r\n\r\nDie Semantik dieses Archetyps ist absichtlich locker gehalten, und eine Abfrage dieses Archetyps wäre normalerweise nur im Kontext des jeweiligen Templates sinnvoll oder sicher. In einen Template wird jedes Datenelement in der Regel in die spezifische Frage umbenannt, die gestellt wird. Wenn Wertemengen für allgemeine Anwendungsfälle vorgeschlagen wurden, können diese für die lokale Verwendung angepasst werden, indem die Datentypen DV_TEXT oder DV_BOOLEAN verwendet werden, um spezifische Anwendungsfälle abzubilden.\r\n\r\nDie EVENT-Struktur aus dem Referenzmodell kann verwendet werden, um anzugeben, ob sich die Fragen auf einen bestimmten Zeitpunkt oder einen bestimmten Zeitraum beziehen. Es soll eine separate Instanz dieses Archetyps verwendet werden, um klar zwischen einem Fragebogen zu unterscheiden, der Informationen zum sozialen Kontext zu einem beliebigen Zeitpunkt in der Vergangenheit erfasst, und einem Fragebogen, der Informationen zum sozialen Kontext innerhalb eines festgelegten Zeitintervalls erhebt – zum Beispiel: \"Sind Sie derzeit zu Hause sicher?\" und \"Haben Sie in den letzten 4 Wochen häusliche Gewalt erlebt?\".\r\n\r\nDie Quelle der Informationen in einer Fragebogenantwort kann je nach Kontext variieren, lässt sich jedoch mithilfe des Elements „Information provider“ im Referenzmodell eindeutig identifizieren.\r\n\r\nDieser Archetyp wurde als Screening-Instrument oder zur Erfassung einfacher Daten im Fragebogenformat für Situationen wie beispielsweise ein Krankheitsregister entwickelt. Wenn im Rahmen des Screening-Prozesses ein sozialer Kontext, ein Problem identifiziert wird und die Details als Teil einer laufenden Gesundheitsakte erfasst und gespeichert werden sollen, sollten alle weiteren spezifischen Details zum sozialen Kontext unter Verwendung von für den klinischen Zweck vorgesehenen Archetypen aufgezeichnet werden.",
+          "misuse" : "Nicht zur Erfassung des sozialen Kontexts ausserhalb eines Screenings verwenden. Verwenden Sie zu diesem Zweck vorhandene Archetypen – beispielsweise EVALUATION.housing, EVALUATION.education, EVALUATION.occupation, EVALUATION.social_network und andere Archetypen innerhalb des Projekts „Sozialer Kontext“ – https://ckm.openehr.org/ckm/projects/1013.30.39.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "fr" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "fr"
+          },
+          "purpose" : "Créer un cadre pour l'enregistrement des réponses à des questions prédéfinies sur le contexte sociale.\r\n",
+          "keywords" : [ "sans-abri", "sans-abrisme", "logement", "jeu pathologique", "jeu compulsif", "jeu compulsif", "ludomanie", "emploi", "travail", "sécurité", "domestique", "familial", "violence", "personne à charge", "personne dépendante", "tuteur", "tutelle", "situation", "circonstances", "abus", "éducation", "formation", "insécurité", "inclusion", "exclusion", "transport", "mobilité", "équité", "difficultés", "chômage", "stress", "connexion", "alphabétisation", "bien-être", "social", "sociologique", "socioéconomique", "pauvreté", "faim", "réfugié", "immigrant", "minorité" ],
+          "use" : "À utiliser pour créer un cadre permettant d'enregistrer les réponses à des questions prédéfinies sur le contexte social.\r\n\r\nLes cas d'utilisation les plus courants sont, entre autres, les suivants\r\n- L'interrogation systématique lors d'une consultation, par exemple :\r\n--- Êtes-vous sans domicile ? Oui, Non, Inconnu\r\n--- Vous sentez-vous socialement isolé(e) ?\r\n--- Vous sentez-vous en sécurité à la maison / à l’école / au travail ?\r\n--- Avez-vous des problèmes de jeu d’argent ?\r\n--- Des personnes sont-elles dépendantes de vous ?\r\n--- Avez-vous besoin d’un interprète lors de votre visite à la clinique ?\r\n\r\n\r\nLa sémantique de cet archétype est intentionnellement floue, et requêter cet archétype ne serait normalement utile ou sûre que dans le contexte de chaque modèle spécifique. Dans un modèle, chaque élément de données est généralement renommé en fonction de la question spécifique posée. Lorsque des ensembles de valeurs ont été proposés pour des cas d'utilisation courants, ils peuvent être adaptés à un usage local en utilisant les types de données DV_TEXT ou DV_BOOLEAN pour correspondre à chaque cas d'utilisation spécifique.\r\n\r\nLa structure EVENT du modèle de référence peut être utilisée pour spécifier si les questions se rapportent à un moment donné ou à une période de temps. Utilisez une instance distincte de cet archétype pour faire la distinction entre un questionnaire enregistrant des informations sur un problème lié au contexte social ayant pu survenir à tout moment dans le passé, et un questionnaire portant sur un problème lié au contexte social survenu dans un intervalle de temps donné - par exemple la différence entre \"Vous sentez-vous en sécurité à la maison actuellement ?\" et \"Avez-vous été victime de violences domestiques au cours des 4 dernières semaines ?\"\r\n\r\nLa source des informations contenues dans une réponse à un questionnaire peut varier selon le contexte, mais elle peut être spécifiquement identifiée à l'aide de l'élément \"Fournisseur d'informations\" du modèle de référence.\r\n\r\nCet archétype a été conçu pour être utilisé comme outil de dépistage ou pour enregistrer des données simples sous forme de questionnaire en vue d'une utilisation dans des situations telles qu'un registre des maladies. Si le processus de dépistage identifie une circonstance, un problème ou une inquiétude liée au contexte social et il est prévu de d’enregistrer les détails dans le dossier de santé, tout renseignement supplémentaire sur le contexte social doit être enregistré à l’aide d’archétypes dédiés à des fins cliniques.\r\n",
+          "misuse" : "Ne pas utiliser pour enregistrer des détails persistants sur des concepts liés au contexte social. Utilisez les archétypes existants à cette fin, par exemple EVALUATION.housing, EVALUATION.education, EVALUATION.occupation, EVALUATION.social_network et d'autres archétypes du projet \"Social context\" - https://ckm.openehr.org/ckm/projects/1013.30.39.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Crear un marc per registrar respostes a preguntes de cribratge predefinides sobre el context social.",
+          "keywords" : [ "sense llar", "habitatge", "joc d'atzar", "ocupació", "seguretat", "domèstic", "violència", "dependent", "tutor", "situació", "circumstàncies", "abús", "educació", "inseguretat", "inclusió", "exclusió", "transport", "equitat", "dificultats", "atur", "estrès", "connexió", "alfabetització", "benestar", "social", "sociològic", "socioeconòmic", "pobresa", "fam", "refugiat", "immigrant", "minoria" ],
+          "use" : "Utilitzeu-lo per crear un marc per registrar respostes a preguntes de cribratge predefinides sobre el context social.\r\n\r\nEls casos d'ús comuns inclouen, entre d'altres:\r\n- Consulta sistemàtica en qualsevol consulta, per exemple:\r\n--- Ets una persona sense llar? Sí, No, Desconegut\r\n--- Et sents socialment aïllat?\r\n--- Et sents segur a casa/escola/feina?\r\n--- Creus que tens problemes amb el joc?\r\n--- Hi ha alguna persona que depengui de tu?\r\n--- Necessites un intèrpret quan visites la clínica?\r\n\r\nLa semàntica d'aquest arquetip és intencionadament flexible, i consultar aquest arquetip normalment només seria útil o segur dins del context de cada plantilla específica. En una plantilla, cada element de dades normalment es canviaria de nom a la pregunta específica que es fa. Quan s'han proposat conjunts de valors per a casos d'ús comuns, aquests es poden adaptar per a l'ús local mitjançant l'opció de tipus de dades DV_TEXT o DV_BOOLEAN per coincidir amb cada cas d'ús específic.\r\n\r\nL'estructura EVENT del model de referència es pot utilitzar per especificar si les preguntes es refereixen a un punt en el temps o a un període de temps. Utilitzeu una instància separada d'aquest arquetip per distingir entre un qüestionari que registra informació sobre un problema de context social que ha estat present en qualsevol moment del passat i informació sobre un problema de context social dins d'un interval de temps especificat; per exemple, la diferència entre \"Esteu segur a casa ara?\" en comparació amb \"Heu experimentat violència domèstica en les darreres 4 setmanes?\".\r\n\r\nLa font de la informació en una resposta al qüestionari pot variar en diferents contextos, però es pot identificar específicament mitjançant l'element \"Information provider\" (\"Proveïdor d'informació\") del Model de Referència.\r\n\r\nAquest arquetip s'ha dissenyat per ser utilitzat com a eina de cribratge o per registrar dades simples en format de qüestionari per al seu ús en situacions com ara un registre de malalties. Si el procés de cribratge identifica una circumstància, problema o preocupació de context social i es pretén que els detalls es registrin i es preservin com a part d'un historial mèdic continu, qualsevol altre detall específic sobre el context social s'ha de registrar mitjançant arquetips específics per a la finalitat clínica.",
+          "misuse" : "No s'ha d'utilitzar per registrar detalls persistents sobre conceptes relacionats amb el context social. Utilitzeu arquetips existents per a aquest propòsit, per exemple, EVALUATION.housing, EVALUATION.education, EVALUATION.occupation, EVALUATION.social_network i altres arquetips dins del projecte Social context: https://ckm.openehr.org/ckm/projects/1013.30.39.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Crear un marco para registrar respuestas a preguntas de cribado predefinidas sobre el contexto social.",
+          "keywords" : [ "Sin hogar", "Vivienda", "Juego", "Empleo", "Seguridad", "Violencia doméstica", "Dependiente", "Tutor", "Situación", "Circunstancias", "Abuso", "Educación", "Inseguridad", "Inclusión", "Exclusión", "Transporte", "Equidad", "Dificultades", "Desempleo", "Estrés", "Conexión", "Alfabetización", "Bienestar", "Social", "Sociológico", "Socioeconómico", "Pobreza", "Hambre", "Refugiado", "Inmigrante", "Minoría" ],
+          "use" : "Usar para crear un marco para registrar las respuestas a preguntas de cribado predefinidas sobre el contexto social.\r\n\r\nLos casos de uso comunes incluyen, entre otros:\r\n- Investigación sistemática en cualquier consulta, por ejemplo:\r\n--- ¿Es usted una persona sin hogar? Sí, No, Desconocido\r\n--- ¿Se siente socialmente aislado?\r\n--- ¿Se siente seguro en casa, en la escuela o en el trabajo?\r\n--- ¿Cree que tiene problemas con el juego?\r\n--- ¿Hay alguna persona que dependa de usted?\r\n--- ¿Necesita un intérprete cuando visita la clínica?\r\n\r\nLa semántica de este arquetipo es intencionadamente flexible, y consultarlo normalmente solo sería útil o seguro dentro del contexto de cada plantilla específica. En una plantilla, cada elemento de datos se renombraría generalmente según la pregunta específica formulada. Cuando se han propuesto conjuntos de valores para casos de uso comunes, estos pueden adaptarse para uso local utilizando los tipos de datos DV_TEXT o DV_BOOLEAN para que coincidan con cada caso de uso específico.\r\n\r\nLa estructura EVENT del modelo de referencia permite especificar si las preguntas se refieren a un momento específico o a un período determinado. Utilice una instancia independiente de este arquetipo para distinguir entre un cuestionario que registra información sobre un problema de contexto social presente en algún momento del pasado y la información sobre un problema de contexto social dentro de un intervalo de tiempo específico; por ejemplo, la diferencia entre \"¿Se encuentra seguro en casa ahora?\" y \"¿Ha sufrido violencia doméstica en las últimas 4 semanas?\".\r\n\r\nLa fuente de información de una respuesta al cuestionario puede variar según el contexto, pero se puede identificar específicamente mediante el elemento \"Information provider\" (\"Proveedor de información\") del Modelo de Referencia.\r\n\r\nEste arquetipo se ha diseñado para utilizarse como herramienta de cribado o para registrar datos sencillos en formato de cuestionario para su uso en situaciones como un registro de enfermedades. Si el proceso de cribado identifica una circunstancia, problema o inquietud de contexto social y se pretende que los detalles se registren y conserven como parte de un historial clínico continuo, cualquier otro detalle específico sobre el contexto social debe registrarse utilizando arquetipos específicos para el propósito clínico.",
+          "misuse" : "No debe utilizarse para registrar detalles persistentes sobre conceptos relacionados con el contexto social. Para ello, utilice los arquetipos existentes, por ejemplo, EVALUACIÓN.housing, EVALUACIÓN.education, EVALUACIÓN.occupation, EVALUACIÓN.social_network y otros arquetipos del proyecto Contexto social: https://ckm.openehr.org/ckm/projects/1013.30.39.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -3186,7 +3467,11 @@
             "description" : "*Identification of a specific social circumstance, issue or concern relevant for the questionnaire or grouping of such, by name.  (en)",
             "comment" : "*This element offers a choice between free and coded text. It is anticipated that the list of coded values will grow as requirements are identified. Coding of the 'Context' with a terminology is preferred, where possible - for example, relevant terms within the Social context finding hierarchy in SNOMED CT (SCTID: 108329005). (en)"
           }
-        }
+        },
+        "ca" : { },
+        "es" : { },
+        "fr" : { },
+        "de" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -3264,6 +3549,62 @@
       },
       "author" : { },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "de"
+      },
+      "author" : {
+        "name" : "Johann Keller",
+        "organisation" : "x-tention",
+        "email" : "johann.keller@x-tention.ch"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "fr"
+      },
+      "author" : {
+        "name" : "Johann Keller",
+        "organisation" : "x-tention",
+        "email" : "johann.keller@x-tention.ch"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez, Clara Calleja Vega",
+        "organisation" : "Sistema de Salut de Catalunya, CatSalut. Servei Català de la Salut.",
+        "email" : "lauramoral@catsalut.cat, ccalleja@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lauramoral@catsalut.cat"
+      },
+      "otherDetails" : { }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -3276,7 +3617,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "9D358EB1048EA1401802C3E1FDFB9A29"
+        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
       },
       "details" : {
         "de" : {
@@ -3432,6 +3773,36 @@
           "misuse" : "*Not to be left unchanged in a template.(en)",
           "originalResourceUri" : { },
           "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Proporcionar un encapçalament de secció genèric que serà rebatejat en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar per a construir un encapçalament de secció en una plantilla que serà rebatejada per adaptar-se al context clínic específic. Per exemple: «Títol ad hoc» rebatejat a «Resultats de l'examen».",
+          "misuse" : "No s'ha de deixar sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Per proporcionar una capçalera de secció genèrica que es canviarà de nom en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
+          "misuse" : "No es deixarà sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
         }
       }
     },
@@ -3545,7 +3916,9 @@
             "text" : "Samlivsform",
             "description" : "Un en-tête de section générique qui doit être renommé dans un modèle pour s'adapter à un contexte clinique spécifique."
           }
-        }
+        },
+        "ca" : { },
+        "es" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -3684,6 +4057,34 @@
         "name" : "Vanessa Pereira",
         "organisation" : "Better - Pathfinder",
         "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com, lauramoral@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com"
       },
       "otherDetails" : { }
     } ]
@@ -4137,7 +4538,7 @@
         "original_publisher" : "openEHR Foundation",
         "custodian_namespace" : "org.openehr",
         "MD5-CAM-1.0.1" : "1a06773c54751be4e331512521c0cc21",
-        "PARENT:MD5-CAM-1.0.1" : "9D358EB1048EA1401802C3E1FDFB9A29"
+        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
       },
       "details" : {
         "de" : {
@@ -4257,6 +4658,36 @@
             "codeString" : "fr"
           },
           "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Proporcionar un encapçalament de secció genèric que serà rebatejat en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar per a construir un encapçalament de secció en una plantilla que serà rebatejada per adaptar-se al context clínic específic. Per exemple: «Títol ad hoc» rebatejat a «Resultats de l'examen».",
+          "misuse" : "No s'ha de deixar sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Per proporcionar una capçalera de secció genèrica que es canviarà de nom en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
+          "misuse" : "No es deixarà sense canvis en una plantilla.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -4417,7 +4848,9 @@
             "text" : "Sosialanamnese_generell",
             "description" : "Un en-tête de section générique qui doit être renommé dans un modèle pour s'adapter à un contexte clinique spécifique."
           }
-        }
+        },
+        "ca" : { },
+        "es" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -4525,6 +4958,34 @@
       },
       "author" : { },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com, lauramoral@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com"
+      },
+      "otherDetails" : { }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -4550,7 +5011,7 @@
         "original_publisher" : "openEHR Foundation",
         "custodian_namespace" : "org.openehr",
         "MD5-CAM-1.0.1" : "49370cbd4e5d1f5062451e4db3be78e9",
-        "PARENT:MD5-CAM-1.0.1" : "29BEE1D1CC0BBCC438371690811482D5",
+        "PARENT:MD5-CAM-1.0.1" : "4C480DDF0FB01319D297CBAFCDE50415",
         "sem_ver" : "4.0.0",
         "build_uid" : "",
         "original_language" : "ISO_639-1::nb",
@@ -4609,6 +5070,66 @@
           "otherDetails" : {
             "notes" : "Generated automatically by Adl Designer"
           }
+        },
+        "de" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "de"
+          },
+          "purpose" : "Schaffung von Rahmenbedingungen für die Darstellung von Antworten auf vordefinierte Screening-Fragen zum sozialen Kontext.",
+          "keywords" : [ "Obdachlosigkeit", "obdachlos", "Wohnraum", "wohnen", "Glücksspiel", "spielsüchtig", "Beschäftigung", "Arbeit", "Ausbildung", "Schule", "Bildung", "Sicherheit", "Häusliche Gewalt", "Gewalt", "Abhängigkeit", "Sucht", "Vormundschaft", "Missbrauch", "Unsicherheit", "Inklusion", "Ausgrenzung", "Transport", "Mobilität", "Gerechtigkeit", "Notlage", "Arbeitslosigkeit", "Stress", "Alphabetisierung", "Wohlbefinden", "Sozial", "Soziologisch", "Sozioökonomisch", "Armut", "Hunger", "Flüchtling", "Migration", "Migrant", "Einwanderer", "Minderheit" ],
+          "use" : "Verwendung als Rahmenbedingung für die Erfassung von Antworten auf vordefinierte Screening-Fragen zum sozialen Kontext.\r\n\r\nHäufige Anwendungsfälle sind unter anderem:\r\n- Systematische Befragung während Konsultationen, zum Beispiel:\r\n--- Sind Sie obdachlos? Ja, Nein, Unbekannt\r\n--- Fühlen Sie sich sozial isoliert?\r\n--- Fühlen Sie sich zu Hause/in der Schule/bei der Arbeit sicher?\r\n--- Glauben Sie, dass Sie spielsüchtig zu sein?\r\n--- Sind Personen von Ihnen abhängig?\r\n--- Benötigen Sie einen Dolmetscher, wenn Sie die Klinik besuchen?\r\n\r\nDie Semantik dieses Archetyps ist absichtlich locker gehalten, und eine Abfrage dieses Archetyps wäre normalerweise nur im Kontext des jeweiligen Templates sinnvoll oder sicher. In einen Template wird jedes Datenelement in der Regel in die spezifische Frage umbenannt, die gestellt wird. Wenn Wertemengen für allgemeine Anwendungsfälle vorgeschlagen wurden, können diese für die lokale Verwendung angepasst werden, indem die Datentypen DV_TEXT oder DV_BOOLEAN verwendet werden, um spezifische Anwendungsfälle abzubilden.\r\n\r\nDie EVENT-Struktur aus dem Referenzmodell kann verwendet werden, um anzugeben, ob sich die Fragen auf einen bestimmten Zeitpunkt oder einen bestimmten Zeitraum beziehen. Es soll eine separate Instanz dieses Archetyps verwendet werden, um klar zwischen einem Fragebogen zu unterscheiden, der Informationen zum sozialen Kontext zu einem beliebigen Zeitpunkt in der Vergangenheit erfasst, und einem Fragebogen, der Informationen zum sozialen Kontext innerhalb eines festgelegten Zeitintervalls erhebt – zum Beispiel: \"Sind Sie derzeit zu Hause sicher?\" und \"Haben Sie in den letzten 4 Wochen häusliche Gewalt erlebt?\".\r\n\r\nDie Quelle der Informationen in einer Fragebogenantwort kann je nach Kontext variieren, lässt sich jedoch mithilfe des Elements „Information provider“ im Referenzmodell eindeutig identifizieren.\r\n\r\nDieser Archetyp wurde als Screening-Instrument oder zur Erfassung einfacher Daten im Fragebogenformat für Situationen wie beispielsweise ein Krankheitsregister entwickelt. Wenn im Rahmen des Screening-Prozesses ein sozialer Kontext, ein Problem identifiziert wird und die Details als Teil einer laufenden Gesundheitsakte erfasst und gespeichert werden sollen, sollten alle weiteren spezifischen Details zum sozialen Kontext unter Verwendung von für den klinischen Zweck vorgesehenen Archetypen aufgezeichnet werden.",
+          "misuse" : "Nicht zur Erfassung des sozialen Kontexts ausserhalb eines Screenings verwenden. Verwenden Sie zu diesem Zweck vorhandene Archetypen – beispielsweise EVALUATION.housing, EVALUATION.education, EVALUATION.occupation, EVALUATION.social_network und andere Archetypen innerhalb des Projekts „Sozialer Kontext“ – https://ckm.openehr.org/ckm/projects/1013.30.39.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "fr" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "fr"
+          },
+          "purpose" : "Créer un cadre pour l'enregistrement des réponses à des questions prédéfinies sur le contexte sociale.\r\n",
+          "keywords" : [ "sans-abri", "sans-abrisme", "logement", "jeu pathologique", "jeu compulsif", "jeu compulsif", "ludomanie", "emploi", "travail", "sécurité", "domestique", "familial", "violence", "personne à charge", "personne dépendante", "tuteur", "tutelle", "situation", "circonstances", "abus", "éducation", "formation", "insécurité", "inclusion", "exclusion", "transport", "mobilité", "équité", "difficultés", "chômage", "stress", "connexion", "alphabétisation", "bien-être", "social", "sociologique", "socioéconomique", "pauvreté", "faim", "réfugié", "immigrant", "minorité" ],
+          "use" : "À utiliser pour créer un cadre permettant d'enregistrer les réponses à des questions prédéfinies sur le contexte social.\r\n\r\nLes cas d'utilisation les plus courants sont, entre autres, les suivants\r\n- L'interrogation systématique lors d'une consultation, par exemple :\r\n--- Êtes-vous sans domicile ? Oui, Non, Inconnu\r\n--- Vous sentez-vous socialement isolé(e) ?\r\n--- Vous sentez-vous en sécurité à la maison / à l’école / au travail ?\r\n--- Avez-vous des problèmes de jeu d’argent ?\r\n--- Des personnes sont-elles dépendantes de vous ?\r\n--- Avez-vous besoin d’un interprète lors de votre visite à la clinique ?\r\n\r\n\r\nLa sémantique de cet archétype est intentionnellement floue, et requêter cet archétype ne serait normalement utile ou sûre que dans le contexte de chaque modèle spécifique. Dans un modèle, chaque élément de données est généralement renommé en fonction de la question spécifique posée. Lorsque des ensembles de valeurs ont été proposés pour des cas d'utilisation courants, ils peuvent être adaptés à un usage local en utilisant les types de données DV_TEXT ou DV_BOOLEAN pour correspondre à chaque cas d'utilisation spécifique.\r\n\r\nLa structure EVENT du modèle de référence peut être utilisée pour spécifier si les questions se rapportent à un moment donné ou à une période de temps. Utilisez une instance distincte de cet archétype pour faire la distinction entre un questionnaire enregistrant des informations sur un problème lié au contexte social ayant pu survenir à tout moment dans le passé, et un questionnaire portant sur un problème lié au contexte social survenu dans un intervalle de temps donné - par exemple la différence entre \"Vous sentez-vous en sécurité à la maison actuellement ?\" et \"Avez-vous été victime de violences domestiques au cours des 4 dernières semaines ?\"\r\n\r\nLa source des informations contenues dans une réponse à un questionnaire peut varier selon le contexte, mais elle peut être spécifiquement identifiée à l'aide de l'élément \"Fournisseur d'informations\" du modèle de référence.\r\n\r\nCet archétype a été conçu pour être utilisé comme outil de dépistage ou pour enregistrer des données simples sous forme de questionnaire en vue d'une utilisation dans des situations telles qu'un registre des maladies. Si le processus de dépistage identifie une circonstance, un problème ou une inquiétude liée au contexte social et il est prévu de d’enregistrer les détails dans le dossier de santé, tout renseignement supplémentaire sur le contexte social doit être enregistré à l’aide d’archétypes dédiés à des fins cliniques.\r\n",
+          "misuse" : "Ne pas utiliser pour enregistrer des détails persistants sur des concepts liés au contexte social. Utilisez les archétypes existants à cette fin, par exemple EVALUATION.housing, EVALUATION.education, EVALUATION.occupation, EVALUATION.social_network et d'autres archétypes du projet \"Social context\" - https://ckm.openehr.org/ckm/projects/1013.30.39.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Crear un marc per registrar respostes a preguntes de cribratge predefinides sobre el context social.",
+          "keywords" : [ "sense llar", "habitatge", "joc d'atzar", "ocupació", "seguretat", "domèstic", "violència", "dependent", "tutor", "situació", "circumstàncies", "abús", "educació", "inseguretat", "inclusió", "exclusió", "transport", "equitat", "dificultats", "atur", "estrès", "connexió", "alfabetització", "benestar", "social", "sociològic", "socioeconòmic", "pobresa", "fam", "refugiat", "immigrant", "minoria" ],
+          "use" : "Utilitzeu-lo per crear un marc per registrar respostes a preguntes de cribratge predefinides sobre el context social.\r\n\r\nEls casos d'ús comuns inclouen, entre d'altres:\r\n- Consulta sistemàtica en qualsevol consulta, per exemple:\r\n--- Ets una persona sense llar? Sí, No, Desconegut\r\n--- Et sents socialment aïllat?\r\n--- Et sents segur a casa/escola/feina?\r\n--- Creus que tens problemes amb el joc?\r\n--- Hi ha alguna persona que depengui de tu?\r\n--- Necessites un intèrpret quan visites la clínica?\r\n\r\nLa semàntica d'aquest arquetip és intencionadament flexible, i consultar aquest arquetip normalment només seria útil o segur dins del context de cada plantilla específica. En una plantilla, cada element de dades normalment es canviaria de nom a la pregunta específica que es fa. Quan s'han proposat conjunts de valors per a casos d'ús comuns, aquests es poden adaptar per a l'ús local mitjançant l'opció de tipus de dades DV_TEXT o DV_BOOLEAN per coincidir amb cada cas d'ús específic.\r\n\r\nL'estructura EVENT del model de referència es pot utilitzar per especificar si les preguntes es refereixen a un punt en el temps o a un període de temps. Utilitzeu una instància separada d'aquest arquetip per distingir entre un qüestionari que registra informació sobre un problema de context social que ha estat present en qualsevol moment del passat i informació sobre un problema de context social dins d'un interval de temps especificat; per exemple, la diferència entre \"Esteu segur a casa ara?\" en comparació amb \"Heu experimentat violència domèstica en les darreres 4 setmanes?\".\r\n\r\nLa font de la informació en una resposta al qüestionari pot variar en diferents contextos, però es pot identificar específicament mitjançant l'element \"Information provider\" (\"Proveïdor d'informació\") del Model de Referència.\r\n\r\nAquest arquetip s'ha dissenyat per ser utilitzat com a eina de cribratge o per registrar dades simples en format de qüestionari per al seu ús en situacions com ara un registre de malalties. Si el procés de cribratge identifica una circumstància, problema o preocupació de context social i es pretén que els detalls es registrin i es preservin com a part d'un historial mèdic continu, qualsevol altre detall específic sobre el context social s'ha de registrar mitjançant arquetips específics per a la finalitat clínica.",
+          "misuse" : "No s'ha d'utilitzar per registrar detalls persistents sobre conceptes relacionats amb el context social. Utilitzeu arquetips existents per a aquest propòsit, per exemple, EVALUATION.housing, EVALUATION.education, EVALUATION.occupation, EVALUATION.social_network i altres arquetips dins del projecte Social context: https://ckm.openehr.org/ckm/projects/1013.30.39.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Crear un marco para registrar respuestas a preguntas de cribado predefinidas sobre el contexto social.",
+          "keywords" : [ "Sin hogar", "Vivienda", "Juego", "Empleo", "Seguridad", "Violencia doméstica", "Dependiente", "Tutor", "Situación", "Circunstancias", "Abuso", "Educación", "Inseguridad", "Inclusión", "Exclusión", "Transporte", "Equidad", "Dificultades", "Desempleo", "Estrés", "Conexión", "Alfabetización", "Bienestar", "Social", "Sociológico", "Socioeconómico", "Pobreza", "Hambre", "Refugiado", "Inmigrante", "Minoría" ],
+          "use" : "Usar para crear un marco para registrar las respuestas a preguntas de cribado predefinidas sobre el contexto social.\r\n\r\nLos casos de uso comunes incluyen, entre otros:\r\n- Investigación sistemática en cualquier consulta, por ejemplo:\r\n--- ¿Es usted una persona sin hogar? Sí, No, Desconocido\r\n--- ¿Se siente socialmente aislado?\r\n--- ¿Se siente seguro en casa, en la escuela o en el trabajo?\r\n--- ¿Cree que tiene problemas con el juego?\r\n--- ¿Hay alguna persona que dependa de usted?\r\n--- ¿Necesita un intérprete cuando visita la clínica?\r\n\r\nLa semántica de este arquetipo es intencionadamente flexible, y consultarlo normalmente solo sería útil o seguro dentro del contexto de cada plantilla específica. En una plantilla, cada elemento de datos se renombraría generalmente según la pregunta específica formulada. Cuando se han propuesto conjuntos de valores para casos de uso comunes, estos pueden adaptarse para uso local utilizando los tipos de datos DV_TEXT o DV_BOOLEAN para que coincidan con cada caso de uso específico.\r\n\r\nLa estructura EVENT del modelo de referencia permite especificar si las preguntas se refieren a un momento específico o a un período determinado. Utilice una instancia independiente de este arquetipo para distinguir entre un cuestionario que registra información sobre un problema de contexto social presente en algún momento del pasado y la información sobre un problema de contexto social dentro de un intervalo de tiempo específico; por ejemplo, la diferencia entre \"¿Se encuentra seguro en casa ahora?\" y \"¿Ha sufrido violencia doméstica en las últimas 4 semanas?\".\r\n\r\nLa fuente de información de una respuesta al cuestionario puede variar según el contexto, pero se puede identificar específicamente mediante el elemento \"Information provider\" (\"Proveedor de información\") del Modelo de Referencia.\r\n\r\nEste arquetipo se ha diseñado para utilizarse como herramienta de cribado o para registrar datos sencillos en formato de cuestionario para su uso en situaciones como un registro de enfermedades. Si el proceso de cribado identifica una circunstancia, problema o inquietud de contexto social y se pretende que los detalles se registren y conserven como parte de un historial clínico continuo, cualquier otro detalle específico sobre el contexto social debe registrarse utilizando arquetipos específicos para el propósito clínico.",
+          "misuse" : "No debe utilizarse para registrar detalles persistentes sobre conceptos relacionados con el contexto social. Para ello, utilice los arquetipos existentes, por ejemplo, EVALUACIÓN.housing, EVALUACIÓN.education, EVALUACIÓN.occupation, EVALUACIÓN.social_network y otros arquetipos del proyecto Contexto social: https://ckm.openehr.org/ckm/projects/1013.30.39.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
         }
       }
     },
@@ -5254,6 +5775,86 @@
             "code" : "ac0.16",
             "description" : ""
           }
+        },
+        "ca" : {
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.14",
+            "description" : ""
+          },
+          "ac0.15" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.15",
+            "description" : ""
+          },
+          "ac0.16" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.16",
+            "description" : ""
+          }
+        },
+        "es" : {
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.14",
+            "description" : ""
+          },
+          "ac0.15" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.15",
+            "description" : ""
+          },
+          "ac0.16" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.16",
+            "description" : ""
+          }
+        },
+        "fr" : {
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.14",
+            "description" : ""
+          },
+          "ac0.15" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.15",
+            "description" : ""
+          },
+          "ac0.16" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.16",
+            "description" : ""
+          }
+        },
+        "de" : {
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.14",
+            "description" : ""
+          },
+          "ac0.15" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.15",
+            "description" : ""
+          },
+          "ac0.16" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.16",
+            "description" : ""
+          }
         }
       },
       "termBindings" : { },
@@ -5386,6 +5987,62 @@
         "codeString" : "it"
       },
       "author" : { },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "de"
+      },
+      "author" : {
+        "name" : "Johann Keller",
+        "organisation" : "x-tention",
+        "email" : "johann.keller@x-tention.ch"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "fr"
+      },
+      "author" : {
+        "name" : "Johann Keller",
+        "organisation" : "x-tention",
+        "email" : "johann.keller@x-tention.ch"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez, Clara Calleja Vega",
+        "organisation" : "Sistema de Salut de Catalunya, CatSalut. Servei Català de la Salut.",
+        "email" : "lauramoral@catsalut.cat, ccalleja@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lauramoral@catsalut.cat"
+      },
       "otherDetails" : { }
     } ]
   }, {
@@ -5914,8 +6571,8 @@
                     "lower" : 0.0,
                     "lowerIncluded" : true,
                     "upperIncluded" : false,
-                    "upperUnbounded" : true,
-                    "lowerUnbounded" : false
+                    "lowerUnbounded" : false,
+                    "upperUnbounded" : true
                   } ]
                 } ]
               }, {
@@ -5930,15 +6587,15 @@
                     "upper" : 1,
                     "lowerIncluded" : true,
                     "upperIncluded" : true,
-                    "upperUnbounded" : false,
-                    "lowerUnbounded" : false
+                    "lowerUnbounded" : false,
+                    "upperUnbounded" : false
                   }, {
                     "lower" : 2,
                     "upper" : 2,
                     "lowerIncluded" : true,
                     "upperIncluded" : true,
-                    "upperUnbounded" : false,
-                    "lowerUnbounded" : false
+                    "lowerUnbounded" : false,
+                    "upperUnbounded" : false
                   } ]
                 } ]
               } ],
@@ -5998,8 +6655,8 @@
                       "lower" : 0.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : false,
-                      "upperUnbounded" : true,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : true
                     } ]
                   }, {
                     "@type" : "C_STRING",
@@ -6011,8 +6668,8 @@
                       "upper" : 2,
                       "lowerIncluded" : true,
                       "upperIncluded" : true,
-                      "upperUnbounded" : false,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : false
                     } ]
                   } ]
                 }, {
@@ -6023,8 +6680,8 @@
                       "lower" : 0.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : false,
-                      "upperUnbounded" : true,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : true
                     } ]
                   }, {
                     "@type" : "C_STRING",
@@ -6036,8 +6693,8 @@
                       "upper" : 2,
                       "lowerIncluded" : true,
                       "upperIncluded" : true,
-                      "upperUnbounded" : false,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : false
                     } ]
                   } ]
                 }, {
@@ -6048,8 +6705,8 @@
                       "lower" : 0.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : false,
-                      "upperUnbounded" : true,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : true
                     } ]
                   }, {
                     "@type" : "C_STRING",
@@ -6061,8 +6718,8 @@
                       "upper" : 2,
                       "lowerIncluded" : true,
                       "upperIncluded" : true,
-                      "upperUnbounded" : false,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : false
                     } ]
                   } ]
                 }, {
@@ -6073,8 +6730,8 @@
                       "lower" : 0.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : false,
-                      "upperUnbounded" : true,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : true
                     } ]
                   }, {
                     "@type" : "C_STRING",
@@ -6086,8 +6743,8 @@
                       "upper" : 2,
                       "lowerIncluded" : true,
                       "upperIncluded" : true,
-                      "upperUnbounded" : false,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : false
                     } ]
                   } ]
                 }, {
@@ -6098,8 +6755,8 @@
                       "lower" : 0.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : false,
-                      "upperUnbounded" : true,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : true
                     } ]
                   }, {
                     "@type" : "C_STRING",
@@ -6111,8 +6768,8 @@
                       "upper" : 2,
                       "lowerIncluded" : true,
                       "upperIncluded" : true,
-                      "upperUnbounded" : false,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : false
                     } ]
                   } ]
                 }, {
@@ -6123,8 +6780,8 @@
                       "lower" : 0.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : false,
-                      "upperUnbounded" : true,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : true
                     } ]
                   }, {
                     "@type" : "C_STRING",
@@ -6136,8 +6793,8 @@
                       "upper" : 2,
                       "lowerIncluded" : true,
                       "upperIncluded" : true,
-                      "upperUnbounded" : false,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : false
                     } ]
                   } ]
                 }, {
@@ -6148,8 +6805,8 @@
                       "lower" : 0.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : false,
-                      "upperUnbounded" : true,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : true
                     } ]
                   }, {
                     "@type" : "C_STRING",
@@ -6161,8 +6818,8 @@
                       "upper" : 2,
                       "lowerIncluded" : true,
                       "upperIncluded" : true,
-                      "upperUnbounded" : false,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : false
                     } ]
                   } ]
                 }, {
@@ -6173,8 +6830,8 @@
                       "lower" : 0.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : false,
-                      "upperUnbounded" : true,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : true
                     } ]
                   }, {
                     "@type" : "C_STRING",
@@ -6186,8 +6843,8 @@
                       "upper" : 2,
                       "lowerIncluded" : true,
                       "upperIncluded" : true,
-                      "upperUnbounded" : false,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : false
                     } ]
                   } ]
                 }, {
@@ -6198,8 +6855,8 @@
                       "lower" : 0.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : false,
-                      "upperUnbounded" : true,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : true
                     } ]
                   }, {
                     "@type" : "C_STRING",
@@ -6211,8 +6868,8 @@
                       "upper" : 2,
                       "lowerIncluded" : true,
                       "upperIncluded" : true,
-                      "upperUnbounded" : false,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : false
                     } ]
                   } ]
                 }, {
@@ -6223,8 +6880,8 @@
                       "lower" : 0.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : false,
-                      "upperUnbounded" : true,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : true
                     } ]
                   }, {
                     "@type" : "C_STRING",
@@ -6236,8 +6893,8 @@
                       "upper" : 2,
                       "lowerIncluded" : true,
                       "upperIncluded" : true,
-                      "upperUnbounded" : false,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : false
                     } ]
                   } ]
                 } ]
@@ -6517,8 +7174,8 @@
                     "upper" : 2,
                     "lowerIncluded" : true,
                     "upperIncluded" : true,
-                    "upperUnbounded" : false,
-                    "lowerUnbounded" : false
+                    "lowerUnbounded" : false,
+                    "upperUnbounded" : false
                   } ]
                 } ]
               } ],
@@ -6644,7 +7301,7 @@
         "sem_ver" : "6.0.0",
         "build_uid" : "",
         "MD5-CAM-1.0.1" : "ff6ea45ebb6de9877e85fd0c2a831df6",
-        "PARENT:MD5-CAM-1.0.1" : "37053661135B974855AAA356073EA23A",
+        "PARENT:MD5-CAM-1.0.1" : "65F6678D2160D38515F5E4BD22EA1F45",
         "original_language" : "ISO_639-1::nb"
       },
       "details" : {
@@ -6699,6 +7356,36 @@
           "otherDetails" : {
             "notes" : "Generated automatically by Adl Designer"
           }
+        },
+        "sv" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "sv"
+          },
+          "purpose" : "Att registrera en sammanfattning eller ihållande information om en individs nuvarande och tidigare jobb och/eller roller.",
+          "keywords" : [ "sysselsättning", "studera", "jobb", "arbete", "vårdgivare", "roll", "pensionär", "studerande", "anställd", "arbetsgivare", "yrke", "arbetslöshet", "ockupation", "barn", "pensionär", "inaktiverad" ],
+          "use" : "Används för att spela in en sammanfattning eller ihållande information om en individs nuvarande och tidigare jobb och/eller roller.\r\n\r\nDenna arketyp har utformats för att användas som en fristående arketyp inom ramen för en socialhistorisk (eller liknande) mall. Den är avsedd att ge en sammanfattning av alla yrken, betraktade i vidaste bemärkelse. För varje jobb eller roll använder du en separat instans av CLUSTER.occupation_record inom SLOT för 'Yrkesepisod'.",
+          "misuse" : "Inte avsedd att användas för att spela in strukturerade detaljer om ett specifikt jobb eller roll. Använd CLUSTER.occupation_record-arketypen inom 'Yrkesregistrering' SLOT för detta ändamål.\r\n\r\nFår inte användas för detaljerade beskrivningar av hälsorisker eller exponering för farliga ämnen på arbetsplatsen. Använd arketypen EVALUATION.health_risk eller EVALUATION.exposure för dessa ändamål.\r\n\r\nFår inte användas för att registrera information om inkomstkällor eller inkomstuppgifter för individen. Använd arketypen CLUSTER.income_summary för detta ändamål.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "fr" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "fr"
+          },
+          "purpose" : "Enregistrer un résumé ou des informations persistantes sur les emplois et/ou rôles actuels et passés d'une personne.",
+          "keywords" : [ "emploi", "étude", "emploi", "travail", "soignant", "rôle", "retraité", "étudiant", "employé", "employeur", "profession", "chômage", "profession", "enfant", "retraité", "handicapé" ],
+          "use" : "À utiliser pour enregistrer un résumé ou des informations persistantes sur les emplois et/ou les rôles actuels et passés d'une personne.\r\n\r\nCet archétype a été conçu pour être utilisé de manière autonome dans le contexte d'un modèle d'histoire sociale (ou d'un modèle similaire). Il est destiné à fournir un résumé de toutes les professions, considérées dans leur sens le plus large. Pour chaque emploi ou rôle, utilisez une instance distincte de l'enregistrement CLUSTER.occupation_record dans le SLOT pour \"Occupation episode\".",
+          "misuse" : "Ne doit pas être utilisé pour enregistrer des détails structurés sur un emploi ou un rôle spécifique. Utiliser l'archétype CLUSTER.occupation_record dans le SLOT 'Occupation record' à cette fin.\r\n\r\nNe pas utiliser pour des descriptions détaillées des risques pour la santé ou de l'exposition à des substances dangereuses sur le lieu de travail. Utiliser l'archétype EVALUATION.health_risk ou EVALUATION.exposure à cette fin.\r\n\r\nNe pas utiliser pour enregistrer des informations sur les sources de revenus ou des détails sur les revenus de l'individu. Utilisez l'archétype CLUSTER.income_summary à cette fin.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
         }
       }
     },
@@ -6833,7 +7520,9 @@
           }
         },
         "it" : { },
-        "de" : { }
+        "de" : { },
+        "fr" : { },
+        "sv" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -6890,6 +7579,34 @@
         "name" : "Cecilia Mascia",
         "organisation" : "CRS4 - Center for advanced studies, research and development in Sardinia, Pula (Cagliari), Italy",
         "email" : "cecilia.mascia@crs4.it"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "sv"
+      },
+      "author" : {
+        "name" : "Therese Lindberg",
+        "organisation" : "Cambio CDS",
+        "email" : "therese.lindberg@cambio.se"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "fr"
+      },
+      "author" : {
+        "name" : "Vanessa Pereira",
+        "organisation" : "Luxembourg Institute of Health (LIH)",
+        "email" : "vanessapereira@protonmail.com"
       },
       "otherDetails" : { }
     } ]
@@ -7029,8 +7746,8 @@
                         "lower" : "P0Y",
                         "lowerIncluded" : true,
                         "upperIncluded" : false,
-                        "upperUnbounded" : true,
-                        "lowerUnbounded" : false
+                        "lowerUnbounded" : false,
+                        "upperUnbounded" : true
                       } ]
                     } ]
                   } ],
@@ -7061,8 +7778,8 @@
                         "lower" : "P0Y",
                         "lowerIncluded" : true,
                         "upperIncluded" : false,
-                        "upperUnbounded" : true,
-                        "lowerUnbounded" : false
+                        "lowerUnbounded" : false,
+                        "upperUnbounded" : true
                       } ]
                     } ]
                   } ],
@@ -7608,8 +8325,8 @@
                             "lower" : 1,
                             "lowerIncluded" : true,
                             "upperIncluded" : false,
-                            "upperUnbounded" : true,
-                            "lowerUnbounded" : false
+                            "lowerUnbounded" : false,
+                            "upperUnbounded" : true
                           } ]
                         } ]
                       } ],
@@ -7684,8 +8401,8 @@
                               "upper" : 365.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : true,
-                              "upperUnbounded" : false,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : false
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -7700,8 +8417,8 @@
                               "upper" : 7.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : true,
-                              "upperUnbounded" : false,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : false
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -7716,8 +8433,8 @@
                               "upper" : 31.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : true,
-                              "upperUnbounded" : false,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : false
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -7777,8 +8494,8 @@
                               "upper" : 7.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : false,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : false
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -7793,8 +8510,8 @@
                               "upper" : 31.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : false,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : false
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -7835,8 +8552,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -7850,8 +8567,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -7865,8 +8582,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -7906,8 +8623,8 @@
                             "lower" : 0,
                             "lowerIncluded" : true,
                             "upperIncluded" : false,
-                            "upperUnbounded" : true,
-                            "lowerUnbounded" : false
+                            "lowerUnbounded" : false,
+                            "upperUnbounded" : true
                           } ]
                         } ]
                       } ],
@@ -8036,8 +8753,8 @@
                           "lower" : 0.0,
                           "lowerIncluded" : true,
                           "upperIncluded" : false,
-                          "upperUnbounded" : true,
-                          "lowerUnbounded" : false
+                          "lowerUnbounded" : false,
+                          "upperUnbounded" : true
                         } ]
                       }, {
                         "@type" : "C_STRING",
@@ -8051,8 +8768,8 @@
                           "lower" : 0.0,
                           "lowerIncluded" : true,
                           "upperIncluded" : false,
-                          "upperUnbounded" : true,
-                          "lowerUnbounded" : false
+                          "lowerUnbounded" : false,
+                          "upperUnbounded" : true
                         } ]
                       }, {
                         "@type" : "C_STRING",
@@ -8452,8 +9169,8 @@
                           "lower" : 0.0,
                           "lowerIncluded" : true,
                           "upperIncluded" : false,
-                          "upperUnbounded" : true,
-                          "lowerUnbounded" : false
+                          "lowerUnbounded" : false,
+                          "upperUnbounded" : true
                         } ]
                       }, {
                         "@type" : "C_STRING",
@@ -8486,8 +9203,8 @@
                         "lower" : 0,
                         "lowerIncluded" : true,
                         "upperIncluded" : false,
-                        "upperUnbounded" : true,
-                        "lowerUnbounded" : false
+                        "lowerUnbounded" : false,
+                        "upperUnbounded" : true
                       } ]
                     } ]
                   } ],
@@ -8516,8 +9233,8 @@
                         "lower" : 0,
                         "lowerIncluded" : true,
                         "upperIncluded" : false,
-                        "upperUnbounded" : true,
-                        "lowerUnbounded" : false
+                        "lowerUnbounded" : false,
+                        "upperUnbounded" : true
                       } ]
                     } ]
                   } ],
@@ -8603,8 +9320,8 @@
                         "lower" : 0,
                         "lowerIncluded" : true,
                         "upperIncluded" : false,
-                        "upperUnbounded" : true,
-                        "lowerUnbounded" : false
+                        "lowerUnbounded" : false,
+                        "upperUnbounded" : true
                       } ]
                     } ]
                   } ],
@@ -8646,8 +9363,8 @@
                           "lower" : 0.0,
                           "lowerIncluded" : true,
                           "upperIncluded" : false,
-                          "upperUnbounded" : true,
-                          "lowerUnbounded" : false
+                          "lowerUnbounded" : false,
+                          "upperUnbounded" : true
                         } ]
                       }, {
                         "@type" : "C_STRING",
@@ -8659,8 +9376,8 @@
                           "upper" : 0,
                           "lowerIncluded" : true,
                           "upperIncluded" : true,
-                          "upperUnbounded" : false,
-                          "lowerUnbounded" : false
+                          "lowerUnbounded" : false,
+                          "upperUnbounded" : false
                         } ]
                       } ]
                     }, {
@@ -8671,8 +9388,8 @@
                           "lower" : 0.0,
                           "lowerIncluded" : true,
                           "upperIncluded" : false,
-                          "upperUnbounded" : true,
-                          "lowerUnbounded" : false
+                          "lowerUnbounded" : false,
+                          "upperUnbounded" : true
                         } ]
                       }, {
                         "@type" : "C_STRING",
@@ -8684,8 +9401,8 @@
                           "upper" : 0,
                           "lowerIncluded" : true,
                           "upperIncluded" : true,
-                          "upperUnbounded" : false,
-                          "lowerUnbounded" : false
+                          "lowerUnbounded" : false,
+                          "upperUnbounded" : false
                         } ]
                       } ]
                     } ]
@@ -8992,8 +9709,8 @@
                         "lower" : 0,
                         "lowerIncluded" : true,
                         "upperIncluded" : false,
-                        "upperUnbounded" : true,
-                        "lowerUnbounded" : false
+                        "lowerUnbounded" : false,
+                        "upperUnbounded" : true
                       } ]
                     } ]
                   } ],
@@ -9079,8 +9796,8 @@
                         "lower" : 0,
                         "lowerIncluded" : true,
                         "upperIncluded" : false,
-                        "upperUnbounded" : true,
-                        "lowerUnbounded" : false
+                        "lowerUnbounded" : false,
+                        "upperUnbounded" : true
                       } ]
                     } ]
                   } ],
@@ -9122,8 +9839,8 @@
                           "upper" : 0,
                           "lowerIncluded" : true,
                           "upperIncluded" : true,
-                          "upperUnbounded" : false,
-                          "lowerUnbounded" : false
+                          "lowerUnbounded" : false,
+                          "upperUnbounded" : false
                         } ]
                       } ]
                     }, {
@@ -9138,8 +9855,8 @@
                           "upper" : 0,
                           "lowerIncluded" : true,
                           "upperIncluded" : true,
-                          "upperUnbounded" : false,
-                          "lowerUnbounded" : false
+                          "lowerUnbounded" : false,
+                          "upperUnbounded" : false
                         } ]
                       } ]
                     } ]
@@ -9422,8 +10139,8 @@
                             "lower" : 0,
                             "lowerIncluded" : true,
                             "upperIncluded" : false,
-                            "upperUnbounded" : true,
-                            "lowerUnbounded" : false
+                            "lowerUnbounded" : false,
+                            "upperUnbounded" : true
                           } ]
                         } ]
                       } ],
@@ -9538,8 +10255,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -9553,8 +10270,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -9568,8 +10285,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -9583,8 +10300,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -9626,8 +10343,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -9641,8 +10358,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -9656,8 +10373,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -9671,8 +10388,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -9686,8 +10403,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -9701,8 +10418,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -9716,8 +10433,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -9731,8 +10448,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -9746,8 +10463,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -9792,8 +10509,8 @@
                             "lower" : 0,
                             "lowerIncluded" : true,
                             "upperIncluded" : false,
-                            "upperUnbounded" : true,
-                            "lowerUnbounded" : false
+                            "lowerUnbounded" : false,
+                            "upperUnbounded" : true
                           } ]
                         } ]
                       } ],
@@ -10016,8 +10733,8 @@
                             "lower" : 0,
                             "lowerIncluded" : true,
                             "upperIncluded" : false,
-                            "upperUnbounded" : true,
-                            "lowerUnbounded" : false
+                            "lowerUnbounded" : false,
+                            "upperUnbounded" : true
                           } ]
                         } ]
                       } ],
@@ -10132,8 +10849,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -10147,8 +10864,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -10162,8 +10879,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -10177,8 +10894,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -10220,8 +10937,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -10235,8 +10952,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -10250,8 +10967,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -10265,8 +10982,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -10280,8 +10997,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -10295,8 +11012,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -10310,8 +11027,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -10325,8 +11042,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -10340,8 +11057,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -10386,8 +11103,8 @@
                             "lower" : 0,
                             "lowerIncluded" : true,
                             "upperIncluded" : false,
-                            "upperUnbounded" : true,
-                            "lowerUnbounded" : false
+                            "lowerUnbounded" : false,
+                            "upperUnbounded" : true
                           } ]
                         } ]
                       } ],
@@ -10502,7 +11219,7 @@
         "original_publisher" : "openEHR Foundation",
         "custodian_namespace" : "org.openehr",
         "MD5-CAM-1.0.1" : "0897050b6b06bf33943d25ce3cde1701",
-        "PARENT:MD5-CAM-1.0.1" : "9D358EB1048EA1401802C3E1FDFB9A29",
+        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960",
         "sem_ver" : "22.0.0",
         "build_uid" : "",
         "original_language" : "ISO_639-1::nb"
@@ -10638,6 +11355,36 @@
           "otherDetails" : {
             "notes" : "Generated automatically by Adl Designer"
           }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Proporcionar un encapçalament de secció genèric que serà rebatejat en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar per a construir un encapçalament de secció en una plantilla que serà rebatejada per adaptar-se al context clínic específic. Per exemple: «Títol ad hoc» rebatejat a «Resultats de l'examen».",
+          "misuse" : "No s'ha de deixar sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Per proporcionar una capçalera de secció genèrica que es canviarà de nom en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
+          "misuse" : "No es deixarà sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
         }
       }
     },
@@ -10787,7 +11534,9 @@
             "text" : "Stimulantia",
             "description" : "Un en-tête de section générique qui doit être renommé dans un modèle pour s'adapter à un contexte clinique spécifique."
           }
-        }
+        },
+        "ca" : { },
+        "es" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -10926,6 +11675,34 @@
         "name" : "Vanessa Pereira",
         "organisation" : "Better - Pathfinder",
         "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com, lauramoral@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com"
       },
       "otherDetails" : { }
     } ]
@@ -12156,7 +12933,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "B918A2E58601EBD86A1F7FE5718BAEFF"
+        "PARENT:MD5-CAM-1.0.1" : "623BAC3524C44A48FA15C2EE2B4243A8"
       },
       "details" : {
         "de" : {
@@ -13071,7 +13848,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "6472C94BF8D8BBA7854A29F0E5175880"
+        "PARENT:MD5-CAM-1.0.1" : "22CC4D6E678D5921D1235F94FF1DDDB1"
       },
       "details" : {
         "de" : {
@@ -13464,8 +14241,8 @@
                     "lower" : 0,
                     "lowerIncluded" : true,
                     "upperIncluded" : false,
-                    "upperUnbounded" : true,
-                    "lowerUnbounded" : false
+                    "lowerUnbounded" : false,
+                    "upperUnbounded" : true
                   } ]
                 } ]
               } ],
@@ -13968,8 +14745,8 @@
                     "upper" : 8,
                     "lowerIncluded" : true,
                     "upperIncluded" : true,
-                    "upperUnbounded" : false,
-                    "lowerUnbounded" : false
+                    "lowerUnbounded" : false,
+                    "upperUnbounded" : false
                   } ]
                 } ]
               } ],
@@ -14124,8 +14901,8 @@
                       "lower" : 0.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : false,
-                      "upperUnbounded" : true,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : true
                     } ]
                   } ]
                 } ]
@@ -14183,8 +14960,8 @@
                       "lower" : 0.0,
                       "lowerIncluded" : true,
                       "upperIncluded" : false,
-                      "upperUnbounded" : true,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : true
                     } ]
                   }, {
                     "@type" : "C_INTEGER",
@@ -14194,8 +14971,8 @@
                       "upper" : 0,
                       "lowerIncluded" : true,
                       "upperIncluded" : true,
-                      "upperUnbounded" : false,
-                      "lowerUnbounded" : false
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : false
                     } ]
                   } ]
                 } ]
@@ -14429,7 +15206,7 @@
         "original_publisher" : "openEHR Foundation",
         "custodian_namespace" : "org.openehr",
         "MD5-CAM-1.0.1" : "449473fa0ebbadfacfc39c597e8bab6b",
-        "PARENT:MD5-CAM-1.0.1" : "09B7BA1910813627AA96976C38DA73FF"
+        "PARENT:MD5-CAM-1.0.1" : "9CA673C44D07EB44E7473631D0F97DD4"
       },
       "details" : {
         "de" : {
@@ -15416,7 +16193,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "430B520EC4563F96465173ED840F7A4A",
+        "PARENT:MD5-CAM-1.0.1" : "2BBA400F930720D50812FC0ACA8F86D7",
         "ip_acknowledgements" : "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org."
       },
       "details" : {
@@ -15554,6 +16331,36 @@
           "keywords" : [ "locatie", "structuur", "anatomisch", "anatomische regio", "topografische anatomie", "macroscopisch" ],
           "use" : "Gebruik om gestructureerde details over een structuur op of in het menselijk lichaam te identificeren en vast te leggen.",
           "misuse" : "Niet gebruiken om meerdere unilaterale/bilaterale structuren vast te leggen.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Identificar i registrar detalls estructurats sobre una sola part del cos humà utilitzant termes anatòmics macroscòpics.",
+          "keywords" : [ "ubicació", "lloc", "anatòmica", "regió anatòmica", "anatomia topogràfica", "macroscòpica", "anatòmica" ],
+          "use" : "Utilizar per registrar detalls estructurats i consistents sobre una única part física identificada en, o dins, del cos humà.\r\n\r\nAquest arquetip està dissenyat específicament per a ser utilitzat en el context de qualsevol arquetip d'ENTRADA o CLUSTER apropiat que subministri el context de la ubicació anatòmica.\r\n\r\nCom a part fonamental de la pràctica clínica, els metges poden descriure les ubicacions anatòmiques d'una infinitat de maneres complexes i variables. A la pràctica, alguns arquetips porten un únic element de dades per portar una simple descripció de la part del cos; per exemple, OBSERVATION.blood_pressure i CLUSTER.symptom quan es descriu el dolor de l'orella. En aquesta situació, on el conjunt de valors és previsible i senzill de definir, aquest únic element de dades és una forma molt precisa i pragmàtica de registrar el lloc en el cos i de consultar en una data posterior. No obstant això, en la situació en què la ubicació anatòmica no està ben definida o necessita ser determinada en temps d'execució, pot ser més flexible utilitzar aquest arquetip estructurat. Per exemple, en la situació en què qualsevol símptoma pot ser registrat sense cap abast predefinit del tipus de símptoma, llavors permetre l'ús d'aquest arquetip per definir específicament una ubicació anatòmica en el cos pot ser útil. En aquest cas, l'arquetip CLUSTER.symptom també té una RANURA per a la \"\"ubicació anatòmica detallada\"\", que pot incloure aquest arquetip per donar suport a la màxima flexibilitat en el registre de dades de localització anatòmica.\r\n\r\nAquest arquetip permet l'enregistrament d'ubicacions anatòmiques estructurals complexes. Per exemple, el batec de l'àpex del cor es troba típicament en el cinquè espai intercostal esquerre en la línia central, la tendresa en el punt de McBurney a la paret abdominal o una laceració en l'aspecte palmar del polze dret proximal.\r\n\r\nUna combinació dels elements de dades d'aquest arquetip es pot utilitzar per registrar individualment cada component d'una expressió terminològica postcoordinada que representa el lloc anatòmic.\r\n\r\nLa RANURA 'Estructura alternativa' permet la inclusió d'arquetips addicionals que proporcionen una estructura alternativa per descriure la mateixa part del cos, com CLUSTER.anatomical.location.relative o CLUSTER.anatomical.location.clock, si es requereix. En la situació en què aquest arquetip només es pot utilitzar per anomenar una part corporal gran i/o no específica, l'ús addicional de l'arquetip CLUSTER.anatomical.location.relative donarà suport al registre d'una ubicació més precisa; per exemple, 2 cm anterior a la fossa cubital de l'avantbraç esquerre o 4 cm per sota del marge costal R a la paret del pit en la línia central-clavicular.\r\n\r\nSi aquest arquetip s'utilitza dins d'altres arquetips on el subjecte especificat de cura no és el pacient per a qui s'està creant el registre (per exemple, un fetus in-utero), llavors la ubicació anatòmica serà la identificació d'un lloc del cos en o dins del fetus.",
+          "misuse" : "No s'ha d'utilitzar per a l'especifiació d'ocurrències unilaterals/bilaterals d'una característica anatòmica.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Identificar y registrar detalles estructurados sobre una única zona corporal del cuerpo humano, o dentro de él, utilizando términos anatómicos macroscópicos.",
+          "keywords" : [ "localización", "lugar", "anatómico", "región", "anatómica", "anatomía", "topográfica", "macroscópica", "anatómica", "anatomía" ],
+          "use" : "Se utiliza para registrar detalles estructurados y coherentes sobre una única zona corporal identificado en el cuerpo humano o dentro de él.\r\n\r\nEste arquetipo está diseñado específicamente para ser utilizado en el contexto de cualquier arquetipo ENTRY o CLUSTER apropiado que proporcione el contexto de la localización anatómica.\r\n\r\nComo parte fundamental de la práctica clínica, los médicos pueden describir localizaciones anatómicas de múltiples formas complejas y variables. En la práctica, algunos arquetipos llevan un único elemento de datos para llevar una descripción simple de la zona corporal - por ejemplo, OBSERVATION.blood_pressure y CLUSTER.symptom al describir el dolor de oído. En esta situación, en la que el conjunto de valores es predecible y fácil de definir, este único elemento de datos es una forma muy precisa y pragmática de registrar el lugar del cuerpo y consultarlo posteriormente. Sin embargo, cuando la localización anatómica no está bien definida o debe determinarse en tiempo de ejecución, puede resultar más flexible utilizar este arquetipo estructurado. Por ejemplo, en una situación en la que pueda registrarse cualquier síntoma sin un ámbito predefinido del tipo de síntoma, puede ser útil permitir el uso de este arquetipo para definir específicamente una localización anatómica en el cuerpo. En este caso, el arquetipo CLUSTER.symptom también contiene un SLOT para «Localización anatómica detallada» que puede incluir este arquetipo para permitir la máxima flexibilidad en el registro de datos de localización anatómica.\r\n\r\nEste arquetipo admite el registro de lugares anatómicos de estructura compleja. Por ejemplo, el latido del ápex del corazón suele encontrarse en el quinto espacio intercostal izquierdo en la línea media clavicular, la sensibilidad en el punto de McBurney de la pared abdominal o una laceración en la cara palmar de la parte proximal del pulgar derecho.\r\n\r\nSe puede utilizar una combinación de los elementos de datos de este arquetipo para registrar individualmente cada componente de una expresión terminológica postcoordinada que represente el lugar anatómico.\r\n\r\nEl SLOT «Estructura alternativa» permite la inclusión de arquetipos adicionales que proporcionan una estructura alternativa para describir el mismo lugar del cuerpo, como CLUSTER.anatomical_location_relative o CLUSTER.anatomical_location_clock, en caso necesario. En el caso de que este arquetipo sólo pueda utilizarse para nombrar una parte del cuerpo grande y/o inespecífica, el uso adicional del arquetipo CLUSTER.anatomical_location_relative permitirá registrar una localización más precisa: por ejemplo, 2 cm anterior a la fosa cubital del antebrazo izquierdo o 4 cm por debajo del margen costal R de la pared torácica en la línea clavicular media.\r\n\r\nSi este arquetipo se utiliza dentro de otros arquetipos en los que el sujeto de asistencia especificado no es el individuo para el que se crea el registro, por ejemplo un feto in utero, entonces la localización anatómica identificará un lugar del cuerpo sobre o dentro del feto.",
+          "misuse" : "No debe utilizarse para especificar apariciones unilaterales/bilaterales de una característica anatómica.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -15949,6 +16756,46 @@
             "code" : "ac0.8",
             "description" : ""
           }
+        },
+        "ca" : {
+          "ac0.5" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.5",
+            "description" : ""
+          },
+          "ac0.6" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.6",
+            "description" : ""
+          },
+          "ac0.8" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.8",
+            "description" : ""
+          }
+        },
+        "es" : {
+          "ac0.5" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.5",
+            "description" : ""
+          },
+          "ac0.6" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.6",
+            "description" : ""
+          },
+          "ac0.8" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.8",
+            "description" : ""
+          }
         }
       },
       "termBindings" : {
@@ -16111,6 +16958,36 @@
         "email" : "michiel.klitsie@nedap.com"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Clara Calleja Vega",
+        "organisation" : "CatSalut. Servei Català de la Salut.",
+        "email" : "ccalleja@catsalut.cat"
+      },
+      "otherDetails" : {
+        "other_contributors" : "TRADCREA"
+      }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Clara Calleja Vega",
+        "organisation" : "CatSalut. Servei Català de la Salut.",
+        "email" : "ccalleja@catsalut.cat"
+      },
+      "otherDetails" : { }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -16123,7 +17000,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "05D1938A66D853F1C88BFB73B3EB3693",
+        "PARENT:MD5-CAM-1.0.1" : "4CDADBD2921B543F7F6BB42B334CB18F",
         "ip_acknowledgements" : "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org."
       },
       "details" : {
@@ -16276,6 +17153,36 @@
           "keywords" : [ "*problem(en)", "*active(en)", "*inactive(en)", "*status(en)", "*episode(en)", "*diagnosis(en)" ],
           "use" : "*Use to record a relevant context-specific or time-specific qualifier that provides additional detail which is relevant at the time of recording or within the clinical context where a problem or diagnosis is recorded. The qualifier may not be appropriate at another time or in another clinical context. \r\n\r\nThis archetype is designed to be included in Status SLOT in the EVALUATION.problem_diagnosis archetype. The intent is for the EVALUATION.problem_diagnosis archetype to hold all of the information that applies in all contexts, in contrast to this archetype describing only information that depends on the context of use.\r\n\r\nIMPORTANT NOTES FOR IMPLEMENTATION: \r\n- It is not intended or implied that any or all of these qualifiers should be used within the same context or period of time. In contrast to the usual design of archetypes, this archetype has been deliberately designed to collect a number of common qualifiers into one place in an effort to attempt some simple standardisation within a very messy area of clinical practice. It is acknowledged that the data elements contained in this archetype embrace many different, and sometimes even competing, concepts. This has been done mainly to prevent the need for multiple qualifier archetypes, each containing only one or two data elements. \r\n- Some of these data elements are potentially directly conflicting if used simultaneously within the same context, for example it would not make sense to have an 'inactive' problem together with an Episode that is 'ongoing'. As such, these status qualifiers should be used with extreme care as they are variably applied in practice and interoperability cannot be assured unless usage guidelines are clearly defined within the clinical community in which the 'Problem/Diagnosis' and 'Problem/Diagnosis qualifier' archetype pair may be shared. \r\n\r\nFull DRG coding will require the DRG-related data elements from this archetype in combination with data elements from other archetypes.(en)",
           "misuse" : "*Not to be used to represent a differential diagnosis - use the archetype EVALUATION.differential_diagnosis for this purpose.\r\n\r\nNot to be used to represent diagnostic certainty - use the 'Diagnostic certainty' data element within the EVALUATION.problem_diagnosis archetype.(en)",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Registrar un qualificador clínic específic del context o específic del temps per a un problema o diagnòstic especificat.",
+          "keywords" : [ "problema", "actiu", "inactiu", "estat", "episodi", "diagnòstic" ],
+          "use" : "S'utilitza per registrar un qualificador específic de context o específic de temps que proporciona detalls addicionals que són rellevants en el moment de registrar o dins del context clínic on es registra un problema o diagnòstic. El qualificador pot no ser apropiat en un altre moment o en un altre context clínic.\r\n\r\nAquest arquetip està dissenyat per a ser inclòs en el SLOTd'estat en l'arquetip EVALUATION.problem_diagnosis. La intenció és que l'arquetip EVALUATION.problem_diagnosis contingui tota la informació que s'aplica en tots els contextos, en contrast amb aquest arquetip descrivint només informació que depèn del context d'ús.\r\n\r\nNOTES IMPORTANTS PER A LA IMPLEMENTACIÓ:\r\n- No es pretén ni implica que cap o tots aquests qualificadors s'utilitzin en el mateix context o període de temps. En contrast amb el disseny habitual d'arquetips, aquest arquetip ha estat dissenyat deliberadament per recollir una sèrie de qualificadors comuns en un sol lloc en un esforç per intentar una estandardització simple dins d'una àrea molt desordenada de la pràctica clínica. Es reconeix que els elements de dades continguts en aquest arquetip abasten molts conceptes diferents, i de vegades fins i tot contraposats. Això s'ha fet principalment per evitar la necessitat de múltiples arquetips qualificadors, cadascun dels quals conté només un o dos elements de dades.\r\n- Alguns d'aquests elements de dades són potencialment conflictius directament si s'utilitzen simultàniament dins del mateix context, per exemple, no tindria sentit tenir un problema \"inactiu\" juntament amb un episodi que està \"en curs\". Com a tal, aquests qualificadors d'estat s'han d'utilitzar amb cura extrema, ja que s'apliquen de manera variable en la pràctica i la interoperabilitat no es pot assegurar tret que les directrius d'ús es defineixin clarament dins de la comunitat clínica en la qual es poden compartir el parell d'arquetips \"Problema/Diagnòstic\".\r\n\r\nLa codificació completa del DRG requerirà els elements de dades relacionats amb el DRG d'aquest arquetip en combinació amb els elements de dades d'altres arquetips.",
+          "misuse" : "No utilitzar-se per representar un diagnòstic diferencial - utilitzar l'arquetip EVALUATION.differential_diagnosis per a aquest propòsit.\r\n\r\nNo s'ha d'utilitzar per representar la certesa diagnòstica - utilitzeu l'element de dades de \"certesa diagnòstica\" dins de l'arquetip EVALUATION.problem_diagnosis.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Registrar un calificador específico del contexto clínico o del tiempo para un problema o diagnóstico concreto.",
+          "keywords" : [ "problema", "activo", "inactivo", "estado", "episodio", "diagnóstico" ],
+          "use" : "Utilícese para registrar un calificador pertinente específico del contexto o del momento que proporcione detalles adicionales que sean pertinentes en el momento del registro o dentro del contexto clínico en el que se registra un problema o diagnóstico. El calificador puede no ser apropiado en otro momento o en otro contexto clínico.\r\n\r\nEste arquetipo está diseñado para incluirse en Status SLOT en el arquetipo EVALUATION.problem_diagnosis. La intención es que el arquetipo EVALUATION.problem_diagnosis contenga toda la información que se aplica en todos los contextos, a diferencia de este arquetipo, que sólo describe la información que depende del contexto de uso.\r\n\r\nNOTAS IMPORTANTES PARA LA APLICACIÓN:\r\n- No está previsto ni implícito que alguno o todos estos calificadores deban utilizarse dentro del mismo contexto o periodo de tiempo. En contraste con el diseño habitual de los arquetipos, este arquetipo se ha diseñado deliberadamente para recopilar una serie de calificadores comunes en un solo lugar, en un esfuerzo por intentar una normalización sencilla dentro de un área muy desordenada de la práctica clínica. Se reconoce que los elementos de datos contenidos en este arquetipo abarcan muchos conceptos diferentes, y a veces incluso opuestos. Esto se ha hecho principalmente para evitar la necesidad de múltiples arquetipos de calificadores, cada uno de los cuales contiene sólo uno o dos elementos de datos.\r\n- Algunos de estos elementos de datos pueden entrar en conflicto directo si se utilizan simultáneamente en el mismo contexto; por ejemplo, no tendría sentido tener un problema «inactivo» junto con un episodio «en curso». Como tales, estos calificadores de estado deben utilizarse con extremo cuidado, ya que se aplican de forma variable en la práctica y la interoperabilidad no puede garantizarse a menos que las directrices de uso estén claramente definidas dentro de la comunidad clínica en la que el par de arquetipos «Problema/Diagnóstico» y «Calificador Problema/Diagnóstico» puede ser compartido. \r\n\r\nLa codificación DRG completa requerirá los elementos de datos relacionados con DRG de este arquetipo en combinación con elementos de datos de otros arquetipos.",
+          "misuse" : "No debe utilizarse para representar un diagnóstico diferencial - utilice el arquetipo EVALUATION.differential_diagnosis para este fin.\r\n\r\nNo debe utilizarse para representar la certeza diagnóstica - utilice el elemento de datos \"Certeza diagnóstica\" dentro del arquetipo EVALUATION.problem_diagnosis.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -16929,6 +17836,46 @@
             "code" : "ac0.27",
             "description" : ""
           }
+        },
+        "ca" : {
+          "ac0.25" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.25",
+            "description" : ""
+          },
+          "ac0.26" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.26",
+            "description" : ""
+          },
+          "ac0.27" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.27",
+            "description" : ""
+          }
+        },
+        "es" : {
+          "ac0.25" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.25",
+            "description" : ""
+          },
+          "ac0.26" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.26",
+            "description" : ""
+          },
+          "ac0.27" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.27",
+            "description" : ""
+          }
         }
       },
       "termBindings" : {
@@ -17203,6 +18150,34 @@
         "email" : "3160100913@zju.edu.cn"
       },
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "TRADCREA, Clara Calleja Vega",
+        "organisation" : "CatSalut. Servei Català de la Salut.",
+        "email" : "ccalleja@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Clara Calleja Vega",
+        "organisation" : "CatSalut. Servei Català de la Salut.",
+        "email" : "ccalleja@catsalut.cat"
+      },
+      "otherDetails" : { }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -17229,7 +18204,7 @@
         "original_publisher" : "openEHR Foundation",
         "custodian_namespace" : "org.openehr",
         "MD5-CAM-1.0.1" : "6aca71b089b131e7a6b53a88ddf37a09",
-        "PARENT:MD5-CAM-1.0.1" : "808AFCC062571B42A5906F63A364C731",
+        "PARENT:MD5-CAM-1.0.1" : "89470078C0364ACBA5B6A5F286E56C79",
         "sem_ver" : "7.0.1",
         "build_uid" : ""
       },
@@ -18255,7 +19230,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "9D358EB1048EA1401802C3E1FDFB9A29"
+        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
       },
       "details" : {
         "de" : {
@@ -18411,6 +19386,36 @@
           "misuse" : "*Not to be left unchanged in a template.(en)",
           "originalResourceUri" : { },
           "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Proporcionar un encapçalament de secció genèric que serà rebatejat en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar per a construir un encapçalament de secció en una plantilla que serà rebatejada per adaptar-se al context clínic específic. Per exemple: «Títol ad hoc» rebatejat a «Resultats de l'examen».",
+          "misuse" : "No s'ha de deixar sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Per proporcionar una capçalera de secció genèrica que es canviarà de nom en una plantilla per adaptar-se a un context clínic específic.",
+          "keywords" : [ ],
+          "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
+          "misuse" : "No es deixarà sense canvis en una plantilla.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
         }
       }
     },
@@ -18467,7 +19472,9 @@
         "sv" : { },
         "de" : { },
         "it" : { },
-        "fr" : { }
+        "fr" : { },
+        "ca" : { },
+        "es" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -18606,6 +19613,34 @@
         "name" : "Vanessa Pereira",
         "organisation" : "Better - Pathfinder",
         "email" : "vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com, lauramoral@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lmorallopez@gmail.com"
       },
       "otherDetails" : { }
     } ]
