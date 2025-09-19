@@ -36,7 +36,7 @@
           },
           "codeString" : "nb"
         },
-        "purpose" : "For å registrere et individs bruk av alkohol, røyk, røykfri tobakk og andre substanser i forbindelse med prosjektet Strukturert Kreftjournal.\n",
+        "purpose" : "For å registrere et individs bruk av alkohol, røyk, røykfri tobakk og andre substanser i forbindelse med prosjektet Strukturert Kreftjournal.\n\n\nErstatter stimulantia_10",
         "keywords" : [ "kreftjournal, sjk, røyk, tobakk, rusmidler, snus, røykfri tobakk, alkohol, narkotika, hasj, opiater, CNS-stimulerende, substansbruk" ],
         "use" : "Brukes for å registrere et individs bruk av alkohol, røyk, røykfri tobakk og andre substanser i forbindelse med prosjektet Strukturert Kreftjournal.\n\nSmåtemplatet kan benyttes utenfor Strukturert kreftjournal hvor det lagres data om stimulantia.\n\nI templatet benyttes arketypene:\n- Alkoholanamnese (EVALUATION.alcohol_consumption_summary)\n- Røykeanamnese (EVALUATION.tobacco_smoking_summary)\n- Røykfri tobakkanamnese (EVALUATION.smokeless_tobacco_summary.v1)\n- Substansanamnese (EVALUATION.substance_use_summary)\n\nFor å si noe om bruk av andre rusmidler enn tobakk/snus/alkohol kan man velge to tilnærminger (evt. begge):\n1. Fritekstbeskrivelse av substansbruk. \n2. Detaljerte registreringer av spesifikk substansbruk.  \n\n",
         "originalResourceUri" : { },
