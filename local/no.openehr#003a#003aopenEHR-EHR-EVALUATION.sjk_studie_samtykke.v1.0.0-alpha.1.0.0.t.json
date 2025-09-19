@@ -24,7 +24,7 @@
       "custodian_namespace" : "org.openehr",
       "MD5-CAM-1.0.1" : "bc8e32b3e5f40fba9beaabb81f14fb6d",
       "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960",
-      "sem_ver" : "0.3.1",
+      "sem_ver" : "0.3.2",
       "build_uid" : ""
     },
     "details" : {
@@ -84,7 +84,7 @@
           },
           "codeString" : "nb"
         },
-        "purpose" : "Brukes til å angi pasientens status om samtykker og reservasjonsrett, og deltakelse i studier. ",
+        "purpose" : "Brukes til å angi pasientens status om samtykker og reservasjonsrett, og deltakelse i studier. \n\nErstatter: studie_samtykke_10",
         "keywords" : [ ],
         "use" : "Brukes i strukturert journal for kreft. ",
         "originalResourceUri" : { },
