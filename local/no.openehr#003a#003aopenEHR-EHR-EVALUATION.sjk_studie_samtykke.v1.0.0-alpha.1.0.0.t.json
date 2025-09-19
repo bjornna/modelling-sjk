@@ -22,9 +22,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "42465ca38b4ab53c425805fe67c47662",
+      "MD5-CAM-1.0.1" : "bc8e32b3e5f40fba9beaabb81f14fb6d",
       "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960",
-      "sem_ver" : "0.2.0",
+      "sem_ver" : "0.3.0",
       "build_uid" : ""
     },
     "details" : {
@@ -237,14 +237,7 @@
     "@type" : "ARCHETYPE_TERMINOLOGY",
     "conceptCode" : "at0000",
     "termDefinitions" : {
-      "en" : {
-        "at0000.1" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0000.1",
-          "text" : "Studier og samtykke",
-          "description" : "A generic section header which should be renamed in a template to suit a specific clinical context."
-        }
-      },
+      "en" : { },
       "ru" : { },
       "es-ar" : { },
       "sl" : { },
