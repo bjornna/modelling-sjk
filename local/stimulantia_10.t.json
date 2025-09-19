@@ -21,8 +21,8 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "0897050b6b06bf33943d25ce3cde1701",
-      "PARENT:MD5-CAM-1.0.1" : "8FE80F3E80C594AAF99D3BA540A53D73",
+      "MD5-CAM-1.0.1" : "8c18d7b9656c1f0846776b07b1c0dac8",
+      "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960",
       "sem_ver" : "22.0.0",
       "build_uid" : "",
       "original_language" : "ISO_639-1::nb"
@@ -158,6 +158,36 @@
         "otherDetails" : {
           "notes" : "Generated automatically by Adl Designer"
         }
+      },
+      "ca" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "ca"
+        },
+        "purpose" : "Proporcionar un encapçalament de secció genèric que serà rebatejat en una plantilla per adaptar-se a un context clínic específic.",
+        "keywords" : [ ],
+        "use" : "Utilitzar per a construir un encapçalament de secció en una plantilla que serà rebatejada per adaptar-se al context clínic específic. Per exemple: «Títol ad hoc» rebatejat a «Resultats de l'examen».",
+        "misuse" : "No s'ha de deixar sense canvis en una plantilla.",
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "es" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "es"
+        },
+        "purpose" : "Per proporcionar una capçalera de secció genèrica que es canviarà de nom en una plantilla per adaptar-se a un context clínic específic.",
+        "keywords" : [ ],
+        "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
+        "misuse" : "No es deixarà sense canvis en una plantilla.",
+        "originalResourceUri" : { },
+        "otherDetails" : { }
       }
     }
   },
@@ -307,7 +337,9 @@
           "text" : "Stimulantia",
           "description" : "Un en-tête de section générique qui doit être renommé dans un modèle pour s'adapter à un contexte clinique spécifique."
         }
-      }
+      },
+      "ca" : { },
+      "es" : { }
     },
     "termBindings" : { },
     "terminologyExtracts" : { },
@@ -539,8 +571,8 @@
                             "lower" : 1,
                             "lowerIncluded" : true,
                             "upperIncluded" : false,
-                            "upperUnbounded" : true,
-                            "lowerUnbounded" : false
+                            "lowerUnbounded" : false,
+                            "upperUnbounded" : true
                           } ]
                         } ]
                       } ],
@@ -615,8 +647,8 @@
                               "upper" : 365.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : true,
-                              "upperUnbounded" : false,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : false
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -631,8 +663,8 @@
                               "upper" : 7.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : true,
-                              "upperUnbounded" : false,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : false
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -647,8 +679,8 @@
                               "upper" : 31.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : true,
-                              "upperUnbounded" : false,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : false
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -708,8 +740,8 @@
                               "upper" : 7.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : false,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : false
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -724,8 +756,8 @@
                               "upper" : 31.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : false,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : false
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -766,8 +798,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -781,8 +813,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -796,8 +828,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -837,8 +869,8 @@
                             "lower" : 0,
                             "lowerIncluded" : true,
                             "upperIncluded" : false,
-                            "upperUnbounded" : true,
-                            "lowerUnbounded" : false
+                            "lowerUnbounded" : false,
+                            "upperUnbounded" : true
                           } ]
                         } ]
                       } ],
@@ -967,8 +999,8 @@
                           "lower" : 0.0,
                           "lowerIncluded" : true,
                           "upperIncluded" : false,
-                          "upperUnbounded" : true,
-                          "lowerUnbounded" : false
+                          "lowerUnbounded" : false,
+                          "upperUnbounded" : true
                         } ]
                       }, {
                         "@type" : "C_STRING",
@@ -982,8 +1014,8 @@
                           "lower" : 0.0,
                           "lowerIncluded" : true,
                           "upperIncluded" : false,
-                          "upperUnbounded" : true,
-                          "lowerUnbounded" : false
+                          "lowerUnbounded" : false,
+                          "upperUnbounded" : true
                         } ]
                       }, {
                         "@type" : "C_STRING",
@@ -1341,8 +1373,8 @@
                           "lower" : 0.0,
                           "lowerIncluded" : true,
                           "upperIncluded" : false,
-                          "upperUnbounded" : true,
-                          "lowerUnbounded" : false
+                          "lowerUnbounded" : false,
+                          "upperUnbounded" : true
                         } ]
                       }, {
                         "@type" : "C_STRING",
@@ -1375,8 +1407,8 @@
                         "lower" : 0,
                         "lowerIncluded" : true,
                         "upperIncluded" : false,
-                        "upperUnbounded" : true,
-                        "lowerUnbounded" : false
+                        "lowerUnbounded" : false,
+                        "upperUnbounded" : true
                       } ]
                     } ]
                   } ],
@@ -1405,8 +1437,8 @@
                         "lower" : 0,
                         "lowerIncluded" : true,
                         "upperIncluded" : false,
-                        "upperUnbounded" : true,
-                        "lowerUnbounded" : false
+                        "lowerUnbounded" : false,
+                        "upperUnbounded" : true
                       } ]
                     } ]
                   } ],
@@ -1492,8 +1524,8 @@
                         "lower" : 0,
                         "lowerIncluded" : true,
                         "upperIncluded" : false,
-                        "upperUnbounded" : true,
-                        "lowerUnbounded" : false
+                        "lowerUnbounded" : false,
+                        "upperUnbounded" : true
                       } ]
                     } ]
                   } ],
@@ -1535,8 +1567,8 @@
                           "lower" : 0.0,
                           "lowerIncluded" : true,
                           "upperIncluded" : false,
-                          "upperUnbounded" : true,
-                          "lowerUnbounded" : false
+                          "lowerUnbounded" : false,
+                          "upperUnbounded" : true
                         } ]
                       }, {
                         "@type" : "C_STRING",
@@ -1548,8 +1580,8 @@
                           "upper" : 0,
                           "lowerIncluded" : true,
                           "upperIncluded" : true,
-                          "upperUnbounded" : false,
-                          "lowerUnbounded" : false
+                          "lowerUnbounded" : false,
+                          "upperUnbounded" : false
                         } ]
                       } ]
                     }, {
@@ -1560,8 +1592,8 @@
                           "lower" : 0.0,
                           "lowerIncluded" : true,
                           "upperIncluded" : false,
-                          "upperUnbounded" : true,
-                          "lowerUnbounded" : false
+                          "lowerUnbounded" : false,
+                          "upperUnbounded" : true
                         } ]
                       }, {
                         "@type" : "C_STRING",
@@ -1573,8 +1605,8 @@
                           "upper" : 0,
                           "lowerIncluded" : true,
                           "upperIncluded" : true,
-                          "upperUnbounded" : false,
-                          "lowerUnbounded" : false
+                          "lowerUnbounded" : false,
+                          "upperUnbounded" : false
                         } ]
                       } ]
                     } ]
@@ -1881,8 +1913,8 @@
                         "lower" : 0,
                         "lowerIncluded" : true,
                         "upperIncluded" : false,
-                        "upperUnbounded" : true,
-                        "lowerUnbounded" : false
+                        "lowerUnbounded" : false,
+                        "upperUnbounded" : true
                       } ]
                     } ]
                   } ],
@@ -1968,8 +2000,8 @@
                         "lower" : 0,
                         "lowerIncluded" : true,
                         "upperIncluded" : false,
-                        "upperUnbounded" : true,
-                        "lowerUnbounded" : false
+                        "lowerUnbounded" : false,
+                        "upperUnbounded" : true
                       } ]
                     } ]
                   } ],
@@ -2011,8 +2043,8 @@
                           "upper" : 0,
                           "lowerIncluded" : true,
                           "upperIncluded" : true,
-                          "upperUnbounded" : false,
-                          "lowerUnbounded" : false
+                          "lowerUnbounded" : false,
+                          "upperUnbounded" : false
                         } ]
                       } ]
                     }, {
@@ -2027,8 +2059,8 @@
                           "upper" : 0,
                           "lowerIncluded" : true,
                           "upperIncluded" : true,
-                          "upperUnbounded" : false,
-                          "lowerUnbounded" : false
+                          "lowerUnbounded" : false,
+                          "upperUnbounded" : false
                         } ]
                       } ]
                     } ]
@@ -2311,8 +2343,8 @@
                             "lower" : 0,
                             "lowerIncluded" : true,
                             "upperIncluded" : false,
-                            "upperUnbounded" : true,
-                            "lowerUnbounded" : false
+                            "lowerUnbounded" : false,
+                            "upperUnbounded" : true
                           } ]
                         } ]
                       } ],
@@ -2427,8 +2459,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -2442,8 +2474,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -2457,8 +2489,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -2472,8 +2504,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -2515,8 +2547,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -2530,8 +2562,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -2545,8 +2577,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -2560,8 +2592,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -2575,8 +2607,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -2590,8 +2622,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -2605,8 +2637,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -2620,8 +2652,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -2635,8 +2667,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -2681,8 +2713,8 @@
                             "lower" : 0,
                             "lowerIncluded" : true,
                             "upperIncluded" : false,
-                            "upperUnbounded" : true,
-                            "lowerUnbounded" : false
+                            "lowerUnbounded" : false,
+                            "upperUnbounded" : true
                           } ]
                         } ]
                       } ],
@@ -2905,8 +2937,8 @@
                             "lower" : 0,
                             "lowerIncluded" : true,
                             "upperIncluded" : false,
-                            "upperUnbounded" : true,
-                            "lowerUnbounded" : false
+                            "lowerUnbounded" : false,
+                            "upperUnbounded" : true
                           } ]
                         } ]
                       } ],
@@ -3021,8 +3053,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -3036,8 +3068,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -3051,8 +3083,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -3066,8 +3098,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -3109,8 +3141,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -3124,8 +3156,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -3139,8 +3171,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -3154,8 +3186,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -3169,8 +3201,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -3184,8 +3216,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -3199,8 +3231,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -3214,8 +3246,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -3229,8 +3261,8 @@
                               "lower" : 0.0,
                               "lowerIncluded" : true,
                               "upperIncluded" : false,
-                              "upperUnbounded" : true,
-                              "lowerUnbounded" : false
+                              "lowerUnbounded" : false,
+                              "upperUnbounded" : true
                             } ]
                           }, {
                             "@type" : "C_STRING",
@@ -3275,8 +3307,8 @@
                             "lower" : 0,
                             "lowerIncluded" : true,
                             "upperIncluded" : false,
-                            "upperUnbounded" : true,
-                            "lowerUnbounded" : false
+                            "lowerUnbounded" : false,
+                            "upperUnbounded" : true
                           } ]
                         } ]
                       } ],
@@ -3495,6 +3527,34 @@
       "name" : "Vanessa Pereira",
       "organisation" : "Better - Pathfinder",
       "email" : "vanessapereira@protonmail.com"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "ca"
+    },
+    "author" : {
+      "name" : "Laura Moral Lopez",
+      "organisation" : "Sistema de Salut de Catalunya",
+      "email" : "lmorallopez@gmail.com, lauramoral@catsalut.cat"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "es"
+    },
+    "author" : {
+      "name" : "Laura Moral Lopez",
+      "organisation" : "Sistema de Salut de Catalunya",
+      "email" : "lmorallopez@gmail.com"
     },
     "otherDetails" : { }
   } ]
