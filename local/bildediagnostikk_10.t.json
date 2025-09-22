@@ -22,7 +22,7 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "MD5-CAM-1.0.1" : "f2d9a5c02d57ee6f6ccbd6bcd46e7495",
+      "MD5-CAM-1.0.1" : "025cee2d387ace38e057d19fb5d05ddc",
       "PARENT:MD5-CAM-1.0.1" : "dd9eb4bbddba032d835d00b77665b264",
       "sem_ver" : "1.0.0",
       "build_uid" : ""
@@ -118,7 +118,7 @@
         "original_publisher" : "openEHR Foundation",
         "custodian_namespace" : "org.openehr",
         "MD5-CAM-1.0.1" : "ae57da1d8de4f04a22bf31941d446c83",
-        "PARENT:MD5-CAM-1.0.1" : "4303915A919C8B6D98E44B6105250000",
+        "PARENT:MD5-CAM-1.0.1" : "12BB458F5811CD246819C78F394256F2",
         "sem_ver" : "57.0.0",
         "build_uid" : "",
         "original_language" : "ISO_639-1::nb",
