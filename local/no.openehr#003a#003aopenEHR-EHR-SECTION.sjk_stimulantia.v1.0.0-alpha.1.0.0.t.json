@@ -21,9 +21,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "9517fbf46d6aeeb10d643bde7dbcc170",
+      "MD5-CAM-1.0.1" : "9ff154d4de60202e4809e291e8789cad",
       "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960",
-      "sem_ver" : "22.0.0",
+      "sem_ver" : "23.0.0",
       "build_uid" : "",
       "original_language" : "ISO_639-1::nb"
     },
@@ -1037,14 +1037,7 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : {
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000.1",
-            "text" : "Alkohol",
-            "description" : "Summary or persistent information about the typical alcohol consumption of an individual."
-          }
-        },
+        "en" : { },
         "nb" : {
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
