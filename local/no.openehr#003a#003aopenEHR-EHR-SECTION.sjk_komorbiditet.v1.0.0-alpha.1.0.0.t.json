@@ -21,9 +21,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "03b4de069df5c365b9bd1e070676f929",
+      "MD5-CAM-1.0.1" : "f501cf663da4a21a5afc80af277c95ba",
       "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960",
-      "sem_ver" : "8.0.0",
+      "sem_ver" : "8.1.0",
       "build_uid" : "",
       "original_language" : "ISO_639-1::nb"
     },
@@ -249,14 +249,7 @@
     "@type" : "ARCHETYPE_TERMINOLOGY",
     "conceptCode" : "at0000",
     "termDefinitions" : {
-      "en" : {
-        "at0000.1" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0000.1",
-          "text" : "Komorbiditet",
-          "description" : "A generic section header which should be renamed in a template to suit a specific clinical context."
-        }
-      },
+      "en" : { },
       "ru" : {
         "at0000.1" : {
           "@type" : "ARCHETYPE_TERM",
