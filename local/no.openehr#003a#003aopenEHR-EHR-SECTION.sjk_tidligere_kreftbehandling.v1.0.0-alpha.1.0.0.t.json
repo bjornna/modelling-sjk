@@ -22,10 +22,10 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "360963146ee9288d22308a906e57609f",
+      "MD5-CAM-1.0.1" : "0ae310f2e01470d38cbe0d3308405247",
       "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960",
       "original_language" : "ISO_639-1::nb",
-      "sem_ver" : "10.0.0",
+      "sem_ver" : "10.1.0",
       "build_uid" : ""
     },
     "details" : {
@@ -244,14 +244,7 @@
     "@type" : "ARCHETYPE_TERMINOLOGY",
     "conceptCode" : "at0000",
     "termDefinitions" : {
-      "en" : {
-        "at0000.1" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0000.1",
-          "text" : "Tidligere kreftbehandling",
-          "description" : "A generic section header which should be renamed in a template to suit a specific clinical context."
-        }
-      },
+      "en" : { },
       "ru" : {
         "at0000.1" : {
           "@type" : "ARCHETYPE_TERM",
