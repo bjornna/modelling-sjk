@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "MD5-CAM-1.0.1" : "b427576767d672e95068080044db73b9",
+      "MD5-CAM-1.0.1" : "3485fcc500a74cceb9a0284c9467a943",
       "PARENT:MD5-CAM-1.0.1" : "7992b64110455bb88760d5f0dd3a9006",
-      "sem_ver" : "1.0.0",
+      "sem_ver" : "2.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -18767,8 +18767,8 @@
               "nodeId" : "at0043.6",
               "attributes" : [ ],
               "attributeTuples" : [ ],
-              "archetypeRef" : "oncology_imaging_reference_dips_v0.0.1",
-              "referenceType" : "templateId"
+              "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-oncology_imaging_reference_dips-001.v1",
+              "referenceType" : "archetypeOverlay"
             }, {
               "@type" : "C_ARCHETYPE_ROOT",
               "rmTypeName" : "CLUSTER",
@@ -18777,6 +18777,15 @@
               "attributes" : [ ],
               "attributeTuples" : [ ],
               "archetypeRef" : "oncology_treatment_summary_reference_dips_v0.0.1",
+              "referenceType" : "templateId"
+            }, {
+              "@type" : "C_ARCHETYPE_ROOT",
+              "rmTypeName" : "CLUSTER",
+              "occurrences" : "0..1",
+              "nodeId" : "at0043.11",
+              "attributes" : [ ],
+              "attributeTuples" : [ ],
+              "archetypeRef" : "Sarkom_morfologi_klinisk_grunnlag",
               "referenceType" : "templateId"
             } ]
           } ],
@@ -18802,6 +18811,69 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.3",
             "description" : ""
+          },
+          "at0043.6" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalles específicos (8)",
+            "description" : "Detalles que es necesario registrar adicionalmente como atributos únicos de este problema o diagnóstico.",
+            "comment" : "Puede incluir detalles estructurados sobre la clasificación o estadificación del diagnóstico; criterios de diagnóstico, criterios de clasificación o evaluaciones de gravedad formales, como los Criterios Terminológicos Comunes para Eventos Adversos."
+          },
+          "at0043.7" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalles específicos (5)",
+            "description" : "Detalles que es necesario registrar adicionalmente como atributos únicos de este problema o diagnóstico.",
+            "comment" : "Puede incluir detalles estructurados sobre la clasificación o estadificación del diagnóstico; criterios de diagnóstico, criterios de clasificación o evaluaciones de gravedad formales, como los Criterios Terminológicos Comunes para Eventos Adversos."
+          },
+          "at0043.4" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalles específicos (2)",
+            "description" : "Detalles que es necesario registrar adicionalmente como atributos únicos de este problema o diagnóstico.",
+            "comment" : "Puede incluir detalles estructurados sobre la clasificación o estadificación del diagnóstico; criterios de diagnóstico, criterios de clasificación o evaluaciones de gravedad formales, como los Criterios Terminológicos Comunes para Eventos Adversos."
+          },
+          "at0043.5" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalles específicos (4)",
+            "description" : "Detalles que es necesario registrar adicionalmente como atributos únicos de este problema o diagnóstico.",
+            "comment" : "Puede incluir detalles estructurados sobre la clasificación o estadificación del diagnóstico; criterios de diagnóstico, criterios de clasificación o evaluaciones de gravedad formales, como los Criterios Terminológicos Comunes para Eventos Adversos."
+          },
+          "at0043.8" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalles específicos (6)",
+            "description" : "Detalles que es necesario registrar adicionalmente como atributos únicos de este problema o diagnóstico.",
+            "comment" : "Puede incluir detalles estructurados sobre la clasificación o estadificación del diagnóstico; criterios de diagnóstico, criterios de clasificación o evaluaciones de gravedad formales, como los Criterios Terminológicos Comunes para Eventos Adversos."
+          },
+          "at0043.9" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalles específicos (9)",
+            "description" : "Detalles que es necesario registrar adicionalmente como atributos únicos de este problema o diagnóstico.",
+            "comment" : "Puede incluir detalles estructurados sobre la clasificación o estadificación del diagnóstico; criterios de diagnóstico, criterios de clasificación o evaluaciones de gravedad formales, como los Criterios Terminológicos Comunes para Eventos Adversos."
+          },
+          "at0043.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalles específicos (7)",
+            "description" : "Detalles que es necesario registrar adicionalmente como atributos únicos de este problema o diagnóstico.",
+            "comment" : "Puede incluir detalles estructurados sobre la clasificación o estadificación del diagnóstico; criterios de diagnóstico, criterios de clasificación o evaluaciones de gravedad formales, como los Criterios Terminológicos Comunes para Eventos Adversos."
+          },
+          "at0043.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalles específicos (3)",
+            "description" : "Detalles que es necesario registrar adicionalmente como atributos únicos de este problema o diagnóstico.",
+            "comment" : "Puede incluir detalles estructurados sobre la clasificación o estadificación del diagnóstico; criterios de diagnóstico, criterios de clasificación o evaluaciones de gravedad formales, como los Criterios Terminológicos Comunes para Eventos Adversos."
+          },
+          "at0043.11" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043.10",
+            "text" : "Detalles específicos (11)",
+            "description" : "Detalles que es necesario registrar adicionalmente como atributos únicos de este problema o diagnóstico.",
+            "comment" : "Puede incluir detalles estructurados sobre la clasificación o estadificación del diagnóstico; criterios de diagnóstico, criterios de clasificación o evaluaciones de gravedad formales, como los Criterios Terminológicos Comunes para Eventos Adversos."
           }
         },
         "es-ar" : {
@@ -18817,6 +18889,69 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.3",
             "description" : ""
+          },
+          "at0043.6" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalles específicos (8)",
+            "description" : "Detalles adicionales requeridos para registrar como atributos unívocos del este problema o diagnóstico.",
+            "comment" : "Puede incluir detalles estructurados acerca del grado o estadificación del diagnóstico, criterios diagnósticos, criterios de clasificación o una evaluación formal de severidad tal como los Criterios Terminológicos Comunes para Eventos Adversos."
+          },
+          "at0043.7" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalles específicos (5)",
+            "description" : "Detalles adicionales requeridos para registrar como atributos unívocos del este problema o diagnóstico.",
+            "comment" : "Puede incluir detalles estructurados acerca del grado o estadificación del diagnóstico, criterios diagnósticos, criterios de clasificación o una evaluación formal de severidad tal como los Criterios Terminológicos Comunes para Eventos Adversos."
+          },
+          "at0043.4" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalles específicos (2)",
+            "description" : "Detalles adicionales requeridos para registrar como atributos unívocos del este problema o diagnóstico.",
+            "comment" : "Puede incluir detalles estructurados acerca del grado o estadificación del diagnóstico, criterios diagnósticos, criterios de clasificación o una evaluación formal de severidad tal como los Criterios Terminológicos Comunes para Eventos Adversos."
+          },
+          "at0043.5" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalles específicos (4)",
+            "description" : "Detalles adicionales requeridos para registrar como atributos unívocos del este problema o diagnóstico.",
+            "comment" : "Puede incluir detalles estructurados acerca del grado o estadificación del diagnóstico, criterios diagnósticos, criterios de clasificación o una evaluación formal de severidad tal como los Criterios Terminológicos Comunes para Eventos Adversos."
+          },
+          "at0043.8" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalles específicos (6)",
+            "description" : "Detalles adicionales requeridos para registrar como atributos unívocos del este problema o diagnóstico.",
+            "comment" : "Puede incluir detalles estructurados acerca del grado o estadificación del diagnóstico, criterios diagnósticos, criterios de clasificación o una evaluación formal de severidad tal como los Criterios Terminológicos Comunes para Eventos Adversos."
+          },
+          "at0043.9" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalles específicos (9)",
+            "description" : "Detalles adicionales requeridos para registrar como atributos unívocos del este problema o diagnóstico.",
+            "comment" : "Puede incluir detalles estructurados acerca del grado o estadificación del diagnóstico, criterios diagnósticos, criterios de clasificación o una evaluación formal de severidad tal como los Criterios Terminológicos Comunes para Eventos Adversos."
+          },
+          "at0043.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalles específicos (7)",
+            "description" : "Detalles adicionales requeridos para registrar como atributos unívocos del este problema o diagnóstico.",
+            "comment" : "Puede incluir detalles estructurados acerca del grado o estadificación del diagnóstico, criterios diagnósticos, criterios de clasificación o una evaluación formal de severidad tal como los Criterios Terminológicos Comunes para Eventos Adversos."
+          },
+          "at0043.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalles específicos (3)",
+            "description" : "Detalles adicionales requeridos para registrar como atributos unívocos del este problema o diagnóstico.",
+            "comment" : "Puede incluir detalles estructurados acerca del grado o estadificación del diagnóstico, criterios diagnósticos, criterios de clasificación o una evaluación formal de severidad tal como los Criterios Terminológicos Comunes para Eventos Adversos."
+          },
+          "at0043.11" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043.10",
+            "text" : "Detalles específicos (11)",
+            "description" : "Detalles adicionales requeridos para registrar como atributos unívocos del este problema o diagnóstico.",
+            "comment" : "Puede incluir detalles estructurados acerca del grado o estadificación del diagnóstico, criterios diagnósticos, criterios de clasificación o una evaluación formal de severidad tal como los Criterios Terminológicos Comunes para Eventos Adversos."
           }
         },
         "de" : {
@@ -18832,6 +18967,69 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.3",
             "description" : ""
+          },
+          "at0043.6" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Spezifische Angaben (8)",
+            "description" : "Zusätzlich benötigte Angaben, welche als eindeutige Merkmale des Problem/der Diagnose erfasst werden sollten.",
+            "comment" : "Hier können strukturierte Angaben über die Einstufung oder das Stadium der Diagnose enthalten sein; diagnostische Kriterien, Klassifizierungskriterien oder formale Bewertungen des Schweregrades wie z.B. \"Common Terminology Criteria for Adverse Events\"."
+          },
+          "at0043.7" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Spezifische Angaben (5)",
+            "description" : "Zusätzlich benötigte Angaben, welche als eindeutige Merkmale des Problem/der Diagnose erfasst werden sollten.",
+            "comment" : "Hier können strukturierte Angaben über die Einstufung oder das Stadium der Diagnose enthalten sein; diagnostische Kriterien, Klassifizierungskriterien oder formale Bewertungen des Schweregrades wie z.B. \"Common Terminology Criteria for Adverse Events\"."
+          },
+          "at0043.4" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Spezifische Angaben (2)",
+            "description" : "Zusätzlich benötigte Angaben, welche als eindeutige Merkmale des Problem/der Diagnose erfasst werden sollten.",
+            "comment" : "Hier können strukturierte Angaben über die Einstufung oder das Stadium der Diagnose enthalten sein; diagnostische Kriterien, Klassifizierungskriterien oder formale Bewertungen des Schweregrades wie z.B. \"Common Terminology Criteria for Adverse Events\"."
+          },
+          "at0043.5" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Spezifische Angaben (4)",
+            "description" : "Zusätzlich benötigte Angaben, welche als eindeutige Merkmale des Problem/der Diagnose erfasst werden sollten.",
+            "comment" : "Hier können strukturierte Angaben über die Einstufung oder das Stadium der Diagnose enthalten sein; diagnostische Kriterien, Klassifizierungskriterien oder formale Bewertungen des Schweregrades wie z.B. \"Common Terminology Criteria for Adverse Events\"."
+          },
+          "at0043.8" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Spezifische Angaben (6)",
+            "description" : "Zusätzlich benötigte Angaben, welche als eindeutige Merkmale des Problem/der Diagnose erfasst werden sollten.",
+            "comment" : "Hier können strukturierte Angaben über die Einstufung oder das Stadium der Diagnose enthalten sein; diagnostische Kriterien, Klassifizierungskriterien oder formale Bewertungen des Schweregrades wie z.B. \"Common Terminology Criteria for Adverse Events\"."
+          },
+          "at0043.9" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Spezifische Angaben (9)",
+            "description" : "Zusätzlich benötigte Angaben, welche als eindeutige Merkmale des Problem/der Diagnose erfasst werden sollten.",
+            "comment" : "Hier können strukturierte Angaben über die Einstufung oder das Stadium der Diagnose enthalten sein; diagnostische Kriterien, Klassifizierungskriterien oder formale Bewertungen des Schweregrades wie z.B. \"Common Terminology Criteria for Adverse Events\"."
+          },
+          "at0043.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Spezifische Angaben (7)",
+            "description" : "Zusätzlich benötigte Angaben, welche als eindeutige Merkmale des Problem/der Diagnose erfasst werden sollten.",
+            "comment" : "Hier können strukturierte Angaben über die Einstufung oder das Stadium der Diagnose enthalten sein; diagnostische Kriterien, Klassifizierungskriterien oder formale Bewertungen des Schweregrades wie z.B. \"Common Terminology Criteria for Adverse Events\"."
+          },
+          "at0043.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Spezifische Angaben (3)",
+            "description" : "Zusätzlich benötigte Angaben, welche als eindeutige Merkmale des Problem/der Diagnose erfasst werden sollten.",
+            "comment" : "Hier können strukturierte Angaben über die Einstufung oder das Stadium der Diagnose enthalten sein; diagnostische Kriterien, Klassifizierungskriterien oder formale Bewertungen des Schweregrades wie z.B. \"Common Terminology Criteria for Adverse Events\"."
+          },
+          "at0043.11" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043.10",
+            "text" : "Spezifische Angaben (11)",
+            "description" : "Zusätzlich benötigte Angaben, welche als eindeutige Merkmale des Problem/der Diagnose erfasst werden sollten.",
+            "comment" : "Hier können strukturierte Angaben über die Einstufung oder das Stadium der Diagnose enthalten sein; diagnostische Kriterien, Klassifizierungskriterien oder formale Bewertungen des Schweregrades wie z.B. \"Common Terminology Criteria for Adverse Events\"."
           }
         },
         "en" : {
@@ -18847,6 +19045,69 @@
             "text" : "(Synthesized)",
             "code" : "ac0.3",
             "description" : ""
+          },
+          "at0043.6" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Specific details (8)",
+            "description" : "Details that are additionally required to record as unique attributes of this problem or diagnosis.",
+            "comment" : "May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events."
+          },
+          "at0043.7" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Specific details (5)",
+            "description" : "Details that are additionally required to record as unique attributes of this problem or diagnosis.",
+            "comment" : "May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events."
+          },
+          "at0043.4" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Specific details (2)",
+            "description" : "Details that are additionally required to record as unique attributes of this problem or diagnosis.",
+            "comment" : "May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events."
+          },
+          "at0043.5" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Specific details (4)",
+            "description" : "Details that are additionally required to record as unique attributes of this problem or diagnosis.",
+            "comment" : "May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events."
+          },
+          "at0043.8" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Specific details (6)",
+            "description" : "Details that are additionally required to record as unique attributes of this problem or diagnosis.",
+            "comment" : "May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events."
+          },
+          "at0043.9" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Specific details (9)",
+            "description" : "Details that are additionally required to record as unique attributes of this problem or diagnosis.",
+            "comment" : "May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events."
+          },
+          "at0043.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Specific details (7)",
+            "description" : "Details that are additionally required to record as unique attributes of this problem or diagnosis.",
+            "comment" : "May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events."
+          },
+          "at0043.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Specific details (3)",
+            "description" : "Details that are additionally required to record as unique attributes of this problem or diagnosis.",
+            "comment" : "May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events."
+          },
+          "at0043.11" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043.10",
+            "text" : "Specific details (11)",
+            "description" : "Details that are additionally required to record as unique attributes of this problem or diagnosis.",
+            "comment" : "May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events."
           }
         },
         "ar-sy" : {
@@ -18862,6 +19123,69 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.3",
             "description" : ""
+          },
+          "at0043.6" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "*Specific details(en) (8)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.7" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "*Specific details(en) (5)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.4" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "*Specific details(en) (2)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.5" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "*Specific details(en) (4)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.8" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "*Specific details(en) (6)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.9" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "*Specific details(en) (9)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "*Specific details(en) (7)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "*Specific details(en) (3)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.11" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043.10",
+            "text" : "*Specific details(en) (11)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
           }
         },
         "pt-br" : {
@@ -18877,6 +19201,69 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.3",
             "description" : ""
+          },
+          "at0043.6" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalhes específicos (8)",
+            "description" : "Detalhes que são adicionalmente necessários para gravar atributos como únicos deste problema ou diagnóstico.",
+            "comment" : "Pode incluir detalhes estruturados sobre a classificação ou a realização do diagnóstico; critérios de diagnóstico, critérios de classificação ou avaliação formal da severidade, como os critérios de terminologia comum para eventos adversos."
+          },
+          "at0043.7" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalhes específicos (5)",
+            "description" : "Detalhes que são adicionalmente necessários para gravar atributos como únicos deste problema ou diagnóstico.",
+            "comment" : "Pode incluir detalhes estruturados sobre a classificação ou a realização do diagnóstico; critérios de diagnóstico, critérios de classificação ou avaliação formal da severidade, como os critérios de terminologia comum para eventos adversos."
+          },
+          "at0043.4" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalhes específicos (2)",
+            "description" : "Detalhes que são adicionalmente necessários para gravar atributos como únicos deste problema ou diagnóstico.",
+            "comment" : "Pode incluir detalhes estruturados sobre a classificação ou a realização do diagnóstico; critérios de diagnóstico, critérios de classificação ou avaliação formal da severidade, como os critérios de terminologia comum para eventos adversos."
+          },
+          "at0043.5" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalhes específicos (4)",
+            "description" : "Detalhes que são adicionalmente necessários para gravar atributos como únicos deste problema ou diagnóstico.",
+            "comment" : "Pode incluir detalhes estruturados sobre a classificação ou a realização do diagnóstico; critérios de diagnóstico, critérios de classificação ou avaliação formal da severidade, como os critérios de terminologia comum para eventos adversos."
+          },
+          "at0043.8" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalhes específicos (6)",
+            "description" : "Detalhes que são adicionalmente necessários para gravar atributos como únicos deste problema ou diagnóstico.",
+            "comment" : "Pode incluir detalhes estruturados sobre a classificação ou a realização do diagnóstico; critérios de diagnóstico, critérios de classificação ou avaliação formal da severidade, como os critérios de terminologia comum para eventos adversos."
+          },
+          "at0043.9" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalhes específicos (9)",
+            "description" : "Detalhes que são adicionalmente necessários para gravar atributos como únicos deste problema ou diagnóstico.",
+            "comment" : "Pode incluir detalhes estruturados sobre a classificação ou a realização do diagnóstico; critérios de diagnóstico, critérios de classificação ou avaliação formal da severidade, como os critérios de terminologia comum para eventos adversos."
+          },
+          "at0043.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalhes específicos (7)",
+            "description" : "Detalhes que são adicionalmente necessários para gravar atributos como únicos deste problema ou diagnóstico.",
+            "comment" : "Pode incluir detalhes estruturados sobre a classificação ou a realização do diagnóstico; critérios de diagnóstico, critérios de classificação ou avaliação formal da severidade, como os critérios de terminologia comum para eventos adversos."
+          },
+          "at0043.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalhes específicos (3)",
+            "description" : "Detalhes que são adicionalmente necessários para gravar atributos como únicos deste problema ou diagnóstico.",
+            "comment" : "Pode incluir detalhes estruturados sobre a classificação ou a realização do diagnóstico; critérios de diagnóstico, critérios de classificação ou avaliação formal da severidade, como os critérios de terminologia comum para eventos adversos."
+          },
+          "at0043.11" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043.10",
+            "text" : "Detalhes específicos (11)",
+            "description" : "Detalhes que são adicionalmente necessários para gravar atributos como únicos deste problema ou diagnóstico.",
+            "comment" : "Pode incluir detalhes estruturados sobre a classificação ou a realização do diagnóstico; critérios de diagnóstico, critérios de classificação ou avaliação formal da severidade, como os critérios de terminologia comum para eventos adversos."
           }
         },
         "nb" : {
@@ -18939,6 +19326,69 @@
             "text" : "Variant",
             "description" : "Spesifikk variant eller subtype av diagnose, hvis det er relevant.",
             "comment" : "Bryst: tumorutbredelse og multifokalitet. Feltet endres til tumorutbredelsesmønster \nBak denne ligger SNOMED-CT koden for multifokalitet. Den samme som brukes i SARKOM: 399506006 Multifokal tumor"
+          },
+          "at0043.6" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Spesifikke detaljer (8)",
+            "description" : "Detaljer som er nødvendige for å registrere det aktuelle problemet eller diagnosens unike egenskaper.",
+            "comment" : "Kan omfatte strukturerte detaljer om klassifisering eller stadier av diagnosen; diagnosiske kriterier, klassifikasjon eller formelle vurderinger av alvorlighetsgrad, som f.eks. Common Terminology Criteria for Adverse Events."
+          },
+          "at0043.7" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Spesifikke detaljer (5)",
+            "description" : "Detaljer som er nødvendige for å registrere det aktuelle problemet eller diagnosens unike egenskaper.",
+            "comment" : "Kan omfatte strukturerte detaljer om klassifisering eller stadier av diagnosen; diagnosiske kriterier, klassifikasjon eller formelle vurderinger av alvorlighetsgrad, som f.eks. Common Terminology Criteria for Adverse Events."
+          },
+          "at0043.4" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Spesifikke detaljer (2)",
+            "description" : "Detaljer som er nødvendige for å registrere det aktuelle problemet eller diagnosens unike egenskaper.",
+            "comment" : "Kan omfatte strukturerte detaljer om klassifisering eller stadier av diagnosen; diagnosiske kriterier, klassifikasjon eller formelle vurderinger av alvorlighetsgrad, som f.eks. Common Terminology Criteria for Adverse Events."
+          },
+          "at0043.5" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Spesifikke detaljer (4)",
+            "description" : "Detaljer som er nødvendige for å registrere det aktuelle problemet eller diagnosens unike egenskaper.",
+            "comment" : "Kan omfatte strukturerte detaljer om klassifisering eller stadier av diagnosen; diagnosiske kriterier, klassifikasjon eller formelle vurderinger av alvorlighetsgrad, som f.eks. Common Terminology Criteria for Adverse Events."
+          },
+          "at0043.8" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Spesifikke detaljer (6)",
+            "description" : "Detaljer som er nødvendige for å registrere det aktuelle problemet eller diagnosens unike egenskaper.",
+            "comment" : "Kan omfatte strukturerte detaljer om klassifisering eller stadier av diagnosen; diagnosiske kriterier, klassifikasjon eller formelle vurderinger av alvorlighetsgrad, som f.eks. Common Terminology Criteria for Adverse Events."
+          },
+          "at0043.9" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Spesifikke detaljer (9)",
+            "description" : "Detaljer som er nødvendige for å registrere det aktuelle problemet eller diagnosens unike egenskaper.",
+            "comment" : "Kan omfatte strukturerte detaljer om klassifisering eller stadier av diagnosen; diagnosiske kriterier, klassifikasjon eller formelle vurderinger av alvorlighetsgrad, som f.eks. Common Terminology Criteria for Adverse Events."
+          },
+          "at0043.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Spesifikke detaljer (7)",
+            "description" : "Detaljer som er nødvendige for å registrere det aktuelle problemet eller diagnosens unike egenskaper.",
+            "comment" : "Kan omfatte strukturerte detaljer om klassifisering eller stadier av diagnosen; diagnosiske kriterier, klassifikasjon eller formelle vurderinger av alvorlighetsgrad, som f.eks. Common Terminology Criteria for Adverse Events."
+          },
+          "at0043.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Spesifikke detaljer (3)",
+            "description" : "Detaljer som er nødvendige for å registrere det aktuelle problemet eller diagnosens unike egenskaper.",
+            "comment" : "Kan omfatte strukturerte detaljer om klassifisering eller stadier av diagnosen; diagnosiske kriterier, klassifikasjon eller formelle vurderinger av alvorlighetsgrad, som f.eks. Common Terminology Criteria for Adverse Events."
+          },
+          "at0043.11" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043.10",
+            "text" : "Spesifikke detaljer (11)",
+            "description" : "Detaljer som er nødvendige for å registrere det aktuelle problemet eller diagnosens unike egenskaper.",
+            "comment" : "Kan omfatte strukturerte detaljer om klassifisering eller stadier av diagnosen; diagnosiske kriterier, klassifikasjon eller formelle vurderinger av alvorlighetsgrad, som f.eks. Common Terminology Criteria for Adverse Events."
           }
         },
         "sv" : {
@@ -18954,6 +19404,69 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.3",
             "description" : ""
+          },
+          "at0043.6" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Specifika detaljer (8)",
+            "description" : "Ytterligare detaljer som krävs för att dokumentera de egenskaper som är unika för problemet eller diagnosen.",
+            "comment" : "Fältet kan innehålla strukturerade detaljer om klassificering eller stadieindelning av diagnosen, som diagnostiska kriterier, klassificeringskriterier eller formella bedömningar av svårighetsgraden, såsom \"Gemensam terminologi för biverkningar\"."
+          },
+          "at0043.7" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Specifika detaljer (5)",
+            "description" : "Ytterligare detaljer som krävs för att dokumentera de egenskaper som är unika för problemet eller diagnosen.",
+            "comment" : "Fältet kan innehålla strukturerade detaljer om klassificering eller stadieindelning av diagnosen, som diagnostiska kriterier, klassificeringskriterier eller formella bedömningar av svårighetsgraden, såsom \"Gemensam terminologi för biverkningar\"."
+          },
+          "at0043.4" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Specifika detaljer (2)",
+            "description" : "Ytterligare detaljer som krävs för att dokumentera de egenskaper som är unika för problemet eller diagnosen.",
+            "comment" : "Fältet kan innehålla strukturerade detaljer om klassificering eller stadieindelning av diagnosen, som diagnostiska kriterier, klassificeringskriterier eller formella bedömningar av svårighetsgraden, såsom \"Gemensam terminologi för biverkningar\"."
+          },
+          "at0043.5" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Specifika detaljer (4)",
+            "description" : "Ytterligare detaljer som krävs för att dokumentera de egenskaper som är unika för problemet eller diagnosen.",
+            "comment" : "Fältet kan innehålla strukturerade detaljer om klassificering eller stadieindelning av diagnosen, som diagnostiska kriterier, klassificeringskriterier eller formella bedömningar av svårighetsgraden, såsom \"Gemensam terminologi för biverkningar\"."
+          },
+          "at0043.8" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Specifika detaljer (6)",
+            "description" : "Ytterligare detaljer som krävs för att dokumentera de egenskaper som är unika för problemet eller diagnosen.",
+            "comment" : "Fältet kan innehålla strukturerade detaljer om klassificering eller stadieindelning av diagnosen, som diagnostiska kriterier, klassificeringskriterier eller formella bedömningar av svårighetsgraden, såsom \"Gemensam terminologi för biverkningar\"."
+          },
+          "at0043.9" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Specifika detaljer (9)",
+            "description" : "Ytterligare detaljer som krävs för att dokumentera de egenskaper som är unika för problemet eller diagnosen.",
+            "comment" : "Fältet kan innehålla strukturerade detaljer om klassificering eller stadieindelning av diagnosen, som diagnostiska kriterier, klassificeringskriterier eller formella bedömningar av svårighetsgraden, såsom \"Gemensam terminologi för biverkningar\"."
+          },
+          "at0043.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Specifika detaljer (7)",
+            "description" : "Ytterligare detaljer som krävs för att dokumentera de egenskaper som är unika för problemet eller diagnosen.",
+            "comment" : "Fältet kan innehålla strukturerade detaljer om klassificering eller stadieindelning av diagnosen, som diagnostiska kriterier, klassificeringskriterier eller formella bedömningar av svårighetsgraden, såsom \"Gemensam terminologi för biverkningar\"."
+          },
+          "at0043.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Specifika detaljer (3)",
+            "description" : "Ytterligare detaljer som krävs för att dokumentera de egenskaper som är unika för problemet eller diagnosen.",
+            "comment" : "Fältet kan innehålla strukturerade detaljer om klassificering eller stadieindelning av diagnosen, som diagnostiska kriterier, klassificeringskriterier eller formella bedömningar av svårighetsgraden, såsom \"Gemensam terminologi för biverkningar\"."
+          },
+          "at0043.11" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043.10",
+            "text" : "Specifika detaljer (11)",
+            "description" : "Ytterligare detaljer som krävs för att dokumentera de egenskaper som är unika för problemet eller diagnosen.",
+            "comment" : "Fältet kan innehålla strukturerade detaljer om klassificering eller stadieindelning av diagnosen, som diagnostiska kriterier, klassificeringskriterier eller formella bedömningar av svårighetsgraden, såsom \"Gemensam terminologi för biverkningar\"."
           }
         },
         "ko" : {
@@ -18969,6 +19482,69 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.3",
             "description" : ""
+          },
+          "at0043.6" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "특정 상세내용 (8)",
+            "description" : "이 문제 또는 진단의 유일한 속성으로 기록하는데 필요한 상세내용.",
+            "comment" : "진단의 단계(grading 또는 staging)에 대한 구조화된 상세내용을 포함할 수 있음; 진단 기준, 분류 기준 또는 이상 상황(Adverse Events)을 위한 공통 용어체계 기준(Common Terminology Criteria)와 같은 정규적인 중등도 평가."
+          },
+          "at0043.7" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "특정 상세내용 (5)",
+            "description" : "이 문제 또는 진단의 유일한 속성으로 기록하는데 필요한 상세내용.",
+            "comment" : "진단의 단계(grading 또는 staging)에 대한 구조화된 상세내용을 포함할 수 있음; 진단 기준, 분류 기준 또는 이상 상황(Adverse Events)을 위한 공통 용어체계 기준(Common Terminology Criteria)와 같은 정규적인 중등도 평가."
+          },
+          "at0043.4" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "특정 상세내용 (2)",
+            "description" : "이 문제 또는 진단의 유일한 속성으로 기록하는데 필요한 상세내용.",
+            "comment" : "진단의 단계(grading 또는 staging)에 대한 구조화된 상세내용을 포함할 수 있음; 진단 기준, 분류 기준 또는 이상 상황(Adverse Events)을 위한 공통 용어체계 기준(Common Terminology Criteria)와 같은 정규적인 중등도 평가."
+          },
+          "at0043.5" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "특정 상세내용 (4)",
+            "description" : "이 문제 또는 진단의 유일한 속성으로 기록하는데 필요한 상세내용.",
+            "comment" : "진단의 단계(grading 또는 staging)에 대한 구조화된 상세내용을 포함할 수 있음; 진단 기준, 분류 기준 또는 이상 상황(Adverse Events)을 위한 공통 용어체계 기준(Common Terminology Criteria)와 같은 정규적인 중등도 평가."
+          },
+          "at0043.8" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "특정 상세내용 (6)",
+            "description" : "이 문제 또는 진단의 유일한 속성으로 기록하는데 필요한 상세내용.",
+            "comment" : "진단의 단계(grading 또는 staging)에 대한 구조화된 상세내용을 포함할 수 있음; 진단 기준, 분류 기준 또는 이상 상황(Adverse Events)을 위한 공통 용어체계 기준(Common Terminology Criteria)와 같은 정규적인 중등도 평가."
+          },
+          "at0043.9" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "특정 상세내용 (9)",
+            "description" : "이 문제 또는 진단의 유일한 속성으로 기록하는데 필요한 상세내용.",
+            "comment" : "진단의 단계(grading 또는 staging)에 대한 구조화된 상세내용을 포함할 수 있음; 진단 기준, 분류 기준 또는 이상 상황(Adverse Events)을 위한 공통 용어체계 기준(Common Terminology Criteria)와 같은 정규적인 중등도 평가."
+          },
+          "at0043.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "특정 상세내용 (7)",
+            "description" : "이 문제 또는 진단의 유일한 속성으로 기록하는데 필요한 상세내용.",
+            "comment" : "진단의 단계(grading 또는 staging)에 대한 구조화된 상세내용을 포함할 수 있음; 진단 기준, 분류 기준 또는 이상 상황(Adverse Events)을 위한 공통 용어체계 기준(Common Terminology Criteria)와 같은 정규적인 중등도 평가."
+          },
+          "at0043.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "특정 상세내용 (3)",
+            "description" : "이 문제 또는 진단의 유일한 속성으로 기록하는데 필요한 상세내용.",
+            "comment" : "진단의 단계(grading 또는 staging)에 대한 구조화된 상세내용을 포함할 수 있음; 진단 기준, 분류 기준 또는 이상 상황(Adverse Events)을 위한 공통 용어체계 기준(Common Terminology Criteria)와 같은 정규적인 중등도 평가."
+          },
+          "at0043.11" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043.10",
+            "text" : "특정 상세내용 (11)",
+            "description" : "이 문제 또는 진단의 유일한 속성으로 기록하는데 필요한 상세내용.",
+            "comment" : "진단의 단계(grading 또는 staging)에 대한 구조화된 상세내용을 포함할 수 있음; 진단 기준, 분류 기준 또는 이상 상황(Adverse Events)을 위한 공통 용어체계 기준(Common Terminology Criteria)와 같은 정규적인 중등도 평가."
           }
         },
         "fi" : {
@@ -18984,6 +19560,69 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.3",
             "description" : ""
+          },
+          "at0043.6" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Tarkennettu tieto (8)",
+            "description" : "Tiedot, joita tarvitaan lisäksi tämän ongelman tai diagnoosin yksilöivinä ominaisuuksina tallentamiseksi.",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.7" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Tarkennettu tieto (5)",
+            "description" : "Tiedot, joita tarvitaan lisäksi tämän ongelman tai diagnoosin yksilöivinä ominaisuuksina tallentamiseksi.",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.4" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Tarkennettu tieto (2)",
+            "description" : "Tiedot, joita tarvitaan lisäksi tämän ongelman tai diagnoosin yksilöivinä ominaisuuksina tallentamiseksi.",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.5" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Tarkennettu tieto (4)",
+            "description" : "Tiedot, joita tarvitaan lisäksi tämän ongelman tai diagnoosin yksilöivinä ominaisuuksina tallentamiseksi.",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.8" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Tarkennettu tieto (6)",
+            "description" : "Tiedot, joita tarvitaan lisäksi tämän ongelman tai diagnoosin yksilöivinä ominaisuuksina tallentamiseksi.",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.9" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Tarkennettu tieto (9)",
+            "description" : "Tiedot, joita tarvitaan lisäksi tämän ongelman tai diagnoosin yksilöivinä ominaisuuksina tallentamiseksi.",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Tarkennettu tieto (7)",
+            "description" : "Tiedot, joita tarvitaan lisäksi tämän ongelman tai diagnoosin yksilöivinä ominaisuuksina tallentamiseksi.",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Tarkennettu tieto (3)",
+            "description" : "Tiedot, joita tarvitaan lisäksi tämän ongelman tai diagnoosin yksilöivinä ominaisuuksina tallentamiseksi.",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.11" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043.10",
+            "text" : "Tarkennettu tieto (11)",
+            "description" : "Tiedot, joita tarvitaan lisäksi tämän ongelman tai diagnoosin yksilöivinä ominaisuuksina tallentamiseksi.",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
           }
         },
         "it" : {
@@ -18999,6 +19638,69 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.3",
             "description" : ""
+          },
+          "at0043.6" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Ulteriori dettagli (8)",
+            "description" : "Ulteriori dettagli richiesti per memorizzare attributi specifici del problema o della diagnosi.",
+            "comment" : "Può includere dettagli strutturati sulla classificazione o la stadiazione della diagnosi; criteri diagnostici, criteri di classificazione o valutazioni formali della severità, come ad esempio CTCAE - Common Terminology Criteria for Adverse Events."
+          },
+          "at0043.7" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Ulteriori dettagli (5)",
+            "description" : "Ulteriori dettagli richiesti per memorizzare attributi specifici del problema o della diagnosi.",
+            "comment" : "Può includere dettagli strutturati sulla classificazione o la stadiazione della diagnosi; criteri diagnostici, criteri di classificazione o valutazioni formali della severità, come ad esempio CTCAE - Common Terminology Criteria for Adverse Events."
+          },
+          "at0043.4" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Ulteriori dettagli (2)",
+            "description" : "Ulteriori dettagli richiesti per memorizzare attributi specifici del problema o della diagnosi.",
+            "comment" : "Può includere dettagli strutturati sulla classificazione o la stadiazione della diagnosi; criteri diagnostici, criteri di classificazione o valutazioni formali della severità, come ad esempio CTCAE - Common Terminology Criteria for Adverse Events."
+          },
+          "at0043.5" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Ulteriori dettagli (4)",
+            "description" : "Ulteriori dettagli richiesti per memorizzare attributi specifici del problema o della diagnosi.",
+            "comment" : "Può includere dettagli strutturati sulla classificazione o la stadiazione della diagnosi; criteri diagnostici, criteri di classificazione o valutazioni formali della severità, come ad esempio CTCAE - Common Terminology Criteria for Adverse Events."
+          },
+          "at0043.8" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Ulteriori dettagli (6)",
+            "description" : "Ulteriori dettagli richiesti per memorizzare attributi specifici del problema o della diagnosi.",
+            "comment" : "Può includere dettagli strutturati sulla classificazione o la stadiazione della diagnosi; criteri diagnostici, criteri di classificazione o valutazioni formali della severità, come ad esempio CTCAE - Common Terminology Criteria for Adverse Events."
+          },
+          "at0043.9" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Ulteriori dettagli (9)",
+            "description" : "Ulteriori dettagli richiesti per memorizzare attributi specifici del problema o della diagnosi.",
+            "comment" : "Può includere dettagli strutturati sulla classificazione o la stadiazione della diagnosi; criteri diagnostici, criteri di classificazione o valutazioni formali della severità, come ad esempio CTCAE - Common Terminology Criteria for Adverse Events."
+          },
+          "at0043.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Ulteriori dettagli (7)",
+            "description" : "Ulteriori dettagli richiesti per memorizzare attributi specifici del problema o della diagnosi.",
+            "comment" : "Può includere dettagli strutturati sulla classificazione o la stadiazione della diagnosi; criteri diagnostici, criteri di classificazione o valutazioni formali della severità, come ad esempio CTCAE - Common Terminology Criteria for Adverse Events."
+          },
+          "at0043.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Ulteriori dettagli (3)",
+            "description" : "Ulteriori dettagli richiesti per memorizzare attributi specifici del problema o della diagnosi.",
+            "comment" : "Può includere dettagli strutturati sulla classificazione o la stadiazione della diagnosi; criteri diagnostici, criteri di classificazione o valutazioni formali della severità, come ad esempio CTCAE - Common Terminology Criteria for Adverse Events."
+          },
+          "at0043.11" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043.10",
+            "text" : "Ulteriori dettagli (11)",
+            "description" : "Ulteriori dettagli richiesti per memorizzare attributi specifici del problema o della diagnosi.",
+            "comment" : "Può includere dettagli strutturati sulla classificazione o la stadiazione della diagnosi; criteri diagnostici, criteri di classificazione o valutazioni formali della severità, come ad esempio CTCAE - Common Terminology Criteria for Adverse Events."
           }
         },
         "nl" : {
@@ -19014,6 +19716,69 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.3",
             "description" : ""
+          },
+          "at0043.6" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "*Specific details(en) (8)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.7" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "*Specific details(en) (5)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.4" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "*Specific details(en) (2)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.5" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "*Specific details(en) (4)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.8" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "*Specific details(en) (6)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.9" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "*Specific details(en) (9)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "*Specific details(en) (7)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "*Specific details(en) (3)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.11" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043.10",
+            "text" : "*Specific details(en) (11)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
           }
         },
         "zh" : {
@@ -19029,6 +19794,69 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.3",
             "description" : ""
+          },
+          "at0043.6" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "详情 (8)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.7" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "详情 (5)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.4" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "详情 (2)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.5" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "详情 (4)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.8" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "详情 (6)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.9" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "详情 (9)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "详情 (7)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "详情 (3)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
+          },
+          "at0043.11" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043.10",
+            "text" : "详情 (11)",
+            "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis.(en)",
+            "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events.(en)"
           }
         },
         "ca" : {
@@ -19037,6 +19865,69 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.3",
             "description" : ""
+          },
+          "at0043.6" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalls específics (8)",
+            "description" : "Detalls que es requereixen addicionalment per a registrar atributs únics d'aquest problema o diagnòstic.",
+            "comment" : "Pot incloure dades sobre la graduació o estat del diagnòstic; criteris de diagnòstic, criteris de classificació o avaluacions formals de la gravetat, com els Criteris Terminològics Comuns per a Reaccions Adverses."
+          },
+          "at0043.7" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalls específics (5)",
+            "description" : "Detalls que es requereixen addicionalment per a registrar atributs únics d'aquest problema o diagnòstic.",
+            "comment" : "Pot incloure dades sobre la graduació o estat del diagnòstic; criteris de diagnòstic, criteris de classificació o avaluacions formals de la gravetat, com els Criteris Terminològics Comuns per a Reaccions Adverses."
+          },
+          "at0043.4" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalls específics (2)",
+            "description" : "Detalls que es requereixen addicionalment per a registrar atributs únics d'aquest problema o diagnòstic.",
+            "comment" : "Pot incloure dades sobre la graduació o estat del diagnòstic; criteris de diagnòstic, criteris de classificació o avaluacions formals de la gravetat, com els Criteris Terminològics Comuns per a Reaccions Adverses."
+          },
+          "at0043.5" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalls específics (4)",
+            "description" : "Detalls que es requereixen addicionalment per a registrar atributs únics d'aquest problema o diagnòstic.",
+            "comment" : "Pot incloure dades sobre la graduació o estat del diagnòstic; criteris de diagnòstic, criteris de classificació o avaluacions formals de la gravetat, com els Criteris Terminològics Comuns per a Reaccions Adverses."
+          },
+          "at0043.8" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalls específics (6)",
+            "description" : "Detalls que es requereixen addicionalment per a registrar atributs únics d'aquest problema o diagnòstic.",
+            "comment" : "Pot incloure dades sobre la graduació o estat del diagnòstic; criteris de diagnòstic, criteris de classificació o avaluacions formals de la gravetat, com els Criteris Terminològics Comuns per a Reaccions Adverses."
+          },
+          "at0043.9" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalls específics (9)",
+            "description" : "Detalls que es requereixen addicionalment per a registrar atributs únics d'aquest problema o diagnòstic.",
+            "comment" : "Pot incloure dades sobre la graduació o estat del diagnòstic; criteris de diagnòstic, criteris de classificació o avaluacions formals de la gravetat, com els Criteris Terminològics Comuns per a Reaccions Adverses."
+          },
+          "at0043.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalls específics (7)",
+            "description" : "Detalls que es requereixen addicionalment per a registrar atributs únics d'aquest problema o diagnòstic.",
+            "comment" : "Pot incloure dades sobre la graduació o estat del diagnòstic; criteris de diagnòstic, criteris de classificació o avaluacions formals de la gravetat, com els Criteris Terminològics Comuns per a Reaccions Adverses."
+          },
+          "at0043.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "Detalls específics (3)",
+            "description" : "Detalls que es requereixen addicionalment per a registrar atributs únics d'aquest problema o diagnòstic.",
+            "comment" : "Pot incloure dades sobre la graduació o estat del diagnòstic; criteris de diagnòstic, criteris de classificació o avaluacions formals de la gravetat, com els Criteris Terminològics Comuns per a Reaccions Adverses."
+          },
+          "at0043.11" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043.10",
+            "text" : "Detalls específics (11)",
+            "description" : "Detalls que es requereixen addicionalment per a registrar atributs únics d'aquest problema o diagnòstic.",
+            "comment" : "Pot incloure dades sobre la graduació o estat del diagnòstic; criteris de diagnòstic, criteris de classificació o avaluacions formals de la gravetat, com els Criteris Terminològics Comuns per a Reaccions Adverses."
           }
         },
         "zh-cn" : {
@@ -19052,6 +19943,62 @@
             "text" : "*Specific details (en)",
             "description" : "*Details that are additionally required to record as unique attributes of this problem or diagnosis. (en)",
             "comment" : "*May include structured detail about the grading or staging of the diagnosis; diagnostic criteria, classification criteria or formal severity assessments such as Common Terminology Criteria for Adverse Events. (en)"
+          },
+          "at0043.6" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "特有详情 (8)",
+            "description" : "记录当前问题或诊断特有的特征属性时所额外需要的详细信息。",
+            "comment" : "可能包括关于当前诊断的分级或分期、诊断标准、分类标准或正式的严重程度评估（如不良事件通用术语标准）的结构化详情。"
+          },
+          "at0043.7" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "特有详情 (5)",
+            "description" : "记录当前问题或诊断特有的特征属性时所额外需要的详细信息。",
+            "comment" : "可能包括关于当前诊断的分级或分期、诊断标准、分类标准或正式的严重程度评估（如不良事件通用术语标准）的结构化详情。"
+          },
+          "at0043.4" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "特有详情 (2)",
+            "description" : "记录当前问题或诊断特有的特征属性时所额外需要的详细信息。",
+            "comment" : "可能包括关于当前诊断的分级或分期、诊断标准、分类标准或正式的严重程度评估（如不良事件通用术语标准）的结构化详情。"
+          },
+          "at0043.5" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "特有详情 (4)",
+            "description" : "记录当前问题或诊断特有的特征属性时所额外需要的详细信息。",
+            "comment" : "可能包括关于当前诊断的分级或分期、诊断标准、分类标准或正式的严重程度评估（如不良事件通用术语标准）的结构化详情。"
+          },
+          "at0043.8" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "特有详情 (6)",
+            "description" : "记录当前问题或诊断特有的特征属性时所额外需要的详细信息。",
+            "comment" : "可能包括关于当前诊断的分级或分期、诊断标准、分类标准或正式的严重程度评估（如不良事件通用术语标准）的结构化详情。"
+          },
+          "at0043.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "特有详情 (7)",
+            "description" : "记录当前问题或诊断特有的特征属性时所额外需要的详细信息。",
+            "comment" : "可能包括关于当前诊断的分级或分期、诊断标准、分类标准或正式的严重程度评估（如不良事件通用术语标准）的结构化详情。"
+          },
+          "at0043.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043",
+            "text" : "特有详情 (3)",
+            "description" : "记录当前问题或诊断特有的特征属性时所额外需要的详细信息。",
+            "comment" : "可能包括关于当前诊断的分级或分期、诊断标准、分类标准或正式的严重程度评估（如不良事件通用术语标准）的结构化详情。"
+          },
+          "at0043.11" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0043.10",
+            "text" : "特有详情 (10)",
+            "description" : "记录当前问题或诊断特有的特征属性时所额外需要的详细信息。",
+            "comment" : "可能包括关于当前诊断的分级或分期、诊断标准、分类标准或正式的严重程度评估（如不良事件通用术语标准）的结构化详情。"
           }
         }
       },
@@ -20173,6 +21120,12 @@
         }, {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0005.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
           "nodeId" : "at0006.1",
           "attributes" : [ {
             "@type" : "C_ATTRIBUTE",
@@ -20232,6 +21185,12 @@
             } ]
           } ],
           "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0009.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
         } ]
       } ],
       "attributeTuples" : [ ]
@@ -20248,6 +21207,182 @@
     },
     "adlVersion" : "1.4",
     "buildUid" : "7435fa60-35c1-3cc8-99c4-6119940d1b13",
+    "rmName" : "openehr",
+    "rmRelease" : "1.1.0",
+    "generated" : true,
+    "otherMetaData" : { },
+    "originalLanguage" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "nb"
+    },
+    "translations" : [ ]
+  }, {
+    "@type" : "TEMPLATE_OVERLAY",
+    "uid" : "029de3d2-f1c0-4e7c-bf10-969085530266",
+    "description" : {
+      "@type" : "RESOURCE_DESCRIPTION",
+      "originalAuthor" : {
+        "date" : "2025-06-17"
+      },
+      "otherContributors" : [ ],
+      "lifecycleState" : {
+        "codeString" : "unmanaged"
+      },
+      "ipAcknowledgements" : { },
+      "references" : { },
+      "conversionDetails" : { },
+      "otherDetails" : {
+        "licence" : "This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.",
+        "custodian_organisation" : "openEHR Foundation",
+        "original_namespace" : "org.openehr",
+        "original_publisher" : "openEHR Foundation",
+        "custodian_namespace" : "org.openehr",
+        "MD5-CAM-1.0.1" : "c3a235d03fe416b9c10394231feb4843",
+        "PARENT:MD5-CAM-1.0.1" : "db4a3fc86ec3a362f00aa7ff6006fa72"
+      },
+      "details" : {
+        "nb" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nb"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
+    },
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.oncology_imaging_reference_dips.v1",
+    "differential" : true,
+    "archetypeId" : {
+      "@type" : "ARCHETYPE_HRID",
+      "value" : "openEHR-EHR-CLUSTER.ovl-oncology_imaging_reference_dips-001.v1"
+    },
+    "definition" : {
+      "@type" : "C_COMPLEX_OBJECT",
+      "rmTypeName" : "CLUSTER",
+      "nodeId" : "at0000.1",
+      "attributes" : [ {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "items",
+        "children" : [ {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0005.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0004.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
+          "nodeId" : "at0003.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0002.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "TERMINOLOGY_CODE",
+                  "occurrences" : "0..1",
+                  "terminologyId" : {
+                    "value" : "DICOM_modality"
+                  },
+                  "constraint" : [ ],
+                  "selectedTerminologies" : [ "DICOM_modality" ],
+                  "includedExternalTerminologyCodes" : [ {
+                    "terminologyId" : "DICOM_modality",
+                    "code" : "RG",
+                    "value" : "Røntgen"
+                  }, {
+                    "terminologyId" : "DICOM_modality",
+                    "code" : "MG",
+                    "value" : "Mammografi"
+                  }, {
+                    "terminologyId" : "DICOM_modality",
+                    "code" : "US",
+                    "value" : "Ultralyd"
+                  }, {
+                    "terminologyId" : "DICOM_modality",
+                    "code" : "CT",
+                    "value" : "CT"
+                  }, {
+                    "terminologyId" : "DICOM_modality",
+                    "code" : "MR",
+                    "value" : "MR"
+                  }, {
+                    "terminologyId" : "DICOM_modality",
+                    "code" : "NM",
+                    "value" : "Nukleærmedisin"
+                  }, {
+                    "terminologyId" : "DICOM_modality",
+                    "code" : "PT",
+                    "value" : "PET"
+                  }, {
+                    "terminologyId" : "DICOM_modality",
+                    "code" : "PTCT",
+                    "value" : "PET-CT"
+                  }, {
+                    "terminologyId" : "DICOM_modality",
+                    "code" : "PTMR",
+                    "value" : "PET-MR"
+                  }, {
+                    "terminologyId" : "DICOM_modality",
+                    "code" : "OT",
+                    "value" : "Annen modalitet"
+                  } ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        } ]
+      } ],
+      "attributeTuples" : [ ]
+    },
+    "terminology" : {
+      "@type" : "ARCHETYPE_TERMINOLOGY",
+      "conceptCode" : "at0000",
+      "termDefinitions" : {
+        "nb" : { }
+      },
+      "termBindings" : { },
+      "terminologyExtracts" : { },
+      "valueSets" : { }
+    },
+    "adlVersion" : "1.4",
+    "buildUid" : "727f791d-2f75-3044-b997-56e97113617e",
     "rmName" : "openehr",
     "rmRelease" : "1.1.0",
     "generated" : true,
