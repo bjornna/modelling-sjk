@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "MD5-CAM-1.0.1" : "a13f468fd9d806070956f3bad554fe4a",
+      "MD5-CAM-1.0.1" : "ff8450f10fc81def84748ef01fbd9522",
       "PARENT:MD5-CAM-1.0.1" : "7992b64110455bb88760d5f0dd3a9006",
-      "sem_ver" : "5.0.0",
+      "sem_ver" : "6.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -23186,8 +23186,18 @@
             }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
               "nodeId" : "at0003.1",
-              "attributes" : [ ],
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_DATE_TIME",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
               "attributeTuples" : [ ]
             }, {
               "@type" : "C_COMPLEX_OBJECT",
@@ -23256,6 +23266,7 @@
             }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
               "nodeId" : "at0073.1",
               "attributes" : [ {
                 "@type" : "C_ATTRIBUTE",
@@ -23273,7 +23284,7 @@
                       "terminologyId" : {
                         "value" : "local"
                       },
-                      "constraint" : [ "ac0.2" ],
+                      "constraint" : [ "ac0.3" ],
                       "selectedTerminologies" : [ ]
                     } ]
                   } ],
@@ -23341,10 +23352,10 @@
             "description" : "Identificación del problema o diagnóstico, por nombre.",
             "comment" : "Siempre que sea posible, es preferible codificar el nombre del problema o diagnóstico con una terminología."
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -23363,10 +23374,10 @@
             "description" : "Identificación del problema o diagnóstico, por nombre.",
             "comment" : "Se prefiere la codificación del nombre del problema o diagnóstico mediante una terminología cuando esto sea posible."
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -23385,10 +23396,10 @@
             "description" : "Namentliche Identifikation des Problems oder der Diagnose.",
             "comment" : "Wo möglich, ist die Kodierung des Problems oder der Diagnose über eine Terminologie zu bevorzugen."
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -23407,10 +23418,10 @@
             "description" : "Identification of the problem or diagnosis, by name.",
             "comment" : "Coding of the name of the problem or diagnosis with a terminology is preferred, where possible."
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "(Synthesized)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -23429,10 +23440,10 @@
             "description" : "*Identification of the problem or diagnosis, by name.(en)",
             "comment" : "*Coding of the name of the problem or diagnosis with a terminology is preferred, where possible.(en)"
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -23451,10 +23462,10 @@
             "description" : "Identificação do problema ou diagnóstico, por nome.",
             "comment" : "Quando possível, é preferível usar a codificação do nome do problema ou diagnóstico com uma terminologia."
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -23487,10 +23498,10 @@
             "description" : "Angir at fjernmestastase er tilstede. ",
             "comment" : "Klassifiserer fjernmetastase med SNOMED-CT koden  399409002 | Distant metastasis present (finding) |\n\nDen er fast for alle fjernmetastase oppføringer for å klassifisere problemet til å omhandle fjernmestastase. \n\nFeltet vil være skjult for bruker. "
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -23509,10 +23520,10 @@
             "description" : "Identifiering av problemet eller diagnosen efter namn.",
             "comment" : "Kodning av namnet på problemet eller diagnosen med en terminologi är att föredra, om det är tillämpligt."
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -23531,10 +23542,10 @@
             "description" : "명칭으로 문제 또는 진단의 식별.",
             "comment" : "가능하다면, 용어체계를 통한 문제 또는 진단의 명칭을 코딩하는 것이 좋음."
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -23553,10 +23564,10 @@
             "description" : "Ongelman tai diagnoosin tunnistaminen nimellä.",
             "comment" : "*Coding of the name of the problem or diagnosis with a terminology is preferred, where possible.(en)"
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -23575,10 +23586,10 @@
             "description" : "Nome/identificativo del problema o della diagnosi.",
             "comment" : "Si preferisce, ove possibile, la codifica del problema o diagnosi con una terminologia."
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -23597,10 +23608,10 @@
             "description" : "Identificatie van het probleem of de diagnose bij naam.\r\n                            ",
             "comment" : "*Coding of the name of the problem or diagnosis with a terminology is preferred, where possible.(en)"
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -23619,10 +23630,10 @@
             "description" : "*Identification of the problem or diagnosis, by name.(en)",
             "comment" : "*Coding of the name of the problem or diagnosis with a terminology is preferred, where possible.(en)"
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -23641,18 +23652,18 @@
             "description" : "Identificació del problema o diagnòstic, pel nom.",
             "comment" : "*Coding of the name of the problem or diagnosis with a terminology is preferred, where possible.(en)"
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
         "zh-cn" : {
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         }
@@ -23668,6 +23679,11 @@
         "ac0.2" : {
           "@type" : "VALUE_SET",
           "id" : "ac0.2",
+          "members" : [ "at0074", "at0075", "at0076" ]
+        },
+        "ac0.3" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.3",
           "members" : [ "at0074", "at0075", "at0076" ]
         }
       }
@@ -25616,8 +25632,18 @@
             }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
               "nodeId" : "at0003.1",
-              "attributes" : [ ],
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_DATE_TIME",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
               "attributeTuples" : [ ]
             }, {
               "@type" : "C_COMPLEX_OBJECT",
@@ -25686,6 +25712,7 @@
             }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
               "nodeId" : "at0073.1",
               "attributes" : [ {
                 "@type" : "C_ATTRIBUTE",
@@ -25703,7 +25730,7 @@
                       "terminologyId" : {
                         "value" : "local"
                       },
-                      "constraint" : [ "ac0.2" ],
+                      "constraint" : [ "ac0.3" ],
                       "selectedTerminologies" : [ ]
                     } ]
                   } ],
@@ -25771,10 +25798,10 @@
             "description" : "Identificación del problema o diagnóstico, por nombre.",
             "comment" : "Siempre que sea posible, es preferible codificar el nombre del problema o diagnóstico con una terminología."
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -25793,10 +25820,10 @@
             "description" : "Identificación del problema o diagnóstico, por nombre.",
             "comment" : "Se prefiere la codificación del nombre del problema o diagnóstico mediante una terminología cuando esto sea posible."
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -25815,10 +25842,10 @@
             "description" : "Namentliche Identifikation des Problems oder der Diagnose.",
             "comment" : "Wo möglich, ist die Kodierung des Problems oder der Diagnose über eine Terminologie zu bevorzugen."
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -25837,10 +25864,10 @@
             "description" : "Identification of the problem or diagnosis, by name.",
             "comment" : "Coding of the name of the problem or diagnosis with a terminology is preferred, where possible."
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "(Synthesized)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -25859,10 +25886,10 @@
             "description" : "*Identification of the problem or diagnosis, by name.(en)",
             "comment" : "*Coding of the name of the problem or diagnosis with a terminology is preferred, where possible.(en)"
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -25881,10 +25908,10 @@
             "description" : "Identificação do problema ou diagnóstico, por nome.",
             "comment" : "Quando possível, é preferível usar a codificação do nome do problema ou diagnóstico com uma terminologia."
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -25917,10 +25944,10 @@
             "description" : "Angir at fjernmestastase er tilstede. ",
             "comment" : "Klassifiserer fjernmetastase med SNOMED-CT koden  399409002 | Distant metastasis present (finding) |\n\nDen er fast for alle fjernmetastase oppføringer for å klassifisere problemet til å omhandle fjernmestastase. \n\nFeltet vil være skjult for bruker. "
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -25939,10 +25966,10 @@
             "description" : "Identifiering av problemet eller diagnosen efter namn.",
             "comment" : "Kodning av namnet på problemet eller diagnosen med en terminologi är att föredra, om det är tillämpligt."
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -25961,10 +25988,10 @@
             "description" : "명칭으로 문제 또는 진단의 식별.",
             "comment" : "가능하다면, 용어체계를 통한 문제 또는 진단의 명칭을 코딩하는 것이 좋음."
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -25983,10 +26010,10 @@
             "description" : "Ongelman tai diagnoosin tunnistaminen nimellä.",
             "comment" : "*Coding of the name of the problem or diagnosis with a terminology is preferred, where possible.(en)"
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -26005,10 +26032,10 @@
             "description" : "Nome/identificativo del problema o della diagnosi.",
             "comment" : "Si preferisce, ove possibile, la codifica del problema o diagnosi con una terminologia."
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -26027,10 +26054,10 @@
             "description" : "Identificatie van het probleem of de diagnose bij naam.\r\n                            ",
             "comment" : "*Coding of the name of the problem or diagnosis with a terminology is preferred, where possible.(en)"
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -26049,10 +26076,10 @@
             "description" : "*Identification of the problem or diagnosis, by name.(en)",
             "comment" : "*Coding of the name of the problem or diagnosis with a terminology is preferred, where possible.(en)"
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
@@ -26071,18 +26098,18 @@
             "description" : "Identificació del problema o diagnòstic, pel nom.",
             "comment" : "*Coding of the name of the problem or diagnosis with a terminology is preferred, where possible.(en)"
           },
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         },
         "zh-cn" : {
-          "ac0.2" : {
+          "ac0.3" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.2",
+            "code" : "ac0.3",
             "description" : ""
           }
         }
@@ -26098,6 +26125,11 @@
         "ac0.2" : {
           "@type" : "VALUE_SET",
           "id" : "ac0.2",
+          "members" : [ "at0074", "at0075", "at0076" ]
+        },
+        "ac0.3" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.3",
           "members" : [ "at0074", "at0075", "at0076" ]
         }
       }
