@@ -19,8 +19,8 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "96aa87298bd0f20b4dbb026d741c69f4",
-      "PARENT:MD5-CAM-1.0.1" : "8FE80F3E80C594AAF99D3BA540A53D73",
+      "MD5-CAM-1.0.1" : "34e72c26fa8cd72f64337f7f96d0c938",
+      "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960",
       "original_language" : "ISO_639-1::nb",
       "sem_ver" : "2.0.0",
       "build_uid" : ""
@@ -157,6 +157,36 @@
         "otherDetails" : {
           "notes" : "Generated automatically by Adl Designer"
         }
+      },
+      "ca" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "ca"
+        },
+        "purpose" : "Proporcionar un encapçalament de secció genèric que serà rebatejat en una plantilla per adaptar-se a un context clínic específic.",
+        "keywords" : [ ],
+        "use" : "Utilitzar per a construir un encapçalament de secció en una plantilla que serà rebatejada per adaptar-se al context clínic específic. Per exemple: «Títol ad hoc» rebatejat a «Resultats de l'examen».",
+        "misuse" : "No s'ha de deixar sense canvis en una plantilla.",
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "es" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "es"
+        },
+        "purpose" : "Per proporcionar una capçalera de secció genèrica que es canviarà de nom en una plantilla per adaptar-se a un context clínic específic.",
+        "keywords" : [ ],
+        "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
+        "misuse" : "No es deixarà sense canvis en una plantilla.",
+        "originalResourceUri" : { },
+        "otherDetails" : { }
       }
     }
   },
@@ -270,7 +300,9 @@
           "text" : "Tidligere kreft",
           "description" : "Un en-tête de section générique qui doit être renommé dans un modèle pour s'adapter à un contexte clinique spécifique."
         }
-      }
+      },
+      "ca" : { },
+      "es" : { }
     },
     "termBindings" : { },
     "terminologyExtracts" : { },
@@ -294,7 +326,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "D208D25865EF6A8590CAC3E4299A25F4"
+        "PARENT:MD5-CAM-1.0.1" : "9F1B95B53D81FF86EF3DF128A51108E9"
       },
       "details" : {
         "de" : {
@@ -384,6 +416,21 @@
           "keywords" : [ "*Condition, state, illness, syndrome, questionnaire, screening, issue (en)" ],
           "use" : "*Use to create a framework for recording answers to pre-defined screening questions about issues, problems or diagnoses. \r\nThis archeype has deliberately been loosely modelled to be inclusive of the broadest range of issues and problems, as well as diagnoses.\r\n\r\nCommon use cases include, but are not limited to:\r\n- Systematic questioning in any consultation, for example:\r\n--- Diagnosed with cancer? Yes, No, Unknown.\r\n--- Diagnosed with COVID 19 or Influenza in the past twelve months? Yes, No, Unknown.\r\n--- Do you have any worries or concerns? Yes, No, Unknown.\r\n- Specific questioning related to disease surveillance.\r\n\r\nThe semantics of this archetype are intentionally loose, and querying this archetype would normally only be useful or safe within the context of each specific template. In a template, each data element would usually be renamed to the specific question asked. Where value sets have been proposed for common use cases, these can be adapted for local use by using the 'text' choice to match each specific use case.\r\n\r\nThe EVENT structure from the reference model can be used to specify whether the questions relate to point in time or over a period of time. Use a separate instance of this archetype to distinguish between a questionnaire recording information about a procedure that has been performed at any time in the past and information about a procedure performed within a specified time interval - for example the difference between \"Do you have influenza?\" compared to \"Have you had influenza in the past 4 weeks?\"\r\n\r\nThe source of the information in a questionnaire response may vary in different contexts but can be specifically identified using the 'Information provider' element in the Reference Model.\r\n\r\nThis archetype has been designed to be used as a screening tool or to record simple questionnaire-format data for use in situations such as a disease registry. If the screening questionnaire identifies the presence of a problem or diagnosis, it is recommended that clinical system record and persist the specific details about the problem or diagnosis (such as the date of clinical recognition) using the EVALUATION.problem_diagnosis archetype. (en)",
           "misuse" : "*Not to be used to record details about the presence or absence of a problem or diagnosis, outside of a screening context. Use EVALUATION.problem_diagnosis or EVALUATION.exclusion_specific for these purposes.\r\n\r\nNot to be used to to create a framework for recording answers to pre-defined screening questions about procedures that has been carried out in the past. Use the OBSERVATION.procedure_screening for this purpose.\r\n\r\nNot to be used to to create a framework for recording answers to pre-defined screening questions about adverse reactions, use an appropriate archetype for this purpose.\r\n\r\nNot to be used to record details about a simple selection list where a question may be recorded as either \"present\" or \"indeterminate\". Use OBSERVATION.selection_list for this purpose. (en)",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Crear una infraestructura para registrar respuestas a las preguntas de detección predefinidas sobre cuestiones, problemas o diagnósticos.",
+          "keywords" : [ "Condición, estado, enfermedad, síndrome, cuestionario, cribaje, detección, cuestión" ],
+          "use" : "Utilizar para crear una infraestructura para registrar respuestas en las preguntas de detección predefinidas sobre cuestiones, problemas o diagnósticos. Este arquetipo se ha moldeado deliberadamente de forma flexible para poder incluir un rango lo más amplio posible de cuestiones y preguntas, así como de diagnósticos.\r\n\r\nLos casos de uso más frecuentes, pero no limitados, a:\r\n\r\n-Preguntar sistemáticamente en cualquier consulta. Por ejemplo:\r\n\r\n---¿Diagnosticado con cáncer? Sí, No, Desconocido.\r\n\r\n---¿Diagnosticado con COVID-19 o gripe en los últimos doce meses? Sí, No, Desconocido.\r\n\r\n---¿Tiene alguna preocupación? Sí, No, Desconocido.\r\n\r\n-Cuestionario específico relacionado con la vigilancia de enfermedades.\r\n\r\nLa semántica de este arquetipo es intencionalmente laxa, y consultar este arquetipo solo será útil o seguro dentro del contexto de cada plantilla específica. En una plantilla, cada elemento de datos normalmente se volverá a nombrar con una pregunta específica. Cuando se haya propuesto los conjuntos de valores por casos de uso común, estos pueden adaptarse para su uso local utilizando DV_TEXT o DV_BOOLEAN para ajustarse a cada caso de uso específico.\r\n\r\nLa estructura EVENT del modelo de referencia se puede utilizar para especificar si las preguntas están relacionadas con un momento dado o a un período de tiempo. Utilizar una instancia separada de este arquetipo para distinguir entre un cuestionario que registra información sobre un procedimiento realizado en cualquier momento del pasado y la información sobre un procedimiento dentro de un intervalo de tiempo específico. Por ejemplo, la diferencia entre “¿Usted tiene gripe?”, comparado con “¿Usted ha tenido gripe en las últimas 4 semanas?”\r\n\r\nLa fuente de información en una respuesta del cuestionario puede variar en diferentes contextos, pero puede identificarse utilizando el elemento 'Information provider' (Proveedor de información) del Modelo de Referencia.\r\n\r\nEste arquetipo se ha diseñado para utilizarlo como herramienta de detección o para registrar datos sencillos en formato de cuestionario para su uso en situaciones como un registro de enfermedades. Si el cuestionario de detección identifica la presencia de un problema o diagnóstico, se recomienda que se registre el sistema clínico y continúe los detalles específicos sobre el problema o diagnóstico (como la fecha de reconocimiento clínico), utilizando el arquetipo EVALUATION.problem_diagnosis.",
+          "misuse" : "No utilizar para registrar detalles sobre la presencia o ausencia de un problema o diagnóstico, fuera de un contexto de cribado. Para estos fines, utilizar EVALUATION.problem_diagnosis o EVALUATION.exclusion_specific.\r\n\r\nNo utilizar para crear un marco para registrar respuestas a preguntas de cribado predefinidas sobre procedimientos realizados en el pasado. Para este propósito, utilizar OBSERVATION.procedure_screening.\r\n\r\nNo utilizar para crear un marco para registrar respuestas a preguntas de cribado predefinidas sobre reacciones adversas; utilizar un arquetipo apropiado para este propósito.\r\n\r\nNo utilizar para registrar detalles sobre una lista de selección simple en la que una pregunta pueda registrarse como \"presente\" o \"indeterminada\". Para ello, utilice OBSERVATION.selection_list.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -877,6 +924,20 @@
           "ac0.284" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
+            "code" : "ac0.284",
+            "description" : ""
+          }
+        },
+        "es" : {
+          "ac0.282" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.282",
+            "description" : ""
+          },
+          "ac0.284" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
             "code" : "ac0.284",
             "description" : ""
           }
@@ -2391,6 +2452,22 @@
       "otherDetails" : {
         "other_contributors" : "Servei Català de la Salut"
       }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lauramoral@catsalut.cat"
+      },
+      "otherDetails" : {
+        "other_contributors" : "Tradcrea"
+      }
     } ]
   } ],
   "originalLanguage" : {
@@ -2520,6 +2597,34 @@
       "name" : "Vanessa Pereira",
       "organisation" : "Better - Pathfinder",
       "email" : "vanessapereira@protonmail.com"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "ca"
+    },
+    "author" : {
+      "name" : "Laura Moral Lopez",
+      "organisation" : "Sistema de Salut de Catalunya",
+      "email" : "lmorallopez@gmail.com, lauramoral@catsalut.cat"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "es"
+    },
+    "author" : {
+      "name" : "Laura Moral Lopez",
+      "organisation" : "Sistema de Salut de Catalunya",
+      "email" : "lmorallopez@gmail.com"
     },
     "otherDetails" : { }
   } ]
