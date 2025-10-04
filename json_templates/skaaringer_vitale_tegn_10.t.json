@@ -22,8 +22,8 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "bd195c4d571da9b80d787b5955ce9a22",
-      "PARENT:MD5-CAM-1.0.1" : "9D358EB1048EA1401802C3E1FDFB9A29"
+      "MD5-CAM-1.0.1" : "4c1b909be40be605eac9a7e3f1d1ac81",
+      "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
     },
     "details" : {
       "de" : {
@@ -145,6 +145,36 @@
         "keywords" : [ ],
         "originalResourceUri" : { },
         "otherDetails" : { }
+      },
+      "ca" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "ca"
+        },
+        "purpose" : "Proporcionar un encapçalament de secció genèric que serà rebatejat en una plantilla per adaptar-se a un context clínic específic.",
+        "keywords" : [ ],
+        "use" : "Utilitzar per a construir un encapçalament de secció en una plantilla que serà rebatejada per adaptar-se al context clínic específic. Per exemple: «Títol ad hoc» rebatejat a «Resultats de l'examen».",
+        "misuse" : "No s'ha de deixar sense canvis en una plantilla.",
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "es" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "es"
+        },
+        "purpose" : "Per proporcionar una capçalera de secció genèrica que es canviarà de nom en una plantilla per adaptar-se a un context clínic específic.",
+        "keywords" : [ ],
+        "use" : "Utilitzar-se per construir un encapçalament de secció en una plantilla que es canviarà de nom per adaptar-se al context clínic específic. Per exemple: \"Encapçalament ad hoc\" canviat de nom a \"Conclusió de l'examen\".",
+        "misuse" : "No es deixarà sense canvis en una plantilla.",
+        "originalResourceUri" : { },
+        "otherDetails" : { }
       }
     }
   },
@@ -237,7 +267,9 @@
       "sv" : { },
       "de" : { },
       "it" : { },
-      "fr" : { }
+      "fr" : { },
+      "ca" : { },
+      "es" : { }
     },
     "termBindings" : { },
     "terminologyExtracts" : { },
@@ -261,7 +293,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "C75BA8F0FF1D8D127E0E9469D06C9128"
+        "PARENT:MD5-CAM-1.0.1" : "2E2CD19F36E1E5C145E13B29447A92DA"
       },
       "details" : {
         "de" : {
@@ -467,6 +499,51 @@
           "copyright" : "© openEHR Foundation",
           "originalResourceUri" : { },
           "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Registrar la longitud del cuerpo de un paciente desde la coronilla hasta la planta de los pies, ya sea medida o aproximada, y en una posición de pie o reclinada.",
+          "keywords" : [ "encogimiento", "incremento", "decremento", "pérdida de altura", "altura", "crecimiento" ],
+          "use" : "Usar para registrar la altura o longitud corporal medida de un paciente en un momento determinado. Una declaración que indique que el cuerpo no está completo puede registrarse en el elemento del protocolo \"Factores de confusión\", si fuera necesario. Este es el arquetipo que se utiliza habitualmente para una medición típica de la altura o longitud corporal, independientemente del entorno clínico.\r\n\r\nTambién puede utilizarse para registrar una estimación de la altura o longitud corporal en un escenario clínico en el que no sea posible obtener una medición precisa. Por ejemplo, al medir a un niño que no coopera. Esto no se modela de forma explícita en el arquetipo, ya que el modelo de referencia de openEHR permite introducir valores aproximados en cualquier tipo de dato cuantitativo, estableciendo el atributo \"magnitude_status\" con el valor «~».\r\nEn la implementación práctica —por ejemplo, en la interfaz de usuario de una aplicación— se podría permitir a los profesionales de salud seleccionar una casilla debidamente etiquetada junto al campo de altura, para indicar que el valor registrado es una estimación, y no una altura exacta.\r\n\r\nEn general: se recomienda registrar longitud para niños menores de 2 años y para pacientes que no pueden mantenerse de pie; se utiliza altura para todos los demás casos.\r\n\r\nCuando se registre por primera vez la longitud de un recién nacido, debe utilizarse el evento \"Nacimiento\" y especificarse como \"longitud al nacer\".\r\n\r\nTambién puede usarse para registrar incrementos o pérdidas de altura. Actualmente, esto puede modelarse limitando el evento \"cualquier evento\" a un evento de intervalo dentro de una plantilla, con la función matemática de incremento o decremento asociada, según corresponda.",
+          "misuse" : "No utilizar para registrar una altura ajustada, un cálculo de altura completa de un paciente a quien, por ejemplo, le falten partes, o la totalidad de las extremidades inferiores, o tiene contracturas. Un peso corporal calculado se puede basar en medidas de otras partes del cuerpo y en un algoritmo. Utilizar arquetipos específicos para esta finalidad.\r\n\r\nNo utilizar para registrar la velocidad de crecimiento.\r\n\r\nNo utilizar para registrar la longitud de una parte del cuerpo u otro objeto.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es-co" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es-co"
+          },
+          "purpose" : "Registrar la longitud del cuerpo desde la coronilla de la cabeza hasta la planta del pie de un individuo, ya sea medida con precisión o de forma aproximada, en posición de pie o en posición decúbito",
+          "keywords" : [ "Encogimiento", "Aumento", "Disminución", "Pérdida de altura", "Altura", "Longitud", "Crecimiento" ],
+          "use" : "Para ser utilizado para registrar la altura medida o la longitud del cuerpo de un individuo en cualquier momento. Se puede registrar una declaración que identifique la incompletitud física del cuerpo en el elemento de protocolo 'Factores confusos', si es necesario. Este es el arquetipo habitual a utilizar para una medición típica de la altura o longitud del cuerpo, independientemente del entorno clínico.\r\n\r\nTambién se puede utilizar para registrar una aproximación de la medición de la altura o longitud del cuerpo en un escenario clínico donde no sea posible medir con precisión la altura o longitud, por ejemplo, al medir a un niño que no coopera. Esto no está modelado explícitamente en el arquetipo, ya que el modelo de referencia openEHR permite aproximaciones para cualquier tipo de dato de cantidad al establecer el atributo Estado_magnitud en el valor '~'. En la implementación, por ejemplo, la interfaz de usuario de una aplicación podría permitir a los clínicos seleccionar una casilla de verificación etiquetada adecuadamente junto al campo de datos de Altura para indicar que la altura registrada es una aproximación, en lugar de la medida real.\r\n\r\nEn general, se recomiendan las mediciones de longitud para niños menores de 2 años e individuos que no pueden ponerse de pie; las mediciones de altura para todos los demás.\r\n\r\nCuando se registra la primera longitud de un recién nacido poco después del nacimiento, \"longitud al nacer\", utilice el evento \"Nacimiento\".\r\n\r\nÚselo para registrar el crecimiento o pérdida de altura. Esto puede modelarse actualmente restringiendo el 'cualquier evento' a un evento de intervalo dentro de una plantilla, con la función matemática asociada de aumento o disminución, según corresponda.",
+          "misuse" : "No debe utilizarse para registrar una altura ajustada, un cálculo de la altura completa de una persona que, por ejemplo, carece de partes o la totalidad de las extremidades inferiores o presenta contracturas. El peso corporal calculado puede basarse en mediciones de otras partes del cuerpo y un algoritmo. Utilice arquetipos específicos con este propósito.\r\n\r\nNo debe utilizarse para registrar la velocidad de crecimiento.\r\n\r\nNo debe utilizarse para registrar la longitud de un objeto o una parte específica del cuerpo.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Registrar la llargària del cos d'un pacient des de la coroneta fins a la planta dels peus, ja siga mesurada o aproximada, i en una posició dreta o reclinada.",
+          "keywords" : [ "arronsament, augment, disminució, pèrdua d’alçada, alçada, llargària, creixement" ],
+          "use" : "Utilitzar per a registrar l’alçada o llargària del cos mesurada d'un pacient en un moment donat. Una declaració que indiqui que el cos no està complet es pot registrar en l’element protocol·lari «Factors de confusió» si fos necessari. Aquest es l'arquetip utilitzat normalment per a una mesura típica de l’alçada o llargària del cos, independentment dels entorns clínics.",
+          "misuse" : "No utilitzar per a registrar una alçada ajustada, un càlcul de l’alçada completa d’un pacient a qui, per exemple, li manquen parts, o la totalitat de les extremitats inferiors, o té contractures. Un pes corporal calculat es pot basar en mesures d'altres parts del cos i en un algoritme. Utilitzar arquetips específics per aquesta finalitat.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
         }
       }
     },
@@ -552,8 +629,8 @@
                                   "upper" : 1000.0,
                                   "lowerIncluded" : true,
                                   "upperIncluded" : true,
-                                  "upperUnbounded" : false,
-                                  "lowerUnbounded" : false
+                                  "lowerUnbounded" : false,
+                                  "upperUnbounded" : false
                                 } ]
                               } ]
                             } ]
@@ -737,7 +814,10 @@
         "sv" : { },
         "fi" : { },
         "nb" : { },
-        "fr" : { }
+        "fr" : { },
+        "ca" : { },
+        "es-co" : { },
+        "es" : { }
       },
       "termBindings" : {
         "LOINC" : {
@@ -927,6 +1007,51 @@
       },
       "accreditation" : ";MD",
       "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Laura Moral Lopez",
+        "organisation" : "Sistema de Salut de Catalunya",
+        "email" : "lauramoral@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es-co"
+      },
+      "author" : {
+        "name" : "Jessyca Gil",
+        "organisation" : "Hospital Clinic",
+        "email" : "jessyca.gil92@gmail.com"
+      },
+      "accreditation" : "Jessyca Gil",
+      "otherDetails" : {
+        "other_contributors" : "Does not have contributions"
+      }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Laura Moral López",
+        "organisation" : "Servei Català de Salut",
+        "email" : "lauramoral@catsalut.cat"
+      },
+      "otherDetails" : { }
     } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
@@ -939,7 +1064,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "AC4E9E8F5DF9E8CC0B16B1D5A7B3A945"
+        "PARENT:MD5-CAM-1.0.1" : "9BCFBC3ED25D38676D4DB71A384DBD89"
       },
       "details" : {
         "de" : {
@@ -1261,8 +1386,8 @@
                                   "upper" : 1000.0,
                                   "lowerIncluded" : true,
                                   "upperIncluded" : true,
-                                  "upperUnbounded" : false,
-                                  "lowerUnbounded" : false
+                                  "lowerUnbounded" : false,
+                                  "upperUnbounded" : false
                                 } ]
                               } ]
                             } ]
@@ -1666,7 +1791,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "E6E1FB050659D261B841146D96F4DFB0"
+        "PARENT:MD5-CAM-1.0.1" : "45CDA8C2180DDA3CAB6EBB6AF603493D"
       },
       "details" : {
         "de" : {
@@ -1856,6 +1981,36 @@
           "copyright" : "© openEHR Foundation",
           "originalResourceUri" : { },
           "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Para registrar el índice de masa corporal (IMC) de un individuo.",
+          "keywords" : [ "obesidad", "índice", "masa corporal", "IMC", "anorexia", "quetelet", "desnutrición", "retraso del crecimiento", "bulimia" ],
+          "use" : "Se utiliza para registrar el Índice de Masa Corporal (IMC) tanto en adultos como en niños.\r\n\r\nSe utiliza para introducir el IMC manualmente (es decir, calculado e introducido directamente por el profesional sanitario) o automáticamente (es decir, el cálculo y la introducción se realizan automáticamente mediante una aplicación informática, basándose en mediciones independientes de altura y peso).\r\n\r\nFórmulas: El IMC se calcula comúnmente como peso (kg) / [altura (m) al cuadrado]. Esta es la fórmula habitual, a menos que se especifique lo contrario en el elemento \"Fórmula\" del protocolo. Como alternativa, se puede estimar el IMC utilizando libras y pulgadas: peso (lb) / [altura (in) al cuadrado] x 703 (con onzas (oz) y fracciones convertidas a decimales).\r\n\r\nEn algunas situaciones, la fórmula del IMC se corrige, por ejemplo, para su uso en amputados; esta fórmula específica se puede registrar como parte del protocolo. Como alternativa, se puede utilizar el cálculo común del IMC con amputados y lesiones o discapacidades similares si se utiliza la altura y/o el peso ajustados, según corresponda, en lugar de la altura y el peso reales. Consulte openEHR-EHR-OBSERVATION.height-adjusted y openEHR-EHR-OBSERVATION.body_weight-adjusted.\r\n\r\nConsulte la referencia de la OMS sobre el ajuste de la talla/longitud para el índice de masa corporal en pediatría.\r\n\r\nEn niños y adolescentes, el IMC debe evaluarse utilizando tablas de referencia relacionadas con la edad.",
+          "misuse" : "No está destinado a registrar información sobre los percentiles del índice de masa corporal: utilice el arquetipo OBSERVATION.child_growth para este propósito.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Registrar l'índex de massa corporal (IMC) d'un pacient.",
+          "keywords" : [ "obesitat", "índex", "massa", "corporal", "IMC", "anorèxia", "Quetelet", "desnutrició", "problemes", "en", "el", "desenvolupament", "bulímia" ],
+          "use" : "S'utilitza per registrar l'índex de massa corporal tant d'adults com de nens.\r\n\r\nS'utilitza per introduir l'Índex de Massa corporal de forma manual (és a dir, calculat i introduït directament pel clínic), o automàticament (és a dir, el càlcul i l'entrada es fa automàticament per una aplicació de programari, basada en mesures d'alçada i pes separades).\r\n\r\nFórmules: l'índex de massa corporal es calcula normalment com a pes (kg) / [alçada (m) al quadrat). Aquesta és la fórmula assumida llevat que s'especifiqui el contrari en l'element Fórmula dins del Protocol. Alternativament estimeu l'índex de massa corporal utilitzant lliures i polzades: pes (lb) / [alçada (a) al quadrat] x 703 (amb unces (oz) i fraccions canviades a valors decimals).\r\n\r\nEn algunes situacions, la fórmula de l'Índex de Massa del Cos és corregida per exemple per al seu ús en amputats - aquesta fórmula específica es pot registrar com a part del protocol. Alternativament, el càlcul de l'Índex de Massa del Cos comú es pot utilitzar amb amputats i lesions o discapacitats similars si s'utilitza l'alçada i/o el pes ajustat, segons correspongui, en lloc de l'alçada i el pes reals. Vegeu openEHR-EHR-OBSERVATION.height-adjusted i openEHR-EHR-OBSERVATION.body.weight-adjusted.\r\n\r\nVegeu la referència de l'OMS per ajustar l'alçada/longitud de l'índex de massa corporal en pediatria.\r\n\r\nEn nens i adolescents, l'IMC ha de ser avaluat utilitzant gràfics de referència relacionats amb l'edat.",
+          "misuse" : "No està destinat a registrar informació relativa als percentils de l'índex de massa corporal - utilitzeu l'arquetip OBSERVATION.child.growth per a aquest propòsit.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
         }
       }
     },
@@ -1945,8 +2100,8 @@
                                   "upper" : 1000.0,
                                   "lowerIncluded" : true,
                                   "upperIncluded" : false,
-                                  "upperUnbounded" : false,
-                                  "lowerUnbounded" : false
+                                  "lowerUnbounded" : false,
+                                  "upperUnbounded" : false
                                 } ]
                               }, {
                                 "@type" : "C_INTEGER",
@@ -1956,8 +2111,8 @@
                                   "upper" : 1,
                                   "lowerIncluded" : true,
                                   "upperIncluded" : true,
-                                  "upperUnbounded" : false,
-                                  "lowerUnbounded" : false
+                                  "lowerUnbounded" : false,
+                                  "upperUnbounded" : false
                                 } ]
                               } ]
                             } ]
@@ -2077,7 +2232,9 @@
         "nb" : { },
         "sv" : { },
         "fi" : { },
-        "de" : { }
+        "de" : { },
+        "es" : { },
+        "ca" : { }
       },
       "termBindings" : {
         "SNOMED-CT" : {
@@ -2255,6 +2412,34 @@
         "email" : "m.buur-krom@mca.nl, joost.holslag@nedap.com"
       },
       "accreditation" : "Nurse Informatics, MD",
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Clara Calleja Vega",
+        "organisation" : "CatSalut. Servei Català de la Salut.",
+        "email" : "ccalleja@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "TRADCREA, Clara Calleja Vega",
+        "organisation" : "CatSalut. Servei Català de la Salut",
+        "email" : "ccalleja@catsalut.cat"
+      },
       "otherDetails" : { }
     } ]
   }, {
@@ -2489,7 +2674,7 @@
         "original_publisher" : "openEHR Foundation",
         "custodian_namespace" : "org.openehr",
         "MD5-CAM-1.0.1" : "3d71d2b3e3bb98cff22cb86d0405d95d",
-        "PARENT:MD5-CAM-1.0.1" : "F3C2B1F9F81F5E7127FCD92A4F27502A"
+        "PARENT:MD5-CAM-1.0.1" : "915F1B547D5707B2C16255ADCC567E24"
       },
       "details" : {
         "nb" : {
@@ -2541,6 +2726,48 @@
           "purpose" : "*To record the measurement of the functional performance status of a patient with a diagnosis of cancer.(en)",
           "keywords" : [ "performance", "statut", "oncologie", "WHO", "Zubrod", "World Health Organization" ],
           "use" : "*Used to record the measurement of the functional performance status of a patient with a diagnosis of cancer, to:\r\n- assess how a patient's disease is progressing;\r\n- assess how the disease affects the daily living abilities of the patient; and \r\n- determine appropriate treatment and prognosis. \r\n\r\nThe ECOG performance status is in the public domain therefore available for public use. For more information, contact the Eastern Cooperative Oncology Group, Robert Comis M.D., Group Chair - http://www.ecog.org/general/perf_stat.html.(en)",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "sv" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "sv"
+          },
+          "purpose" : "Att registrera mätningen av funktionsstatus hos en patient med cancerdiagnos.",
+          "keywords" : [ "funktion", "status", "onkologi", "who", "zubrod", "World Health Organization", "Världshälsoorganisationen" ],
+          "use" : "Används för att registrera mätningen av funktionsstatus hos en patient med cancerdiagnos, i syfte att:\r\n- bedöma hur patientens sjukdom utvecklas,\r\n- bedöma hur sjukdomen påverkar patientens förmåga att klara dagliga aktiviteter, samt\r\n- fastställa lämplig behandling och prognos.\r\n\r\nFunktionsstatus enligt ECOG är inte skyddat av upphovsrätt och är därmed fritt tillgängligt för allmänt bruk. För mer information, kontakta Eastern Cooperative Oncology Group, Robert Comis M.D., Group Chair – http://www.ecog.org/general/perf_stat.html.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ca" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ca"
+          },
+          "purpose" : "Enregistrar el mesurament de l'estat funcional d'un pacient diagnosticat de càncer.",
+          "keywords" : [ "exercici", "estat", "oncologia", "OMS", "Zubrod", "Organització Mundial de la Salut" ],
+          "use" : "S'utilitza per registrar el mesurament de l'estat funcional d'un pacient diagnosticat de càncer per:\r\n- avaluar com progressa la malaltia d'un pacient;\r\n- avaluar com la malaltia afecta les capacitats de la vida diària del pacient; i\r\n- determinar el pronòstic i el tractament adequats.\r\n\r\nL'estat d'acompliment ECOG és de domini públic i, per tant, està disponible per a ús públic. Per obtenir més informació, contacteu amb l'Eastern Cooperative Oncology Group, Robert Comis M.D., president del grup: http://www.ecog.org/general/perf_stat.html.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "es" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "es"
+          },
+          "purpose" : "Registrar la medición del estado funcional de un paciente diagnosticado de cáncer.",
+          "keywords" : [ "desempeño", "estado", "oncología", "OMS", "Zubrod", "Organización Mundial de la Salud" ],
+          "use" : "Se utiliza para registrar la medición del estado funcional de un paciente diagnosticado de cáncer, para:\r\n- evaluar cómo progresa la enfermedad de un paciente;\r\n- evaluar cómo la enfermedad afecta a las capacidades de la vida diaria del paciente; y\r\n- determinar el pronóstico y tratamiento adecuados.\r\n\r\nEl estado de desempeño ECOG es de dominio público, y, por lo tanto, está disponible para uso público. Para obtener más información, contactar con el Eastern Cooperative Oncology Group, Robert Comis M.D., presidente del grupo: http://www.ecog.org/general/perf_stat.html.",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -2608,7 +2835,10 @@
         "en" : { },
         "nb" : { },
         "de" : { },
-        "fr" : { }
+        "fr" : { },
+        "sv" : { },
+        "ca" : { },
+        "es" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -2662,6 +2892,48 @@
         "name" : "Bassem Khouzam, Vanessa Pereira",
         "organisation" : "Medtronic, Better - Pathfinder",
         "email" : "bassem.khouzam@medtronic.com, vanessapereira@protonmail.com"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "sv"
+      },
+      "author" : {
+        "name" : "Oscar Karlsson",
+        "organisation" : "Karolinska Universitetssjukhuset",
+        "email" : "oscar.karlsson@regionstockholm.se"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Julio de Sosa",
+        "organisation" : "Servei Català de la Salut",
+        "email" : "juliodesosa@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Julio de Sosa",
+        "organisation" : "Servei Català de la Salut",
+        "email" : "juliodesosa@catsalut.cat"
       },
       "otherDetails" : { }
     } ]
@@ -2761,6 +3033,34 @@
       "codeString" : "fr"
     },
     "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "ca"
+    },
+    "author" : {
+      "name" : "Laura Moral Lopez",
+      "organisation" : "Sistema de Salut de Catalunya",
+      "email" : "lmorallopez@gmail.com, lauramoral@catsalut.cat"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "es"
+    },
+    "author" : {
+      "name" : "Laura Moral Lopez",
+      "organisation" : "Sistema de Salut de Catalunya",
+      "email" : "lmorallopez@gmail.com"
+    },
     "otherDetails" : { }
   } ]
 }
