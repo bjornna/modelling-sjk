@@ -19,7 +19,7 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "87f96dd25063ec7d02bdc5ac453aa10b",
+      "MD5-CAM-1.0.1" : "ed0a0a8cf2e338e5739649a3860dc2b4",
       "PARENT:MD5-CAM-1.0.1" : "ea5b465518e56b18fab006cbf773f94d"
     },
     "details" : {
@@ -378,8 +378,8 @@
                       "constraint" : [ {
                         "lowerIncluded" : false,
                         "upperIncluded" : false,
-                        "upperUnbounded" : true,
-                        "lowerUnbounded" : true
+                        "lowerUnbounded" : true,
+                        "upperUnbounded" : true
                       } ]
                     } ]
                   } ]
@@ -404,14 +404,7 @@
     "@type" : "ARCHETYPE_TERMINOLOGY",
     "conceptCode" : "at0000",
     "termDefinitions" : {
-      "nb" : {
-        "at0018.1" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0018.1",
-          "text" : "Type laboratorieundersøkelse",
-          "description" : ""
-        }
-      }
+      "nb" : { }
     },
     "termBindings" : { },
     "terminologyExtracts" : { },
