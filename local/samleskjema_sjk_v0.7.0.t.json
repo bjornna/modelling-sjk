@@ -22,7 +22,7 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "MD5-CAM-1.0.1" : "409e9782ef5476ae04ad4bf8d052640e",
+      "MD5-CAM-1.0.1" : "f48478254b523aaf94d0ebc875d24f99",
       "PARENT:MD5-CAM-1.0.1" : "7992b64110455bb88760d5f0dd3a9006",
       "sem_ver" : "17.0.0",
       "build_uid" : ""
@@ -204,6 +204,15 @@
         "attributes" : [ ],
         "attributeTuples" : [ ],
         "archetypeRef" : "studie_samtykke_10",
+        "referenceType" : "templateId"
+      }, {
+        "@type" : "C_ARCHETYPE_ROOT",
+        "rmTypeName" : "SECTION",
+        "occurrences" : "0..1",
+        "nodeId" : "at0.72",
+        "attributes" : [ ],
+        "attributeTuples" : [ ],
+        "archetypeRef" : "bivirkning_kartlegging_ctcae_10",
         "referenceType" : "templateId"
       } ]
     } ],
