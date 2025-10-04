@@ -22,7 +22,7 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "MD5-CAM-1.0.1" : "899c24fb22badb32862e743c50beefde",
+      "MD5-CAM-1.0.1" : "4f99d3adde939f0a0ce09665c77b53b2",
       "PARENT:MD5-CAM-1.0.1" : "7992b64110455bb88760d5f0dd3a9006",
       "sem_ver" : "17.0.0",
       "build_uid" : ""
@@ -28728,10 +28728,6 @@
                               "constraint" : [ ],
                               "selectedTerminologies" : [ "no.onk.kart.tidligere_komplikasjoner_kreftbehandling" ],
                               "includedExternalTerminologyCodes" : [ {
-                                "terminologyId" : "no.onk.kart.tidligere_komplikasjoner_kreftbehandling",
-                                "code" : "1",
-                                "value" : "Baseline"
-                              }, {
                                 "terminologyId" : "no.onk.kart.tidligere_komplikasjoner_kreftbehandling",
                                 "code" : "2",
                                 "value" : "Under behandling"
