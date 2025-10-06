@@ -27,7 +27,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"b6b2ffdd757f721418798cf9f7c2ddf5">
+		["MD5-CAM-1.0.1"] = <"bb355c8c01954629ed89c9e6fc745dca">
 		["build_uid"] = <"14e5e94b-b0ca-3439-a84a-883d45d483b1">
 	>
 
@@ -45,6 +45,11 @@ definition
 				}
 			}
 			ELEMENT[at0003] occurrences matches {0..1} matches {    -- Ytterligere beskrivelse
+				value matches {
+					DV_TEXT matches {*}
+				}
+			}
+			ELEMENT[at0027] occurrences matches {0..1} matches {    -- Overordnet beskrivelse av strålebehandling
 				value matches {
 					DV_TEXT matches {*}
 				}
@@ -83,6 +88,11 @@ definition
 					}
 				}
 			}
+			ELEMENT[at0028] occurrences matches {0..1} matches {    -- Overordnet beskrivelse av kirurgi
+				value matches {
+					DV_TEXT matches {*}
+				}
+			}
 			CLUSTER[at0022] occurrences matches {0..*} matches {    -- Kirurgi
 				items cardinality matches {1..*; unordered} matches {
 					ELEMENT[at0010] occurrences matches {0..1} matches {    -- Prosedyrekode (NCSP)
@@ -100,6 +110,11 @@ definition
 							DV_DATE_TIME matches {*}
 						}
 					}
+				}
+			}
+			ELEMENT[at0029] occurrences matches {0..1} matches {    -- Overordnet beskrivelse av medikamentell behandling
+				value matches {
+					DV_TEXT matches {*}
 				}
 			}
 			CLUSTER[at0024] occurrences matches {0..*} matches {    -- Medikamentell behandling
@@ -220,6 +235,18 @@ ontology
 				>
 				["at0026"] = <
 					text = <"Totalmengde i perioden mengde/enhet">
+					description = <"">
+				>
+				["at0027"] = <
+					text = <"Overordnet beskrivelse av strålebehandling">
+					description = <"">
+				>
+				["at0028"] = <
+					text = <"Overordnet beskrivelse av kirurgi">
+					description = <"">
+				>
+				["at0029"] = <
+					text = <"Overordnet beskrivelse av medikamentell behandling">
 					description = <"">
 				>
 			>
