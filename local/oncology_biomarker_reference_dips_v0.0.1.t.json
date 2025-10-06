@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "40f6263b3c53c766d7ec4d98f269c4d2",
-      "PARENT:MD5-CAM-1.0.1" : "ea5b465518e56b18fab006cbf773f94d",
-      "sem_ver" : "1.0.0",
+      "MD5-CAM-1.0.1" : "798221c903312962e1cd2fd7faae3f5c",
+      "PARENT:MD5-CAM-1.0.1" : "fc1b27f23a8ea50363ebb5208c01c727",
+      "sem_ver" : "2.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -438,6 +438,265 @@
                     } ]
                   } ]
                 } ]
+              } ]
+            } ],
+            "attributeTuples" : [ ]
+          } ]
+        } ],
+        "attributeTuples" : [ ]
+      }, {
+        "@type" : "C_COMPLEX_OBJECT",
+        "rmTypeName" : "CLUSTER",
+        "nodeId" : "at0019",
+        "attributes" : [ {
+          "@type" : "C_ATTRIBUTE",
+          "rmAttributeName" : "items",
+          "children" : [ {
+            "@type" : "C_COMPLEX_OBJECT",
+            "rmTypeName" : "ELEMENT",
+            "nodeId" : "at0020.1",
+            "attributes" : [ {
+              "@type" : "C_ATTRIBUTE",
+              "rmAttributeName" : "value",
+              "children" : [ {
+                "@type" : "C_COMPLEX_OBJECT",
+                "rmTypeName" : "DV_CODED_TEXT",
+                "attributes" : [ {
+                  "@type" : "C_ATTRIBUTE",
+                  "rmAttributeName" : "defining_code",
+                  "children" : [ {
+                    "@type" : "C_TERMINOLOGY_CODE",
+                    "rmTypeName" : "TERMINOLOGY_CODE",
+                    "occurrences" : "0..1",
+                    "terminologyId" : {
+                      "value" : "SNOMED-CT"
+                    },
+                    "constraint" : [ ],
+                    "selectedTerminologies" : [ "SNOMED-CT" ],
+                    "includedExternalTerminologyCodes" : [ {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E3340C",
+                      "value" : "humant papillomavirus, andre høyrisiko, ikke 16, ikke 18"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E3340D",
+                      "value" : "humant papillomavirus type 33 eller 58"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E3340E",
+                      "value" : "humant papillomavirus type 35, 39 eller 68"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E3340F",
+                      "value" : "humant papillomavirus type 56, 59 eller 66"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E3340G",
+                      "value" : "humant papillomavirus type 31, 33, 52 eller 58"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E3340H",
+                      "value" : "humant papillomavirus type 35, 39, 51, 56, 59, 66 eller 68"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E3340X",
+                      "value" : "humant papillomavirus, ukjent type"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33406",
+                      "value" : "humant papillomavirus type 6"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33411",
+                      "value" : "humant papillomavirus type 11"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33416",
+                      "value" : "humant papillomavirus type 16"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33418",
+                      "value" : "humant papillomavirus type 18"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33426",
+                      "value" : "humant papillomavirus type 26"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33431",
+                      "value" : "humant papillomavirus type 31"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33433",
+                      "value" : "humant papillomavirus type 33"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33435",
+                      "value" : "humant papillomavirus type 35"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33439",
+                      "value" : "humant papillomavirus type 39"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33440",
+                      "value" : "humant papillomavirus type 40"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33442",
+                      "value" : "humant papillomavirus type 42"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33443",
+                      "value" : "humant papillomavirus type 43"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33444",
+                      "value" : "humant papillomavirus type 44"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33445",
+                      "value" : "humant papillomavirus type 45"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33451",
+                      "value" : "humant papillomavirus type 51"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33452",
+                      "value" : "humant papillomavirus type 52"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33453",
+                      "value" : "humant papillomavirus type 53"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33454",
+                      "value" : "humant papillomavirus type 54"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33456",
+                      "value" : "humant papillomavirus type 56"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33458",
+                      "value" : "humant papillomavirus type 58"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33459",
+                      "value" : "humant papillomavirus type 59"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33461",
+                      "value" : "humant papillomavirus type 61"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33462",
+                      "value" : "humant papillomavirus type 62"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33466",
+                      "value" : "humant papillomavirus type 66"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33467",
+                      "value" : "humant papillomavirus type 67"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33468",
+                      "value" : "humant papillomavirus type 68"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33470",
+                      "value" : "humant papillomavirus type 70"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33471",
+                      "value" : "humant papillomavirus type 71"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33472",
+                      "value" : "humant papillomavirus type 72"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33473",
+                      "value" : "humant papillomavirus type 73"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33481",
+                      "value" : "humant papillomavirus type 81"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33482",
+                      "value" : "humant papillomavirus type 82"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33483",
+                      "value" : "humant papillomavirus type 83"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33484",
+                      "value" : "humant papillomavirus type 84"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33485",
+                      "value" : "humant papillomavirus type 85"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E33489",
+                      "value" : "humant papillomavirus type 89"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E32230",
+                      "value" : "humant cytomegalovirus, HCMV"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "E32210",
+                      "value" : "Epstein-Barr-virus"
+                    } ]
+                  } ]
+                } ],
+                "attributeTuples" : [ ]
+              } ]
+            } ],
+            "attributeTuples" : [ ]
+          }, {
+            "@type" : "C_COMPLEX_OBJECT",
+            "rmTypeName" : "ELEMENT",
+            "nodeId" : "at0022.1",
+            "attributes" : [ {
+              "@type" : "C_ATTRIBUTE",
+              "rmAttributeName" : "value",
+              "children" : [ {
+                "@type" : "C_COMPLEX_OBJECT",
+                "rmTypeName" : "DV_CODED_TEXT",
+                "attributes" : [ {
+                  "@type" : "C_ATTRIBUTE",
+                  "rmAttributeName" : "defining_code",
+                  "children" : [ {
+                    "@type" : "C_TERMINOLOGY_CODE",
+                    "rmTypeName" : "TERMINOLOGY_CODE",
+                    "terminologyId" : {
+                      "value" : "SNOMED-CT"
+                    },
+                    "constraint" : [ ],
+                    "selectedTerminologies" : [ "SNOMED-CT" ],
+                    "includedExternalTerminologyCodes" : [ {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "52101004",
+                      "value" : "Påvist (tilstede)"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "2667000",
+                      "value" : "Ikke påvist (ikke tilstede)"
+                    }, {
+                      "terminologyId" : "SNOMED-CT",
+                      "code" : "385660001",
+                      "value" : "Ikke utført"
+                    } ]
+                  } ]
+                } ],
+                "attributeTuples" : [ ]
               } ]
             } ],
             "attributeTuples" : [ ]
