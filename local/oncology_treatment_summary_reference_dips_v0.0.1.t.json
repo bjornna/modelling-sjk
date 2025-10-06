@@ -19,8 +19,10 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "5c0bf5dc371883059a504d9d5d1f5e29",
-      "PARENT:MD5-CAM-1.0.1" : "b6b2ffdd757f721418798cf9f7c2ddf5"
+      "MD5-CAM-1.0.1" : "b22397e73024e9f532f48d89afbb4462",
+      "PARENT:MD5-CAM-1.0.1" : "bb355c8c01954629ed89c9e6fc745dca",
+      "sem_ver" : "0.1.0",
+      "build_uid" : ""
     },
     "details" : {
       "nb" : {
@@ -486,8 +488,8 @@
                       "constraint" : [ {
                         "lowerIncluded" : false,
                         "upperIncluded" : false,
-                        "upperUnbounded" : true,
-                        "lowerUnbounded" : true
+                        "lowerUnbounded" : true,
+                        "upperUnbounded" : true
                       } ]
                     } ]
                   }, {
@@ -502,8 +504,8 @@
                       "constraint" : [ {
                         "lowerIncluded" : false,
                         "upperIncluded" : false,
-                        "upperUnbounded" : true,
-                        "lowerUnbounded" : true
+                        "lowerUnbounded" : true,
+                        "upperUnbounded" : true
                       } ]
                     } ]
                   }, {
@@ -518,8 +520,8 @@
                       "constraint" : [ {
                         "lowerIncluded" : false,
                         "upperIncluded" : false,
-                        "upperUnbounded" : true,
-                        "lowerUnbounded" : true
+                        "lowerUnbounded" : true,
+                        "upperUnbounded" : true
                       } ]
                     } ]
                   }, {
@@ -534,8 +536,8 @@
                       "constraint" : [ {
                         "lowerIncluded" : false,
                         "upperIncluded" : false,
-                        "upperUnbounded" : true,
-                        "lowerUnbounded" : true
+                        "lowerUnbounded" : true,
+                        "upperUnbounded" : true
                       } ]
                     } ]
                   } ]
