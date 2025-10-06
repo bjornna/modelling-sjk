@@ -19,8 +19,10 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "ed0a0a8cf2e338e5739649a3860dc2b4",
-      "PARENT:MD5-CAM-1.0.1" : "ea5b465518e56b18fab006cbf773f94d"
+      "MD5-CAM-1.0.1" : "40f6263b3c53c766d7ec4d98f269c4d2",
+      "PARENT:MD5-CAM-1.0.1" : "ea5b465518e56b18fab006cbf773f94d",
+      "sem_ver" : "1.0.0",
+      "build_uid" : ""
     },
     "details" : {
       "nb" : {
@@ -112,52 +114,104 @@
                 "selectedTerminologies" : [ "SNOMED-CT" ],
                 "includedExternalTerminologyCodes" : [ {
                   "terminologyId" : "SNOMED-CT",
-                  "code" : "122548005",
-                  "value" : "Sylinder-, grovnål-, pistol-, tru-cut-, eller stansebiopsi av mamma"
-                }, {
-                  "terminologyId" : "SNOMED-CT",
-                  "code" : "771625002",
-                  "value" : "Vakuumbiopsi av lesjon i mamma"
-                }, {
-                  "terminologyId" : "SNOMED-CT",
-                  "code" : "274331003",
-                  "value" : "Kirurgisk biopsi av mamma"
-                }, {
-                  "terminologyId" : "SNOMED-CT",
-                  "code" : "10940003",
-                  "value" : "Eksisjonsbiopsi av mamma med preoperativ lokalisering (Diagnostisk kirurgisk merkebiopsi)"
-                }, {
-                  "terminologyId" : "SNOMED-CT",
-                  "code" : "234271004",
-                  "value" : "Biopsi av aksillær lymfeknute (grovnål)"
-                }, {
-                  "terminologyId" : "SNOMED-CT",
-                  "code" : "58347006",
-                  "value" : "Kirurgisk eksisjon av lymfeknute (tilfeldig funn av lymfeknute) (lymfadenektomi)"
-                }, {
-                  "terminologyId" : "SNOMED-CT",
-                  "code" : "387736007",
-                  "value" : "FNAC (finnålsaspirasjon) av mamma"
-                }, {
-                  "terminologyId" : "SNOMED-CT",
-                  "code" : "234282007",
-                  "value" : "FNAC (finnålsaspirasjon) av lymfeknute i aksille"
-                }, {
-                  "terminologyId" : "SNOMED-CT",
-                  "code" : "82078001",
-                  "value" : "Blodprøvetaking"
-                }, {
-                  "terminologyId" : "SNOMED-CT",
-                  "code" : "277762005",
-                  "value" : "Spinalpunksjon"
-                }, {
-                  "terminologyId" : "SNOMED-CT",
                   "code" : "86273004",
                   "value" : "Biopsi"
                 }, {
                   "terminologyId" : "SNOMED-CT",
-                  "code" : "14766002",
-                  "value" : "Aspirasjon"
+                  "code" : "56241004",
+                  "value" : "Benmargsbiopsi, nål eller trokar"
+                }, {
+                  "terminologyId" : "SNOMED-CT",
+                  "code" : "439336003",
+                  "value" : "Børstecytologi"
+                }, {
+                  "terminologyId" : "SNOMED-CT",
+                  "code" : "68688001",
+                  "value" : "Curettage"
+                }, {
+                  "terminologyId" : "SNOMED-CT",
+                  "code" : "13091001",
+                  "value" : "Dilatasjon og utskrapning"
+                }, {
+                  "terminologyId" : "SNOMED-CT",
+                  "code" : "8889005",
+                  "value" : "Eksisjonsbiopsi"
+                }, {
+                  "terminologyId" : "SNOMED-CT",
+                  "code" : "53767003",
+                  "value" : "Endoskopisk biopsi"
+                }, {
+                  "terminologyId" : "SNOMED-CT",
+                  "code" : "12324002",
+                  "value" : "Eksplorativ laparotomi med biopsi"
+                }, {
+                  "terminologyId" : "SNOMED-CT",
+                  "code" : "48635004",
+                  "value" : "Finnålsaspirasjonscytologi"
+                }, {
+                  "terminologyId" : "SNOMED-CT",
+                  "code" : "1082411000202100",
+                  "value" : "Fraksjonert utskrapning"
+                }, {
+                  "terminologyId" : "SNOMED-CT",
+                  "code" : "277590007",
+                  "value" : "Bildeveiledet biopsi"
+                }, {
+                  "terminologyId" : "SNOMED-CT",
+                  "code" : "70871006",
+                  "value" : "Innstnittsbiopsi (Incisional)"
+                }, {
+                  "terminologyId" : "SNOMED-CT",
+                  "code" : "387713003",
+                  "value" : "Kirurgisk inngrep"
+                }, {
+                  "terminologyId" : "SNOMED-CT",
+                  "code" : "274312009",
+                  "value" : "Ikke-kirurgisk biopsi"
+                }, {
+                  "terminologyId" : "SNOMED-CT",
+                  "code" : "129249002",
+                  "value" : "Nålebiopsi"
+                }, {
+                  "terminologyId" : "SNOMED-CT",
+                  "code" : "119283008",
+                  "value" : "Åpen biopsi"
+                }, {
+                  "terminologyId" : "SNOMED-CT",
+                  "code" : "65575008",
+                  "value" : "Prostatabiopsi"
+                }, {
+                  "terminologyId" : "SNOMED-CT",
+                  "code" : "68660007",
+                  "value" : "Stansebiopsi"
+                }, {
+                  "terminologyId" : "SNOMED-CT",
+                  "code" : "72342005",
+                  "value" : "Skrapebiopsi"
+                }, {
+                  "terminologyId" : "SNOMED-CT",
+                  "code" : "274330002",
+                  "value" : "Kriurgisk biopsi"
+                }, {
+                  "terminologyId" : "SNOMED-CT",
+                  "code" : "787127007",
+                  "value" : "Tangbiopsi"
+                }, {
+                  "terminologyId" : "SNOMED-CT",
+                  "code" : "16656451000119100",
+                  "value" : "Transkateterbiopsi"
+                }, {
+                  "terminologyId" : "SNOMED-CT",
+                  "code" : "50590007",
+                  "value" : "Trepanbiopsi"
+                }, {
+                  "terminologyId" : "SNOMED-CT",
+                  "code" : "5337005",
+                  "value" : "Trokarbiopsi"
+                }, {
+                  "terminologyId" : "SNOMED-CT",
+                  "code" : "786883001",
+                  "value" : "Vakuumassistert biopsi"
                 } ]
               } ]
             } ],
@@ -213,7 +267,7 @@
       }, {
         "@type" : "C_COMPLEX_OBJECT",
         "rmTypeName" : "CLUSTER",
-        "nodeId" : "at0010",
+        "nodeId" : "at0010.1",
         "attributes" : [ {
           "@type" : "C_ATTRIBUTE",
           "rmAttributeName" : "items",
