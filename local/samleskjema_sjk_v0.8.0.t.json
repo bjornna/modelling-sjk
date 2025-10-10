@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "MD5-CAM-1.0.1" : "dd7d0a798e1e028d3c3b4114fd5174d9",
+      "MD5-CAM-1.0.1" : "ad3c55e4660c83e3b047c8e6e8c64dc3",
       "PARENT:MD5-CAM-1.0.1" : "7992b64110455bb88760d5f0dd3a9006",
-      "sem_ver" : "22.0.0",
+      "sem_ver" : "23.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -19587,10 +19587,6 @@
                     "terminologyId" : "SNOMED-CT",
                     "code" : "431938005",
                     "value" : "Urinveier"
-                  }, {
-                    "terminologyId" : "SNOMED-CT",
-                    "code" : "74964007",
-                    "value" : "Annet"
                   } ]
                 } ]
               } ],
@@ -24067,10 +24063,6 @@
                     "terminologyId" : "SNOMED-CT",
                     "code" : "431938005",
                     "value" : "Urinveier"
-                  }, {
-                    "terminologyId" : "SNOMED-CT",
-                    "code" : "74964007",
-                    "value" : "Annet"
                   } ]
                 } ]
               } ],
