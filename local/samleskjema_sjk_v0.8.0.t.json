@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "MD5-CAM-1.0.1" : "3eaa9c8f6a24242e4a9bcd966230c47b",
+      "MD5-CAM-1.0.1" : "069ae48b14845edc1ca3ad67c5609658",
       "PARENT:MD5-CAM-1.0.1" : "7992b64110455bb88760d5f0dd3a9006",
-      "sem_ver" : "20.0.0",
+      "sem_ver" : "21.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -29802,6 +29802,13 @@
             "code" : "at0000.1",
             "text" : "Annen klassifisering/gradering av tumor",
             "description" : "Detaljer om funn som underbygger et klinisk utsagn."
+          },
+          "at0022.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0022.1",
+            "text" : "Navn på klassifisering/gradering",
+            "description" : "Typen undersøkelse eller utredning som er utført for å komme fram til funnet.",
+            "comment" : "Metoden bør vurderes kodet med en terminologi der dette er mulig. For eksempel fysisk undersøkelse, røntgen thorax, patologisvar, koloskopi."
           }
         },
         "de" : { },
