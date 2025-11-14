@@ -8,7 +8,7 @@
     },
     "otherContributors" : [ ],
     "lifecycleState" : {
-      "codeString" : "release_candidate"
+      "codeString" : "rejected"
     },
     "ipAcknowledgements" : { },
     "references" : { },
@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "78d67b446bdc3c55342f4379080aa20f",
+      "MD5-CAM-1.0.1" : "040d4ed51d63541be2ca7761a6f1d04b",
       "PARENT:MD5-CAM-1.0.1" : "DB7D4B698449B0D99CB352CDB935B693",
-      "sem_ver" : "6.0.0",
+      "sem_ver" : "7.0.0",
       "build_uid" : "",
       "original_language" : "ISO_639-1::nb"
     },
@@ -34,7 +34,7 @@
           },
           "codeString" : "nb"
         },
-        "purpose" : "For å registrere et individs samlivsstatus i forbindelse med prosjektet Strukturert Kreftjournal.",
+        "purpose" : "For å registrere et individs samlivsstatus i forbindelse med prosjektet Strukturert Kreftjournal.\n\nErstattes av no.openehr::openEHR-EHR-EVALUATION.sjk_samlivsstatus.v1.0.0-alpha.1.0.0",
         "use" : "Brukes for å registrere et individs samlivsstatus i forbindelse med prosjektet Strukturert Kreftjournal. Det er med vilje ikke brukt juridisk sivilstand da dette registreres i PAS delen av EPJ.\n\nVerdisettet for dataelementet \"Samlivsstatus\" er standardisert med bakgrunn i variabler fra SSB (https://www.ssb.no/klass/klassifikasjoner/19).\n\nDette templatet vil bli brukt i prosjektet Strukturert Kreftjournal under sosialanamnese.\n\nSmåtemplatet med det standardiserte verdisettet kan benyttes utenfor Strukturert kreftjournal hvor det lagres data om samlivsstatus.",
         "misuse" : "Brukes ikke for å registrere juridisk sivilstand. Dette vil registreres i den pasientadministrative delen av pasientjournal.",
         "originalResourceUri" : { },
@@ -247,7 +247,7 @@
     "valueSets" : { }
   },
   "adlVersion" : "1.4",
-  "buildUid" : "42d8698e-bf48-32c3-a896-7b5958f99a9d",
+  "buildUid" : "633dc76a-a90e-309b-8526-4fd99dc495ba",
   "rmName" : "openehr",
   "rmRelease" : "1.1.0",
   "generated" : true,
@@ -264,7 +264,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "9964368375cb70af3343d2ebdffc4121"
+        "PARENT:MD5-CAM-1.0.1" : "c773985dc35fce99f8fcd5acf95184dc"
       },
       "details" : {
         "nb" : {
@@ -349,6 +349,36 @@
                   } ]
                 } ]
               } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0002.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0003.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ ],
               "attributeTuples" : [ ]
             } ]
           } ],
