@@ -10,7 +10,7 @@
     },
     "otherContributors" : [ ],
     "lifecycleState" : {
-      "codeString" : "unmanaged"
+      "codeString" : "deprecated"
     },
     "ipAcknowledgements" : { },
     "references" : { },
@@ -23,7 +23,7 @@
       "custodian_namespace" : "org.openehr",
       "MD5-CAM-1.0.1" : "4903f89d96222cafc3143ee6f58a4f09",
       "PARENT:MD5-CAM-1.0.1" : "4C480DDF0FB01319D297CBAFCDE50415",
-      "sem_ver" : "5.0.0",
+      "sem_ver" : "6.0.0",
       "build_uid" : "",
       "original_language" : "ISO_639-1::nb"
     },
@@ -36,7 +36,7 @@
           },
           "codeString" : "nb"
         },
-        "purpose" : "For å registrere om et individ har ansvar/omsorg for mindreårige barn og andre individer over 18 år i forbindelse med prosjektet Strukturert Kreftjournal.",
+        "purpose" : "For å registrere om et individ har ansvar/omsorg for mindreårige barn og andre individer over 18 år i forbindelse med prosjektet Strukturert Kreftjournal.\n\nErstattes av no.openehr::openEHR-EHR-EVALUATION.sjk_omsorgsansvar_kartlegging.v1.0.0-alpha.1.0.0",
         "keywords" : [ "Omsorg, verge" ],
         "use" : "Brukes for å registrere kartleggingsspørsmål om et individ har ansvar/omsorg for mindreårige barn og andre individer over 18 år i forbindelse med prosjektet Strukturert Kreftjournal.\n\nDette templatet vil bli brukt i prosjektet Strukturert Kreftjournal under sosialanamnese.\n\nArketypen Kartleggingsspørsmål om sosiale forhold (openEHR-EHR-OBSERVATION.social_context_screening.v1) er benyttet med to spørsmål, ett for om pasienten har ansvar for barn under 18 år og et spørsmål for om pasienten har ansvar for egne barn/andre over 18 år. \n\nSmåtemplatet med det standardiserte verdisettet kan benyttes utenfor Strukturert kreftjournal hvor det lagres data om kartleggingsspørsmål om omsorgsansvar.",
         "originalResourceUri" : { },
@@ -1068,7 +1068,7 @@
     }
   },
   "adlVersion" : "1.4",
-  "buildUid" : "3cbb778c-7c1e-392d-b72f-14995d51bb52",
+  "buildUid" : "cbcbe015-0780-3f31-a139-2d69b26485a5",
   "rmName" : "openehr",
   "rmRelease" : "1.1.0",
   "generated" : true,
