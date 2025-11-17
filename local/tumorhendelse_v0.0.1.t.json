@@ -8,7 +8,7 @@
     },
     "otherContributors" : [ ],
     "lifecycleState" : {
-      "codeString" : "unmanaged"
+      "codeString" : "rejected"
     },
     "ipAcknowledgements" : { },
     "references" : { },
@@ -19,8 +19,10 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "ec67b00d0bbcfd1a9893b1652389c24e",
-      "PARENT:MD5-CAM-1.0.1" : "8cfdd7a3ed97c8116d098843016dfe55"
+      "MD5-CAM-1.0.1" : "10080054ad346d2e19f7e707d03023cb",
+      "PARENT:MD5-CAM-1.0.1" : "8cfdd7a3ed97c8116d098843016dfe55",
+      "sem_ver" : "0.1.0",
+      "build_uid" : ""
     },
     "details" : {
       "nb" : {
@@ -31,7 +33,7 @@
           },
           "codeString" : "nb"
         },
-        "keywords" : [ ],
+        "keywords" : [ "Erstattet av no.openehr__openEHR-EHR-SECTION.sjk_tumorhendelse.v1.0.0-alpha.1.0.1" ],
         "originalResourceUri" : { },
         "otherDetails" : { }
       }
@@ -204,7 +206,7 @@
     "valueSets" : { }
   },
   "adlVersion" : "1.4",
-  "buildUid" : "7435fa60-35c1-3cc8-99c4-6119940d1b13",
+  "buildUid" : "e6af6b96-eb5c-3bee-a772-ef4d78563583",
   "rmName" : "openehr",
   "rmRelease" : "1.1.0",
   "generated" : true,
