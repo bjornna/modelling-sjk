@@ -19,7 +19,7 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "34e72c26fa8cd72f64337f7f96d0c938",
+      "MD5-CAM-1.0.1" : "c584e3e4bc56ef604123ea2f89982e50",
       "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960",
       "original_language" : "ISO_639-1::nb",
       "sem_ver" : "2.0.0",
@@ -34,7 +34,7 @@
           },
           "codeString" : "nb"
         },
-        "purpose" : "For å registrere tidligere kreft i forbindelse med prosjektet Strukturert kreftjournal.",
+        "purpose" : "For å registrere tidligere kreft i forbindelse med prosjektet Strukturert kreftjournal.\n\nErstattes av templatet: no.openehr::openEHR-EHR-SECTION.sjk_tidligere_kreft.v1.0.0",
         "keywords" : [ "kreft, onkologi" ],
         "use" : "Brukes for å registrere tidligere kreft i forbindelse med prosjektet Strukturert kreftjournal.\n\nSmåtemplatet kan benyttes utenfor Strukturert kreftjournal hvor det lagres data om tidligere kreft.",
         "misuse" : "",
