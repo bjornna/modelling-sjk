@@ -36,7 +36,7 @@
           },
           "codeString" : "nb"
         },
-        "purpose" : "For å registrere om et individs samlivsform (bor eller bor ikke alene).",
+        "purpose" : "For å registrere om et individs samlivsform (bor eller bor ikke alene).\n\nErstatter templatet samlivsform_kartlegging.",
         "keywords" : [ "samliv, samboer, særboer" ],
         "use" : "Brukes for å registrere et individs samlivsform, dvs. om individet bor sammen med noen eller ikke.\n\nDette templatet vil bli brukt i prosjektet Strukturert Kreftjournal under sosialanamnese.\n\nArketypen Kartleggingsspørsmål om sosiale forhold (openEHR-EHR-OBSERVATION.social_context_screening.v1) er benyttet med spørsmål om hvilken samlivsform pasienten har. \n\nSmåtemplatet med det standardiserte verdisettet kan benyttes utenfor Strukturert kreftjournal hvor det lagres data om en pasients samlivsstatus.\n\nVerdisettet med tilhørende forklaring i dette templatet for samlivsstatus er:\n1 - Bor alene (Inkl. Alene med barn <18).\n2 - Bor med noen (Partner og eller barn >18 år, bofelleskap, venner).\n3 - Bor på institusjon/ sykehjem (Fast plass, ikke korttidsopphold. Gjelder også der egen bolig er døgnbemannet).\n9 - Ukjent",
         "originalResourceUri" : { },
