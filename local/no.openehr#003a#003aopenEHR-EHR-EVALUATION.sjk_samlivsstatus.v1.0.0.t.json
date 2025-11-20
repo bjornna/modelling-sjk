@@ -34,7 +34,7 @@
           },
           "codeString" : "nb"
         },
-        "purpose" : "For å registrere et individs samlivsstatus i forbindelse med prosjektet Strukturert Kreftjournal.",
+        "purpose" : "For å registrere et individs samlivsstatus i forbindelse med prosjektet Strukturert Kreftjournal.\n\nErstatter templatet samlivsstatus_20.",
         "use" : "Brukes for å registrere et individs samlivsstatus i forbindelse med prosjektet Strukturert Kreftjournal. Det er med vilje ikke brukt juridisk sivilstand da dette registreres i PAS delen av EPJ.\n\nVerdisettet for dataelementet \"Samlivsstatus\" er standardisert med bakgrunn i variabler fra SSB (https://www.ssb.no/klass/klassifikasjoner/19).\n\nDette templatet vil bli brukt i prosjektet Strukturert Kreftjournal under sosialanamnese.\n\nSmåtemplatet med det standardiserte verdisettet kan benyttes utenfor Strukturert kreftjournal hvor det lagres data om samlivsstatus.",
         "misuse" : "Brukes ikke for å registrere juridisk sivilstand. Dette vil registreres i den pasientadministrative delen av pasientjournal.",
         "originalResourceUri" : { },
