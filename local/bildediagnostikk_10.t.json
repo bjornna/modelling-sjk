@@ -11,7 +11,7 @@
     },
     "otherContributors" : [ "Liv Laugen, John Tore Valand" ],
     "lifecycleState" : {
-      "codeString" : "unmanaged"
+      "codeString" : "deprecated"
     },
     "ipAcknowledgements" : { },
     "references" : { },
@@ -36,7 +36,7 @@
           },
           "codeString" : "nb"
         },
-        "purpose" : "Danner en basis struktur for å kartlegge om det er gjort bildediagnostikk av pasienten. Registreringene vil danne et sammendrag av bildediagnostiske undersøkelser og gir med det en oversikt for den enkelte pasient. ",
+        "purpose" : "Danner en basis struktur for å kartlegge om det er gjort bildediagnostikk av pasienten. Registreringene vil danne et sammendrag av bildediagnostiske undersøkelser og gir med det en oversikt for den enkelte pasient. \n\nErstattes av no.openehr::openEHR-EHR-SECTION.sjk_bildediagnostikk.v1.0.0.",
         "keywords" : [ ],
         "misuse" : "",
         "originalResourceUri" : { },
@@ -88,7 +88,7 @@
     "valueSets" : { }
   },
   "adlVersion" : "1.4",
-  "buildUid" : "98327778-2021-3db4-a7ff-ad67da71f750",
+  "buildUid" : "4b0cfc14-e144-3e32-8cbd-3cee60e1b4f3",
   "rmName" : "openehr",
   "rmRelease" : "1.1.0",
   "generated" : true,
