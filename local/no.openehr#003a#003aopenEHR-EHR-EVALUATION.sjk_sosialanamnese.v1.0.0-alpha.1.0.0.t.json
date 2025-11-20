@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "281895f67eedc4da28663793b81840ab",
+      "MD5-CAM-1.0.1" : "b6561310d0f5b079aec81dd8fce38c10",
       "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960",
-      "sem_ver" : "2.0.0",
+      "sem_ver" : "3.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -231,10 +231,10 @@
         "@type" : "C_ARCHETYPE_ROOT",
         "rmTypeName" : "OBSERVATION",
         "occurrences" : "0..1",
-        "nodeId" : "at0.31",
+        "nodeId" : "at0.33",
         "attributes" : [ ],
         "attributeTuples" : [ ],
-        "archetypeRef" : "no.openehr::openEHR-EHR-EVALUATION.sjk_omsorgsansvar_kartlegging.v1.0.0-alpha.1.0.0",
+        "archetypeRef" : "no.openehr__openEHR-EHR-EVALUATION.sjk_omsorgsansvar_kartlegging.v1.0.0",
         "referenceType" : "templateId"
       }, {
         "@type" : "C_ARCHETYPE_ROOT",
