@@ -11,7 +11,7 @@
     },
     "otherContributors" : [ ],
     "lifecycleState" : {
-      "codeString" : "release_candidate"
+      "codeString" : "deprecated"
     },
     "ipAcknowledgements" : { },
     "references" : { },
@@ -168,7 +168,7 @@
           },
           "codeString" : "nb"
         },
-        "purpose" : "Datamodell for metastaser. Modellen dekker alle former for sekundærtumor, dvs. både regionale lymfeknutemetastaser og øvrige metastaser. ",
+        "purpose" : "Datamodell for metastaser. Modellen dekker alle former for sekundærtumor, dvs. både regionale lymfeknutemetastaser og øvrige metastaser. \n\nErstattes av no.openehr__openEHR-EHR-EVALUATION.sjk_metastase.v1.0.0",
         "keywords" : [ "SJK, metastaser" ],
         "originalResourceUri" : { },
         "otherDetails" : { }
@@ -930,7 +930,7 @@
     }
   },
   "adlVersion" : "1.4",
-  "buildUid" : "f6840141-29fd-35ac-9909-a36dd1fc9197",
+  "buildUid" : "5f7db3ee-2a3e-367c-b6f3-6e165217525b",
   "rmName" : "openehr",
   "rmRelease" : "1.1.0",
   "generated" : true,
