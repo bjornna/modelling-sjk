@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "57618ae011695daec6a2a2e15ab39df5",
+      "MD5-CAM-1.0.1" : "3cd8dbffd2e8cad84accaea8f5a7a2a6",
       "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960",
-      "sem_ver" : "6.0.0",
+      "sem_ver" : "7.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -195,10 +195,10 @@
         "@type" : "C_ARCHETYPE_ROOT",
         "rmTypeName" : "EVALUATION",
         "occurrences" : "0..1",
-        "nodeId" : "at0.19",
+        "nodeId" : "at0.41",
         "attributes" : [ ],
         "attributeTuples" : [ ],
-        "archetypeRef" : "no.openehr::openEHR-EHR-SECTION.sjk_utdanningssammendrag.v1.0.0-alpha.1.0.0",
+        "archetypeRef" : "no.openehr__openEHR-EHR-SECTION.sjk_utdanningssammendrag.v1.0.0",
         "referenceType" : "templateId"
       }, {
         "@type" : "C_ARCHETYPE_ROOT",
