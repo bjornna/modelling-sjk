@@ -20,10 +20,10 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "8.0.0",
+      "sem_ver" : "9.0.0",
       "build_uid" : "",
       "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960",
-      "MD5-CAM-1.0.1" : "8bfc0179f44c6752debeabee1ee97930"
+      "MD5-CAM-1.0.1" : "6215db560ed46d464e97604cd365ca16"
     },
     "details" : {
       "de" : {
@@ -5709,6 +5709,22 @@
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
           "occurrences" : "0..0",
+          "nodeId" : "at0200.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_DATE_TIME",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
           "nodeId" : "at0028.1",
           "attributes" : [ {
             "@type" : "C_ATTRIBUTE",
@@ -6073,8 +6089,7 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0001.1",
             "text" : "Navn på symptom/sykdomstegn",
-            "description" : "Navnet på det rapporterte symptomet eller sykdomstegnet.",
-            "comment" : "Designkommentar: \nHvis man har svart ja i \"spesifikt symptom/sykdomstegn\" i kartleggingsarketypen, arves navnet ned til dette elementet.\nKodes med SNOMED-CT hvis mulig."
+            "description" : "Navnet på det rapporterte symptomet eller sykdomstegnet."
           },
           "at0002.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -6082,6 +6097,13 @@
             "text" : "Beskrivelse",
             "description" : "Fritekstbeskrivelse av det rapporterte symptomet eller sykdomstegnet.",
             "comment" : "Hvis man velger \"annet\" på symptom så kan man legge inn tekst i dette feltet. "
+          },
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000",
+            "text" : "Symptom/Sykdomstegn",
+            "description" : "Rapportert observasjon av fysiske tegn eller beskrivelse av unormale eller ubehagelige fornemmelser i kropp og/eller sinn.",
+            "comment" : "Designkommentar: \nDenne arketypen er satt inn for å kunne registrere symptomer og sykdomstegn i en \"ekte\" arketype. \nHvis man har svart ja i \"spesifikt symptom/sykdomstegn\" i kartleggingsarketypen, arves navnet ned til dette elementet. \nKodes med SNOMED-CT hvis mulig."
           }
         },
         "fi" : { },
