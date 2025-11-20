@@ -21,9 +21,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "d2bdd99395b2c7601aa771159ef7ad76",
+      "MD5-CAM-1.0.1" : "fca2291953710dfcd731c2217412842c",
       "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960",
-      "sem_ver" : "1.0.0",
+      "sem_ver" : "1.0.1",
       "build_uid" : ""
     },
     "details" : {
@@ -842,7 +842,7 @@
             "code" : "at0004.2",
             "text" : "Subjektiv hørselstap",
             "description" : "Kodet verdi som definerer problemet til å være hørselstap ",
-            "comment" : "Teknisk felt skjult for bruker. "
+            "comment" : "Designkommentar: \nTeknisk felt skjult for bruker. \n\n255362007 | Subjective |"
           },
           "ac0.12" : {
             "@type" : "ARCHETYPE_TERM",
