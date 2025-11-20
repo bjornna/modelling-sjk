@@ -20,10 +20,10 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "9.0.1",
+      "sem_ver" : "10.0.0",
       "build_uid" : "",
       "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960",
-      "MD5-CAM-1.0.1" : "eea93d3b50903066fde704f6f487db69"
+      "MD5-CAM-1.0.1" : "e5ceef179bf6b3f0fc905045cdc1ae20"
     },
     "details" : {
       "de" : {
@@ -567,7 +567,7 @@
                               "terminologyId" : {
                                 "value" : "local"
                               },
-                              "constraint" : [ "ac0.718" ],
+                              "constraint" : [ "ac0.905" ],
                               "selectedTerminologies" : [ ]
                             } ]
                           } ],
@@ -751,16 +751,16 @@
             "description" : "Series of questions and associated answers used to screen for symptoms or signs.",
             "comment" : "The answers may be self-reported."
           },
-          "ac0.718" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.718",
-            "description" : ""
-          },
           "ac0.857" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "(Synthesized)",
             "code" : "ac0.857",
+            "description" : ""
+          },
+          "ac0.905" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.905",
             "description" : ""
           }
         },
@@ -772,16 +772,16 @@
             "description" : "*Answers to questions about symptoms or signs in a pre-defined screening questionnaire. (en)",
             "comment" : "*The answers may be self-reported. (en)"
           },
-          "ac0.718" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*(Synthesized) (en)",
-            "code" : "ac0.718",
-            "description" : ""
-          },
           "ac0.857" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.857",
+            "description" : ""
+          },
+          "ac0.905" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.905",
             "description" : ""
           }
         },
@@ -797,8 +797,8 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0029.1",
             "text" : "Debut første symptom/sykdomstegn",
-            "description" : "Tidspunktet for det første symptomet/sykdomstegnet oppsto.",
-            "comment" : "Tidspunktet for når det første symptomet/sykdomstegnet oppsto."
+            "description" : "Tidspunktet da det første symptomet/sykdomstegnet oppsto.",
+            "comment" : "Designkommentar:\nTidspunktet for når det første symptomet/sykdomstegnet oppsto. \nHvis man vil ha tidspunkt for hvert enkelt symptom/sykdomstegn kan man legge til \"Tidsangivelse\" elementet."
           },
           "at0022.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -812,7 +812,7 @@
             "code" : "at0004.1",
             "text" : "Navn på symptom/sykdomstegn",
             "description" : "Navn på det spesifikke symptomet eller sykdomstegnet; eller gruppen av symptomer eller sykdomstegn.",
-            "comment" : "Designkommentar:\nNavnet på symptomet/sykdomstegnet. \nKod med SNOMED-CT om mulig. \n "
+            "comment" : "Designkommentar:\nNavnet på symptomet/sykdomstegnet. \nKod med SNOMED-CT om mulig. \n For eksempel:\n22253000 Smerter (finding)\n247347003 Ubehag (finding)\n422587007 kvalme (finding)\n25064002  hodepine (finding)"
           },
           "at0005.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -825,7 +825,7 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0028",
             "text" : "Symptomer eller sykdomstegn?",
-            "description" : "Finnes det noen tidligere symptomer eller sykdomstegn som er innenfor kartleggingsformålet?",
+            "description" : "Finnes det noen symptom/sykdomstegn hos pasienten?",
             "comment" : "Designkommentar:\nHvis det er svart ja på symptom så kan legge inn hvilke symptom ved å gjenta elementet \"spesifikk symptom/sykdomstegn\" for hvert symptom. Det lagres da ja/bekreftende og det legges i tillegg  inn den spesifikke arketypen CLUSTER.symptom_sign.v2 med navnet til symptomet som man har svar ja på.\n\nHvis man har brukt \"Henvisningsårsak\" og et av valgene er symptom vil lokikken vanligvis være at hvis det er krysset av for symptomer skal denne automatisk settes til ja. "
           },
           "at0034.1" : {
@@ -833,18 +833,25 @@
             "code" : "at0034",
             "text" : "Kartleggingsformål",
             "description" : "Konteksten eller årsaken for kartleggingen.",
-            "comment" : "Designkommentar: Det er valgt et kodesett for kartleggingsformål for SJK som finnes her: https://github.com/ehrforce/modelling-sjk/wiki/Generelle-kodeverk#kartleggingsform%C3%A5l-i-kartleggingsarketyper"
-          },
-          "ac0.718" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*(Synthesized) (en)",
-            "code" : "ac0.718",
-            "description" : ""
+            "comment" : "Designkommentar: \nDet er valgt et kodesett for kartleggingsformål for SJK som finnes på codeberg: https://codeberg.org/openEHR-no/strukturert-journal-kreft/wiki/Kartleggingsform%C3%A5l"
           },
           "ac0.857" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.857",
+            "description" : ""
+          },
+          "at0037.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0037",
+            "text" : "Tidsangivelse",
+            "description" : "Tidsangivelse for symptomet eller sykdomstegnet.",
+            "comment" : "Designkommenter:\nDenne kan eksponeres hvis man ønsker å ha dato på da symptomet/sykdomstegnet oppsto. "
+          },
+          "ac0.905" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.905",
             "description" : ""
           }
         },
@@ -856,16 +863,16 @@
             "description" : "Eine Reihe von Fragen und zugehörigen Antworten, die zum Screening auf Symptome oder Anzeichen verwendet werden.",
             "comment" : "Die Antworten können selbst berichtet werden."
           },
-          "ac0.718" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*(Synthesized) (en)",
-            "code" : "ac0.718",
-            "description" : ""
-          },
           "ac0.857" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.857",
+            "description" : ""
+          },
+          "ac0.905" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.905",
             "description" : ""
           }
         },
@@ -877,16 +884,16 @@
             "description" : "*Answers to questions about symptoms or signs in a pre-defined screening questionnaire. (en)",
             "comment" : "*The answers may be self-reported. (en)"
           },
-          "ac0.718" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*(Synthesized) (en)",
-            "code" : "ac0.718",
-            "description" : ""
-          },
           "ac0.857" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.857",
+            "description" : ""
+          },
+          "ac0.905" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.905",
             "description" : ""
           }
         },
@@ -898,16 +905,16 @@
             "description" : "Lista av frågor och tillhörande svarsalternativ, används för att screena efter symtom eller tecken.",
             "comment" : "Svaren kan vara självrapporterade."
           },
-          "ac0.718" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*(Synthesized) (en)",
-            "code" : "ac0.718",
-            "description" : ""
-          },
           "ac0.857" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.857",
+            "description" : ""
+          },
+          "ac0.905" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.905",
             "description" : ""
           }
         },
@@ -919,16 +926,16 @@
             "description" : "Série de questions et de réponses associées utilisées pour dépister des symptômes ou des signes.",
             "comment" : "Les réponses peuvent être autodéclarées."
           },
-          "ac0.718" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*(Synthesized) (en)",
-            "code" : "ac0.718",
-            "description" : ""
-          },
           "ac0.857" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.857",
+            "description" : ""
+          },
+          "ac0.905" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.905",
             "description" : ""
           }
         },
@@ -940,44 +947,44 @@
             "description" : "用于筛查症状或体征的一系列的问题及其关联的答案选项。",
             "comment" : "答案选项可能是自行报告的。"
           },
-          "ac0.718" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*(Synthesized) (en)",
-            "code" : "ac0.718",
-            "description" : ""
-          },
           "ac0.857" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.857",
+            "description" : ""
+          },
+          "ac0.905" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.905",
             "description" : ""
           }
         },
         "ca" : {
-          "ac0.718" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.718",
-            "description" : ""
-          },
           "ac0.857" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "(Synthesized)",
             "code" : "ac0.857",
+            "description" : ""
+          },
+          "ac0.905" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.905",
             "description" : ""
           }
         },
         "es" : {
-          "ac0.718" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.718",
-            "description" : ""
-          },
           "ac0.857" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "(Synthesized)",
             "code" : "ac0.857",
+            "description" : ""
+          },
+          "ac0.905" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.905",
             "description" : ""
           }
         }
@@ -5269,6 +5276,246 @@
           "@type" : "VALUE_SET",
           "id" : "ac0.857",
           "members" : [ "at0023", "at0024" ]
+        },
+        "ac0.858" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.858",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.859" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.859",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.860" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.860",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.861" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.861",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.862" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.862",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.863" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.863",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.864" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.864",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.865" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.865",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.866" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.866",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.867" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.867",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.868" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.868",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.869" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.869",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.870" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.870",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.871" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.871",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.872" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.872",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.873" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.873",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.874" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.874",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.875" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.875",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.876" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.876",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.877" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.877",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.878" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.878",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.879" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.879",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.880" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.880",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.881" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.881",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.882" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.882",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.883" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.883",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.884" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.884",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.885" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.885",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.886" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.886",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.887" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.887",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.888" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.888",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.889" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.889",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.890" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.890",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.891" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.891",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.892" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.892",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.893" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.893",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.894" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.894",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.895" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.895",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.896" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.896",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.897" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.897",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.898" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.898",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.899" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.899",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.900" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.900",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.901" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.901",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.902" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.902",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.903" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.903",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.904" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.904",
+          "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.905" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.905",
+          "members" : [ "at0031", "at0032", "at0033" ]
         }
       }
     },
@@ -6094,7 +6341,7 @@
             "code" : "at0000",
             "text" : "Symptom/Sykdomstegn",
             "description" : "Rapportert observasjon av fysiske tegn eller beskrivelse av unormale eller ubehagelige fornemmelser i kropp og/eller sinn.",
-            "comment" : "Designkommentar: \nDenne arketypen er satt inn for å kunne registrere symptomer og sykdomstegn i en \"ekte\" arketype. \nHvis man har svart ja i \"spesifikt symptom/sykdomstegn\" i kartleggingsarketypen, arves navnet ned til dette elementet. \nKodes med SNOMED-CT hvis mulig."
+            "comment" : "Designkommentar: \nDenne arketypen er satt inn for å kunne registrere symptomer og sykdomstegn i en \"ekte\" arketype. \nHvis man har svart ja i \"spesifikt symptom/sykdomstegn\" i kartleggingsarketypen, arves navnet ned til dette elementet. \nKodes med SNOMED-CT hvis mulig.\n\nHvis man ønsker å ha med tidspunkt for symptomet, kan man åpne for elementet \"dato/tid for episodens debut\"."
           }
         },
         "fi" : { },
