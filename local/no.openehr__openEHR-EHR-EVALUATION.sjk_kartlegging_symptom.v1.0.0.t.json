@@ -82,9 +82,9 @@
           },
           "codeString" : "nb"
         },
-        "purpose" : "For å kartlegge symptomer/sykdomstegn i forbindelse med felles kreftjournalprosjektet.",
+        "purpose" : "For å kartlegge symptomer/sykdomstegn i forbindelse med regionalt prosjekt for fellels strukturert kreftjournal (SJK).",
         "keywords" : [ ],
-        "use" : "Brukes for å kartlegge symptom/sykdomstegn. \nHvis kartleggingen viser at det foreligger et bestemt symptom/sykdomstegn i spesifikk detaljer, skal dette symptomet/sykdomstegnet arves ned i symptom_sign cluster arketypen som ligger i slotet Ytterligere detaljer i kartleggingsarketypen.",
+        "use" : "Brukes for å kartlegge symptom/sykdomstegn. \nHvis kartleggingen viser at det foreligger et bestemt symptom/sykdomstegn i spesifikk detaljer, skal dette symptomet/sykdomstegnet arves ned i\t\nopenEHR-EHR-CLUSTER.symptom_sign.v2 arketypen som ligger i slotet Ytterligere detaljer i kartleggingsarketypen, slik at de er dokumentert i en arketype laget til dette formålet.",
         "originalResourceUri" : { },
         "otherDetails" : { }
       },
