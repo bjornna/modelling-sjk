@@ -20,10 +20,10 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "10.0.1",
+      "sem_ver" : "10.0.2",
       "build_uid" : "",
       "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960",
-      "MD5-CAM-1.0.1" : "e106e6ba116ed5801eb24fbc9ac4fdbb"
+      "MD5-CAM-1.0.1" : "3f21312e5e7d097785c07d4babe8e9ca"
     },
     "details" : {
       "de" : {
@@ -663,7 +663,7 @@
                                   "terminologyId" : {
                                     "value" : "local"
                                   },
-                                  "constraint" : [ "ac0.857" ],
+                                  "constraint" : [ "ac0.907" ],
                                   "selectedTerminologies" : [ ]
                                 } ]
                               } ],
@@ -751,16 +751,16 @@
             "description" : "Series of questions and associated answers used to screen for symptoms or signs.",
             "comment" : "The answers may be self-reported."
           },
-          "ac0.857" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.857",
-            "description" : ""
-          },
           "ac0.905" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "(Synthesized)",
             "code" : "ac0.905",
+            "description" : ""
+          },
+          "ac0.907" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.907",
             "description" : ""
           }
         },
@@ -772,16 +772,16 @@
             "description" : "*Answers to questions about symptoms or signs in a pre-defined screening questionnaire. (en)",
             "comment" : "*The answers may be self-reported. (en)"
           },
-          "ac0.857" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*(Synthesized) (en)",
-            "code" : "ac0.857",
-            "description" : ""
-          },
           "ac0.905" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.905",
+            "description" : ""
+          },
+          "ac0.907" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.907",
             "description" : ""
           }
         },
@@ -819,7 +819,7 @@
             "code" : "at0005",
             "text" : "Tilstede?",
             "description" : "Har det spesifikke symptomet eller sykdomstegnet noen gang vært til stede?",
-            "comment" : " Detsignkommentar:\nHer er spørsmålet om det spesifikke symptomet/sykdomstegnet er tilstede, dvs. endre elementnavnet til det spesifikke spørsmålet (\"Er xxx tilsede?\"). \nVanligvis er dette skjult og automatisk sette ja hvis symptomet/sykdomstegnet er krysset av. \nDet er også mulig å få en bekreftelse ja/nei om tilstedeværelse av symptom/sykdomstegn, ved å vise alternativene ja/nei. \nHvis ja, skal dette symptomet/sykdomstegnet arves til \"Navn på symptom/sykdomstegn i symptom_sign cluster arketyepn. "
+            "comment" : "Designkommentar:\nHer er spørsmålet om det spesifikke symptomet/sykdomstegnet er tilstede, dvs. endre elementnavnet til det spesifikke spørsmålet (\"Er xxx tilsede?\"). \nVanligvis er dette skjult og automatisk sette ja hvis symptomet/sykdomstegnet er krysset av. \nDet er også mulig å få en bekreftelse ja/nei om tilstedeværelse av symptom/sykdomstegn, ved å vise alternativene ja/nei. \nHvis ja, skal dette symptomet/sykdomstegnet arves til \"Navn på symptom/sykdomstegn i symptom_sign cluster arketyepn. "
           },
           "at0028.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -835,12 +835,6 @@
             "description" : "Konteksten eller årsaken for kartleggingen.",
             "comment" : "Designkommentar: \nDet er valgt et kodesett for kartleggingsformål for SJK som finnes på codeberg: https://codeberg.org/openEHR-no/strukturert-journal-kreft/wiki/Kartleggingsform%C3%A5l"
           },
-          "ac0.857" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*(Synthesized) (en)",
-            "code" : "ac0.857",
-            "description" : ""
-          },
           "at0037.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0037",
@@ -853,6 +847,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.905",
             "description" : ""
+          },
+          "ac0.907" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.907",
+            "description" : ""
           }
         },
         "de" : {
@@ -863,16 +863,16 @@
             "description" : "Eine Reihe von Fragen und zugehörigen Antworten, die zum Screening auf Symptome oder Anzeichen verwendet werden.",
             "comment" : "Die Antworten können selbst berichtet werden."
           },
-          "ac0.857" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*(Synthesized) (en)",
-            "code" : "ac0.857",
-            "description" : ""
-          },
           "ac0.905" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.905",
+            "description" : ""
+          },
+          "ac0.907" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.907",
             "description" : ""
           }
         },
@@ -884,16 +884,16 @@
             "description" : "*Answers to questions about symptoms or signs in a pre-defined screening questionnaire. (en)",
             "comment" : "*The answers may be self-reported. (en)"
           },
-          "ac0.857" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*(Synthesized) (en)",
-            "code" : "ac0.857",
-            "description" : ""
-          },
           "ac0.905" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.905",
+            "description" : ""
+          },
+          "ac0.907" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.907",
             "description" : ""
           }
         },
@@ -905,16 +905,16 @@
             "description" : "Lista av frågor och tillhörande svarsalternativ, används för att screena efter symtom eller tecken.",
             "comment" : "Svaren kan vara självrapporterade."
           },
-          "ac0.857" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*(Synthesized) (en)",
-            "code" : "ac0.857",
-            "description" : ""
-          },
           "ac0.905" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.905",
+            "description" : ""
+          },
+          "ac0.907" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.907",
             "description" : ""
           }
         },
@@ -926,16 +926,16 @@
             "description" : "Série de questions et de réponses associées utilisées pour dépister des symptômes ou des signes.",
             "comment" : "Les réponses peuvent être autodéclarées."
           },
-          "ac0.857" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*(Synthesized) (en)",
-            "code" : "ac0.857",
-            "description" : ""
-          },
           "ac0.905" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.905",
+            "description" : ""
+          },
+          "ac0.907" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.907",
             "description" : ""
           }
         },
@@ -947,44 +947,44 @@
             "description" : "用于筛查症状或体征的一系列的问题及其关联的答案选项。",
             "comment" : "答案选项可能是自行报告的。"
           },
-          "ac0.857" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*(Synthesized) (en)",
-            "code" : "ac0.857",
-            "description" : ""
-          },
           "ac0.905" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.905",
+            "description" : ""
+          },
+          "ac0.907" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.907",
             "description" : ""
           }
         },
         "ca" : {
-          "ac0.857" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.857",
-            "description" : ""
-          },
           "ac0.905" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.905",
+            "description" : ""
+          },
+          "ac0.907" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.907",
             "description" : ""
           }
         },
         "es" : {
-          "ac0.857" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.857",
-            "description" : ""
-          },
           "ac0.905" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.905",
+            "description" : ""
+          },
+          "ac0.907" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.907",
             "description" : ""
           }
         }
@@ -5516,6 +5516,16 @@
           "@type" : "VALUE_SET",
           "id" : "ac0.905",
           "members" : [ "at0031", "at0032", "at0033" ]
+        },
+        "ac0.906" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.906",
+          "members" : [ "at0023", "at0024" ]
+        },
+        "ac0.907" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.907",
+          "members" : [ "at0023", "at0024" ]
         }
       }
     },
