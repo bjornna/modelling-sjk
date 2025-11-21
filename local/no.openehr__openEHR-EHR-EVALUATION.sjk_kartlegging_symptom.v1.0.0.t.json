@@ -20,10 +20,10 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "10.0.0",
+      "sem_ver" : "10.0.1",
       "build_uid" : "",
       "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960",
-      "MD5-CAM-1.0.1" : "e5ceef179bf6b3f0fc905045cdc1ae20"
+      "MD5-CAM-1.0.1" : "e106e6ba116ed5801eb24fbc9ac4fdbb"
     },
     "details" : {
       "de" : {
@@ -6327,7 +6327,8 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0001.1",
             "text" : "Navn på symptom/sykdomstegn",
-            "description" : "Navnet på det rapporterte symptomet eller sykdomstegnet."
+            "description" : "Navnet på det rapporterte symptomet eller sykdomstegnet.",
+            "comment" : "Designkommentar: \nDenne arketypen er satt inn for å kunne registrere symptomer og sykdomstegn i en \"ekte\" arketype. \nHvis man har svart ja i \"spesifikt symptom/sykdomstegn\" i kartleggingsarketypen, arves navnet ned til dette elementet. \nKodes med SNOMED-CT hvis mulig.\n\n"
           },
           "at0002.1" : {
             "@type" : "ARCHETYPE_TERM",
