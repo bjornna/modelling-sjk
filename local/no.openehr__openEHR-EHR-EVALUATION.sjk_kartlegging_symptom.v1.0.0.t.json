@@ -20,10 +20,10 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "10.0.2",
+      "sem_ver" : "10.1.0",
       "build_uid" : "",
       "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960",
-      "MD5-CAM-1.0.1" : "7a74ae8fa7eee93f076c0c4f8e974107"
+      "MD5-CAM-1.0.1" : "66dc05924f10473af6ee03affefab66b"
     },
     "details" : {
       "de" : {
@@ -221,7 +221,7 @@
         "at0000.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0000.1",
-          "text" : "Kartlegging symptom",
+          "text" : "no.openehr__openEHR-EHR-EVALUATION.sjk_kartlegging_symptom.v1.0.0",
           "description" : "A generic section header which should be renamed in a template to suit a specific clinical context."
         }
       },
