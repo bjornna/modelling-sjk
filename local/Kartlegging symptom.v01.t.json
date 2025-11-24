@@ -9,7 +9,7 @@
     },
     "otherContributors" : [ ],
     "lifecycleState" : {
-      "codeString" : "in_development"
+      "codeString" : "deprecated"
     },
     "ipAcknowledgements" : { },
     "references" : { },
@@ -23,7 +23,7 @@
       "sem_ver" : "9.0.0",
       "build_uid" : "",
       "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960",
-      "MD5-CAM-1.0.1" : "6215db560ed46d464e97604cd365ca16"
+      "MD5-CAM-1.0.1" : "1718316deb47c9d326655b64b4e23397"
     },
     "details" : {
       "de" : {
@@ -82,7 +82,7 @@
           },
           "codeString" : "nb"
         },
-        "purpose" : "For å kartlegge symptomer/sykdomstegn i forbindelse med felles kreftjournalprosjektet.",
+        "purpose" : "For å kartlegge symptomer/sykdomstegn i forbindelse med felles kreftjournalprosjektet.\n\nErstattes av no.openehr__openEHR-EHR-EVALUATION.sjk_kartlegging_symptom.v1.0.0.",
         "keywords" : [ ],
         "use" : "Brukes for å kartlegge symptom/sykdomstegn. \nHvis kartleggingen viser at det foreligger et bestemt symptom/sykdomstegn i spesifikk detaljer, skal dette symptomet/sykdomstegnet arves ned i symptom_sign cluster arketypen som ligger i slotet Ytterligere detaljer i kartleggingsarketypen.",
         "originalResourceUri" : { },
@@ -305,7 +305,7 @@
     "valueSets" : { }
   },
   "adlVersion" : "1.4",
-  "buildUid" : "5fe97e8b-4f1f-33b5-a26f-d6e2c518217a",
+  "buildUid" : "ed213ac1-1ab4-3190-8fed-0e7be6ca9334",
   "rmName" : "openehr",
   "rmRelease" : "1.1.0",
   "generated" : true,
@@ -5414,7 +5414,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "BE1FF729C2FD4185A0A51FDE33A48A52"
+        "PARENT:MD5-CAM-1.0.1" : "63505D48231A413C1E517A30F3F53A4D"
       },
       "details" : {
         "de" : {
@@ -5710,16 +5710,7 @@
           "rmTypeName" : "ELEMENT",
           "occurrences" : "0..0",
           "nodeId" : "at0200.1",
-          "attributes" : [ {
-            "@type" : "C_ATTRIBUTE",
-            "rmAttributeName" : "value",
-            "children" : [ {
-              "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "DV_DATE_TIME",
-              "attributes" : [ ],
-              "attributeTuples" : [ ]
-            } ]
-          } ],
+          "attributes" : [ ],
           "attributeTuples" : [ ]
         }, {
           "@type" : "C_COMPLEX_OBJECT",
