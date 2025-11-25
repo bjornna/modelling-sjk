@@ -22,7 +22,7 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "638ad6edb3da614cc08ee98c42fd0446",
+      "MD5-CAM-1.0.1" : "85f1a412a7cf4491233f700871dbbbaa",
       "PARENT:MD5-CAM-1.0.1" : "89470078C0364ACBA5B6A5F286E56C79",
       "sem_ver" : "1.0.0",
       "build_uid" : ""
@@ -870,7 +870,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "BE1FF729C2FD4185A0A51FDE33A48A52"
+        "PARENT:MD5-CAM-1.0.1" : "63505D48231A413C1E517A30F3F53A4D"
       },
       "details" : {
         "de" : {
