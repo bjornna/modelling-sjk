@@ -22,7 +22,7 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "6.0.0",
+      "sem_ver" : "6.0.1",
       "build_uid" : "",
       "MD5-CAM-1.0.1" : "539f3eec46b7539263e9d70a42eed46a",
       "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960",
@@ -37,7 +37,7 @@
           },
           "codeString" : "nb"
         },
-        "purpose" : "NORPREG/FORSKING har et behov for registrering av om en CTCAE registrering er en baseline registrering eller om det er under behandling, eller i oppfølging.\n\nI en poliklinisk setting kan man registrere CTCAE ved før behandling, Under og etter. Hva som er en baselineregistring styres tidspunkt for behandling.",
+        "purpose" : "NORPREG/FORSKING har et behov for registrering av om en CTCAE registrering er en baseline registrering eller om det er under behandling, eller i oppfølging.\n\nI en poliklinisk setting kan man registrere CTCAE ved før behandling og under og etter behandling. Valg i Kartleggingsformål samt event for OBSERVATION.story styrer registreringen.",
         "originalResourceUri" : { },
         "otherDetails" : { }
       },
