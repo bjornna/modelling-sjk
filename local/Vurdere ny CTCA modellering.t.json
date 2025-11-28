@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "6.0.2",
+      "sem_ver" : "6.0.3",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "357b46a7db3149b90ae1b3036575033f",
+      "MD5-CAM-1.0.1" : "5ce3958ebcacdf1849f315367fd627f2",
       "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960",
       "original_language" : "ISO_639-1::nb"
     },
@@ -621,7 +621,7 @@
                                   "terminologyId" : {
                                     "value" : "local"
                                   },
-                                  "constraint" : [ "ac0.4" ],
+                                  "constraint" : [ "ac0.28" ],
                                   "selectedTerminologies" : [ ]
                                 } ]
                               } ],
@@ -704,10 +704,10 @@
             "description" : "Is there a history of the specific issue, problem or diagnosis?",
             "comment" : "In a template, the data element would usually be renamed to the specific question asked. The proposed value set can be adapted for local use by using the DV_TEXT or the DV_BOOLEAN datatypes choice to match each specific use case."
           },
-          "ac0.4" : {
+          "ac0.28" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "(Synthesized)",
-            "code" : "ac0.4",
+            "code" : "ac0.28",
             "description" : ""
           }
         },
@@ -716,7 +716,7 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0034.1",
             "text" : "CTCAE registrering",
-            "description" : "Konteksten eller årsaken for kartleggingen.",
+            "description" : "Velg om du ønsker å dokumentere en basline registrering av bivirkninger/komplikasjoner eller om det er dokumentasjon av bivirkninger/komplikasjoner oppdaget under behandling. ",
             "comment" : "Designkommentar:\nEksponeres i brukergrensesnittet. Bruker tar stilling til om dette er en Baseline registrering eller om det er en Under behandling registrering. Aktuell Event i OBSERVATION story velges basert på valg i Kartleggingsformålet.\n\nspm: bør denne være default på \"under behandling\" da dette er den verdien som oftest blir registrert? hvis ikke må man velge hver gang. "
           },
           "at0028.1" : {
@@ -730,28 +730,21 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0005.1",
             "text" : "Subjektivt svekket hørsel?",
-            "description" : "Har den spesifikke bekymring, plage, problem eller diagnose noen gang vært til stede?",
-            "comment" : "Navnet på dataelementet kan omformuleres til det spesifikke spørsmålet i et templat eller brukergrensesnitt. Det foreslåtte verdisettet kan tilpasses/endres i det enkelte bruksområde ved å benytte de alternative datatypene DV_TEXT eller DV_BOOLEAN."
+            "description" : "Er den spesifikke bekymring, plage, problem tilstede?"
           },
           "at0004.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0004.1",
             "text" : "Subjektiv hørselstap",
             "description" : "Navnet på en bekymring, plage eller problem.",
-            "comment" : "Koding av problem/diagnosenavnet med en terminologi foretrekkes, der det er mulig."
-          },
-          "ac0.4" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*(Synthesized) (en)",
-            "code" : "ac0.4",
-            "description" : ""
+            "comment" : "Designkommentar: \nKoding av problem/diagnosenavnet med en terminologi foretrekkes, der det er mulig."
           },
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0000",
             "text" : "Kartleggingsspørsmål om problemer eller diagnoser",
             "description" : "Spørsmål og tilhørende svar som brukes til å kartlegge bekymringer, plager, problemer eller diagnoser.",
-            "comment" : "Designkommentar:\nHer er det et spm. om man vil ha et inngangsspørsmål som f.eks. \"Ønsker du å registrere problemer/bivirkninger før eller under behandling\". \n\nDet vi mister med denne modellen, er om det har tilkommet en bivirkning etter behandling - spm. \"har det kommet noen bivirkninger siden sist kontakt?\"\nDa må man regne med at det ikke er noe bivirkninger hvis ingen ting er registrert. \nFor HH så vil de registrere CTCAE hver gang, så dermed vil det heller ikke bli noe feil i logikken for de."
+            "comment" : "Designkommentar:\nHer er det et spm. om man vil ha et inngangsspørsmål som f.eks. \"Ønsker du å registrere bivirkninger/komplikasjoner før eller under behandling\". \nHvis ikke kan man evt styre det på kartleggingsformål.\n\nDet vi mister med denne modellen, er om det har tilkommet en bivirkning etter behandling - spm. \"har det kommet noen bivirkninger siden sist kontakt?\"\nDa må man regne med at det ikke er noe bivirkninger hvis ingen ting er registrert. \nFor HH så vil de registrere CTCAE hver gang, så dermed vil det heller ikke bli noe feil i logikken for de."
           },
           "at0022.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -759,6 +752,12 @@
             "text" : "Spesifikt problem eller diagnose",
             "description" : "Detaljer om en spesifikt bekymring, plage, problem eller diagnose eller gruppe av bekymringer, plager, problemer eller diagnoser som er innenfor kartleggingsformålet.",
             "comment" : "Designkommentar:\nDette er tatt med da CTCAE ikke skiller mellom subjektiv og objektiv hørselstap. \n\nMåten denne er modellert på kan gjenbrukes for alle andre problemer som man ønsker å ha en spesifikk registrering på."
+          },
+          "ac0.28" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.28",
+            "description" : ""
           }
         },
         "de" : {
@@ -783,10 +782,10 @@
             "description" : "Gibt es eine Vorgeschichte zu dem spezifischen Problem oder der Diagnose?",
             "comment" : "In einem Template würde das Datenelement normalerweise in die spezifische gestellte Frage umbenannt. Der vorgeschlagene Wertesatz kann für die lokale Verwendung angepasst werden, indem die Datentypauswahl DV_TEXT oder DV_BOOLEAN verwendet wird, um jedem spezifischen Anwendungsfall zu entsprechen."
           },
-          "ac0.4" : {
+          "ac0.28" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.4",
+            "code" : "ac0.28",
             "description" : ""
           }
         },
@@ -812,10 +811,10 @@
             "description" : "*Is there a history of the specific issue, problem or diagnosis? (en)",
             "comment" : "*In a template, the data element would usually be renamed to the specific question asked. The proposed value set can be adapted for local use by using the DV_TEXT or the DV_BOOLEAN datatypes choice to match each specific use case. (en)"
           },
-          "ac0.4" : {
+          "ac0.28" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.4",
+            "code" : "ac0.28",
             "description" : ""
           }
         },
@@ -841,10 +840,10 @@
             "description" : "Existeix un historial de la qüestió, problema o diagnòstic específic?",
             "comment" : "En una plantilla, l'element de dades normalment es tornaria a nomenar a la pregunta específica formulada. El conjunt de valors proposats es poden adaptar per a l'ús local utilitzant l'elecció del tipus de dades DV_TEXT o DV_BOOLEAN per ajustar-se a cada cas d'ús específic."
           },
-          "ac0.4" : {
+          "ac0.28" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.4",
+            "code" : "ac0.28",
             "description" : ""
           }
         },
@@ -870,10 +869,10 @@
             "description" : "Existe-t-il des antécédents concernant la question, le problème ou le diagnostic en question ?",
             "comment" : "Dans un modèle, l'élément de données est généralement renommé en fonction de la question spécifique posée. L'ensemble de valeurs proposé peut être adapté à un usage local en utilisant les types de données DV_TEXT ou DV_BOOLEAN pour répondre à chaque cas d'utilisation spécifique."
           },
-          "ac0.4" : {
+          "ac0.28" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.4",
+            "code" : "ac0.28",
             "description" : ""
           }
         },
@@ -899,10 +898,10 @@
             "description" : "Existe un historial de la cuestión, problema o diagnóstico específico?",
             "comment" : "En una plantilla, el elemento de datos normalmente se renombraría con la pregunta específica formulada. El conjunto de valores propuestos se pueden adaptar para uso local utilizando la elección del tipo de dato DV_TEXT o DV_BOOLEAN para ajustarse a cada caso de uso específico."
           },
-          "ac0.4" : {
+          "ac0.28" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.4",
+            "code" : "ac0.28",
             "description" : ""
           }
         }
@@ -928,6 +927,126 @@
         "ac0.4" : {
           "@type" : "VALUE_SET",
           "id" : "ac0.4",
+          "members" : [ "at0023", "at0024" ]
+        },
+        "ac0.5" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.5",
+          "members" : [ "at0023", "at0024" ]
+        },
+        "ac0.6" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.6",
+          "members" : [ "at0023", "at0024" ]
+        },
+        "ac0.7" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.7",
+          "members" : [ "at0023", "at0024" ]
+        },
+        "ac0.8" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.8",
+          "members" : [ "at0023", "at0024" ]
+        },
+        "ac0.9" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.9",
+          "members" : [ "at0023", "at0024" ]
+        },
+        "ac0.10" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.10",
+          "members" : [ "at0023", "at0024" ]
+        },
+        "ac0.11" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.11",
+          "members" : [ "at0023", "at0024" ]
+        },
+        "ac0.12" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.12",
+          "members" : [ "at0023", "at0024" ]
+        },
+        "ac0.13" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.13",
+          "members" : [ "at0023", "at0024" ]
+        },
+        "ac0.14" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.14",
+          "members" : [ "at0023", "at0024" ]
+        },
+        "ac0.15" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.15",
+          "members" : [ "at0023", "at0024" ]
+        },
+        "ac0.16" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.16",
+          "members" : [ "at0023", "at0024" ]
+        },
+        "ac0.17" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.17",
+          "members" : [ "at0023", "at0024" ]
+        },
+        "ac0.18" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.18",
+          "members" : [ "at0023", "at0024" ]
+        },
+        "ac0.19" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.19",
+          "members" : [ "at0023", "at0024" ]
+        },
+        "ac0.20" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.20",
+          "members" : [ "at0023", "at0024" ]
+        },
+        "ac0.21" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.21",
+          "members" : [ "at0023", "at0024" ]
+        },
+        "ac0.22" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.22",
+          "members" : [ "at0023", "at0024" ]
+        },
+        "ac0.23" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.23",
+          "members" : [ "at0023", "at0024" ]
+        },
+        "ac0.24" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.24",
+          "members" : [ "at0023", "at0024" ]
+        },
+        "ac0.25" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.25",
+          "members" : [ "at0023", "at0024" ]
+        },
+        "ac0.26" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.26",
+          "members" : [ "at0023", "at0024" ]
+        },
+        "ac0.27" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.27",
+          "members" : [ "at0023", "at0024" ]
+        },
+        "ac0.28" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.28",
           "members" : [ "at0023", "at0024" ]
         }
       }
@@ -1430,13 +1549,13 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0002.1",
             "text" : "Baseline",
-            "description" : "Standard, uspesifisert tidspunkt eller tidsintervall som kan defineres mer eksplisitt i en templat eller i en applikasjon."
+            "description" : "Velg denne hvis det er en basline registrering du ønsker å dokumentere."
           },
           "at0004.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0004.1",
             "text" : "Overordnet beskrivelse av bivirkninger/komplikasjoner før behandling",
-            "description" : "Narrativ beskrivelse av sykehistorie/anamnese for et individ."
+            "description" : "Fritekstbeskrivelse av bivirkninger/komplikasjoner som er tilstede før behandlingen starter."
           },
           "at0002.2" : {
             "@type" : "ARCHETYPE_TERM",
@@ -1448,7 +1567,7 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0004.2",
             "text" : "Overordnet beskrivelse av bivirkninger/komplikasjoner under behandling",
-            "description" : "Narrativ beskrivelse av sykehistorie/anamnese for et individ."
+            "description" : "Fritekstbeskrivelse av bivirkninger/komplikasjoner som er tilstede / oppstår under behandling."
           }
         },
         "pt-br" : {
@@ -1964,7 +2083,15 @@
         "en" : { },
         "de" : { },
         "sv" : { },
-        "nb" : { },
+        "nb" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000",
+            "text" : "Common Terminology Criteria for Adverse Events (CTCAE)",
+            "description" : "Et rammeverk for å registrere CTCAE klassifikasjon av en uønsket hendelse, symptom eller sykdomtilstand.",
+            "comment" : "Tidligere kjent som Common Toxicity Criteria (CTC).\n\n"
+          }
+        },
         "pt-pt" : { }
       },
       "termBindings" : { },
@@ -4735,6 +4862,13 @@
             "text" : "Navn på symptom/sykdomstegn",
             "description" : "Navnet på det rapporterte symptomet eller sykdomstegnet.",
             "comment" : "Designkommentar:\nEksempel på spesifikt symptom, mønster kan benyttes også for å registrere andre symptomer."
+          },
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000",
+            "text" : "Symptom/Sykdomstegn",
+            "description" : "Rapportert observasjon av fysiske tegn eller beskrivelse av unormale eller ubehagelige fornemmelser i kropp og/eller sinn.",
+            "comment" : "Designkommentar:\nDenne settes hvis det er registrert symptom/sykdomstegn i kartleggingsarketypen. "
           }
         },
         "fi" : { },
