@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "6.0.1",
+      "sem_ver" : "6.0.2",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "539f3eec46b7539263e9d70a42eed46a",
+      "MD5-CAM-1.0.1" : "357b46a7db3149b90ae1b3036575033f",
       "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960",
       "original_language" : "ISO_639-1::nb"
     },
@@ -717,7 +717,7 @@
             "code" : "at0034.1",
             "text" : "CTCAE registrering",
             "description" : "Konteksten eller årsaken for kartleggingen.",
-            "comment" : "Designkommentar:\nEksponeres i brukergrensesnittet. Bruker tar stilling til om dette er en Baseline registrering eller om det er en Under behandling registrering. Aktuell Event i OBSERVATION story velges basert på valg i Kartleggingsformålet."
+            "comment" : "Designkommentar:\nEksponeres i brukergrensesnittet. Bruker tar stilling til om dette er en Baseline registrering eller om det er en Under behandling registrering. Aktuell Event i OBSERVATION story velges basert på valg i Kartleggingsformålet.\n\nspm: bør denne være default på \"under behandling\" da dette er den verdien som oftest blir registrert? hvis ikke må man velge hver gang. "
           },
           "at0028.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -737,7 +737,7 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0004.1",
             "text" : "Subjektiv hørselstap",
-            "description" : "Navnet på en bekymring, plage, problem eller diagnose, eller grupper av bekymringer, plager, problemer eller diagnoser.",
+            "description" : "Navnet på en bekymring, plage eller problem.",
             "comment" : "Koding av problem/diagnosenavnet med en terminologi foretrekkes, der det er mulig."
           },
           "ac0.4" : {
@@ -745,6 +745,20 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.4",
             "description" : ""
+          },
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000",
+            "text" : "Kartleggingsspørsmål om problemer eller diagnoser",
+            "description" : "Spørsmål og tilhørende svar som brukes til å kartlegge bekymringer, plager, problemer eller diagnoser.",
+            "comment" : "Designkommentar:\nHer er det et spm. om man vil ha et inngangsspørsmål som f.eks. \"Ønsker du å registrere problemer/bivirkninger før eller under behandling\". \n\nDet vi mister med denne modellen, er om det har tilkommet en bivirkning etter behandling - spm. \"har det kommet noen bivirkninger siden sist kontakt?\"\nDa må man regne med at det ikke er noe bivirkninger hvis ingen ting er registrert. \nFor HH så vil de registrere CTCAE hver gang, så dermed vil det heller ikke bli noe feil i logikken for de."
+          },
+          "at0022.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0022",
+            "text" : "Spesifikt problem eller diagnose",
+            "description" : "Detaljer om en spesifikt bekymring, plage, problem eller diagnose eller gruppe av bekymringer, plager, problemer eller diagnoser som er innenfor kartleggingsformålet.",
+            "comment" : "Designkommentar:\nDette er tatt med da CTCAE ikke skiller mellom subjektiv og objektiv hørselstap. \n\nMåten denne er modellert på kan gjenbrukes for alle andre problemer som man ønsker å ha en spesifikk registrering på."
           }
         },
         "de" : {
