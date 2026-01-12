@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "cf5d874291aad9a3ecae3cc628a3d0ef",
+      "MD5-CAM-1.0.1" : "e25b43bfc9f82882d2b9fdb1b45c42b3",
       "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74",
-      "sem_ver" : "12.0.1",
+      "sem_ver" : "12.0.2",
       "build_uid" : ""
     },
     "details" : {
@@ -33087,7 +33087,7 @@
             "code" : "at0001.1",
             "text" : "Navn på kroppssted",
             "description" : "Navngiving av et enkelt fysisk sted enten på eller i menneskekroppen.",
-            "comment" : "Designkommentar:\nDet speisfikke kroppsstedet. Hvis man f.eks. har satt venstre mamma i dataelementet beliggenhet ville dette feltet blitt mamma. \n\nDet er laget en mapping for spesifikt sted ved bruk av gruppering i elementet Beliggenhet i Problem/diagnosen (ref. sarkom)\n"
+            "comment" : "Designkommentar:\nDet speisfikke kroppsstedet. Hvis man f.eks. har satt venstre mamma i dataelementet beliggenhet ville dette feltet blitt mamma. \nAnatomi kodes med SNOMED-CT så langt det er mulig. \n\nDet er laget en mapping for spesifikt sted ved bruk av gruppering i elementet Beliggenhet i Problem/diagnosen (ref. sarkom).\n\n"
           },
           "at0002.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -33108,7 +33108,7 @@
             "code" : "at0065.1",
             "text" : "Spesifikt sted",
             "description" : "Ytterligere detaljer gitt ved hjelp av en spesifikk region eller et punkt på eller i det spesifiserte kroppsstedet.",
-            "comment" : "Designkommentar \n\n****spm. kunne man brukt denne for å speisfisere til venstre for, til høyre for, i midten av et organ? \nMen se også relativ anatomisk lokalisering. \n\nF.eks. ved å bruke kodene \n-264731004\t Lateral to the left (qualifier value) (topografisk modifikator)\n-264732006\t Lateral to the right (qualifier value)\n(topografisk modifikator)\n- 260528009\t Median (Middle) (qualifier value)\t(selve senterlinjen)\n-255561001\t Medial (qualifier value)\t(nær midline, men ikke nødvendigvis på den).\n- 272442009\t Mid-location (qualifier value) (General site descriptor, topografisk modifikator)\n- 399488007\t Midline (qualifier value) (Denne er under Mid-location,  Anatomical relationship descriptor)\n-  261128008  Medial part (qualifier value) (Anatomical part descriptor_ Part structure)\n\n\"https://hsorhf.sharepoint.com/:x:/r/sites/OUSHF-X-Strukturertkreftjournal/Shared%20Documents/General/Kodeverk/Relativ%20anatomisk%20lokalisering.xlsx?d=w9bef0a1d916846f1ad624e9add162c1d&csf=1&web=1&e=FnCNAf\"\n\n\n"
+            "comment" : "Designkommentar \nAnatomi kodes med SNOMED-CT så langt det er mulig. \n\nDet er laget en mapping for spesifikt sted ved bruk av gruppering i elementet Beliggenhet i Problem/diagnosen (ref. sarkom).\n\n"
           },
           "ac0.277" : {
             "@type" : "ARCHETYPE_TERM",
