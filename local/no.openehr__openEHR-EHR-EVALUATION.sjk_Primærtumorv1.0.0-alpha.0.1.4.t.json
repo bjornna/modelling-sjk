@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "0794e02c429c90f0c4d5a548bbeca13f",
+      "MD5-CAM-1.0.1" : "8571db94e2b86f574b627fea8931fdaa",
       "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74",
-      "sem_ver" : "13.0.0",
+      "sem_ver" : "14.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -4171,16 +4171,16 @@
                   "rmTypeName" : "TERMINOLOGY_CODE",
                   "occurrences" : "0..1",
                   "terminologyId" : {
-                    "value" : "SNOMED-CT"
+                    "value" : "?? lokalt kode??"
                   },
                   "constraint" : [ ],
-                  "selectedTerminologies" : [ "SNOMED-CT" ],
+                  "selectedTerminologies" : [ "?? lokalt kode??" ],
                   "includedExternalTerminologyCodes" : [ {
-                    "terminologyId" : "SNOMED-CT",
-                    "code" : "373795004",
-                    "value" : "Bekreftet (kreftdiagnose på grunnlag av kliniske funn)",
+                    "terminologyId" : "?? lokalt kode??",
+                    "code" : "?",
+                    "value" : "Er dette en kreftdiagnose på grunnlag av kliniske funn)",
                     "translations" : {
-                      "nb" : "Bekreftet (kreftdiagnose på grunnlag av kliniske funn)"
+                      "nb" : "Er dette en kreftdiagnose på grunnlag av kliniske funn)"
                     }
                   } ]
                 } ]
@@ -4318,7 +4318,7 @@
             "code" : "at0003.1",
             "text" : "Klinisk sikker kreft ved utredningstidspunktet?",
             "description" : "Uavhengig av cytologisk/histologisk prøvesvar, kan tilstanden basert på kliniske undersøkelser (inkludert bildediagnostikk og blodprøver) alene klassifiseres som sikker kreft. ",
-            "comment" : "Designkommentar:\nUavhengig av cytologisk/histologisk prøvesvar, kan tilstanden basert på kliniske undersøkelser (inkludert bildediagnostikk og blodprøver) alene klassifiseres som sikker kreft. \nVises bare når Tumor cT = 0 eller X og Lymfeknuter cN = 0 eller X og Ingen Metastaser = true eller Fjernmetastase Ikke US = true \n\nDenne er grunnlaget og skules i skjermbildet. Hvis ja = så settes den samme koden i resultat, hvis annen svar brukes de andre kodene (usikker, DCIS, nei)"
+            "comment" : "Designkommentar:\nDenne er grunnlaget og skules i skjermbildet, skal alltid settes. \n\nDette er en kartlegging av om det er en klinisk evidens på kreft. \nSE om vi finner en snome-ct kode for dette eller bruke en lokal sjk kode. \n"
           },
           "at0005.1" : {
             "@type" : "ARCHETYPE_TERM",
