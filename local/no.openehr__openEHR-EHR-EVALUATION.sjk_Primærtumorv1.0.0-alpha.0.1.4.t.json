@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "8571db94e2b86f574b627fea8931fdaa",
+      "MD5-CAM-1.0.1" : "39a9e5da3023daf1cfcbe2627c2d39be",
       "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74",
-      "sem_ver" : "14.0.0",
+      "sem_ver" : "15.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -4224,7 +4224,7 @@
                     "code" : "373795004",
                     "value" : "Bekreftet (kreftdiagnose på grunnlag av kliniske funn)",
                     "translations" : {
-                      "nb" : "Bekreftet (kreftdiagnose på grunnlag av kliniske funn)"
+                      "nb" : "Kreftdiagnose på grunnlag av kliniske funn"
                     }
                   }, {
                     "terminologyId" : "SNOMED-CT",
@@ -4271,9 +4271,39 @@
         }, {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
-          "occurrences" : "0..0",
           "nodeId" : "at0022.1",
-          "attributes" : [ ],
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "occurrences" : "1..1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "TERMINOLOGY_CODE",
+                  "occurrences" : "0..1",
+                  "terminologyId" : {
+                    "value" : "SNOMED-CT"
+                  },
+                  "constraint" : [ ],
+                  "selectedTerminologies" : [ "SNOMED-CT" ],
+                  "includedExternalTerminologyCodes" : [ {
+                    "terminologyId" : "SNOMED-CT",
+                    "code" : "373795004",
+                    "value" : "Bekreftet (kreftdiagnose på grunnlag av kliniske funn)",
+                    "translations" : {
+                      "nb" : "Bekreftet (kreftdiagnose på grunnlag av kliniske funn)"
+                    }
+                  } ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
           "attributeTuples" : [ ]
         }, {
           "@type" : "C_COMPLEX_OBJECT",
