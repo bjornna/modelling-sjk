@@ -62,7 +62,7 @@ description
 		["organisation"] = <"Atomica Informatics">
 		["email"] = <"heather.leslie@atomicainformatics.com">
 	>
-	lifecycle_state = <"published">
+	lifecycle_state = <"in_development">
 	other_contributors = <"Hildegunn Siv Aase, Helse Bergen, Norway","Tomas Alme, DIPS, Norway","Anne Pauline Anderssen, Helse Nord RHF, Norway","Vebjoern Arntzen, Oslo university hospital, Norway","Vebjørn Arntzen, Oslo universitetssykehus HF, Norway (Nasjonal IKT redaktør)","Koray Atalag, University of Auckland, New Zealand","Gustavo Bacelar-Silva, Healthcare Designs, Brazil (openEHR Editor)","Silje Ljosland Bakke, Helse Vest IKT AS, Norway (Nasjonal IKT redaktør)","Lars Bitsch-Larsen, Haukeland University Hospital, Bergen, Norway","Hanne Marte Bårholm, Helse Vest IKT, Norway (Nasjonal IKT redaktør)","Bjørn Christensen, Helse Bergen HF, Norway","Aitor Eguzkitza, UPNA (Public University of Navarre) - CHN (Complejo Hospitalario de Navarra), Spain","Shahla Foozonkhah, Ocean Informatics, Australia","Einar Fosse, National Centre for Integrated Care and Telemedicine, Norway","Sebastian Garde, Ocean Informatics, Germany","Heather Grain, Llewelyn Grain Informatics, Australia","Mikkel Johan Gaup Grønmo, Helse Nord IKT, Norway (Nasjonal IKT redaktør)","Kristian Heldal, Telemark Hospital Trust, Norway","Anca Heyd, DIPS ASA, Norway","Dunmail Hodkinson, Black Pear Software Ltd, UK","Hilde Hollås, Norway","Hanne Joensen, Helse Bergen HUS, Norway","Karl Trygve Kalleberg, Oslo Universitetssykehus, Norway","Lars Karlsen, DIPS ASA, Norway","Lars Morgan Karlsen, Nordlandssykehuset Bodø, Norway","Shinji Kobayashi, Kyoto University, Japan","Nils Kolstrup, Skansen Legekontor og Nasjonalt Senter for samhandling og telemedisin, Norway","Kanika Kuwelker, Helse Vest IKT, Norway (Nasjonal IKT redaktør)","Siri Laronningen, Kreftregisteret, Norway","Liv Laugen, Oslo universitetssykehus, Norway (Nasjonal IKT redaktør)","Sabine Leh, Haukeland University Hospital, Department of Pathology, Norway","Heather Leslie, Atomica Informatics, Australia (openEHR Editor)","Vesna Levasic, Orthopaedic Hospital Valdoltra, Slovenia","Hallvard Lærum, Direktoratet for e-helse, Norway","Luis Marco Ruiz, Norwegian Center for Integrated Care and Telemedicine, Norway","Ian McNicoll, freshEHR Clinical Informatics, United Kingdom (openEHR Editor)","Bjoern Naess, DIPS ASA, Norway","Maria Beate Nupen-Stieng, Oslo Universitetssykehus, Norway","Andrej Orel, Marand d.o.o., Slovenia","Tanja Riise, Nasjonal IKT HF, Norway","Terje Sagmyr, Helse Vest IKT, Norway (Nasjonal IKT redaktør)","Thomas Schopf, University Hospital of North-Norway, Norway","Rowan Thomas, St. Vincent's Hospital Melbourne, Australia","Richard Townley-O'Neill, NEHTA, Australia","John Tore Valand, Helse Vest IKT, Norway (Nasjonal IKT redaktør)","Marit Alice Venheim, Helse Vest IKT, Norway (Nasjonal IKT redaktør)","Dmitri Wall, Irish Skin Foundation, Ireland">
 	details = <
 		["de"] = <
@@ -203,10 +203,10 @@ Not to be used to represent location of anatomical features at the microscopic l
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"95E62F4E6D9564FD0AF5151BBB3CC2A7">
-		["build_uid"] = <"3ead758e-ab77-4b0a-8979-23821aa53050">
+		["MD5-CAM-1.0.1"] = <"B1FDA6B2E5B7DD5E2B046E0811E96EC2">
+		["build_uid"] = <"a5c35408-bb0b-406c-ae86-bb595920019d">
 		["ip_acknowledgements"] = <"This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org.">
-		["revision"] = <"2.2.0">
+		["revision"] = <"2.2.1-alpha">
 	>
 
 definition
@@ -275,7 +275,9 @@ definition
 									at0064,    -- Anal to
 									at0065,    -- Caudal to
 									at0066,    -- Cranial to
-									at0067]    -- Rostral to
+									at0067,    -- Rostral to
+									at0070,    -- To the left of
+									at0071]    -- To the right of
 								}
 							}
 							DV_TEXT matches {*}
@@ -413,6 +415,14 @@ ontology
 					text = <"*Right(en)">
 					description = <"*Right side of the body.(en)">
 				>
+				["at0070"] = <
+					text = <"*To the left of (en)">
+					description = <"*Towards the left, from a midline landmark. (en)">
+				>
+				["at0071"] = <
+					text = <"*To the right of (en)">
+					description = <"*Towards the right, from a midline landmark. (en)">
+				>
 			>
 		>
 		["sl"] = <
@@ -530,6 +540,14 @@ ontology
 					text = <"*Right(en)">
 					description = <"*Right side of the body.(en)">
 				>
+				["at0070"] = <
+					text = <"*To the left of (en)">
+					description = <"*Towards the left, from a midline landmark. (en)">
+				>
+				["at0071"] = <
+					text = <"*To the right of (en)">
+					description = <"*Towards the right, from a midline landmark. (en)">
+				>
 			>
 		>
 		["en"] = <
@@ -646,6 +664,14 @@ ontology
 				["at0069"] = <
 					text = <"Right">
 					description = <"Right side of the body.">
+				>
+				["at0070"] = <
+					text = <"To the left of">
+					description = <"Towards the left, from a midline landmark.">
+				>
+				["at0071"] = <
+					text = <"To the right of">
+					description = <"Towards the right, from a midline landmark.">
 				>
 			>
 		>
@@ -766,6 +792,14 @@ Kombinasjoner valgt innenfor hvert av de 8 parene er i prinsippet gyldige, selv 
 					text = <"Høyre">
 					description = <"Høyre side av kroppen.">
 				>
+				["at0070"] = <
+					text = <"Til venstre for">
+					description = <"Mot venstre, fra et midtlinjemerke.">
+				>
+				["at0071"] = <
+					text = <"Til høyre for">
+					description = <"Mot høyre, fra et midtlinjemerke.">
+				>
 			>
 		>
 		["pt-br"] = <
@@ -882,6 +916,14 @@ Kombinasjoner valgt innenfor hvert av de 8 parene er i prinsippet gyldige, selv 
 				["at0069"] = <
 					text = <"*Right(en)">
 					description = <"*Right side of the body.(en)">
+				>
+				["at0070"] = <
+					text = <"*To the left of (en)">
+					description = <"*Towards the left, from a midline landmark. (en)">
+				>
+				["at0071"] = <
+					text = <"*To the right of (en)">
+					description = <"*Towards the right, from a midline landmark. (en)">
 				>
 			>
 		>
@@ -1010,6 +1052,14 @@ Kombinationer som valts inom vart och ett av de 8 paren är i princip giltiga, �
 					text = <"Höger">
 					description = <"Höger sida av kroppen">
 				>
+				["at0070"] = <
+					text = <"*To the left of (en)">
+					description = <"*Towards the left, from a midline landmark. (en)">
+				>
+				["at0071"] = <
+					text = <"*To the right of (en)">
+					description = <"*Towards the right, from a midline landmark. (en)">
+				>
 			>
 		>
 		["de"] = <
@@ -1128,6 +1178,14 @@ Kombinationer som valts inom vart och ett av de 8 paren är i princip giltiga, �
 				["at0069"] = <
 					text = <"Rechts">
 					description = <"Rechte Körperseite.">
+				>
+				["at0070"] = <
+					text = <"*To the left of (en)">
+					description = <"*Towards the left, from a midline landmark. (en)">
+				>
+				["at0071"] = <
+					text = <"*To the right of (en)">
+					description = <"*Towards the right, from a midline landmark. (en)">
 				>
 			>
 		>
