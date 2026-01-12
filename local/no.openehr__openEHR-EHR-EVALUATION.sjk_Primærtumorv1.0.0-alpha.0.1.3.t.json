@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "c179a5a433d23918dab28e35a1983503",
-      "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960",
-      "sem_ver" : "12.0.0",
+      "MD5-CAM-1.0.1" : "cf5d874291aad9a3ecae3cc628a3d0ef",
+      "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74",
+      "sem_ver" : "12.0.1",
       "build_uid" : ""
     },
     "details" : {
@@ -258,14 +258,7 @@
       "fr" : { },
       "ca" : { },
       "es" : { },
-      "pt-pt" : {
-        "at0000.1" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0000",
-          "text" : "Título ad hoc",
-          "description" : "Um cabeçalho de secção genérico que deve ser renomeado ao nível do template para se adequar a um contexto clínico específico."
-        }
-      }
+      "pt-pt" : { }
     },
     "termBindings" : { },
     "terminologyExtracts" : { },
@@ -300,7 +293,7 @@
         "original_publisher" : "openEHR Foundation",
         "custodian_namespace" : "org.openehr",
         "MD5-CAM-1.0.1" : "57c7d8d585620da67ab3a0dfb2d03a7b",
-        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
+        "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74"
       },
       "details" : {
         "de" : {
@@ -602,14 +595,7 @@
         },
         "ca" : { },
         "es" : { },
-        "pt-pt" : {
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000",
-            "text" : "Título ad hoc",
-            "description" : "Um cabeçalho de secção genérico que deve ser renomeado ao nível do template para se adequar a um contexto clínico específico."
-          }
-        }
+        "pt-pt" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -4567,7 +4553,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960"
+        "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74"
       },
       "details" : {
         "de" : {
@@ -4837,14 +4823,7 @@
         "fr" : { },
         "ca" : { },
         "es" : { },
-        "pt-pt" : {
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000",
-            "text" : "Título ad hoc",
-            "description" : "Um cabeçalho de secção genérico que deve ser renomeado ao nível do template para se adequar a um contexto clínico específico."
-          }
-        }
+        "pt-pt" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -33108,7 +33087,7 @@
             "code" : "at0001.1",
             "text" : "Navn på kroppssted",
             "description" : "Navngiving av et enkelt fysisk sted enten på eller i menneskekroppen.",
-            "comment" : "Designkommentar:\nDet speisfikke kroppsstedet. Hvis man f.eks. har satt venstre mamma i dataelementet beliggenhet ville dette feltet blitt mamma. \n"
+            "comment" : "Designkommentar:\nDet speisfikke kroppsstedet. Hvis man f.eks. har satt venstre mamma i dataelementet beliggenhet ville dette feltet blitt mamma. \n\nDet er laget en mapping for spesifikt sted ved bruk av gruppering i elementet Beliggenhet i Problem/diagnosen (ref. sarkom)\n"
           },
           "at0002.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -36754,7 +36733,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "95E62F4E6D9564FD0AF5151BBB3CC2A7"
+        "PARENT:MD5-CAM-1.0.1" : "B1FDA6B2E5B7DD5E2B046E0811E96EC2"
       },
       "details" : {
         "de" : {
