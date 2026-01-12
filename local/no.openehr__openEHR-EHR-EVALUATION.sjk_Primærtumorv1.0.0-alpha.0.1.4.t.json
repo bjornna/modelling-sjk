@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "39a9e5da3023daf1cfcbe2627c2d39be",
+      "MD5-CAM-1.0.1" : "db3624dfb3387460a12259311951cd0c",
       "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74",
-      "sem_ver" : "15.0.0",
+      "sem_ver" : "16.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -4224,28 +4224,35 @@
                     "code" : "373795004",
                     "value" : "Bekreftet (kreftdiagnose på grunnlag av kliniske funn)",
                     "translations" : {
-                      "nb" : "Kreftdiagnose på grunnlag av kliniske funn"
+                      "nb" : "Kreftdiagnose på grunnlag av kliniske funn (Klinisk sikker kreft)"
                     }
                   }, {
                     "terminologyId" : "SNOMED-CT",
-                    "code" : "269497004",
-                    "value" : "Usikker  (usikker om tumor er beningn eller malign)",
+                    "code" : "86251006",
+                    "value" : "Tumor med usikker maligniitetspotensial (Neoplasm of uncertain behavior (morphologic abnormality))",
                     "translations" : {
-                      "nb" : "Usikker  (usikker om tumor er beningn eller malign)"
+                      "nb" : "Tumor med usikker maligniitetspotensial (Neoplasm of uncertain behavior (morphologic abnormality))"
                     }
                   }, {
                     "terminologyId" : "SNOMED-CT",
-                    "code" : "109889007",
-                    "value" : "Forstadium (DCIS)",
+                    "code" : "127569003",
+                    "value" : "Tumor in situ, morfologi ( In situ neoplasm (morphologic abnormality))",
                     "translations" : {
-                      "nb" : "Forstadium (DCIS)"
+                      "nb" : "Tumor in situ, morfologi ( In situ neoplasm (morphologic abnormality))"
+                    }
+                  }, {
+                    "terminologyId" : "SNOMED-CT",
+                    "code" : "1269006002",
+                    "value" : "Noninvasive premalignant neoplasm (morphologic abnormality)",
+                    "translations" : {
+                      "nb" : "Noninvasive premalignant neoplasm (morphologic abnormality)"
                     }
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "395100000",
                     "value" : "Ingen tegn til malign neoplasme/kreft",
                     "translations" : {
-                      "nb" : "Ingen tegn til malign neoplasme/kreft"
+                      "nb" : "Ingen tegn til malign neoplasme/kreft, No evidence of cancer found (situation)"
                     }
                   } ]
                 } ]
