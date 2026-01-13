@@ -20,10 +20,10 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "10.1.0",
+      "sem_ver" : "10.1.1",
       "build_uid" : "",
-      "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960",
-      "MD5-CAM-1.0.1" : "66dc05924f10473af6ee03affefab66b"
+      "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74",
+      "MD5-CAM-1.0.1" : "d6f6f43043c55b7e9b5704affdbc3431"
     },
     "details" : {
       "de" : {
@@ -177,6 +177,21 @@
         "misuse" : "No es deixarà sense canvis en una plantilla.",
         "originalResourceUri" : { },
         "otherDetails" : { }
+      },
+      "pt-pt" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "pt-pt"
+        },
+        "purpose" : "Para fornecer um cabeçalho de secção genérico que será renomeado ao nível do template para se adequar a um contexto clínico específico.",
+        "keywords" : [ ],
+        "use" : "Use para criar um título de secção ao nível do template que será renomeado para se adequar ao contexto clínico específico. Por exemplo: «Título ad hoc» renomeado para «Resultados do exame».",
+        "misuse" : "Não deve ser deixado inalterado ao nível do template.",
+        "originalResourceUri" : { },
+        "otherDetails" : { }
       }
     }
   },
@@ -298,7 +313,8 @@
         }
       },
       "ca" : { },
-      "es" : { }
+      "es" : { },
+      "pt-pt" : { }
     },
     "termBindings" : { },
     "terminologyExtracts" : { },
@@ -538,7 +554,10 @@
                               "includedExternalTerminologyCodes" : [ {
                                 "terminologyId" : "no.onk.kartlegging",
                                 "code" : "05",
-                                "value" : "Symptom"
+                                "value" : "Symptom",
+                                "translations" : {
+                                  "nb" : "Symptom"
+                                }
                               } ]
                             } ]
                           } ],
@@ -631,11 +650,17 @@
                                   "includedExternalTerminologyCodes" : [ {
                                     "terminologyId" : "SNOMED-CT",
                                     "code" : "22253000",
-                                    "value" : "Smerter (finding)"
+                                    "value" : "Smerter (finding)",
+                                    "translations" : {
+                                      "nb" : "Smerter (finding)"
+                                    }
                                   }, {
                                     "terminologyId" : "SNOMED-CT",
                                     "code" : "247347003",
-                                    "value" : "Ubehag (finding)"
+                                    "value" : "Ubehag (finding)",
+                                    "translations" : {
+                                      "nb" : "Ubehag (finding)"
+                                    }
                                   } ]
                                 } ]
                               } ],
@@ -812,7 +837,7 @@
             "code" : "at0004.1",
             "text" : "Navn på symptom/sykdomstegn",
             "description" : "Navn på det spesifikke symptomet eller sykdomstegnet; eller gruppen av symptomer eller sykdomstegn.",
-            "comment" : "Designkommentar:\nNavnet på symptomet/sykdomstegnet. \nKod med SNOMED-CT om mulig. \n For eksempel:\n22253000 Smerter (finding)\n247347003 Ubehag (finding)\n422587007 kvalme (finding)\n25064002  hodepine (finding)"
+            "comment" : "Designkommentar:\nNavnet på symptomet/sykdomstegnet. \nKod med SNOMED-CT om mulig. \nFor eksempel:\n22253000 Smerter (finding)\n247347003 Ubehag (finding)\n422587007 kvalme (finding)\n25064002  hodepine (finding)\n\nDe spesifikke verdiene/kodene som er lagt til elementet er eksempler og byttes ut når man tar templatet i bruk."
           },
           "at0005.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -5839,11 +5864,17 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "22253000",
-                    "value" : "Smerter (finding)"
+                    "value" : "Smerter (finding)",
+                    "translations" : {
+                      "nb" : "Smerter (finding)"
+                    }
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "247347003",
-                    "value" : "Ubehag (finding)"
+                    "value" : "Ubehag (finding)",
+                    "translations" : {
+                      "nb" : "Ubehag (finding)"
+                    }
                   } ]
                 } ]
               } ],
@@ -6338,7 +6369,7 @@
             "code" : "at0001.1",
             "text" : "Navn på symptom/sykdomstegn",
             "description" : "Navnet på det rapporterte symptomet eller sykdomstegnet.",
-            "comment" : "Designkommentar: \nDenne arketypen er satt inn for å kunne registrere symptomer og sykdomstegn i en \"ekte\" arketype. \nHvis man har svart ja i \"spesifikt symptom/sykdomstegn\" i kartleggingsarketypen, arves navnet ned til dette elementet. \nKodes med SNOMED-CT hvis mulig.\n\n"
+            "comment" : "Designkommentar: \nDenne arketypen er satt inn for å kunne registrere symptomer og sykdomstegn i en \"ekte\" arketype. \nHvis man har svart ja i \"spesifikt symptom/sykdomstegn\" i kartleggingsarketypen, arves navnet ned til dette elementet. \nKodes med SNOMED-CT hvis mulig.\nDe spesifikke verdiene/kodene som er lagt til elementet er eksempler og byttes ut når man tar templatet i bruk.\n\n"
           },
           "at0002.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -6604,6 +6635,20 @@
       "name" : "Laura Moral Lopez",
       "organisation" : "Sistema de Salut de Catalunya",
       "email" : "lmorallopez@gmail.com"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "pt-pt"
+    },
+    "author" : {
+      "name" : "Vanessa Pereira",
+      "organisation" : "Luxembourg Institute of Health (LIH)",
+      "email" : "vanessapereira@protonmail.com"
     },
     "otherDetails" : { }
   } ]
