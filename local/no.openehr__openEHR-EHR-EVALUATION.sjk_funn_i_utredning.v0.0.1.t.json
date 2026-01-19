@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "21bef7eff4d450cda696896bad219de4",
+      "MD5-CAM-1.0.1" : "f9c67b283a52bc6b7e26f2caddac3f7e",
       "PARENT:MD5-CAM-1.0.1" : "9F1B95B53D81FF86EF3DF128A51108E9",
-      "sem_ver" : "0.1.0",
+      "sem_ver" : "0.1.1",
       "build_uid" : ""
     },
     "details" : {
@@ -435,7 +435,8 @@
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0004",
           "text" : "Problem/diagnosenavn",
-          "description" : "Angi tumorhendelsen som var årsaken til den aktuelle henvisningen som har utløst opprettelsen av dette utredningssdokumentet for sarkom."
+          "description" : "Angi tumorhendelsen som var årsaken til den aktuelle henvisningen som har utløst opprettelsen av dette utredningssdokumentet.",
+          "comment" : "-372087000 - Primærtumor (med eller uten metastase(r))  - Primary malignant neoplasm (disorder) \n-25173007 - Lokalt residiv (med eller uten metastase(r)) - Recurrent neoplasm (disorder) -128462008 - Kun metastase(r) Metastatic malignant neoplasm (disorder) \n-74964007 - Annet  Other (qualifier value) "
         },
         "at0005.1" : {
           "@type" : "ARCHETYPE_TERM",
