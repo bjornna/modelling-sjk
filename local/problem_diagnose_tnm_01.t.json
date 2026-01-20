@@ -22,9 +22,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "6a6da92135762ddc62740560a981b6d4",
+      "MD5-CAM-1.0.1" : "3ad39d726ec2667062d0b8ccafac5bf6",
       "PARENT:MD5-CAM-1.0.1" : "89470078C0364ACBA5B6A5F286E56C79",
-      "sem_ver" : "7.0.2",
+      "sem_ver" : "7.0.3",
       "build_uid" : ""
     },
     "details" : {
@@ -972,7 +972,7 @@
             "code" : "at0001",
             "text" : "Multiple primærtumorer",
             "description" : "Indikasjon på at det finnes flere primære maligniteter med ulik morfologi.",
-            "comment" : "Benyttes for hode/halskreft for å angi forekomst av multiple tumorer med forskjellig morfologi, dvs. at histologien er forskjellig. \n\nNB! skal ikke brukes til den riktige definisjoen av \"multiple primærtumorer som er flere tumorer med samme morfologi\" Her må vi diskutere hva vi skal gjøre med dette elementet. Forn TNM ligger dette i deres verdisett. "
+            "comment" : "Benyttes for hode/halskreft for å angi forekomst av multiple tumorer med forskjellig morfologi, dvs. at histologien er forskjellig. \n\nNB! skal ikke brukes til den riktige definisjoen av \"multiple primærtumorer som er flere tumorer med samme morfologi\" Her må vi diskutere hva vi skal gjøre med dette elementet. Forn TNM ligger dette i deres verdisett. \n\n primær malign tumor på multiple uavhengige lokalisasjoner\nSCTID: 109359008\n\n109359008 | primær malign tumor på multiple uavhengige lokalisasjoner |\n  no   primær ondartet svulst på flere uavhengige steder\n  no   primær malign tumor på multiple uavhengige lokalisasjoner\n  no   primær malign neoplasi på flere uavhengige steder\n  en   Primary malignant neoplasm of independent multiple sites (disorder)"
           },
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
