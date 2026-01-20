@@ -22,9 +22,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "5660d49cea49860b058dc0c27279fa97",
+      "MD5-CAM-1.0.1" : "7fb80cef309afd38002f907fd935f5e3",
       "PARENT:MD5-CAM-1.0.1" : "89470078C0364ACBA5B6A5F286E56C79",
-      "sem_ver" : "8.0.0",
+      "sem_ver" : "9.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -494,6 +494,15 @@
           }, {
             "@type" : "C_ARCHETYPE_ROOT",
             "rmTypeName" : "CLUSTER",
+            "occurrences" : "0..1",
+            "nodeId" : "at0043.6",
+            "attributes" : [ ],
+            "attributeTuples" : [ ],
+            "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-problem_qualifier-001.v2",
+            "referenceType" : "archetypeOverlay"
+          }, {
+            "@type" : "C_ARCHETYPE_ROOT",
+            "rmTypeName" : "CLUSTER",
             "occurrences" : "0..0",
             "nodeId" : "at0043.5",
             "attributes" : [ ],
@@ -526,15 +535,6 @@
             "attributes" : [ ],
             "attributeTuples" : [ ],
             "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-anatomical_location-001.v1",
-            "referenceType" : "archetypeOverlay"
-          }, {
-            "@type" : "C_ARCHETYPE_ROOT",
-            "rmTypeName" : "CLUSTER",
-            "occurrences" : "0..1",
-            "nodeId" : "at0043.7",
-            "attributes" : [ ],
-            "attributeTuples" : [ ],
-            "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-problem_qualifier-001.v2",
             "referenceType" : "archetypeOverlay"
           }, {
             "@type" : "C_ARCHETYPE_ROOT",
@@ -2783,7 +2783,6 @@
         }, {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
-          "occurrences" : "0..0",
           "nodeId" : "at0025.1.1",
           "attributes" : [ {
             "@type" : "C_ATTRIBUTE",
@@ -6770,22 +6769,30 @@
                     "terminologyId" : "no.onc.tumorevent.hendelse",
                     "code" : "01",
                     "value" : "Lokalt",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "Lokalt"
+                    }
                   }, {
                     "terminologyId" : "no.onc.tumorevent.hendelse",
                     "code" : "02",
                     "value" : "Regionalt",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "Regionalt"
+                    }
                   }, {
                     "terminologyId" : "no.onc.tumorevent.hendelse",
                     "code" : "03",
                     "value" : "Metastasert",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "Metastasert"
+                    }
                   }, {
                     "terminologyId" : "no.onc.tumorevent.hendelse",
                     "code" : "04",
                     "value" : "Biokjemisk",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "Biokjemisk"
+                    }
                   } ]
                 } ]
               } ],
@@ -6980,7 +6987,7 @@
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0000.1",
-            "text" : "Problem/diagnose-kvalifikator",
+            "text" : "**Problem/diagnose-kvalifikator",
             "description" : "Brukes for å angi progresjon eller recidiv",
             "comment" : "2.mai 2025 \nUtkast til struktur for å angi progresjon og residiv knyttet til hhv. lokalt, regionalt og metastase. \nVi bruker feltene i arketypen for progresjon og bedringsfase for å uttrykke hhv. progresjon og residiv. \nI tillegg legges manifisteringen (lokalt, metastase, etc.) inn i feltet forekomst. \n\nDet ser ut til å være en struktur som følger arketypen godt. "
           },
