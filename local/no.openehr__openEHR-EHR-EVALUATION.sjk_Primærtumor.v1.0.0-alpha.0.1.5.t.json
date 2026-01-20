@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "d8d5a2accc629b70e59a75155eb0a7d0",
+      "MD5-CAM-1.0.1" : "bd1d8b1c98388b0457e4f43d1cd127ad",
       "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74",
-      "sem_ver" : "17.1.0",
+      "sem_ver" : "18.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -1097,7 +1097,38 @@
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
               "nodeId" : "at0078.1",
-              "attributes" : [ ],
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_CODED_TEXT",
+                  "occurrences" : "1..1",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "defining_code",
+                    "children" : [ {
+                      "@type" : "C_TERMINOLOGY_CODE",
+                      "rmTypeName" : "TERMINOLOGY_CODE",
+                      "occurrences" : "0..1",
+                      "terminologyId" : {
+                        "value" : "SNOMED-CT"
+                      },
+                      "constraint" : [ ],
+                      "selectedTerminologies" : [ "SNOMED-CT" ],
+                      "includedExternalTerminologyCodes" : [ {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "1340012009",
+                        "value" : "Stråleindusert",
+                        "translations" : {
+                          "nb" : "Stråleindusert"
+                        }
+                      } ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
               "attributeTuples" : [ ]
             }, {
               "@type" : "C_COMPLEX_OBJECT",
@@ -1999,7 +2030,6 @@
         }, {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
-          "occurrences" : "0..0",
           "nodeId" : "at0003.1",
           "attributes" : [ ],
           "attributeTuples" : [ ]
@@ -2015,7 +2045,7 @@
           "at0001.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0001.1",
-            "text" : "Diagnose",
+            "text" : "Diagnose ICD-10",
             "description" : "Koding av diagnosen med ICD10.",
             "comment" : "Designkommentar:\nDet er denne verdien som skal vises i skjermbildet. \nDen trenger nå ikke å være obligatorisk. \nKodes med ICD-10"
           },
@@ -2025,6 +2055,12 @@
             "text" : "Problem/diagnose detaljer",
             "description" : "Brukes for å registrere detaljer til problem/diagnose blant annet ICD koder.",
             "comment" : "Designkommentar:\nEn lokal CLUSTER arketype som brukes til å \nlegge inn diagnosekode, her er det ICD10 diagnosekoder.\n\nDenne brukes for spesifikk ICD-10 diagnose i stedet for øverst i Problem/diagnose - elementet problem/diagnosenavn da man i en utredningssistuasjon kanskje ikke har en gitt diagnose, og heller ikke vil registrere denne icd-10 koden. \n\n"
+          },
+          "at0003.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0003.1",
+            "text" : "Merknad ICD-10",
+            "description" : "Narrativ beskrivelse av problem/diagnose."
           }
         }
       },
@@ -2164,6 +2200,13 @@
             "text" : "Oncology problem details dips",
             "description" : "En indikasjon på at det finnes flere primære maligniteter.",
             "comment" : "Designkommentar:\nDenne brukes for å legge til om tumoren er multifokal eller ikke. For brys er dette definert som flere samtidige tumorer i samme bryst. "
+          },
+          "at0001.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0001.1",
+            "text" : "Multiple primærtumorer",
+            "description" : "Indikasjon på at det finnes flere primære maligniteter med samme morfologi/histologi. ",
+            "comment" : "Designkommentar:\nHH bruker denne for tumorer som har forskjellig morfologi. \nMens for f.eks. andre så er dette feltet ment som tumorer med samme morfologi. \n\nKanskje lage en annen element som sier noe om flere primære tumorer med ulik morfologi, og et som sier primærtumorer med lik morfologi slik at man ikke blander dem. \n\n"
           }
         }
       },
