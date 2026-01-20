@@ -22,9 +22,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "3ad39d726ec2667062d0b8ccafac5bf6",
+      "MD5-CAM-1.0.1" : "5660d49cea49860b058dc0c27279fa97",
       "PARENT:MD5-CAM-1.0.1" : "89470078C0364ACBA5B6A5F286E56C79",
-      "sem_ver" : "7.0.3",
+      "sem_ver" : "8.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -1117,202 +1117,282 @@
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T0",
                     "value" : "cT0",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT0"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T1",
                     "value" : "cT1",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT1c"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T1a",
                     "value" : "cT1a",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT1a"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T1a1",
                     "value" : "cT1a1",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT1a1"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T1a2",
                     "value" : "cT1a2",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT1a2"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T1b",
                     "value" : "cT1b",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT1b"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T1b1",
                     "value" : "cT1b1",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT1b1"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T1b2",
                     "value" : "cT1b2",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT1b2"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T1b3",
                     "value" : "cT1b3",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT1b3"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T1",
-                    "value" : "cT1c",
-                    "translations" : { }
+                    "value" : "cT1",
+                    "translations" : {
+                      "nb" : "cT1c"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T11",
                     "value" : "cT1c1",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT1c1"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T12",
                     "value" : "cT1c2",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT1c2"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T13",
                     "value" : "cT1c3",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT1c3"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T1d",
                     "value" : "cT1d",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT1d"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T1mi",
                     "value" : "cT1mi",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT1mi"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T2",
                     "value" : "cT2",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT2c"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T2a",
                     "value" : "cT2a",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT2a"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T2a1",
                     "value" : "cT2a1",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT2a1"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T2a2",
                     "value" : "cT2a2",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT2a2"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T2b",
                     "value" : "cT2b",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT2b"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T2",
-                    "value" : "cT2c",
-                    "translations" : { }
+                    "value" : "cT2",
+                    "translations" : {
+                      "nb" : "cT2c"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T2d",
                     "value" : "cT2d",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT2d"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T3",
                     "value" : "cT3",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT3c"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T3a",
                     "value" : "cT3a",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT3a"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T3b",
                     "value" : "cT3b",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT3b"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T3",
-                    "value" : "cT3c",
-                    "translations" : { }
+                    "value" : "cT3",
+                    "translations" : {
+                      "nb" : "cT3c"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T3d",
                     "value" : "cT3d",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT3d"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T3e",
                     "value" : "cT3e",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT3e"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T4",
                     "value" : "cT4",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT4c"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T4a",
                     "value" : "cT4a",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT4a"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T4b",
                     "value" : "cT4b",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT4b"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T4",
-                    "value" : "cT4c",
-                    "translations" : { }
+                    "value" : "cT4",
+                    "translations" : {
+                      "nb" : "cT4c"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T4d",
                     "value" : "cT4d",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT4d"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "T4e",
                     "value" : "cT4e",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cT4e"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "TX",
                     "value" : "cTX",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cTX"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "Ta",
                     "value" : "cTa",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cTa"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "Tis",
                     "value" : "cTis",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cTis"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "Tis(DIS)",
                     "value" : "cTis(DCIS)",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cTis(DCIS)"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "Tis(LAMN)",
                     "value" : "cTis(LAMN)",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cTis(LAMN)"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "Tis(Paget)",
                     "value" : "cTis(Paget)",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cTis(Paget)"
+                    }
                   } ]
                 } ]
               } ],
@@ -1347,97 +1427,135 @@
                     "terminologyId" : "no.onk.tnm",
                     "code" : "N0",
                     "value" : "cN0",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cN0"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "N0(i+)",
                     "value" : "cN0(i+)",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cN0(i+)"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "N0a",
                     "value" : "cN0a",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cN0a"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "N0b",
                     "value" : "cN0b",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cN0b"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "N1",
                     "value" : "cN1",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cN1c"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "N1a",
                     "value" : "cN1a",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cN1a"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "N1b",
                     "value" : "cN1b",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cN1b"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "N1",
-                    "value" : "cN1c",
-                    "translations" : { }
+                    "value" : "cN1",
+                    "translations" : {
+                      "nb" : "cN1c"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "N1mi",
                     "value" : "cN1mi",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cN1mi"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "N2",
                     "value" : "cN2",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cN2c"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "N2a",
                     "value" : "cN2a",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cN2a"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "N2b",
                     "value" : "cN2b",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cN2b"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "N2",
-                    "value" : "cN2c",
-                    "translations" : { }
+                    "value" : "cN2",
+                    "translations" : {
+                      "nb" : "cN2c"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "N2mi",
                     "value" : "cN2mi",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cN2mi"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "N3",
                     "value" : "cN3",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cN3c"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "N3a",
                     "value" : "cN3a",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cN3a"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "N3b",
                     "value" : "cN3b",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cN3b"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "N3",
-                    "value" : "cN3c",
-                    "translations" : { }
+                    "value" : "cN3",
+                    "translations" : {
+                      "nb" : "cN3c"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "NX",
                     "value" : "cNX",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cNX"
+                    }
                   } ]
                 } ]
               } ],
@@ -1472,87 +1590,121 @@
                     "terminologyId" : "no.onk.tnm",
                     "code" : "M0",
                     "value" : "cM0",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cM0"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "M0(i+)",
                     "value" : "cM0(i+)",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cM0(i+)"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "M1",
                     "value" : "cM1",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cM1c"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "M1a",
                     "value" : "cM1a",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cM1a"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "M1a(0)",
                     "value" : "cM1a(0)",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cM1a(0)"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "M1a(1)",
                     "value" : "cM1a(1)",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cM1a(1)"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "M1b",
                     "value" : "cM1b",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cM1b"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "M1b(0)",
                     "value" : "cM1b(0)",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cM1b(0)"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "M1b(1)",
                     "value" : "cM1b(1)",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cM1b(1)"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "M1",
-                    "value" : "cM1c",
-                    "translations" : { }
+                    "value" : "cM1",
+                    "translations" : {
+                      "nb" : "cM1c"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "M1(0)",
                     "value" : "cM1c(0)",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cM1c(0)"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "M1(1)",
                     "value" : "cM1c(1)",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cM1c(1)"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "M11",
                     "value" : "cM1c1",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cM1c1"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "M12",
                     "value" : "cM1c2",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cM1c2"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "M1d",
                     "value" : "cM1d",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cM1d"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "M1d(0)",
                     "value" : "cM1d(0)",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cM1d(0)"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tnm",
                     "code" : "M1d(1)",
                     "value" : "cM1d(1)",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cM1d(1)"
+                    }
                   } ]
                 } ]
               } ],
@@ -1682,12 +1834,16 @@
         }, {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
-          "occurrences" : "0..0",
           "nodeId" : "at0025.1",
           "attributes" : [ {
             "@type" : "C_ATTRIBUTE",
             "rmAttributeName" : "value",
             "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_COUNT",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "DV_BOOLEAN",
               "attributes" : [ ],
@@ -1909,7 +2065,15 @@
       "conceptCode" : "at0000",
       "termDefinitions" : {
         "en" : { },
-        "nb" : { },
+        "nb" : {
+          "at0025.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0025",
+            "text" : "Multiple primærtumorer (m)",
+            "description" : "Tilstedeværelse av multiple samtidige primærtumorer på ett enkelt sted.",
+            "comment" : "Angis med en tilføyelse, enten bokstaven \"m\" eller antallet av primærsvulster, i parantes bak T-koden, for eksempel \"T2(m)\" eller \"cT2(4)\".\n\nDesignkommentar:\nHvis denne brukes utenom TNM skåring kan man bruke den som en boolsk variabel, f.eks. i Sarkom. "
+          }
+        },
         "de" : { }
       },
       "termBindings" : { },
