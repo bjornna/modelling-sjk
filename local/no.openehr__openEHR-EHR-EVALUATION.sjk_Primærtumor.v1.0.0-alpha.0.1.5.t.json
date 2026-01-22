@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "bd1d8b1c98388b0457e4f43d1cd127ad",
+      "MD5-CAM-1.0.1" : "cd862580b181a088e40a61da1b7804e1",
       "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74",
-      "sem_ver" : "18.0.0",
+      "sem_ver" : "18.0.1",
       "build_uid" : ""
     },
     "details" : {
@@ -38836,7 +38836,7 @@
             "code" : "at0000.1",
             "text" : "Regional (N) lymfeknutemetastase",
             "description" : "Detaljer om funnet av fjernmetastase(r) (cM).",
-            "comment" : "Detaljer om funnet av regional lymfeknutemetastase (cN). \nDesignkommentar:\nDukker opp om M er annet enn 0 eller X"
+            "comment" : "Designkommentar:\nDukker opp om M er annet enn 0 eller X\n\nNB! denne skal baseres på småtemplatarketypen no.openehr__openEHR-EHR-EVALUATION.sjk_metastase.v1.0.0. \nEndringer her må tilbakeføres til småtemplatet. "
           },
           "at0002.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -41315,7 +41315,7 @@
             "code" : "at0000.1",
             "text" : "Fjernmetastaser (M)",
             "description" : "Detaljer om funnet av fjernmetastase(r) (cM).",
-            "comment" : "Detaljer om funnet av regional lymfeknutemetastase (cN). \nDesignkommentar:\nDukker opp om M er annet enn 0 eller X"
+            "comment" : "Designkommentar:\nDukker opp om M er annet enn 0 eller X\n\nNB! denne skal baseres på småtemplatarketypen no.openehr__openEHR-EHR-EVALUATION.sjk_metastase.v1.0.0. \nEndringer her må tilbakeføres til småtemplatet. "
           },
           "at0002.1" : {
             "@type" : "ARCHETYPE_TERM",
