@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "cd862580b181a088e40a61da1b7804e1",
+      "MD5-CAM-1.0.1" : "7ac15a2d1d258b6cfa23e3fc689f0b44",
       "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74",
-      "sem_ver" : "18.0.1",
+      "sem_ver" : "18.0.2",
       "build_uid" : ""
     },
     "details" : {
@@ -248,7 +248,7 @@
           "code" : "at0000.1",
           "text" : "Primærtumor",
           "description" : "En generisk seksjonsoverskrift som skal gis nytt navn i en templat for å passe i en gitt klinisk kontekst.",
-          "comment" : "gjentas for hver enkelt primærtumor"
+          "comment" : "Designkommentar:\ngjentas for hver enkelt primærtumor"
         }
       },
       "pt-br" : { },
@@ -42495,7 +42495,8 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0000.1",
             "text" : "**?**Problem/diagnose-kvalifikator",
-            "description" : "Kontekst- eller tidsspesifikk kvalifikator for et problem eller en diagnose."
+            "description" : "Kontekst- eller tidsspesifikk kvalifikator for et problem eller en diagnose.",
+            "comment" : "Designkommentar_\nSe på arketypen https://arketyper.no/ckm/archetypes/1078.36.3086 - Tumorstatus fra HighMed."
           },
           "ac0.1" : {
             "@type" : "ARCHETYPE_TERM",
