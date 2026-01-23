@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "1b62d954d18508a0c28a6352f3791e42",
+      "MD5-CAM-1.0.1" : "1edfabbb8b2e17294d7e0cd857387ba2",
       "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74",
-      "sem_ver" : "20.0.1",
+      "sem_ver" : "21.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -44206,6 +44206,20 @@
                     "translations" : {
                       "nb" : "Ukjent"
                     }
+                  }, {
+                    "terminologyId" : "SNOMED-CT",
+                    "code" : "??",
+                    "value" : "Biomarkører",
+                    "translations" : {
+                      "nb" : "Biomarkører"
+                    }
+                  }, {
+                    "terminologyId" : "SNOMED-CT",
+                    "code" : "250724005",
+                    "value" : "Tumormarkør måling (prosedyre)",
+                    "translations" : {
+                      "nb" : "Tumormarkør måling (prosedyre)"
+                    }
                   } ]
                 } ]
               } ],
@@ -44261,7 +44275,7 @@
             "code" : "at0022.1",
             "text" : "Metode /Undersøkelsesmateriale",
             "description" : "Typen undersøkelse eller utredning som er utført for å komme fram til funnet.",
-            "comment" : "Designkommentar:\nDette er egentlig metoden for uthenting av prøvemateriale hvis dette er gjort. Altså prøvetakninsmetode. \n58147004\tKlinisk vurdering\t Clinical (qualifier value)\n113011001\tPalpasjon\t Palpation (procedure)\n363679005\tBildediagnostikk\t Imaging (procedure)\n116147009\tCytologi\t Cytologic test (procedure)\n86273004\tBiopsi\t Biopsy (procedure)\n65801008\tReseksjon\t Excision (procedure)\n74964007\tAnnet\t Other (qualifier value)\n69466000\tUkjent\t Unknown procedure (finding)"
+            "comment" : "Designkommentar:\nDette er egentlig metoden for uthenting av prøvemateriale hvis dette er gjort. Altså prøvetakninsmetode. \n58147004\tKlinisk vurdering\t Clinical (qualifier value) - Denne bør kanskje bort fordi dette ikke er noe metode i seg selv. \n113011001\tPalpasjon\t Palpation (procedure)\n363679005\tBildediagnostikk\t Imaging (procedure)\n116147009\tCytologi\t Cytologic test (procedure)\n86273004\tBiopsi\t Biopsy (procedure)\n65801008\tReseksjon\t Excision (procedure)\n74964007\tAnnet\t Other (qualifier value)\n69466000\tUkjent\t Unknown procedure (finding)\n250724005       Tumormarkør måling (prosedyre)\n\n250724005\tBiokjemisk test\n5880005\tKlinisk (fysisk) undersøkelse\n363679005\tBildediagnostikk\n714797009\tHistologisk test"
           }
         },
         "de" : { },
