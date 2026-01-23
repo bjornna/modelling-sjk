@@ -19,8 +19,10 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "d78a778e0f433a3cc88f5fe16cc4c332",
-      "PARENT:MD5-CAM-1.0.1" : "9CA673C44D07EB44E7473631D0F97DD4"
+      "MD5-CAM-1.0.1" : "5d430ebe977c4ce8a07efc405112264b",
+      "PARENT:MD5-CAM-1.0.1" : "9CA673C44D07EB44E7473631D0F97DD4",
+      "sem_ver" : "0.1.0",
+      "build_uid" : ""
     },
     "details" : {
       "de" : {
@@ -87,7 +89,7 @@
   "differential" : true,
   "archetypeId" : {
     "@type" : "ARCHETYPE_HRID",
-    "value" : "openEHR-EHR-CLUSTER.clinicalevidence (3).v1"
+    "value" : "openEHR-EHR-CLUSTER.clinicalevidence_(3).v1"
   },
   "definition" : {
     "@type" : "C_COMPLEX_OBJECT",
@@ -367,7 +369,7 @@
     "valueSets" : { }
   },
   "adlVersion" : "1.4",
-  "buildUid" : "c58928fa-3095-3f51-aaa8-8f9bfbbc6188",
+  "buildUid" : "ad8c5df5-7094-3397-89ac-4d97f79ff65d",
   "rmName" : "openehr",
   "rmRelease" : "1.1.0",
   "generated" : true,
