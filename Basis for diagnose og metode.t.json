@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "261e78e593dc207ebda06d877d5f3ce5",
+      "MD5-CAM-1.0.1" : "17d384b12600bc010f9bf94db2877cdf",
       "PARENT:MD5-CAM-1.0.1" : "89470078C0364ACBA5B6A5F286E56C79",
-      "sem_ver" : "1.0.0",
+      "sem_ver" : "2.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -528,6 +528,15 @@
             "@type" : "C_ARCHETYPE_ROOT",
             "rmTypeName" : "CLUSTER",
             "occurrences" : "0..1",
+            "nodeId" : "at0043.3",
+            "attributes" : [ ],
+            "attributeTuples" : [ ],
+            "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-clinical_evidence-003.v1",
+            "referenceType" : "archetypeOverlay"
+          }, {
+            "@type" : "C_ARCHETYPE_ROOT",
+            "rmTypeName" : "CLUSTER",
+            "occurrences" : "0..1",
             "nodeId" : "at0043.4",
             "attributes" : [ ],
             "attributeTuples" : [ ],
@@ -546,15 +555,6 @@
             "@type" : "C_ARCHETYPE_ROOT",
             "rmTypeName" : "CLUSTER",
             "occurrences" : "0..1",
-            "nodeId" : "at0043.3",
-            "attributes" : [ ],
-            "attributeTuples" : [ ],
-            "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-clinical_evidence-003.v1",
-            "referenceType" : "archetypeOverlay"
-          }, {
-            "@type" : "C_ARCHETYPE_ROOT",
-            "rmTypeName" : "CLUSTER",
-            "occurrences" : "0..1",
             "nodeId" : "at0043.7",
             "attributes" : [ ],
             "attributeTuples" : [ ],
@@ -568,6 +568,15 @@
             "attributes" : [ ],
             "attributeTuples" : [ ],
             "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-symptom_sign-010.v2",
+            "referenceType" : "archetypeOverlay"
+          }, {
+            "@type" : "C_ARCHETYPE_ROOT",
+            "rmTypeName" : "CLUSTER",
+            "occurrences" : "0..1",
+            "nodeId" : "at0043.8",
+            "attributes" : [ ],
+            "attributeTuples" : [ ],
+            "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-confirmed_cancer-001.v2",
             "referenceType" : "archetypeOverlay"
           } ]
         } ],
@@ -10057,7 +10066,14 @@
                     "code" : "250724005",
                     "value" : "Tumormarkør måling (prosedyre)",
                     "translations" : {
-                      "nb" : "Tumormarkør måling (prosedyre)"
+                      "nb" : "Biokjemisk test"
+                    }
+                  }, {
+                    "terminologyId" : "SNOMED-CT",
+                    "code" : "250724005",
+                    "value" : "Tumormarkør måling (prosedyre)",
+                    "translations" : {
+                      "nb" : "Biokjemisk test"
                     }
                   } ]
                 } ]
@@ -10093,7 +10109,7 @@
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0000.1",
-            "text" : "Basis for diagnose",
+            "text" : "2 Basis for diagnose",
             "description" : "Detaljer om funn som underbygger et klinisk utsagn."
           },
           "at0003.1" : {
@@ -10112,7 +10128,7 @@
           "at0022.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0022.1",
-            "text" : "Undersøkelsesmetode",
+            "text" : "Diagnostisk metode",
             "description" : "Typen undersøkelse eller utredning som er utført for å komme fram til funnet.",
             "comment" : "Designkommentar:\nDette er egentlig metoden for uthenting av prøvemateriale hvis dette er gjort. Altså prøvetakninsmetode. \n58147004\tKlinisk vurdering\t Clinical (qualifier value) - Denne bør kanskje bort fordi dette ikke er noe metode i seg selv. \n113011001\tPalpasjon\t Palpation (procedure)\n363679005\tBildediagnostikk\t Imaging (procedure)\n116147009\tCytologi\t Cytologic test (procedure)\n86273004\tBiopsi\t Biopsy (procedure)\n65801008\tReseksjon\t Excision (procedure)\n74964007\tAnnet\t Other (qualifier value)\n69466000\tUkjent\t Unknown procedure (finding)\n250724005       Tumormarkør måling (prosedyre)\n\n250724005\tBiokjemisk test\n5880005\tKlinisk (fysisk) undersøkelse\n363679005\tBildediagnostikk\n714797009\tHistologisk test"
           }
@@ -10683,6 +10699,86 @@
           "value" : "ISO_639-1"
         },
         "codeString" : "nb"
+      },
+      "author" : { },
+      "otherDetails" : { }
+    } ]
+  }, {
+    "@type" : "TEMPLATE_OVERLAY",
+    "uid" : "f4920fa6-4ac1-4587-a611-c39c409fdd3f",
+    "description" : {
+      "@type" : "RESOURCE_DESCRIPTION",
+      "originalAuthor" : { },
+      "otherContributors" : [ ],
+      "ipAcknowledgements" : { },
+      "references" : { },
+      "conversionDetails" : { },
+      "otherDetails" : {
+        "PARENT:MD5-CAM-1.0.1" : "aa73e416eafd95ded873b4022b2e558a"
+      },
+      "details" : { }
+    },
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.confirmed_cancer.v2",
+    "differential" : true,
+    "archetypeId" : {
+      "@type" : "ARCHETYPE_HRID",
+      "value" : "openEHR-EHR-CLUSTER.ovl-confirmed_cancer-001.v2"
+    },
+    "definition" : {
+      "@type" : "C_COMPLEX_OBJECT",
+      "rmTypeName" : "CLUSTER",
+      "nodeId" : "at0000.1",
+      "attributes" : [ ],
+      "attributeTuples" : [ ]
+    },
+    "terminology" : {
+      "@type" : "ARCHETYPE_TERMINOLOGY",
+      "conceptCode" : "at0000",
+      "termDefinitions" : {
+        "de" : { },
+        "nb" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "3 Tumor diagnose bekreftelse",
+            "description" : "Beskriver den høyeste oppnådde diagnosesikkerheten som er registrert i pasientens journal. Det kan også vises hvilke metoder som ble brukt for kreftdiagnosen."
+          }
+        },
+        "en" : { }
+      },
+      "termBindings" : { },
+      "terminologyExtracts" : { },
+      "valueSets" : { }
+    },
+    "adlVersion" : "1.4",
+    "buildUid" : "c25aba29-e241-4529-9afa-705223ae47cd",
+    "rmName" : "openehr",
+    "rmRelease" : "1.1.0",
+    "generated" : true,
+    "otherMetaData" : { },
+    "originalLanguage" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "de"
+    },
+    "translations" : [ {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nb"
+      },
+      "author" : { },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "en"
       },
       "author" : { },
       "otherDetails" : { }
