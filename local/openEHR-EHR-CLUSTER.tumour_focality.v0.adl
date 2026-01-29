@@ -15,6 +15,11 @@ language
 				["email"] = <"severin.kohler@bih-charite.de">
 			>
 		>
+		["nb"] = <
+			language = <[ISO_639-1::nb]>
+			author = <
+			>
+		>
 	>
 
 description
@@ -39,6 +44,10 @@ Dieser Cluster-Archetyp wurde speziell für den SLOT \"Spezifische Angaben\" des
 
 Der Archetyp darf nicht bei anderen Erkrankungen außer Krebs verwendet werden.">
 		>
+		["nb"] = <
+			language = <[ISO_639-1::nb]>
+			copyright = <"© openEHR Foundation">
+		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
 			purpose = <"To record the focality or focus of the tumor in a cancer patient.">
@@ -62,7 +71,7 @@ Person with cancer—tumour focality indicator, code N: https://meteor.aihw.gov.
 		["original_namespace"] = <"org.highmed">
 		["original_publisher"] = <"HiGHmed">
 		["custodian_namespace"] = <"org.highmed">
-		["MD5-CAM-1.0.1"] = <"AD1739503B7A43223FAA223235C88997">
+		["MD5-CAM-1.0.1"] = <"5b0f07e156118772cac475ff1d52bcb9">
 		["build_uid"] = <"9fd810e6-730f-4f75-a344-c32765e4da20">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -179,6 +188,48 @@ ontology
 				["at0008"] = <
 					text = <"Systemic">
 					description = <"No tumor focus can be defined, only individual tumor cells in the body.">
+				>
+			>
+		>
+		["nb"] = <
+			items = <
+				["at0000"] = <
+					text = <"*Tumor focality (en)">
+					description = <"*Describes the focality or focus of the tumor in a cancer patient. (en)">
+					comment = <"*The focus refers to the focus or scattered focus in the sense of a local disease process that can trigger pathological long-distance effects beyond the immediate surroundings. (en)">
+				>
+				["at0001"] = <
+					text = <"*Focality (en)">
+					description = <"*Focality of the tumor. (en)">
+				>
+				["at0002"] = <
+					text = <"*Unifocal (en)">
+					description = <"*Singular tumor that occurs in exactly one body organ with a focus of disease. Also referred to as unilocular or solitary. (en)">
+				>
+				["at0003"] = <
+					text = <"*Multifokal (en)">
+					description = <"*The tumor occurs in several locations of a body organ at the same time, with several foci of disease. Also called multilocular. (en)">
+				>
+				["at0004"] = <
+					text = <"*Unknown/inadequately described (en)">
+					description = <"*The focality cannot be determined. (en)">
+				>
+				["at0005"] = <
+					text = <"*Localization (en)">
+					description = <"*Structured description of the localization of a tumor focus. (en)">
+				>
+				["at0006"] = <
+					text = <"*Description of focality (en)">
+					description = <"*Description of the tumor focus. (en)">
+					comment = <"*For example, ‘Diffuse growing’, ‘Multicentric breast carcinoma with 3 foci’ or ‘Detection of tumour cells in cerebrospinal fluid sediment’. (en)">
+				>
+				["at0007"] = <
+					text = <"*Bifocal (en)">
+					description = <"*The tumor occurs in one body organ with two sites of disease. (en)">
+				>
+				["at0008"] = <
+					text = <"*Systemic (en)">
+					description = <"*No tumor focus can be defined, only individual tumor cells in the body. (en)">
 				>
 			>
 		>
