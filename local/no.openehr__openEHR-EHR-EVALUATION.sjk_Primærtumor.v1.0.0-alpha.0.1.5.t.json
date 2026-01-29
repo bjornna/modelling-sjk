@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "9d92cefe226f9d5cb1512f8ddfb2b6f1",
+      "MD5-CAM-1.0.1" : "8da36b4cfea945c19dd19b90f3f9c5a8",
       "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74",
-      "sem_ver" : "23.0.0",
+      "sem_ver" : "23.0.1",
       "build_uid" : ""
     },
     "details" : {
@@ -44436,7 +44436,7 @@
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0000.1",
-            "text" : "*Tumor focality (en) - alternativ onc prob dips",
+            "text" : "**?Tumor focality (en) - alternativ onc prob dips",
             "description" : "*Describes the focality or focus of the tumor in a cancer patient. (en)",
             "comment" : "*The focus refers to the focus or scattered focus in the sense of a local disease process that can trigger pathological long-distance effects beyond the immediate surroundings. (en)"
           }
