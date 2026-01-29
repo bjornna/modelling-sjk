@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "dde761224885db12b9320118cc2ade4f",
+      "MD5-CAM-1.0.1" : "9d92cefe226f9d5cb1512f8ddfb2b6f1",
       "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74",
-      "sem_ver" : "22.0.0",
+      "sem_ver" : "23.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -1258,6 +1258,15 @@
               "@type" : "C_ARCHETYPE_ROOT",
               "rmTypeName" : "CLUSTER",
               "occurrences" : "0..1",
+              "nodeId" : "at0043.8",
+              "attributes" : [ ],
+              "attributeTuples" : [ ],
+              "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-tumour_focality-001.v0",
+              "referenceType" : "archetypeOverlay"
+            }, {
+              "@type" : "C_ARCHETYPE_ROOT",
+              "rmTypeName" : "CLUSTER",
+              "occurrences" : "0..1",
               "nodeId" : "at0043.1",
               "attributes" : [ ],
               "attributeTuples" : [ ],
@@ -2061,7 +2070,7 @@
           },
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000",
+            "code" : "at0000.1",
             "text" : "Problem/diagnose detaljer",
             "description" : "Brukes for å registrere detaljer til problem/diagnose blant annet ICD koder.",
             "comment" : "Designkommentar:\nEn lokal CLUSTER arketype som brukes til å \nlegge inn diagnosekode, her er det ICD10 diagnosekoder.\n\nDenne brukes for spesifikk ICD-10 diagnose i stedet for øverst i Problem/diagnose - elementet problem/diagnosenavn da man i en utredningssistuasjon kanskje ikke har en gitt diagnose, og heller ikke vil registrere denne icd-10 koden. \n\n"
@@ -2206,7 +2215,7 @@
           },
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000",
+            "code" : "at0000.1",
             "text" : "Oncology problem details dips",
             "description" : "En indikasjon på at det finnes flere primære maligniteter.",
             "comment" : "Designkommentar:\nDenne brukes for å legge til om tumoren er multifokal eller ikke. For brys er dette definert som flere samtidige tumorer i samme bryst. "
@@ -44387,6 +44396,91 @@
         "organisation" : "Nasjonal IKT HF, ​Oslo University Hospital, Norway",
         "email" : "silje.ljosland.bakke@nasjonalikt.no, liv.laugen@ous-hf.no, varntzen@ous-hf.no"
       },
+      "otherDetails" : { }
+    } ]
+  }, {
+    "@type" : "TEMPLATE_OVERLAY",
+    "uid" : "db8ef296-a83f-4c00-bb2d-11b16c8a52a3",
+    "description" : {
+      "@type" : "RESOURCE_DESCRIPTION",
+      "originalAuthor" : { },
+      "otherContributors" : [ ],
+      "ipAcknowledgements" : { },
+      "references" : { },
+      "conversionDetails" : { },
+      "otherDetails" : {
+        "PARENT:MD5-CAM-1.0.1" : "5b0f07e156118772cac475ff1d52bcb9"
+      },
+      "details" : { }
+    },
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.tumour_focality.v0",
+    "differential" : true,
+    "archetypeId" : {
+      "@type" : "ARCHETYPE_HRID",
+      "value" : "openEHR-EHR-CLUSTER.ovl-tumour_focality-001.v0"
+    },
+    "definition" : {
+      "@type" : "C_COMPLEX_OBJECT",
+      "rmTypeName" : "CLUSTER",
+      "nodeId" : "at0000.1",
+      "attributes" : [ ],
+      "attributeTuples" : [ ]
+    },
+    "terminology" : {
+      "@type" : "ARCHETYPE_TERMINOLOGY",
+      "conceptCode" : "at0000",
+      "termDefinitions" : {
+        "de" : { },
+        "en" : { },
+        "nb" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "*Tumor focality (en) - alternativ onc prob dips",
+            "description" : "*Describes the focality or focus of the tumor in a cancer patient. (en)",
+            "comment" : "*The focus refers to the focus or scattered focus in the sense of a local disease process that can trigger pathological long-distance effects beyond the immediate surroundings. (en)"
+          }
+        }
+      },
+      "termBindings" : { },
+      "terminologyExtracts" : { },
+      "valueSets" : { }
+    },
+    "adlVersion" : "1.4",
+    "buildUid" : "9fd810e6-730f-4f75-a344-c32765e4da20",
+    "rmName" : "openehr",
+    "rmRelease" : "1.1.0",
+    "generated" : true,
+    "otherMetaData" : { },
+    "originalLanguage" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "en"
+    },
+    "translations" : [ {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "de"
+      },
+      "author" : {
+        "name" : "Severin Kohler",
+        "organisation" : "Charite Berlin",
+        "email" : "severin.kohler@bih-charite.de"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nb"
+      },
+      "author" : { },
       "otherDetails" : { }
     } ]
   } ],
