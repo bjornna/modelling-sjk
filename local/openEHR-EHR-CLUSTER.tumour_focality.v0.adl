@@ -37,20 +37,20 @@ description
 			purpose = <"Zur Darstellung der Fokalität bzw. des Herdgeschehens des Tumors bei einem Krebspatienten.">
 			keywords = <"tumor, svulst, fokalitet, lesjon, fokus, spredingsfokus", ...>
 			copyright = <"© HiGHmed">
-			use = <"Zur Darstellung der Fokalität des Tumors bei einem Patienten mit Krebsdiagnose.
+			use = <"*For å registrere tumorens fokalitet hos en pasient med kreftdiagnose.
 
-Dieser Cluster-Archetyp wurde speziell für den SLOT \"Spezifische Angaben\" des Archetyps EVALUATION.problem_diagnosis erstellt. Darf jedoch, wenn klinisch angemessen, in anderen Archetypen, die für die Darstellung einer bildgebenden oder histologischen Befundung verwendet werden, als Slot hinzugefügt werden.">
+Denne cluster‑arketypen er spesielt utviklet for SLOT‑en ‘Spesifikke detaljer’ i arketypen EVALUATION.problem_diagnosis. Den kan imidlertid, når det er klinisk relevant, også brukes som slot i andre arketyper som representerer bildediagnostiske eller histologiske funn. (en)">
 			misuse = <"Dieser Archetyp darf nicht für die Darstellung der Seitenlokalistaion eines Tumors verwendet werden. Nutzen Sie dafür die Cluster-Archetypen der Familie \"Anatomische Lokalisation\".
 
 Der Archetyp darf nicht bei anderen Erkrankungen außer Krebs verwendet werden.">
 		>
 		["nb"] = <
 			language = <[ISO_639-1::nb]>
-			purpose = <"For å beskrive tumorens fokalitet hos en pasient med kreftdiagnose.">
+			purpose = <"For å dokumentere tumorens fokalitet eller tumor­fokus hos en pasient med kreft.">
 			copyright = <"© openEHR Foundation">
-			use = <"Brukes for å beskrive tumorens fokalitet hos en pasient med kreftdiagnose.
+			use = <"*For å registrere tumorens fokalitet hos en pasient med kreftdiagnose.
 
-Denne cluster‑archetypen er spesielt utviklet for SLOT‑et ‘Spesifikke detaljer’ i archetypen EVALUATION.problem_diagnosis. Den kan imidlertid, når det er klinisk relevant, også benyttes som en slot i andre archetyper som brukes til fremstilling av bildediagnostiske eller histologiske funn.">
+Denne cluster‑arketypen er spesielt utviklet for SLOT‑en ‘Spesifikke detaljer’ i arketypen EVALUATION.problem_diagnosis. Den kan imidlertid, når det er klinisk relevant, også brukes som slot i andre arketyper som representerer bildediagnostiske eller histologiske funn. (en)">
 			misuse = <"Denne arketypen skal ikke brukes til å angi sidelokalisasjon av en svulst. Bruk i stedet cluster‑arketyper fra familien ‘Anatomisk lokalisasjon'.
 
 Arketypen skal kun brukes ved kreftdiagnoser og ikke for andre sykdommer.">
@@ -59,9 +59,9 @@ Arketypen skal kun brukes ved kreftdiagnoser og ikke for andre sykdommer.">
 			language = <[ISO_639-1::en]>
 			purpose = <"To record the focality or focus of the tumor in a cancer patient.">
 			keywords = <"Tumor","Focality","tumor focus","lesion","Tumor occurrence","Tumor findings","Tumor involvement","focal tumor","Tumor spread">
-			use = <"To record the focality of the tumor in a patient with a cancer diagnosis.
+			use = <"For å registrere tumorens fokalitet hos en pasient med kreftdiagnose.
 
-This cluster archetype was created specifically for the SLOT ‘Specific information’ of the EVALUATION.problem_diagnosis archetype. However, when clinically appropriate, may be added as a slot in other archetypes used to represent an imaging or histological finding.">
+Denne cluster‑arketypen er spesielt utviklet for SLOT‑en ‘Spesifikke detaljer’ i arketypen EVALUATION.problem_diagnosis. Den kan imidlertid, når det er klinisk relevant, også brukes som slot i andre arketyper som representerer bildediagnostiske eller histologiske funn.">
 			misuse = <"Not to be used to represent the lateral location of a tumor. To do this, use the cluster archetypes from the “Anatomical Localization” family.
 
 Not to be used for any disease other than cancer.">
