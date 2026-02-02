@@ -71,7 +71,7 @@ Person with cancer—tumour focality indicator, code N: https://meteor.aihw.gov.
 		["original_namespace"] = <"org.highmed">
 		["original_publisher"] = <"HiGHmed">
 		["custodian_namespace"] = <"org.highmed">
-		["MD5-CAM-1.0.1"] = <"a97b792c4746bfa109a898f39f0f2c96">
+		["MD5-CAM-1.0.1"] = <"b7c6f9399f2c4c59b6c9b506d5538d8d">
 		["build_uid"] = <"9fd810e6-730f-4f75-a344-c32765e4da20">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -195,7 +195,7 @@ ontology
 			items = <
 				["at0000"] = <
 					text = <"Tumorfokalitet">
-					description = <"*Describes the focality or focus of the tumor in a cancer patient. (en)">
+					description = <"Beskriver tumorens fokalitet eller fokus hos en kreftpasient.">
 					comment = <"*The focus refers to the focus or scattered focus in the sense of a local disease process that can trigger pathological long-distance effects beyond the immediate surroundings. (en)">
 				>
 				["at0001"] = <
