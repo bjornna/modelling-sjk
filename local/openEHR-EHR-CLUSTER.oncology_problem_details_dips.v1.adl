@@ -27,7 +27,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"b607029396c4b6befd9a467560f63fbe">
+		["MD5-CAM-1.0.1"] = <"bb7b09ec44a68b05fa58fefbf0000a2a">
 		["build_uid"] = <"4e926802-d37c-3f7e-99fb-0ed7a3d2168c">
 	>
 
@@ -62,7 +62,7 @@ ontology
 				>
 				["at0001"] = <
 					text = <"Multiple primærtumorer">
-					description = <"Indikasjon på at det finnes flere primære maligniteter med samme morfologi/histologi. ">
+					description = <"Indikasjon på at det finnes flere primære maligniteter ulik morfologi/histologi. ">
 				>
 				["at0002"] = <
 					text = <"Beskrivelse">
