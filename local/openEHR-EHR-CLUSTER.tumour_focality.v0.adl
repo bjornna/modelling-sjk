@@ -40,9 +40,9 @@ description
 			use = <"Zur Darstellung der Fokalität des Tumors bei einem Patienten mit Krebsdiagnose.
 
 Dieser Cluster-Archetyp wurde speziell für den SLOT \"Spezifische Angaben\" des Archetyps EVALUATION.problem_diagnosis erstellt. Darf jedoch, wenn klinisch angemessen, in anderen Archetypen, die für die Darstellung einer bildgebenden oder histologischen Befundung verwendet werden, als Slot hinzugefügt werden.">
-			misuse = <"Denne arketypen skal ikke brukes til å angi sidelokalisasjon av en svulst. Bruk i stedet cluster‑arketyper fra familien ‘Anatomisk lokalisasjon'.
+			misuse = <"Dieser Archetyp darf nicht für die Darstellung der Seitenlokalistaion eines Tumors verwendet werden. Nutzen Sie dafür die Cluster-Archetypen der Familie \"Anatomische Lokalisation\".
 
-Arketypen skal kun brukes ved kreftdiagnoser og ikke for andre sykdommer.">
+Der Archetyp darf nicht bei anderen Erkrankungen außer Krebs verwendet werden.">
 		>
 		["nb"] = <
 			language = <[ISO_639-1::nb]>
