@@ -35,7 +35,7 @@ description
 		["de"] = <
 			language = <[ISO_639-1::de]>
 			purpose = <"Zur Darstellung der Fokalität bzw. des Herdgeschehens des Tumors bei einem Krebspatienten.">
-			keywords = <"Tumor","Fokalität","Tumorherd","Läsion","Tumorvorkommen","Tumorbefund","Tumorbefall","Herdgeschehen","Streuherd">
+			keywords = <"tumor, svulst, fokalitet, lesjon, fokus, spredingsfokus", ...>
 			copyright = <"© HiGHmed">
 			use = <"Zur Darstellung der Fokalität des Tumors bei einem Patienten mit Krebsdiagnose.
 
@@ -46,7 +46,11 @@ Der Archetyp darf nicht bei anderen Erkrankungen außer Krebs verwendet werden."
 		>
 		["nb"] = <
 			language = <[ISO_639-1::nb]>
+			purpose = <"For å beskrive tumorens fokalitet hos en pasient med kreftdiagnose.">
 			copyright = <"© openEHR Foundation">
+			use = <"Brukes for å beskrive tumorens fokalitet hos en pasient med kreftdiagnose.
+
+Denne cluster‑archetypen er spesielt utviklet for SLOT‑et ‘Spesifikke detaljer’ i archetypen EVALUATION.problem_diagnosis. Den kan imidlertid, når det er klinisk relevant, også benyttes som en slot i andre archetyper som brukes til fremstilling av bildediagnostiske eller histologiske funn.">
 		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
