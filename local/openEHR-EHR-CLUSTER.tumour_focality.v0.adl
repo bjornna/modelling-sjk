@@ -51,6 +51,9 @@ Arketypen skal kun brukes ved kreftdiagnoser og ikke for andre sykdommer.">
 			use = <"Brukes for å beskrive tumorens fokalitet hos en pasient med kreftdiagnose.
 
 Denne cluster‑archetypen er spesielt utviklet for SLOT‑et ‘Spesifikke detaljer’ i archetypen EVALUATION.problem_diagnosis. Den kan imidlertid, når det er klinisk relevant, også benyttes som en slot i andre archetyper som brukes til fremstilling av bildediagnostiske eller histologiske funn.">
+			misuse = <"Denne arketypen skal ikke brukes til å angi sidelokalisasjon av en svulst. Bruk i stedet cluster‑arketyper fra familien ‘Anatomisk lokalisasjon'.
+
+Arketypen skal kun brukes ved kreftdiagnoser og ikke for andre sykdommer.">
 		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
