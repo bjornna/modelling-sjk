@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "51aa559e5d032ffcfd935a6806cfa818",
+      "MD5-CAM-1.0.1" : "b311aa4c477245ea1c4b4c0cc7939228",
       "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74",
-      "sem_ver" : "21.0.0",
+      "sem_ver" : "22.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -1274,7 +1274,7 @@
             }, {
               "@type" : "C_ARCHETYPE_ROOT",
               "rmTypeName" : "CLUSTER",
-              "occurrences" : "0..1",
+              "occurrences" : "0..0",
               "nodeId" : "at0043.4",
               "attributes" : [ ],
               "attributeTuples" : [ ],
@@ -2139,7 +2139,6 @@
         "children" : [ {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
-          "occurrences" : "0..0",
           "nodeId" : "at0001.1",
           "attributes" : [ ],
           "attributeTuples" : [ ]
@@ -2214,7 +2213,7 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0001.1",
             "text" : "Multiple primærtumorer",
-            "description" : "Indikasjon på at det finnes flere primære maligniteter med samme morfologi/histologi. ",
+            "description" : "Indikasjon på at det finnes flere primære maligniteter med ulik morfologi/histologi. ",
             "comment" : "Designkommentar:\nHH bruker denne for tumorer som har forskjellig morfologi. \nMens for f.eks. andre så er dette feltet ment som tumorer med samme morfologi. \n\nKanskje lage en annen element som sier noe om flere primære tumorer med ulik morfologi, og et som sier primærtumorer med lik morfologi slik at man ikke blander dem. \n\n"
           }
         }
@@ -44016,10 +44015,10 @@
                   "selectedTerminologies" : [ "SNOMED-CT" ],
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
-                    "code" : "373793006",
-                    "value" : "Basis of cancer diagnosis (finding)",
+                    "code" : "55342001",
+                    "value" : "Neoplastisk sykdom (finding)",
                     "translations" : {
-                      "nb" : "Basis of cancer diagnosis (finding)"
+                      "nb" : "Neoplastic disease (disorder)"
                     }
                   } ]
                 } ]
@@ -44060,52 +44059,10 @@
                   "selectedTerminologies" : [ "SNOMED-CT" ],
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
-                    "code" : "373795004",
-                    "value" : "Cancer diagnosis based on clinical evidence (finding)",
+                    "code" : "??",
+                    "value" : "snomed-CT begrep",
                     "translations" : {
-                      "nb" : "Cancer diagnosis based on clinical evidence (finding)"
-                    }
-                  }, {
-                    "terminologyId" : "SNOMED-CT",
-                    "code" : "373798002",
-                    "value" : "Cancer diagnosis based on cytological evidence (finding)",
-                    "translations" : {
-                      "nb" : "Cancer diagnosis based on cytological evidence (finding)"
-                    }
-                  }, {
-                    "terminologyId" : "SNOMED-CT",
-                    "code" : "373794000",
-                    "value" : "Cancer diagnosis based on death certificate (finding)",
-                    "translations" : {
-                      "nb" : "Cancer diagnosis based on death certificate (finding)"
-                    }
-                  }, {
-                    "terminologyId" : "SNOMED-CT",
-                    "code" : "373796003",
-                    "value" : "Cancer diagnosis based on investigations, without a tissue diagnosis (finding)",
-                    "translations" : {
-                      "nb" : "Cancer diagnosis based on investigations, without a tissue diagnosis (finding)"
-                    }
-                  }, {
-                    "terminologyId" : "SNOMED-CT",
-                    "code" : "373799005",
-                    "value" : "Cancer diagnosis based on metastatic histological evidence (finding)",
-                    "translations" : {
-                      "nb" : "Cancer diagnosis based on metastatic histological evidence (finding)"
-                    }
-                  }, {
-                    "terminologyId" : "SNOMED-CT",
-                    "code" : "373800009",
-                    "value" : "Cancer diagnosis based on primary site histological evidence (finding)",
-                    "translations" : {
-                      "nb" : "Cancer diagnosis based on primary site histological evidence (finding)"
-                    }
-                  }, {
-                    "terminologyId" : "SNOMED-CT",
-                    "code" : "373797007",
-                    "value" : "Cancer diagnosis based on specific tumor markers (finding)",
-                    "translations" : {
-                      "nb" : "Cancer diagnosis based on specific tumor markers (finding)"
+                      "nb" : "snomed-CT begrep"
                     }
                   } ]
                 } ]
@@ -44117,8 +44074,18 @@
         }, {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
           "nodeId" : "at0006.1",
-          "attributes" : [ ],
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_DATE_TIME",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
           "attributeTuples" : [ ]
         }, {
           "@type" : "C_COMPLEX_OBJECT",
@@ -44254,7 +44221,7 @@
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0000.1",
-            "text" : "**Påvisningsmetode for primærtumor",
+            "text" : "Påvisningsmetode for tumor",
             "description" : "Detaljer om funn som underbygger et klinisk utsagn."
           },
           "at0003.1" : {
@@ -44268,7 +44235,7 @@
             "code" : "at0005",
             "text" : "Resultat",
             "description" : "Resultatet eller funnet som støtter utsagnet.",
-            "comment" : "Omgreps-ID\tTerm\tføretrekt term\tHirarki\n-373793006 \tBasis of cancer diagnosis (finding)\tBasis of cancer diagnosis\tForeldre\n-373795004\t Cancer diagnosis based on clinical evidence (finding)\tkreftdiagnose på grunnlag av kliniske funn\tbarn\n-373798002\t Cancer diagnosis based on cytological evidence (finding)\tCancer diagnosis based on cytological evidence\tbarn\n-373794000\t Cancer diagnosis based on death certificate (finding)\tCancer diagnosis based on death certificate\tbarn\n-373796003\t Cancer diagnosis based on investigations, without a tissue diagnosis (finding)\tCancer diagnosis based on investigations, without a tissue diagnosis\tbarn\n-373799005\t Cancer diagnosis based on metastatic histological evidence (finding)\tCancer diagnosis based on metastatic histological evidence\tbarn\n-373800009\t Cancer diagnosis based on primary site histological evidence (finding)\tCancer diagnosis based on primary site histological evidence\tbarn\n-373797007\t Cancer diagnosis based on specific tumor markers (finding)\tCancer diagnosis based on specific tumour markers\tbarn"
+            "comment" : "\n3 Det foreligger svulst med sikker malignitet og sikker topografi - Malignant cancer, confirmed localization \n\n4 Der foreligger svulst med sikker malignitet og sikker topografi hos pasient som er registrert med premalign tilstand i samme organ mer enn fire hele måneder forut for diagnosemåneden til aktuelle krefttilfelle \n\nMalignant cancer, confirmed localization for patients registered with pre-malignant cancer at same localization more than 4 months before the malignant cancer is diagnosed \n\n1 Det foreligger svulst uten påvist malignitet, men sikker topografi \nBenign/pre-malignant tumor, confirmed localization \n\n5 Det foreligger klinisk sikker kreft og sikker topografi (tumorens anatomiske plassering).  \n\nClinically malignant cancer, not histologically verified \n\n2 \n\nDet foreligger svulst med sikker malignitet, men usikker topografi (benyttes bare for solide svulster) \n\nMalignant cancer, unconfirmed localization \n\n\nDette er egentlig det man kan kalle tumoradferd ELVIS - Tumoratferd \n\n1 \n\nUsikker om benign eller malign \n\n2 \n\nCarcinoma in situ \n\n0 \n\nBenign \n\n3 \n\nMalignt ved primærutgangspunkt \n\n\n"
           },
           "at0022.1" : {
             "@type" : "ARCHETYPE_TERM",
