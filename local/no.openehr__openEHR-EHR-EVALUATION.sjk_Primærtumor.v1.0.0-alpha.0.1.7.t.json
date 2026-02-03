@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "b311aa4c477245ea1c4b4c0cc7939228",
+      "MD5-CAM-1.0.1" : "20a9080bfd5391d1091484e66c5afb70",
       "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74",
-      "sem_ver" : "22.0.0",
+      "sem_ver" : "23.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -1301,7 +1301,7 @@
             }, {
               "@type" : "C_ARCHETYPE_ROOT",
               "rmTypeName" : "CLUSTER",
-              "occurrences" : "0..1",
+              "occurrences" : "0..*",
               "nodeId" : "at0043.7",
               "attributes" : [ ],
               "attributeTuples" : [ ],
@@ -37796,42 +37796,58 @@
                     "terminologyId" : "SNOMED-CT",
                     "code" : "58147004",
                     "value" : "Klinisk vurdering",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "Klinisk vurdering"
+                    }
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "113011001",
                     "value" : "Palpasjon",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "Palpasjon"
+                    }
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "363679005",
                     "value" : "Bildediagnostikk",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "Bildediagnostikk"
+                    }
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "116147009",
                     "value" : "Cytologi",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "Cytologi"
+                    }
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "86273004",
                     "value" : "Biopsi",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "Biopsi"
+                    }
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "65801008",
                     "value" : "Reseksjon",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "Reseksjon"
+                    }
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "74964007",
                     "value" : "Annet",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "Annet"
+                    }
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "69466000",
                     "value" : "Ukjent",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "Ukjent"
+                    }
                   } ]
                 } ]
               } ],
@@ -40208,12 +40224,9 @@
                     "terminologyId" : "SNOMED-CT",
                     "code" : "128462008",
                     "value" : "Metastatic malignant neoplasm (disorder)",
-                    "translations" : { }
-                  }, {
-                    "terminologyId" : "SNOMED-CT",
-                    "code" : "399374009",
-                    "value" : "Regional lymph node metastasis present (finding)",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "Metastatic malignant neoplasm (disorder)"
+                    }
                   } ]
                 } ]
               } ],
@@ -40275,42 +40288,58 @@
                     "terminologyId" : "SNOMED-CT",
                     "code" : "58147004",
                     "value" : "Klinisk vurdering",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "Klinisk vurdering"
+                    }
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "113011001",
                     "value" : "Palpasjon",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "Palpasjon"
+                    }
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "363679005",
                     "value" : "Bildediagnostikk",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "Bildediagnostikk"
+                    }
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "116147009",
                     "value" : "Cytologi",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "Cytologi"
+                    }
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "86273004",
                     "value" : "Biopsi",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "Biopsi"
+                    }
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "65801008",
                     "value" : "Reseksjon",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "Reseksjon"
+                    }
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "74964007",
                     "value" : "Annet",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "Annet"
+                    }
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "69466000",
                     "value" : "Ukjent",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "Ukjent"
+                    }
                   } ]
                 } ]
               } ],
@@ -44020,6 +44049,20 @@
                     "translations" : {
                       "nb" : "Neoplastic disease (disorder)"
                     }
+                  }, {
+                    "terminologyId" : "SNOMED-CT",
+                    "code" : "399374009",
+                    "value" : "Regional lymph node metastasis present (finding)",
+                    "translations" : {
+                      "nb" : "Regional lymph node metastasis present (finding)"
+                    }
+                  }, {
+                    "terminologyId" : "SNOMED-CT",
+                    "code" : "128462008",
+                    "value" : "Metastatic malignant neoplasm (disorder)",
+                    "translations" : {
+                      "nb" : "Metastatic malignant neoplasm (disorder)"
+                    }
                   } ]
                 } ]
               } ],
@@ -44240,7 +44283,7 @@
           "at0022.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0022.1",
-            "text" : "Metode /Undersøkelsesmateriale",
+            "text" : "Metode",
             "description" : "Typen undersøkelse eller utredning som er utført for å komme fram til funnet.",
             "comment" : "Designkommentar:\nDette er egentlig metoden for uthenting av prøvemateriale hvis dette er gjort. Altså prøvetakninsmetode. \n58147004\tKlinisk vurdering\t Clinical (qualifier value) - Denne bør kanskje bort fordi dette ikke er noe metode i seg selv. \n113011001\tPalpasjon\t Palpation (procedure)\n363679005\tBildediagnostikk\t Imaging (procedure)\n116147009\tCytologi\t Cytologic test (procedure)\n86273004\tBiopsi\t Biopsy (procedure)\n65801008\tReseksjon\t Excision (procedure)\n74964007\tAnnet\t Other (qualifier value)\n69466000\tUkjent\t Unknown procedure (finding)\n250724005       Tumormarkør måling (prosedyre)\n\n250724005\tBiokjemisk test\n5880005\tKlinisk (fysisk) undersøkelse\n363679005\tBildediagnostikk\n714797009\tHistologisk test"
           }
