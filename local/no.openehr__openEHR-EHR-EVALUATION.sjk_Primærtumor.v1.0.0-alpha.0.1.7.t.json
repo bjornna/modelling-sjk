@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "20a9080bfd5391d1091484e66c5afb70",
+      "MD5-CAM-1.0.1" : "336c53edb04b035e7d5057962fac9126",
       "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74",
-      "sem_ver" : "23.0.0",
+      "sem_ver" : "24.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -37895,7 +37895,7 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0000.1",
             "text" : "Klinisk grunnlag",
-            "comment" : "Designkommentar:\nHvis det skal beskrives metode og dato per kroppsdel metastasen befinner seg må denne gjentas.\n\nNB! Måtte endre navnet på denne for å støtte eldre versjoner av DIPS Arena ",
+            "comment" : "Designkommentar:\nHvis det skal beskrives metode og dato per kroppsdel metastasen befinner seg må denne gjentas.\n\nNB! Måtte endre navnet på denne for å støtte eldre versjoner av DIPS Arena \n\n\nDesignkommentar:\nBrukes til å beksrive typen undersøkelse eller utredning som er utført for å komme fram til funnet.\n\nDenne er satt 0..* slik at i tilfeller man ønsker dato for den spesifikke metoden kan man gjenta hele clusteret. Hvis man ikke ønsker dato kan man kun gjenta Metode - elementet.",
             "description" : ""
           },
           "at0001.1" : {
@@ -40387,7 +40387,7 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0000.1",
             "text" : "Klinisk grunnlag",
-            "comment" : "Designkommentar:\nHvis det skal beskrives metode og dato per kroppsdel metastasen befinner seg må denne gjentas.\n\nNB! Måtte endre navnet på denne for å støtte eldre versjoner av DIPS Arena ",
+            "comment" : "Designkommentar:\nHvis det skal beskrives metode og dato per kroppsdel metastasen befinner seg må denne gjentas.\n\nNB! Måtte endre navnet på denne for å støtte eldre versjoner av DIPS Arena \n\nDesignkommentar:\nBrukes til å beksrive typen undersøkelse eller utredning som er utført for å komme fram til funnet.\n\nDenne er satt 0..* slik at i tilfeller man ønsker dato for den spesifikke metoden kan man gjenta hele clusteret. Hvis man ikke ønsker dato kan man kun gjenta Metode - elementet.",
             "description" : ""
           },
           "at0001.1" : {
@@ -42600,6 +42600,13 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.13",
             "description" : ""
+          },
+          "at0083.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0083.1",
+            "text" : "Residivert",
+            "description" : "Fase av bedring eller tilheling for et akutt problem eller diagnose.",
+            "comment" : "For eksempel for å spore tilhelingen av en mellomørebetennelse."
           }
         },
         "ko" : {
@@ -44264,8 +44271,9 @@
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0000.1",
-            "text" : "Påvisningsmetode for tumor",
-            "description" : "Detaljer om funn som underbygger et klinisk utsagn."
+            "text" : "Klinisk grunnlag",
+            "description" : "Detaljer om funn som underbygger et klinisk utsagn.",
+            "comment" : "Designkommentar:\nBrukes til å beksrive typen undersøkelse eller utredning som er utført for å komme fram til funnet.\n\nDenne er satt 0..* slik at i tilfeller man ønsker dato for den spesifikke metoden kan man gjenta hele clusteret. Hvis man ikke ønsker dato kan man kun gjenta Metode - elementet."
           },
           "at0003.1" : {
             "@type" : "ARCHETYPE_TERM",
