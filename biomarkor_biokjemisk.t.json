@@ -19,8 +19,10 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "f1687e51ad36b43ed2044564d7b08067",
-      "PARENT:MD5-CAM-1.0.1" : "BBF73E0FED520D54F220CBFE141E0A5A"
+      "MD5-CAM-1.0.1" : "bfb9cbf15c40141ef3c494e4a1f6a8d8",
+      "PARENT:MD5-CAM-1.0.1" : "BBF73E0FED520D54F220CBFE141E0A5A",
+      "sem_ver" : "0.2.0",
+      "build_uid" : ""
     },
     "details" : {
       "de" : {
@@ -209,7 +211,7 @@
   "differential" : true,
   "archetypeId" : {
     "@type" : "ARCHETYPE_HRID",
-    "value" : "openEHR-EHR-OBSERVATION.histologiog cytologi pr lesjon.v1"
+    "value" : "openEHR-EHR-OBSERVATION.histologiog_cytologi_pr_lesjon.v1"
   },
   "definition" : {
     "@type" : "C_COMPLEX_OBJECT",
@@ -575,7 +577,7 @@
         "at0000.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0000.1",
-          "text" : "Histologi og cytologi pr lesjon",
+          "text" : "biomarkor_biokjemisk",
           "description" : "The result, including findings and the laboratory's interpretation, of an investigation performed on specimens collected from an individual or related to that individual."
         },
         "at0098.1" : {
@@ -868,7 +870,7 @@
     "valueSets" : { }
   },
   "adlVersion" : "1.4",
-  "buildUid" : "b3415f11-68ff-3fa4-b614-3c3425189b32",
+  "buildUid" : "8ccad6c7-01ee-3667-a25d-cb10d2ba08f7",
   "rmName" : "openehr",
   "rmRelease" : "1.1.0",
   "generated" : true,
