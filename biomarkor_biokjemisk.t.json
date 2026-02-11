@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "bfb9cbf15c40141ef3c494e4a1f6a8d8",
+      "MD5-CAM-1.0.1" : "32474ecf33271b3e6f7e076f71db1b9f",
       "PARENT:MD5-CAM-1.0.1" : "BBF73E0FED520D54F220CBFE141E0A5A",
-      "sem_ver" : "0.2.0",
+      "sem_ver" : "0.2.1",
       "build_uid" : ""
     },
     "details" : {
@@ -1259,22 +1259,30 @@
                     "terminologyId" : "SNOMED-CT",
                     "code" : "82078001",
                     "value" : "Blodprøvetaking",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "Blodprøvetaking"
+                    }
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "277762005",
                     "value" : "Spinalpunksjon",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "Spinalpunksjon"
+                    }
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "86273004",
                     "value" : "Biopsi",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "Biopsi"
+                    }
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "14766002",
                     "value" : "Aspirasjon",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "Aspirasjon"
+                    }
                   } ]
                 } ]
               } ],
@@ -1511,14 +1519,14 @@
             "code" : "at0029",
             "text" : "Type prøvemateriale",
             "description" : "Type prøvemateriale.",
-            "comment" : "Designkommentar:\nHer er det brukt Specimen koden i SNOMED-CT \n*119297000\tBlodprøve\n*258450006\tSpinalvæskeprøve\n*119376003\tVevsprøve\n*119359002\tBenmargsprøve\n"
+            "comment" : "Designkommentar:\nHer er det brukt Specimen koden i SNOMED-CT \n*119297000\tBlodprøve\n*258450006\tSpinalvæskeprøve\n*119376003\tVevsprøve\n*119359002\tBenmargsprøve\n\nEgentlig bør man se om man kunne bruke NLK for de har også materialkoder. \n"
           },
           "at0007.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0007",
             "text" : "Prøvetakingsmetode",
             "description" : "Prøvetakingsmetoden som er brukt.",
-            "comment" : "Designkommentar:\nProsedyrekoder for prøvetakningsmetode:\n*82078001\tBlodprøvetaking\n*277762005\tSpinalpunksjon\n*86273004\tBiopsi\n*14766002\tAspirasjon\n"
+            "comment" : "Designkommentar:\nProsedyrekoder for prøvetakningsmetode:\n*82078001\tBlodprøvetaking\n*277762005\tSpinalpunksjon\n*86273004\tBiopsi\n*14766002\tAspirasjon\n\nDette finnes det også NLK koder for. \n"
           }
         },
         "de" : { },
