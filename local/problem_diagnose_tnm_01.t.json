@@ -22,7 +22,7 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "7fb80cef309afd38002f907fd935f5e3",
+      "MD5-CAM-1.0.1" : "5176b1077b1408758f756aebf5559f4a",
       "PARENT:MD5-CAM-1.0.1" : "89470078C0364ACBA5B6A5F286E56C79",
       "sem_ver" : "9.0.0",
       "build_uid" : ""
@@ -259,7 +259,9 @@
                       "terminologyId" : "SNOMED-CT",
                       "code" : "55342001",
                       "value" : "Neoplastisk sykdom",
-                      "translations" : { }
+                      "translations" : {
+                        "nb" : "Neoplastisk sykdom"
+                      }
                     } ]
                   } ]
                 } ],
@@ -853,7 +855,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "b607029396c4b6befd9a467560f63fbe"
+        "PARENT:MD5-CAM-1.0.1" : "bb7b09ec44a68b05fa58fefbf0000a2a"
       },
       "details" : {
         "nb" : {
@@ -3332,7 +3334,9 @@
                     "terminologyId" : "SNOMED-CT",
                     "code" : "x",
                     "value" : "Erstattes av kreftspesifikk kode",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "Erstattes av kreftspesifikk kode"
+                    }
                   } ]
                 } ]
               } ],
