@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "349a3e40e03661c0487dda047025df6d",
+      "MD5-CAM-1.0.1" : "07bfdd0f139b63e1c8de2bf35e84417c",
       "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74",
-      "sem_ver" : "27.2.2",
+      "sem_ver" : "27.2.3",
       "build_uid" : ""
     },
     "details" : {
@@ -37951,7 +37951,7 @@
           "at0003.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0003.1",
-            "text" : "Tumorutbredelsesmønster",
+            "text" : "??Tumorutbredelsesmønster",
             "description" : "Multifokalitet - dvs. to eller flere svulster i samme bryst. ",
             "comment" : "\n\nDesignkommentar:\nSkal være avkryssing. \nLagres hvis denne er krysset denne ut at det er multifokal tumor. \nBrukes gjerne om man bruker annen gradering enn TNM, f.eks. sarkom.\n\nBruker koden - 399506006  Multifocal tumor (finding), \nMultifokalitet er vanskelig for det er litt forskjellige definisjoner / bruk i de forskjellige kreftformene. \n\nFor solide svulster brukes ofte T(m) (lille m) for mulitifokal tumor, spesielt ved cT. Dette fordi det er vanskelig å vite om den er faktisk multifokal (springer ut av samme tumor, men har \"delt seg\" til flere tumorer/sattelitter, eller om det er multiple primærtumorer som defineres i TNM som \"(m): multiple primary tumors of the same histology in the same organ\". \n\nI bryst definerer man multifokal som flere tumorer i samme kvadrant. \nHvis det er flere tumorer i forskellige kvadranter vil det være multisentrisk. \nAllikevel er dette ofte kalt det samme - multifokal. \n\nSenere har det kommet definisjon at Multisentrisk = multifokal \n\nDefinisjon for multifokal brystkreft: Den er enten multifokal eller multisentrisk brystkreft. \" multifocality and multicentricity has been based on the anatomic quadrant of the breast, i.e., multiple foci in the same quadrant being labeled multifocal, with the designation of multicentric disease being reserved for foci in more than one quadrant.\" \n"
           },
