@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "73c81477fa9f43aae426edeb6ef2d5e6",
+      "MD5-CAM-1.0.1" : "f83b1cbbb986dae4f176634761ef00e6",
       "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74",
-      "sem_ver" : "25.0.1",
+      "sem_ver" : "26.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -54266,6 +54266,7 @@
         }, {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
           "nodeId" : "at0055.1",
           "attributes" : [ {
             "@type" : "C_ATTRIBUTE",
@@ -54283,7 +54284,7 @@
                   "terminologyId" : {
                     "value" : "local"
                   },
-                  "constraint" : [ "ac0.602" ],
+                  "constraint" : [ "ac0.603" ],
                   "selectedTerminologies" : [ ]
                 } ]
               } ],
@@ -54318,10 +54319,10 @@
             "code" : "ac0.491",
             "description" : ""
           },
-          "ac0.602" : {
+          "ac0.603" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.602",
+            "code" : "ac0.603",
             "description" : ""
           }
         },
@@ -54338,10 +54339,10 @@
             "code" : "ac0.491",
             "description" : ""
           },
-          "ac0.602" : {
+          "ac0.603" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.602",
+            "code" : "ac0.603",
             "description" : ""
           }
         },
@@ -54358,10 +54359,10 @@
             "code" : "ac0.491",
             "description" : ""
           },
-          "ac0.602" : {
+          "ac0.603" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "(Synthesized)",
-            "code" : "ac0.602",
+            "code" : "ac0.603",
             "description" : ""
           }
         },
@@ -54371,7 +54372,7 @@
             "code" : "at0001.1",
             "text" : "Navn på kroppssted",
             "description" : "Navngiving av et enkelt fysisk sted enten på eller i menneskekroppen.",
-            "comment" : "Designkommentar:\nDet speisfikke kroppsstedet. Hvis man f.eks. har satt venstre mamma i dataelementet beliggenhet ville dette feltet blitt mamma. \nAnatomi kodes med SNOMED-CT så langt det er mulig. \n\nDet er laget en mapping for spesifikt sted ved bruk av gruppering i elementet Beliggenhet i Problem/diagnosen (ref. sarkom).\n\nFor brystkreft må denne stå som mamma. \n76752008 -  mamma \n"
+            "comment" : "Bryst: legge inn kode for mamma\n\n\nDesignkommentar:\nDet speisfikke kroppsstedet. Hvis man f.eks. har satt venstre mamma i dataelementet beliggenhet ville dette feltet blitt mamma. \nAnatomi kodes med SNOMED-CT så langt det er mulig. \n\nDet er laget en mapping for spesifikt sted ved bruk av gruppering i elementet Beliggenhet i Problem/diagnosen (ref. sarkom).\n\nFor brystkreft må denne stå som mamma. \n76752008 -  mamma \n"
           },
           "at0002.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -54420,10 +54421,10 @@
             "code" : "ac0.491",
             "description" : ""
           },
-          "ac0.602" : {
+          "ac0.603" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.602",
+            "code" : "ac0.603",
             "description" : ""
           }
         },
@@ -54440,10 +54441,10 @@
             "code" : "ac0.491",
             "description" : ""
           },
-          "ac0.602" : {
+          "ac0.603" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.602",
+            "code" : "ac0.603",
             "description" : ""
           }
         },
@@ -54460,10 +54461,10 @@
             "code" : "ac0.491",
             "description" : ""
           },
-          "ac0.602" : {
+          "ac0.603" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.602",
+            "code" : "ac0.603",
             "description" : ""
           }
         },
@@ -54480,10 +54481,10 @@
             "code" : "ac0.491",
             "description" : ""
           },
-          "ac0.602" : {
+          "ac0.603" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.602",
+            "code" : "ac0.603",
             "description" : ""
           }
         },
@@ -54500,10 +54501,10 @@
             "code" : "ac0.491",
             "description" : ""
           },
-          "ac0.602" : {
+          "ac0.603" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.602",
+            "code" : "ac0.603",
             "description" : ""
           }
         },
@@ -54520,10 +54521,10 @@
             "code" : "ac0.491",
             "description" : ""
           },
-          "ac0.602" : {
+          "ac0.603" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.602",
+            "code" : "ac0.603",
             "description" : ""
           }
         },
@@ -54540,10 +54541,10 @@
             "code" : "ac0.491",
             "description" : ""
           },
-          "ac0.602" : {
+          "ac0.603" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.602",
+            "code" : "ac0.603",
             "description" : ""
           }
         },
@@ -54560,10 +54561,10 @@
             "code" : "ac0.491",
             "description" : ""
           },
-          "ac0.602" : {
+          "ac0.603" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
-            "code" : "ac0.602",
+            "code" : "ac0.603",
             "description" : ""
           }
         }
@@ -57584,6 +57585,11 @@
           "@type" : "VALUE_SET",
           "id" : "ac0.602",
           "members" : [ "at0062" ]
+        },
+        "ac0.603" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.603",
+          "members" : [ "at0062" ]
         }
       }
     },
@@ -57839,7 +57845,7 @@
             "code" : "at0001.1",
             "text" : "Diagnose ICD-10",
             "description" : "Koding av diagnosen med ICD10.",
-            "comment" : "Designkommentar:\nDet er denne verdien som skal vises i skjermbildet. \nDen trenger nå ikke å være obligatorisk. \nKodes med ICD-10"
+            "comment" : "For bryst kodes den mest alvorlige ICD-10 evt. bare overordnet brystkreftkode.\n\nDesignkommentar:\nDet er denne verdien som skal vises i skjermbildet. \nDen trenger nå ikke å være obligatorisk. \nKodes med ICD-10\n\n"
           },
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -57922,6 +57928,7 @@
         "children" : [ {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
           "nodeId" : "at0001.1",
           "attributes" : [ ],
           "attributeTuples" : [ ]
@@ -57983,7 +57990,7 @@
             "code" : "at0003.1",
             "text" : "Tumorutbredelsesmønster",
             "description" : "Multifokalitet - dvs. to eller flere svulster i samme bryst. ",
-            "comment" : "Designkommentar:\nSkal være avkryssing. \nLagres hvis denne er krysset denne ut at det er multifokal tumor. \nBrukes gjerne om man bruker annen gradering enn TNM, f.eks. sarkom.\n\nBruker koden - 399506006  Multifocal tumor (finding), \nMultifokalitet er vanskelig for det er litt forskjellige definisjoner / bruk i de forskjellige kreftformene. \n\nFor solide svulster brukes ofte T(m) (lille m) for mulitifokal tumor, spesielt ved cT. Dette fordi det er vanskelig å vite om den er faktisk multifokal (springer ut av samme tumor, men har \"delt seg\" til flere tumorer/sattelitter, eller om det er multiple primærtumorer som defineres i TNM som \"(m): multiple primary tumors of the same histology in the same organ\". \n\nI bryst definerer man multifokal som flere tumorer i samme kvadrant. \nHvis det er flere tumorer i forskellige kvadranter vil det være multisentrisk. \nAllikevel er dette ofte kalt det samme - multifokal. \n\nSenere har det kommet definisjon at Multisentrisk = multifokal \n\nDefinisjon for multifokal brystkreft: Den er enten multifokal eller multisentrisk brystkreft. \" multifocality and multicentricity has been based on the anatomic quadrant of the breast, i.e., multiple foci in the same quadrant being labeled multifocal, with the designation of multicentric disease being reserved for foci in more than one quadrant.\" \n"
+            "comment" : "\n\nDesignkommentar:\nSkal være avkryssing. \nLagres hvis denne er krysset denne ut at det er multifokal tumor. \nBrukes gjerne om man bruker annen gradering enn TNM, f.eks. sarkom.\n\nBruker koden - 399506006  Multifocal tumor (finding), \nMultifokalitet er vanskelig for det er litt forskjellige definisjoner / bruk i de forskjellige kreftformene. \n\nFor solide svulster brukes ofte T(m) (lille m) for mulitifokal tumor, spesielt ved cT. Dette fordi det er vanskelig å vite om den er faktisk multifokal (springer ut av samme tumor, men har \"delt seg\" til flere tumorer/sattelitter, eller om det er multiple primærtumorer som defineres i TNM som \"(m): multiple primary tumors of the same histology in the same organ\". \n\nI bryst definerer man multifokal som flere tumorer i samme kvadrant. \nHvis det er flere tumorer i forskellige kvadranter vil det være multisentrisk. \nAllikevel er dette ofte kalt det samme - multifokal. \n\nSenere har det kommet definisjon at Multisentrisk = multifokal \n\nDefinisjon for multifokal brystkreft: Den er enten multifokal eller multisentrisk brystkreft. \" multifocality and multicentricity has been based on the anatomic quadrant of the breast, i.e., multiple foci in the same quadrant being labeled multifocal, with the designation of multicentric disease being reserved for foci in more than one quadrant.\" \n"
           },
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -58097,16 +58104,83 @@
         "children" : [ {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
-          "occurrences" : "0..0",
           "nodeId" : "at0001.1",
-          "attributes" : [ ],
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "occurrences" : "1..1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "TERMINOLOGY_CODE",
+                  "occurrences" : "0..1",
+                  "terminologyId" : {
+                    "value" : "SNOMED-CT"
+                  },
+                  "constraint" : [ ],
+                  "selectedTerminologies" : [ "SNOMED-CT" ],
+                  "includedExternalTerminologyCodes" : [ {
+                    "terminologyId" : "SNOMED-CT",
+                    "code" : "76752008",
+                    "value" : "Mamma",
+                    "translations" : {
+                      "nb" : "Mamma"
+                    }
+                  } ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
           "attributeTuples" : [ ]
         }, {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
-          "occurrences" : "0..0",
           "nodeId" : "at0002.1",
-          "attributes" : [ ],
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "occurrences" : "1..1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "TERMINOLOGY_CODE",
+                  "occurrences" : "0..1",
+                  "terminologyId" : {
+                    "value" : "SNOMED-CT"
+                  },
+                  "constraint" : [ ],
+                  "selectedTerminologies" : [ "SNOMED-CT" ],
+                  "includedExternalTerminologyCodes" : [ {
+                    "terminologyId" : "SNOMED-CT",
+                    "code" : "73056007",
+                    "value" : "høyre mamma",
+                    "translations" : {
+                      "nb" : "høyre mamma"
+                    }
+                  }, {
+                    "terminologyId" : "SNOMED-CT",
+                    "code" : "80248007",
+                    "value" : "venstre mamma",
+                    "translations" : {
+                      "nb" : "venstre mamma"
+                    }
+                  } ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
           "attributeTuples" : [ ]
         }, {
           "@type" : "C_COMPLEX_OBJECT",
@@ -58627,6 +58701,7 @@
         }, {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
           "nodeId" : "at0031.1",
           "attributes" : [ {
             "@type" : "C_ATTRIBUTE",
@@ -58806,6 +58881,20 @@
             "text" : "TNM-vurdering",
             "description" : "Sammentrekning av vurdering av \"T\", \"N\" og \"M\", pluss eventuelle tilleggsvurderinger av \"G\", \"R\", \"L\", \"V\", prefiks og/eller tillegg der det er passende.",
             "comment" : "Designkommentar:\nsammenslåing av T+n+m verdien. Den må komme med p-som prefix."
+          },
+          "at0002.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0002",
+            "text" : "Underordnet anatomisk lokalisasjon",
+            "description" : "Den underordnede anatomiske lokaliseringer til tumoren.",
+            "comment" : "\n73056007  høyre mamma \n80248007  venstre mamma "
+          },
+          "at0001.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0001",
+            "text" : "Anatomisk lokalisering",
+            "description" : "Den anatomiske lokaliseringen til tumoren.",
+            "comment" : "Designkommentar:\nden overordnede koden for TNM. \nbryst - mamma 76752008"
           }
         },
         "de" : {
@@ -58942,16 +59031,83 @@
         "children" : [ {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
-          "occurrences" : "0..0",
           "nodeId" : "at0001.0.1",
-          "attributes" : [ ],
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "occurrences" : "1..1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "TERMINOLOGY_CODE",
+                  "occurrences" : "0..1",
+                  "terminologyId" : {
+                    "value" : "SNOMED-CT"
+                  },
+                  "constraint" : [ ],
+                  "selectedTerminologies" : [ "SNOMED-CT" ],
+                  "includedExternalTerminologyCodes" : [ {
+                    "terminologyId" : "SNOMED-CT",
+                    "code" : "76752008",
+                    "value" : "Mamma",
+                    "translations" : {
+                      "nb" : "Mamma"
+                    }
+                  } ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
           "attributeTuples" : [ ]
         }, {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
-          "occurrences" : "0..0",
           "nodeId" : "at0002.0.1",
-          "attributes" : [ ],
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "occurrences" : "1..1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "TERMINOLOGY_CODE",
+                  "occurrences" : "0..1",
+                  "terminologyId" : {
+                    "value" : "SNOMED-CT"
+                  },
+                  "constraint" : [ ],
+                  "selectedTerminologies" : [ "SNOMED-CT" ],
+                  "includedExternalTerminologyCodes" : [ {
+                    "terminologyId" : "SNOMED-CT",
+                    "code" : "73056007",
+                    "value" : "høyre mamma",
+                    "translations" : {
+                      "nb" : "høyre mamma"
+                    }
+                  }, {
+                    "terminologyId" : "SNOMED-CT",
+                    "code" : "80248007",
+                    "value" : "venstre mamma",
+                    "translations" : {
+                      "nb" : "venstre mamma"
+                    }
+                  } ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
           "attributeTuples" : [ ]
         }, {
           "@type" : "C_COMPLEX_OBJECT",
@@ -63715,6 +63871,7 @@
             }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
               "nodeId" : "at0078.1",
               "attributes" : [ {
                 "@type" : "C_ATTRIBUTE",
@@ -63874,7 +64031,7 @@
             }, {
               "@type" : "C_ARCHETYPE_ROOT",
               "rmTypeName" : "CLUSTER",
-              "occurrences" : "0..1",
+              "occurrences" : "0..2",
               "nodeId" : "at0043.1",
               "attributes" : [ ],
               "attributeTuples" : [ ],
@@ -64120,7 +64277,7 @@
             "code" : "at0012.1",
             "text" : "Beliggenhet",
             "description" : "Registrering av det anatomisk stedet der diagnosen er lokalisert.",
-            "comment" : "Designkommentar:\nRegistrering av det anatomisk stedet der diagnosen er lokalisert.\n\nVed parorganer kan man bruke denne for å sette direktekode til kroppssiden og anatomisk sted, f.eks. venstre bryst eller høyre bryst. \nVed slik koding bør man sette navn på kroppssted - den overordnede koden for organet f.eks.  mamma  samt sette kroppsside i clusteret \"anatomisk lokalisering\" i strukturert anatomisk lokalisering slotet. \nI andre tilfeller kan man sette organkoden her og arve den til navn på kroppssted uten å sette side. Dermed har man lik koding på dette i modellen. \n\nI andre tilfeller, f.eks. i sarkom, kan man bruke dette elementet til gruppering av organer som genitalia, bløtvev osv. \n\nFor brystkreft må denne stå som mamma. \n76752008 -  mamma \n\n"
+            "comment" : "For bryst: legge inn mamma kode. \n\nDesignkommentar:\nRegistrering av det anatomisk stedet der diagnosen er lokalisert.\n\nVed parorganer kan man bruke denne for å sette direktekode til kroppssiden og anatomisk sted, f.eks. venstre bryst eller høyre bryst. \nVed slik koding bør man sette navn på kroppssted - den overordnede koden for organet f.eks.  mamma  samt sette kroppsside i clusteret \"anatomisk lokalisering\" i strukturert anatomisk lokalisering slotet. \nI andre tilfeller kan man sette organkoden her og arve den til navn på kroppssted uten å sette side. Dermed har man lik koding på dette i modellen. \n\nI andre tilfeller, f.eks. i sarkom, kan man bruke dette elementet til gruppering av organer som genitalia, bløtvev osv. \n\nFor brystkreft må denne stå som mamma. \n76752008 -  mamma \n\n"
           },
           "at0002.1" : {
             "@type" : "ARCHETYPE_TERM",
