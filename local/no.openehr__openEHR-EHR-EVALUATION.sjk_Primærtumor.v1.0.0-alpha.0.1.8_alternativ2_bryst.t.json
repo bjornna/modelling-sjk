@@ -19,7 +19,7 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "a87573b981e1923636da8bf1b4135b31",
+      "MD5-CAM-1.0.1" : "ea4b4c0b2ddc40a914904039d3694ea4",
       "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74",
       "sem_ver" : "29.0.0",
       "build_uid" : ""
@@ -1016,13 +1016,6 @@
                       "constraint" : [ ],
                       "selectedTerminologies" : [ "SNOMED-CT" ],
                       "includedExternalTerminologyCodes" : [ {
-                        "terminologyId" : "SNOMED-CT",
-                        "code" : "55342001",
-                        "value" : "Neoplastisk sykdom",
-                        "translations" : {
-                          "nb" : "Neoplastisk sykdom"
-                        }
-                      }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "126926005",
                         "value" : "Neoplasi i mamma",
@@ -2090,7 +2083,7 @@
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0000.1",
-            "text" : "Problem/diagnose detaljer (Diskuter om være med)",
+            "text" : "Problem/diagnose detaljer",
             "description" : "Brukes for å registrere detaljer til problem/diagnose blant annet ICD koder.",
             "comment" : "Designkommentar:\nEn lokal CLUSTER arketype som brukes til å \nlegge inn diagnosekode, her er det ICD10 diagnosekoder.\n\nDenne brukes for spesifikk ICD-10 diagnose i stedet for øverst i Problem/diagnose - elementet problem/diagnosenavn da man i en utredningssistuasjon kanskje ikke har en gitt diagnose, og heller ikke vil registrere denne icd-10 koden. \n\n"
           },
@@ -2228,7 +2221,7 @@
           "at0003.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0003.1",
-            "text" : "Tumorutbredelsesmønster (skal den være med?)",
+            "text" : "Tumorutbredelsesmønster",
             "description" : "Multifokalitet - dvs. to eller flere svulster i samme bryst. ",
             "comment" : "Designkommentar:\nSkal være avkryssing. \nLagres hvis denne er krysset denne ut at det er multifokal tumor. \nBrukes gjerne om man bruker annen gradering enn TNM, f.eks. sarkom.\n\nBruker koden - 399506006  Multifocal tumor (finding), \nMultifokalitet er vanskelig for det er litt forskjellige definisjoner / bruk i de forskjellige kreftformene. \n\nFor solide svulster brukes ofte T(m) (lille m) for mulitifokal tumor, spesielt ved cT. Dette fordi det er vanskelig å vite om den er faktisk multifokal (springer ut av samme tumor, men har \"delt seg\" til flere tumorer/sattelitter, eller om det er multiple primærtumorer som defineres i TNM som \"(m): multiple primary tumors of the same histology in the same organ\". \n\nI bryst definerer man multifokal som flere tumorer i samme kvadrant. \nHvis det er flere tumorer i forskellige kvadranter vil det være multisentrisk. \nAllikevel er dette ofte kalt det samme - multifokal. \n\nSenere har det kommet definisjon at Multisentrisk = multifokal \n\nDefinisjon for multifokal brystkreft: Den er enten multifokal eller multisentrisk brystkreft. \" multifocality and multicentricity has been based on the anatomic quadrant of the breast, i.e., multiple foci in the same quadrant being labeled multifocal, with the designation of multicentric disease being reserved for foci in more than one quadrant.\" \n"
           },
@@ -2344,12 +2337,14 @@
         "children" : [ {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
           "nodeId" : "at0001.1",
           "attributes" : [ ],
           "attributeTuples" : [ ]
         }, {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
           "nodeId" : "at0002.1",
           "attributes" : [ ],
           "attributeTuples" : [ ]
@@ -3201,12 +3196,14 @@
         "children" : [ {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
           "nodeId" : "at0001.0.1",
           "attributes" : [ ],
           "attributeTuples" : [ ]
         }, {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
           "nodeId" : "at0002.0.1",
           "attributes" : [ ],
           "attributeTuples" : [ ]
@@ -35705,6 +35702,7 @@
         }, {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
           "nodeId" : "at0151.1",
           "attributes" : [ {
             "@type" : "C_ATTRIBUTE",
