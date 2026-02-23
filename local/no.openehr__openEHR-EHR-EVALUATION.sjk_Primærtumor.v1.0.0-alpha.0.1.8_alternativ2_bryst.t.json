@@ -19,7 +19,7 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "39a23b0822260287af67dc4f26fec300",
+      "MD5-CAM-1.0.1" : "5099528aec789c28e0d9de29eecd5a62",
       "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74",
       "sem_ver" : "29.0.0",
       "build_uid" : ""
@@ -62804,7 +62804,7 @@
             "code" : "at0000.1",
             "text" : "**?**Problem/diagnose-kvalifikator",
             "description" : "Kontekst- eller tidsspesifikk kvalifikator for et problem eller en diagnose.",
-            "comment" : "Designkommentar_\nSe på arketypen https://arketyper.no/ckm/archetypes/1078.36.3086 - Tumorstatus fra HighMed."
+            "comment" : "Designkommentar_\nSe på arketypen https://arketyper.no/ckm/archetypes/1078.36.3086 - Tumorstatus fra HighMed.\n\nFor parorgan legges denne strukturen til det spesifikke organet, f.eks. bryst til høyre og/eller venstre side. "
           },
           "ac0.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -64155,7 +64155,7 @@
             }, {
               "@type" : "C_ARCHETYPE_ROOT",
               "rmTypeName" : "CLUSTER",
-              "occurrences" : "0..1",
+              "occurrences" : "1..1",
               "nodeId" : "at0039.1",
               "attributes" : [ ],
               "attributeTuples" : [ ],
