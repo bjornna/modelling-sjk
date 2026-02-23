@@ -19,7 +19,7 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "5099528aec789c28e0d9de29eecd5a62",
+      "MD5-CAM-1.0.1" : "a87573b981e1923636da8bf1b4135b31",
       "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74",
       "sem_ver" : "29.0.0",
       "build_uid" : ""
@@ -58234,6 +58234,7 @@
         }, {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
           "nodeId" : "at0003.1",
           "attributes" : [ {
             "@type" : "C_ATTRIBUTE",
@@ -58287,7 +58288,7 @@
           "at0003.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0003.1",
-            "text" : "??Tumorutbredelsesmønster (skal denne ligge på overordnet nivå)",
+            "text" : "umorutbredelsesmønster (skal denne ligge på overordnet nivå)",
             "description" : "Multifokalitet - dvs. to eller flere svulster i samme bryst. ",
             "comment" : "Designkommentar:\nSkal være avkryssing. \nLagres hvis denne er krysset denne ut at det er multifokal tumor. \nBrukes gjerne om man bruker annen gradering enn TNM, f.eks. sarkom.\n\nBruker koden - 399506006  Multifocal tumor (finding), \nMultifokalitet er vanskelig for det er litt forskjellige definisjoner / bruk i de forskjellige kreftformene. \n\nFor solide svulster brukes ofte T(m) (lille m) for mulitifokal tumor, spesielt ved cT. Dette fordi det er vanskelig å vite om den er faktisk multifokal (springer ut av samme tumor, men har \"delt seg\" til flere tumorer/sattelitter, eller om det er multiple primærtumorer som defineres i TNM som \"(m): multiple primary tumors of the same histology in the same organ\". \n\nI bryst definerer man multifokal som flere tumorer i samme kvadrant. \nHvis det er flere tumorer i forskellige kvadranter vil det være multisentrisk. \nAllikevel er dette ofte kalt det samme - multifokal. \n\nSenere har det kommet definisjon at Multisentrisk = multifokal \n\nDefinisjon for multifokal brystkreft: Den er enten multifokal eller multisentrisk brystkreft. \" multifocality and multicentricity has been based on the anatomic quadrant of the breast, i.e., multiple foci in the same quadrant being labeled multifocal, with the designation of multicentric disease being reserved for foci in more than one quadrant.\" \n"
           },
@@ -62802,7 +62803,7 @@
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0000.1",
-            "text" : "**?**Problem/diagnose-kvalifikator",
+            "text" : "Problem/diagnose-kvalifikator",
             "description" : "Kontekst- eller tidsspesifikk kvalifikator for et problem eller en diagnose.",
             "comment" : "Designkommentar_\nSe på arketypen https://arketyper.no/ckm/archetypes/1078.36.3086 - Tumorstatus fra HighMed.\n\nFor parorgan legges denne strukturen til det spesifikke organet, f.eks. bryst til høyre og/eller venstre side. "
           },
@@ -64173,7 +64174,7 @@
             }, {
               "@type" : "C_ARCHETYPE_ROOT",
               "rmTypeName" : "CLUSTER",
-              "occurrences" : "0..1",
+              "occurrences" : "0..0",
               "nodeId" : "at0043.5",
               "attributes" : [ ],
               "attributeTuples" : [ ],
@@ -64218,7 +64219,7 @@
             }, {
               "@type" : "C_ARCHETYPE_ROOT",
               "rmTypeName" : "CLUSTER",
-              "occurrences" : "0..1",
+              "occurrences" : "0..0",
               "nodeId" : "at0039.2",
               "attributes" : [ ],
               "attributeTuples" : [ ],
