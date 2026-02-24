@@ -8,7 +8,7 @@
     },
     "otherContributors" : [ ],
     "lifecycleState" : {
-      "codeString" : "unmanaged"
+      "codeString" : "in_development"
     },
     "ipAcknowledgements" : { },
     "references" : { },
@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "f9c67b283a52bc6b7e26f2caddac3f7e",
+      "MD5-CAM-1.0.1" : "7d0a86adb26b6960f0e43eefc368c2ce",
       "PARENT:MD5-CAM-1.0.1" : "9F1B95B53D81FF86EF3DF128A51108E9",
-      "sem_ver" : "0.1.1",
+      "sem_ver" : "0.1.2",
       "build_uid" : ""
     },
     "details" : {
@@ -414,27 +414,27 @@
         "at0043.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0043.1",
-          "text" : "Merknad tumorhendelse",
+          "text" : "Merknad om sykdomsstatus ved utredning",
           "description" : "Ytterligere beskrivelse av tumorhendelse av kan angis i fritekst.",
           "comment" : "Fritekstbeskrivelse av tumorhendelse."
         },
         "at0000.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0000.1",
-          "text" : "Kartleggingsspørsmål om problemer eller diagnoser (tumorhendelse)",
-          "description" : "",
-          "comment" : "Registrering av aktuelle tumorhendelse."
+          "text" : "Kartlegging om sykdomsstatus ved utredningen (tumorhendelse)",
+          "comment" : "Registrering av aktuelle tumorhendelse.",
+          "description" : ""
         },
         "at0022.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0022.1",
-          "text" : "Spesifikt problem eller diagnose (primærtumor)",
+          "text" : "Spesifikt problem eller diagnose ved utredning (tumorhendelse)",
           "description" : ""
         },
         "at0004.1" : {
           "@type" : "ARCHETYPE_TERM",
-          "code" : "at0004",
-          "text" : "Problem/diagnosenavn",
+          "code" : "at0004.1",
+          "text" : "Sykdomsstatus (tumorhendelse)",
           "description" : "Angi tumorhendelsen som var årsaken til den aktuelle henvisningen som har utløst opprettelsen av dette utredningssdokumentet.",
           "comment" : "-372087000 - Primærtumor (med eller uten metastase(r))  - Primary malignant neoplasm (disorder) \n-25173007 - Lokalt residiv (med eller uten metastase(r)) - Recurrent neoplasm (disorder) -128462008 - Kun metastase(r) Metastatic malignant neoplasm (disorder) \n-74964007 - Annet  Other (qualifier value) "
         },
@@ -940,7 +940,7 @@
     }
   },
   "adlVersion" : "1.4",
-  "buildUid" : "12bc2240-0f65-3b44-8b0f-a4d92510fa06",
+  "buildUid" : "343f5fe0-4ad0-363c-9923-5bb55e45e39f",
   "rmName" : "openehr",
   "rmRelease" : "1.1.0",
   "generated" : true,
