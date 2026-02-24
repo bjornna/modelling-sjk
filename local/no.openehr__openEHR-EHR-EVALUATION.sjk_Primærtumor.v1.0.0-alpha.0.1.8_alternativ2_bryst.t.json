@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "ea4b4c0b2ddc40a914904039d3694ea4",
+      "MD5-CAM-1.0.1" : "e64354c4c1657c661c36158fd240e27c",
       "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74",
-      "sem_ver" : "29.0.0",
+      "sem_ver" : "30.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -1100,10 +1100,10 @@
                       "selectedTerminologies" : [ "SNOMED-CT" ],
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
-                        "code" : "??",
-                        "value" : "Bryst",
+                        "code" : "73056007",
+                        "value" : "Right breast structure (body structure)",
                         "translations" : {
-                          "nb" : "høyre mamma"
+                          "nb" : "Right breast structure (body structure)"
                         }
                       } ]
                     } ]
@@ -1160,9 +1160,17 @@
             }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
-              "occurrences" : "0..0",
               "nodeId" : "at0003.1",
-              "attributes" : [ ],
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_DATE_TIME",
+                  "attributes" : [ ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
               "attributeTuples" : [ ]
             }, {
               "@type" : "C_COMPLEX_OBJECT",
@@ -1312,7 +1320,7 @@
             }, {
               "@type" : "C_ARCHETYPE_ROOT",
               "rmTypeName" : "CLUSTER",
-              "occurrences" : "0..0",
+              "occurrences" : "0..1",
               "nodeId" : "at0039.2",
               "attributes" : [ ],
               "attributeTuples" : [ ],
@@ -2060,7 +2068,6 @@
         }, {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
-          "occurrences" : "0..0",
           "nodeId" : "at0003.1",
           "attributes" : [ ],
           "attributeTuples" : [ ]
@@ -2531,52 +2538,72 @@
                     "terminologyId" : "no.onk.tmn",
                     "code" : "NX",
                     "value" : "cNX",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cNX"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "N0",
                     "value" : "cN0",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cN0"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "N1",
                     "value" : "cN1",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cN1"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "N2",
                     "value" : "cN2",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cN2"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "N2a",
                     "value" : "cN2a",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cN2a"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "N2b",
                     "value" : "cN2b",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cN2b"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "N3",
                     "value" : "cN3",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cN3"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "N3a",
                     "value" : "cN3a",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cN3a"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "N3b",
                     "value" : "cN3b",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cN3b"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "N3c",
                     "value" : "cN3c",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cN3c"
+                    }
                   } ]
                 } ]
               } ],
@@ -2611,22 +2638,30 @@
                     "terminologyId" : "no.onk.tmn",
                     "code" : "M0",
                     "value" : "cM0",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cM0"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "M0(i+)",
                     "value" : "cM0(i+)",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cM0(i+)"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "M1",
                     "value" : "cM1",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cM1"
+                    }
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "MX",
                     "value" : "cMX",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "cMX"
+                    }
                   } ]
                 } ]
               } ],
@@ -2867,6 +2902,7 @@
         }, {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
           "nodeId" : "at0031.1",
           "attributes" : [ {
             "@type" : "C_ATTRIBUTE",
@@ -5411,7 +5447,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "235D9CDE069C2AEF58B46A00190C05F8",
+        "PARENT:MD5-CAM-1.0.1" : "37f50f4783141069bd72acab752a969b",
         "ip_acknowledgements" : "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org."
       },
       "details" : {
@@ -17283,7 +17319,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "235D9CDE069C2AEF58B46A00190C05F8",
+        "PARENT:MD5-CAM-1.0.1" : "37f50f4783141069bd72acab752a969b",
         "ip_acknowledgements" : "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org."
       },
       "details" : {
@@ -32312,7 +32348,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "235D9CDE069C2AEF58B46A00190C05F8",
+        "PARENT:MD5-CAM-1.0.1" : "37f50f4783141069bd72acab752a969b",
         "ip_acknowledgements" : "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org."
       },
       "details" : {
@@ -32525,10 +32561,10 @@
                   "selectedTerminologies" : [ "SNOMED-CT" ],
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
-                    "code" : "??",
-                    "value" : "mamma",
+                    "code" : "76752008",
+                    "value" : "Breast structure (body structure)",
                     "translations" : {
-                      "nb" : "mamma"
+                      "nb" : "Breast structure (body structure)"
                     }
                   } ]
                 } ]
@@ -36819,7 +36855,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "235D9CDE069C2AEF58B46A00190C05F8",
+        "PARENT:MD5-CAM-1.0.1" : "37f50f4783141069bd72acab752a969b",
         "ip_acknowledgements" : "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org."
       },
       "details" : {
@@ -39353,7 +39389,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "235D9CDE069C2AEF58B46A00190C05F8",
+        "PARENT:MD5-CAM-1.0.1" : "37f50f4783141069bd72acab752a969b",
         "ip_acknowledgements" : "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org."
       },
       "details" : {
@@ -42316,6 +42352,40 @@
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
           "occurrences" : "0..0",
+          "nodeId" : "at0071.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "TERMINOLOGY_CODE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "ac0.14" ],
+                  "selectedTerminologies" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_TEXT",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
           "nodeId" : "at0077.1",
           "attributes" : [ {
             "@type" : "C_ATTRIBUTE",
@@ -42504,6 +42574,12 @@
             "text" : "(Synthesized)",
             "code" : "ac0.13",
             "description" : ""
+          },
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.14",
+            "description" : ""
           }
         },
         "sl" : {
@@ -42571,6 +42647,12 @@
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.13",
+            "description" : ""
+          },
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.14",
             "description" : ""
           }
         },
@@ -42640,15 +42722,21 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.13",
             "description" : ""
+          },
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.14",
+            "description" : ""
           }
         },
         "nb" : {
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0000.1",
-            "text" : "**?**Problem/diagnose-kvalifikator",
+            "text" : "Problem/diagnose-kvalifikator",
             "description" : "Kontekst- eller tidsspesifikk kvalifikator for et problem eller en diagnose.",
-            "comment" : "Designkommentar_\nSe på arketypen https://arketyper.no/ckm/archetypes/1078.36.3086 - Tumorstatus fra HighMed."
+            "comment" : "Designkommentar_\nSe på arketypen https://arketyper.no/ckm/archetypes/1078.36.3086 - Tumorstatus fra HighMed.\n\nFor parorgan legges denne strukturen til det spesifikke organet, f.eks. bryst til høyre og/eller venstre side. "
           },
           "ac0.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -42722,6 +42810,12 @@
             "text" : "Residivert",
             "description" : "Fase av bedring eller tilheling for et akutt problem eller diagnose.",
             "comment" : "For eksempel for å spore tilhelingen av en mellomørebetennelse."
+          },
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.14",
+            "description" : ""
           }
         },
         "ko" : {
@@ -42789,6 +42883,12 @@
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.13",
+            "description" : ""
+          },
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.14",
             "description" : ""
           }
         },
@@ -42858,6 +42958,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.13",
             "description" : ""
+          },
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.14",
+            "description" : ""
           }
         },
         "it" : {
@@ -42925,6 +43031,12 @@
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.13",
+            "description" : ""
+          },
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.14",
             "description" : ""
           }
         },
@@ -42994,6 +43106,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.13",
             "description" : ""
+          },
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.14",
+            "description" : ""
           }
         },
         "zh" : {
@@ -43061,6 +43179,12 @@
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.13",
+            "description" : ""
+          },
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.14",
             "description" : ""
           }
         },
@@ -43130,6 +43254,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.13",
             "description" : ""
+          },
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.14",
+            "description" : ""
           }
         },
         "ca" : {
@@ -43198,6 +43328,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.13",
             "description" : ""
+          },
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.14",
+            "description" : ""
           }
         },
         "es" : {
@@ -43265,6 +43401,12 @@
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.13",
+            "description" : ""
+          },
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.14",
             "description" : ""
           }
         }
@@ -43343,6 +43485,11 @@
           "@type" : "VALUE_SET",
           "id" : "ac0.13",
           "members" : [ "at0108", "at0109" ]
+        },
+        "ac0.14" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.14",
+          "members" : [ "at0095", "at0096" ]
         }
       }
     },
@@ -44059,7 +44206,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "235D9CDE069C2AEF58B46A00190C05F8",
+        "PARENT:MD5-CAM-1.0.1" : "37f50f4783141069bd72acab752a969b",
         "ip_acknowledgements" : "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org."
       },
       "details" : {
@@ -44272,10 +44419,10 @@
                   "selectedTerminologies" : [ "SNOMED-CT" ],
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
-                    "code" : "??",
-                    "value" : "mamma",
+                    "code" : "76752008",
+                    "value" : "Breast structure (body structure)",
                     "translations" : {
-                      "nb" : "mamma"
+                      "nb" : "Breast structure (body structure)"
                     }
                   } ]
                 } ]
@@ -51848,6 +51995,40 @@
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
           "occurrences" : "0..0",
+          "nodeId" : "at0071.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "TERMINOLOGY_CODE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "ac0.14" ],
+                  "selectedTerminologies" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_TEXT",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "occurrences" : "0..0",
           "nodeId" : "at0077.1",
           "attributes" : [ {
             "@type" : "C_ATTRIBUTE",
@@ -52036,6 +52217,12 @@
             "text" : "(Synthesized)",
             "code" : "ac0.13",
             "description" : ""
+          },
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.14",
+            "description" : ""
           }
         },
         "sl" : {
@@ -52103,6 +52290,12 @@
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.13",
+            "description" : ""
+          },
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.14",
             "description" : ""
           }
         },
@@ -52172,13 +52365,19 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.13",
             "description" : ""
+          },
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.14",
+            "description" : ""
           }
         },
         "nb" : {
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0000.1",
-            "text" : "**?**Problem/diagnose-kvalifikator",
+            "text" : "Problem/diagnose-kvalifikator",
             "description" : "Kontekst- eller tidsspesifikk kvalifikator for et problem eller en diagnose.",
             "comment" : "Designkommentar_\nSe på arketypen https://arketyper.no/ckm/archetypes/1078.36.3086 - Tumorstatus fra HighMed."
           },
@@ -52254,6 +52453,12 @@
             "text" : "Residivert",
             "description" : "Fase av bedring eller tilheling for et akutt problem eller diagnose.",
             "comment" : "For eksempel for å spore tilhelingen av en mellomørebetennelse."
+          },
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.14",
+            "description" : ""
           }
         },
         "ko" : {
@@ -52321,6 +52526,12 @@
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.13",
+            "description" : ""
+          },
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.14",
             "description" : ""
           }
         },
@@ -52390,6 +52601,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.13",
             "description" : ""
+          },
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.14",
+            "description" : ""
           }
         },
         "it" : {
@@ -52457,6 +52674,12 @@
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.13",
+            "description" : ""
+          },
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.14",
             "description" : ""
           }
         },
@@ -52526,6 +52749,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.13",
             "description" : ""
+          },
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.14",
+            "description" : ""
           }
         },
         "zh" : {
@@ -52593,6 +52822,12 @@
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.13",
+            "description" : ""
+          },
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.14",
             "description" : ""
           }
         },
@@ -52662,6 +52897,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.13",
             "description" : ""
+          },
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.14",
+            "description" : ""
           }
         },
         "ca" : {
@@ -52730,6 +52971,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.13",
             "description" : ""
+          },
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.14",
+            "description" : ""
           }
         },
         "es" : {
@@ -52797,6 +53044,12 @@
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.13",
+            "description" : ""
+          },
+          "ac0.14" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.14",
             "description" : ""
           }
         }
@@ -52875,6 +53128,11 @@
           "@type" : "VALUE_SET",
           "id" : "ac0.13",
           "members" : [ "at0108", "at0109" ]
+        },
+        "ac0.14" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.14",
+          "members" : [ "at0095", "at0096" ]
         }
       }
     },
@@ -53300,10 +53558,10 @@
                       "selectedTerminologies" : [ "SNOMED-CT" ],
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
-                        "code" : "55342001",
-                        "value" : "Neoplastisk sykdom",
+                        "code" : "126926005",
+                        "value" : "Neoplasi i mamma",
                         "translations" : {
-                          "nb" : "Neoplastisk sykdom"
+                          "nb" : "Neoplasi i mamma"
                         }
                       } ]
                     } ]
@@ -53382,10 +53640,10 @@
                       "selectedTerminologies" : [ "SNOMED-CT" ],
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
-                        "code" : "??",
-                        "value" : "Bryst",
+                        "code" : "80248007",
+                        "value" : "Venstre mamma",
                         "translations" : {
-                          "nb" : "venstre mamma"
+                          "nb" : "Venstre mamma"
                         }
                       } ]
                     } ]
@@ -53397,6 +53655,7 @@
             }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
               "nodeId" : "at0078.1",
               "attributes" : [ {
                 "@type" : "C_ATTRIBUTE",
@@ -54266,7 +54525,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "235D9CDE069C2AEF58B46A00190C05F8",
+        "PARENT:MD5-CAM-1.0.1" : "37f50f4783141069bd72acab752a969b",
         "ip_acknowledgements" : "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org."
       },
       "details" : {
@@ -54479,10 +54738,10 @@
                   "selectedTerminologies" : [ "SNOMED-CT" ],
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
-                    "code" : "??",
-                    "value" : "mamma",
+                    "code" : "76752008",
+                    "value" : "Breast structure (body structure)",
                     "translations" : {
-                      "nb" : "mamma"
+                      "nb" : "Breast structure (body structure)"
                     }
                   } ]
                 } ]
@@ -64005,10 +64264,10 @@
                       "selectedTerminologies" : [ "SNOMED-CT" ],
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
-                        "code" : "??",
-                        "value" : "Bryst",
+                        "code" : "76752008",
+                        "value" : "Breast structure (body structure)",
                         "translations" : {
-                          "nb" : "Bryst"
+                          "nb" : "Breast structure (body structure)"
                         }
                       } ]
                     } ]
