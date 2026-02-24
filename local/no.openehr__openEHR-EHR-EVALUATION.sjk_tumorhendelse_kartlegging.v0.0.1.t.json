@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "4bbeba720a8766bb435939346f6105cc",
+      "MD5-CAM-1.0.1" : "f5199cd6cc748526baece2188fccc3b2",
       "PARENT:MD5-CAM-1.0.1" : "9F1B95B53D81FF86EF3DF128A51108E9",
-      "sem_ver" : "0.2.0",
+      "sem_ver" : "0.2.1",
       "build_uid" : ""
     },
     "details" : {
@@ -434,7 +434,7 @@
         "at0004.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0004.1",
-          "text" : "Sykdomsstatus (tumorhendelse)",
+          "text" : "Sykdomsutvikling (tumorhendelse)",
           "description" : "Angi tumorhendelsen som var årsaken til den aktuelle henvisningen som har utløst opprettelsen av dette utredningssdokumentet.",
           "comment" : "-372087000 - Primærtumor (med eller uten metastase(r))  - Primary malignant neoplasm (disorder) \n-25173007 - Lokalt residiv (med eller uten metastase(r)) - Recurrent neoplasm (disorder) -128462008 - Kun metastase(r) Metastatic malignant neoplasm (disorder) \n-74964007 - Annet  Other (qualifier value) "
         },
