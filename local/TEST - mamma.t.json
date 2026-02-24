@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "2.0.0",
+      "sem_ver" : "3.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "8e36866c016f45ad44f7d13a1e45ea8f",
+      "MD5-CAM-1.0.1" : "b68dd5d3045e4b85b044e978fe3c5fe7",
       "PARENT:MD5-CAM-1.0.1" : "3B0765A6B395C9D01595FDF2D440E6CB"
     },
     "details" : {
@@ -243,7 +243,7 @@
         "@type" : "C_ARCHETYPE_ROOT",
         "rmTypeName" : "SECTION",
         "occurrences" : "0..1",
-        "nodeId" : "at0.10",
+        "nodeId" : "at0.14",
         "attributes" : [ ],
         "attributeTuples" : [ ],
         "archetypeRef" : "no.openehr__openEHR-EHR-EVALUATION.sjk_Primærtumor.v1.0.0-alpha.0.1.8_alternativ2_bryst",
