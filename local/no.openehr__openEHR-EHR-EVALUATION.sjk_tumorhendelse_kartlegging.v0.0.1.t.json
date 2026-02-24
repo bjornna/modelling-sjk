@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "bbc257b195a0de0e04c934b0695bb7ba",
+      "MD5-CAM-1.0.1" : "4bbeba720a8766bb435939346f6105cc",
       "PARENT:MD5-CAM-1.0.1" : "9F1B95B53D81FF86EF3DF128A51108E9",
-      "sem_ver" : "0.1.4",
+      "sem_ver" : "0.2.0",
       "build_uid" : ""
     },
     "details" : {
@@ -236,7 +236,6 @@
                   }, {
                     "@type" : "C_COMPLEX_OBJECT",
                     "rmTypeName" : "CLUSTER",
-                    "occurrences" : "0..1",
                     "nodeId" : "at0022.1",
                     "attributes" : [ {
                       "@type" : "C_ATTRIBUTE",
@@ -429,7 +428,7 @@
         "at0022.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0022.1",
-          "text" : "Spesifikt problem eller diagnose ved utredning (tumorhendelse)",
+          "text" : "Spesifikt problem eller diagnose",
           "description" : ""
         },
         "at0004.1" : {
