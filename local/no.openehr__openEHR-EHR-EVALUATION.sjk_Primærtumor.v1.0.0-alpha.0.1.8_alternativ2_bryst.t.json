@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "e64354c4c1657c661c36158fd240e27c",
+      "MD5-CAM-1.0.1" : "dbd8f9d3e75c46916ef1e3b73f878484",
       "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74",
-      "sem_ver" : "30.0.0",
+      "sem_ver" : "31.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -53643,7 +53643,7 @@
                         "code" : "80248007",
                         "value" : "Venstre mamma",
                         "translations" : {
-                          "nb" : "Venstre mamma"
+                          "nb" : "Left breast structure (body structure)"
                         }
                       } ]
                     } ]
