@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "11f61b224f4a040cf7dfef35fec595ca",
+      "MD5-CAM-1.0.1" : "500d44fb13eb1abec0de72f21d517a68",
       "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74",
-      "sem_ver" : "41.0.0",
+      "sem_ver" : "42.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -1017,10 +1017,10 @@
                       "selectedTerminologies" : [ "SNOMED-CT" ],
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
-                        "code" : "126926005",
-                        "value" : "Neoplasi i mamma",
+                        "code" : "55342001",
+                        "value" : "Neoplastisk sykdom",
                         "translations" : {
-                          "nb" : "Neoplasi i mamma"
+                          "nb" : "Neoplastisk sykdom"
                         }
                       } ]
                     } ]
@@ -1100,10 +1100,10 @@
                       "selectedTerminologies" : [ "SNOMED-CT" ],
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
-                        "code" : "73056007",
-                        "value" : "Right breast structure (body structure)",
+                        "code" : "***",
+                        "value" : "***",
                         "translations" : {
-                          "nb" : "Right breast structure (body structure)"
+                          "nb" : "***"
                         }
                       } ]
                     } ]
@@ -64037,6 +64037,15 @@
             }, {
               "@type" : "C_ARCHETYPE_ROOT",
               "rmTypeName" : "CLUSTER",
+              "occurrences" : "0..1",
+              "nodeId" : "at0043.4",
+              "attributes" : [ ],
+              "attributeTuples" : [ ],
+              "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-problem_qualifier-003.v2",
+              "referenceType" : "archetypeOverlay"
+            }, {
+              "@type" : "C_ARCHETYPE_ROOT",
+              "rmTypeName" : "CLUSTER",
               "occurrences" : "0..*",
               "nodeId" : "at0043.5",
               "attributes" : [ ],
@@ -64069,15 +64078,6 @@
               "attributes" : [ ],
               "attributeTuples" : [ ],
               "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-symptom_sign-002.v2",
-              "referenceType" : "archetypeOverlay"
-            }, {
-              "@type" : "C_ARCHETYPE_ROOT",
-              "rmTypeName" : "CLUSTER",
-              "occurrences" : "0..1",
-              "nodeId" : "at0043.4",
-              "attributes" : [ ],
-              "attributeTuples" : [ ],
-              "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-problem_qualifier-003.v2",
               "referenceType" : "archetypeOverlay"
             } ]
           } ],
