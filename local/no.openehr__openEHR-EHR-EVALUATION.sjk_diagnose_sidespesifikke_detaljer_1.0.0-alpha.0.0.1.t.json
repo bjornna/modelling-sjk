@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "500d44fb13eb1abec0de72f21d517a68",
+      "MD5-CAM-1.0.1" : "27902d15392ad00e13e916767af5e8fd",
       "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74",
-      "sem_ver" : "42.0.0",
+      "sem_ver" : "43.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -786,7 +786,7 @@
         "original_publisher" : "openEHR Foundation",
         "custodian_namespace" : "org.openehr",
         "MD5-CAM-1.0.1" : "431c74b4364223a736fe23d2b494b51a",
-        "PARENT:MD5-CAM-1.0.1" : "89470078C0364ACBA5B6A5F286E56C79"
+        "PARENT:MD5-CAM-1.0.1" : "36AB7D4555C1BE62F46628C1AF3E79A3"
       },
       "details" : {
         "de" : {
@@ -38306,7 +38306,7 @@
         "original_publisher" : "openEHR Foundation",
         "custodian_namespace" : "org.openehr",
         "MD5-CAM-1.0.1" : "479138551b9bd4182bbb2d0fbd13c804",
-        "PARENT:MD5-CAM-1.0.1" : "89470078C0364ACBA5B6A5F286E56C79",
+        "PARENT:MD5-CAM-1.0.1" : "36AB7D4555C1BE62F46628C1AF3E79A3",
         "sem_ver" : "1.1.0",
         "build_uid" : ""
       },
@@ -40798,7 +40798,7 @@
         "original_publisher" : "openEHR Foundation",
         "custodian_namespace" : "org.openehr",
         "MD5-CAM-1.0.1" : "479138551b9bd4182bbb2d0fbd13c804",
-        "PARENT:MD5-CAM-1.0.1" : "89470078C0364ACBA5B6A5F286E56C79",
+        "PARENT:MD5-CAM-1.0.1" : "36AB7D4555C1BE62F46628C1AF3E79A3",
         "sem_ver" : "1.1.0",
         "build_uid" : ""
       },
@@ -53345,7 +53345,7 @@
         "original_publisher" : "openEHR Foundation",
         "custodian_namespace" : "org.openehr",
         "MD5-CAM-1.0.1" : "431c74b4364223a736fe23d2b494b51a",
-        "PARENT:MD5-CAM-1.0.1" : "89470078C0364ACBA5B6A5F286E56C79"
+        "PARENT:MD5-CAM-1.0.1" : "36AB7D4555C1BE62F46628C1AF3E79A3"
       },
       "details" : {
         "de" : {
@@ -63563,7 +63563,7 @@
         "original_publisher" : "openEHR Foundation",
         "custodian_namespace" : "org.openehr",
         "MD5-CAM-1.0.1" : "431c74b4364223a736fe23d2b494b51a",
-        "PARENT:MD5-CAM-1.0.1" : "89470078C0364ACBA5B6A5F286E56C79"
+        "PARENT:MD5-CAM-1.0.1" : "36AB7D4555C1BE62F46628C1AF3E79A3"
       },
       "details" : {
         "de" : {
@@ -63970,6 +63970,50 @@
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
               "occurrences" : "0..0",
+              "nodeId" : "at0080.1",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "nodeId" : "at0081.1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_CODED_TEXT",
+                  "occurrences" : "1..1",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "defining_code",
+                    "children" : [ {
+                      "@type" : "C_TERMINOLOGY_CODE",
+                      "rmTypeName" : "TERMINOLOGY_CODE",
+                      "occurrences" : "0..1",
+                      "terminologyId" : {
+                        "value" : "SNOMED-CT"
+                      },
+                      "constraint" : [ ],
+                      "selectedTerminologies" : [ "SNOMED-CT" ],
+                      "includedExternalTerminologyCodes" : [ {
+                        "terminologyId" : "SNOMED-CT",
+                        "code" : "55342001",
+                        "value" : "Neoplastisk sykdom",
+                        "translations" : {
+                          "nb" : "Neoplastisk sykdom"
+                        }
+                      } ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "occurrences" : "0..0",
               "nodeId" : "at0072.1",
               "attributes" : [ ],
               "attributeTuples" : [ ]
@@ -64290,7 +64334,7 @@
             "code" : "at0002.1",
             "text" : "Diagnose",
             "description" : "Diagnose er satt til neoplastisk sykdom.",
-            "comment" : "Designkommentar:\nDenne skal ikke vises i skjermbildet, men settes default skjult. Dermed trenger ikke diagnosen å være obligatorisk, noe som kan være vanskelig i utredningsøyeblikket. Selve diagnosen som de settes i utredningen settes inn i arketypen \"CLUSTER.problem_diagnosis_dips.v1\". \n"
+            "comment" : "Designkommentar:\nDenne skal ikke vises i skjermbildet, men settes default skjult. Dermed trenger ikke diagnosen å være obligatorisk, noe som kan være vanskelig i utredningsøyeblikket. Selve diagnosen som de settes i utredningen settes inn i arketypen \"CLUSTER.problem_diagnosis_dips.v1\". \nInitielt i en utredning settes  Problem/diagnose-navn 55342001 - Neoplastisk sykdom Problem/diagnosenavn dette endres til SNOMED-CT kode som matcher ICD10 kode satt av kliniker fra ICD10 i clusteret når dette foreligger. \n"
           },
           "at0003.1" : {
             "@type" : "ARCHETYPE_TERM",
@@ -64311,6 +64355,13 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.10",
             "description" : ""
+          },
+          "at0081.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0081.1",
+            "text" : "Kategori",
+            "description" : "En overordnet gruppering for problemet eller diagnosen som er identifisert i  \"Problem-/diagnosenavn\".",
+            "comment" : "Designkommentar:\nDette feltet benyttes for å kategorisere alle instanser av denne arketypen med SNOMED-CT koden 55342001 -Neoplastisk sykdom i prosjektet Strukturert journal for kreft."
           }
         },
         "sv" : {
