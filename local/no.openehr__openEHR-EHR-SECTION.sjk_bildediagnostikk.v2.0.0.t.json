@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "MD5-CAM-1.0.1" : "ef5711b7cedc2aca04616454d832b47a",
+      "MD5-CAM-1.0.1" : "f427e73b48bab0cab974afd970ec40af",
       "PARENT:MD5-CAM-1.0.1" : "dd9eb4bbddba032d835d00b77665b264",
-      "sem_ver" : "2.0.0",
+      "sem_ver" : "2.0.1",
       "build_uid" : ""
     },
     "details" : {
@@ -612,6 +612,13 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.124",
             "description" : ""
+          },
+          "at0021.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0021",
+            "text" : "Undersøkelsesnavn",
+            "description" : "Navnet på en undersøkelse eller gruppe av undersøkelser.",
+            "comment" : "Designkommentar:\nI SJK har vi valgt å legge inn DICOM modalitet i dette feltet.\n\nKodeliste ligger her: https://github.com/ehrforce/modelling-sjk/wiki/Bildediagnostikk\n\nVed f.eks. direktekode for noen type undersøkelser kunne man f.eks. bruke SCTID: 41747008 - skjelettscintigrafi - Radioisotope scan of bone (procedure)"
           }
         },
         "es" : {
