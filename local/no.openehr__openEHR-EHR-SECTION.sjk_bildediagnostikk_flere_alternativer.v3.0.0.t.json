@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "MD5-CAM-1.0.1" : "65d06deaebff0f3b5538df2d39d0a551",
+      "MD5-CAM-1.0.1" : "c2b26d60c4fb5fdb9b216436ce67f722",
       "PARENT:MD5-CAM-1.0.1" : "dd9eb4bbddba032d835d00b77665b264",
-      "sem_ver" : "4.0.0",
+      "sem_ver" : "5.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -68,28 +68,19 @@
         "@type" : "C_ARCHETYPE_ROOT",
         "rmTypeName" : "SECTION",
         "occurrences" : "0..1",
+        "nodeId" : "at0.14",
+        "attributes" : [ ],
+        "attributeTuples" : [ ],
+        "archetypeRef" : "openEHR-EHR-SECTION.ovl-imaging_exam_oncology_no-001.v1",
+        "referenceType" : "archetypeOverlay"
+      }, {
+        "@type" : "C_ARCHETYPE_ROOT",
+        "rmTypeName" : "SECTION",
+        "occurrences" : "0..1",
         "nodeId" : "at0.4",
         "attributes" : [ ],
         "attributeTuples" : [ ],
         "archetypeRef" : "openEHR-EHR-SECTION.ovl-imaging_exam_oncology_no-002.v1",
-        "referenceType" : "archetypeOverlay"
-      }, {
-        "@type" : "C_ARCHETYPE_ROOT",
-        "rmTypeName" : "SECTION",
-        "occurrences" : "0..1",
-        "nodeId" : "at0.8",
-        "attributes" : [ ],
-        "attributeTuples" : [ ],
-        "archetypeRef" : "openEHR-EHR-SECTION.ovl-adhoc-001.v1",
-        "referenceType" : "archetypeOverlay"
-      }, {
-        "@type" : "C_ARCHETYPE_ROOT",
-        "rmTypeName" : "SECTION",
-        "occurrences" : "0..1",
-        "nodeId" : "at0.10",
-        "attributes" : [ ],
-        "attributeTuples" : [ ],
-        "archetypeRef" : "openEHR-EHR-SECTION.ovl-adhoc-002.v1",
         "referenceType" : "archetypeOverlay"
       } ]
     } ],
@@ -99,7 +90,15 @@
     "@type" : "ARCHETYPE_TERMINOLOGY",
     "conceptCode" : "at0000",
     "termDefinitions" : {
-      "nb" : { }
+      "nb" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000",
+          "text" : "Bildediagnostikk",
+          "description" : "En gruppering av data knyttet til bildediagnostikk i forbindelse med pasientforløp for kreft. ",
+          "comment" : "Designkommentar:\nDet kan være to måter å modellere denne informasjonen på, avhengig av hvordan skjermbildet skal se ut i DIPS. Det er ikke noe i veien å bruke alternativ 2, det mer detaljerte alternativet, for alle evantaliteter hvis man ønsker. \n\nValg av modell påvirker om man kun ønsker et overordnet resyme per modalitet, om det skal finnes en dato for hver modalitet på overordnet nivå, om man kun ønsker en sjekkliste for hvilke kroppsstrukturer som er undersøkt, eller om man ønsker både dato og resyme per kroppsdel.\n\nAlternativ 1 = Bildediagnostikk_enkelt_modellering: \nDen enkleste modelleringen brukes når man ikke ønsker detaljer, men bare en kort oppsummering/resyme på modaliteten, hvilke dato undersøkelsen er tatt per modalitet og en \"sjekkliste/oppramsing\" på kroppsstruktur som det er tatt bilde av.\n\nAlternativ 2 = Bildediagnostikk_detaljert_modellering:\nEn mer detaljert modellering hvis man ønsker mer opplysninger som resyme og dato per kroppsstruktur. \n\n-se Wiki på codeberg for mer detaljer https://codeberg.org/openEHR-no/strukturert-journal-kreft/wiki/Bildediagnostikk-kartlegging\n"
+        }
+      }
     },
     "termBindings" : { },
     "terminologyExtracts" : { },
@@ -2369,8 +2368,7 @@
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0023.2",
             "text" : "Uspesifikk hendelse",
-            "description" : "Standard, uspesifisert tidspunkt eller tidsintervall som kan defineres mer eksplisitt i et templat eller i en applikasjon.",
-            "comment" : "Designkommentar:\nAlternativ 2 for kartlegging av om bildediagnostisk undersøkelse er utført og om den er utført så har man mulighet til å kartlegge hvilke bildeprosedyre/modalitet som er utført. \n\nHvis man kun ønsker å legge til en overordnet resyme for alle typer bildediagnostiske undersøkelser uten å legg inn verken modalitet/type prosedyre kan man bruke den overordnet beskrivelse i kartleggingsarketypen.\n\nDet er i tillegg gjort mulighet for å legge til hvilke spesifikk prosedyre/modalitet (bekrefte/avkrefte) man har utført ved å gjenta det interne CLUSTERet til kartleggingsarketypen (spesifikk undersøkelse). \n\nVidere er det lagt til rette for å legge inn et kort resyme for bildeundersøkelsen/modaliteten,  inkludert dato og anatomisk lokalisasjon via arketypen Klinisk grunnlag, som er slottet inn i Ytterligere detaljer i det interne CLUSTERET. Denne kan komme til syne hvis det er svart bekreftende på at undersøkelstypen/modaliteten er gjort. \n\nHvis man ønsker kun å skrive dato og/eller resyme per modalitet, uten å spesifisere per anatomisk lokalisasjon, kan man bruke den øverste Klinisk grunnlags resyme og dato. Hvis man i tillegg ønsker å ramse opp anatomisk lokalisasjon per modalitet uten å skrive resyme og dato for hver anatomisk lokalisasjon kan man gjenta neste CLUSTER Klinisk grunnlag nr 2 som er slottet inn i Ytterligere detaljer, og legge til kun anatomisk lokalisering (ikke ta med resyme og dato i Kliniks grunnlag CLUSTER nr 2. For å legge til flere anatomisk lokalisering kan man gjenta Klinisk grunnlag CLUSTER nr 2. \n\nHvis man øsnker å ha med resyme og dato per undersøkelse og kroppsdel kan man legge dette inn i  Klinisk grunnlag CLUSTER nr 2. Da vil resyme og dato på overordnet Klinisk grunnlag (CLUSTER nr 1) være overflødig. For å få med flere anatomiske lokalsieringer med tilhørende resyme og dato kan man repetere Klinisk grunnlag CLUSTER nr. 2. \n"
+            "description" : "Standard, uspesifisert tidspunkt eller tidsintervall som kan defineres mer eksplisitt i et templat eller i en applikasjon."
           },
           "at0027.2" : {
             "@type" : "ARCHETYPE_TERM",
@@ -2406,20 +2404,6 @@
             "description" : "Navnet på en undersøkelse eller gruppe av undersøkelser.",
             "comment" : "Designkommentar:\nI SJK har vi valgt å legge inn DICOM modalitet i dette feltet.\n\nKodeliste ligger her: https://codeberg.org/openEHR-no/strukturert-journal-kreft/wiki/Bildediagnostikk\n\nI andre prosjektet er det er mulig å bruke f.eks. SNOMED-CT prosedyre direktekoder for undersøkelsene/prosedyren: SCTID: 41747008 - skjelettscintigrafi - Radioisotope scan of bone (procedure)"
           },
-          "at0026" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0026",
-            "text" : "Spesifikk undersøkelse",
-            "description" : "Detaljer om en spesifikk undersøkelse eller gruppe av undersøkelser som er innenfor kartleggingsformålet.",
-            "comment" : "Designkommentar:\nBruk separate instanser av dette CLUSTER'et for å skille mellom spesifikke undersøkelser eller gruppering av undersøkelser.  \nI denne modellen har vi brukt separate instanser for å skille mellom de ulike modalitetene."
-          },
-          "at0047" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0047",
-            "text" : "Type",
-            "description" : "Metoden, teknikken, modaliteten eller annen mer spesifikk identifikasjon av den diagnostiske undersøkelsen.",
-            "comment" : "Designkommentar:\nFor eksempel: kontrastforsterket mammografi, forstørrelsesmammografi, digital tomosyntese av bryst, kontrastbildeteknikk, fluorescens in situ hybridisering (FISH), immunoassay-metode.\n\nI SJK‑prosjektet bruker vi dette til å angi mer spesifikt hvilken teknikk som er benyttet innenfor den aktuelle modaliteten, dersom man ønsker å dokumentere dette."
-          },
           "at0002.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0002",
@@ -2432,7 +2416,7 @@
             "code" : "at0003",
             "text" : "Tidsangivelse",
             "description" : "Tidsangivelse for undersøkelsen.",
-            "comment" : "Designkommentar:\nDette er tid denne undersøkelsen med denne modaliteten er tatt. "
+            "comment" : "Designkommentar:\nDette elementet angir tidspunktet for når den aktuelle undersøkelsen med den spesifikke modaliteten ble utført."
           },
           "ac0.125" : {
             "@type" : "ARCHETYPE_TERM",
@@ -2445,14 +2429,14 @@
             "code" : "at0026.1",
             "text" : "Spesifikk undersøkelse",
             "description" : "Detaljer om en spesifikk undersøkelse eller gruppe av undersøkelser som er innenfor kartleggingsformålet.",
-            "comment" : "DBruk separate instanser av dette CLUSTER'et for å skille mellom spesifikke undersøkelser eller gruppering av undersøkelser."
+            "comment" : "Bruk separate instanser av dette CLUSTER'et for å skille mellom spesifikke undersøkelser eller gruppering av undersøkelser.\n\nDesignkommentar:\nHvis man kun vil ha alternativ 1 - ett overodnet resyme + overordnet dato + liste/sjekkboks med anatomisk lokalisering, gjenta dette interne clusteret for hver modalitet. "
           },
           "at0047.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0047.1",
             "text" : "Type",
             "description" : "Metoden, teknikken, modaliteten eller annen mer spesifikk identifikasjon av den diagnostiske undersøkelsen.",
-            "comment" : "DFor eksempel: kontrastforsterket mammografi, forstørrelsesmammografi, digital tomosyntese av bryst, kontrastbildeteknikk, fluorescens in situ hybridisering (FISH), immunoassay-metode."
+            "comment" : "For eksempel: kontrastforsterket mammografi, forstørrelsesmammografi, digital tomosyntese av bryst, kontrastbildeteknikk, fluorescens in situ hybridisering (FISH), immunoassay-metode.\n\nDesignkommentar:\nHer har vi lagt inn kode for hvilken type/teknikk man har brukt på undersøkelsen. For mammografi har vi f.eks. brukt SNOMED-CT koden 726551006 -kontrastmammografi  - Contrast enhanced spectral mammography (procedure) og  450566007 - tomosyntese av mamma (DBT), Digital tomosynthesis of breast (procedure)\n"
           }
         },
         "es" : {
@@ -3324,7 +3308,27 @@
       "@type" : "C_COMPLEX_OBJECT",
       "rmTypeName" : "SECTION",
       "nodeId" : "at0000.1",
-      "attributes" : [ ],
+      "attributes" : [ {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "items",
+        "existence" : "0..1",
+        "cardinality" : {
+          "@type" : "CARDINALITY",
+          "interval" : "1..*",
+          "ordered" : false,
+          "unique" : false
+        },
+        "children" : [ {
+          "@type" : "C_ARCHETYPE_ROOT",
+          "rmTypeName" : "OBSERVATION",
+          "occurrences" : "0..1",
+          "nodeId" : "at0.1",
+          "attributes" : [ ],
+          "attributeTuples" : [ ],
+          "archetypeRef" : "openEHR-EHR-OBSERVATION.ovl-investigation_screening-002.v1",
+          "referenceType" : "archetypeOverlay"
+        } ]
+      } ],
       "attributeTuples" : [ ]
     },
     "terminology" : {
@@ -3335,9 +3339,9 @@
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0000.1",
-            "text" : "Bildediagnostikk alt1_resyme_overordnet",
+            "text" : "Bildediagnostikk_enkelt_modellering",
             "description" : "En gruppering av data knyttet til bildediagnostikk i forbindelse med pasientforløp for kreft. ",
-            "comment" : "Designkommentar:\nDette er den enkleste modellen for bildediagnostikk, der man kun kan registrere én dato og en kort oppsummering/resymé på overordnet nivå per modalitet. I tillegg kan man angi hvilke kroppsstrukturer som er avbildet med den aktuelle modaliteten gjennom en sjekkliste/avkrysningsbokser. Det er ikke mulig å knytte egne oppsummeringer/resymeer eller datoer til hver enkelt kroppsdel avbildet med denne modaliteten."
+            "comment" : "Designkommentar:\nTo mulige måter å registrere bildediagnostikk uten for mange detaljer:\nén dato på overordnet nivå og en kort oppsummering/resymé på overordnet nivå per modalitet, samt hvilke kroppsstrukturer som det er tatt undersøkelse av med den aktuelle modaliteten gjennom en sjekkliste/avkrysningsbokser. \n\nDet er ikke mulig å knytte egne oppsummeringer/resymeer eller datoer til hver enkelt kroppsdel undersøkt med denne modaliteten. \n"
           }
         }
       },
@@ -3524,7 +3528,6 @@
         }, {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
-          "occurrences" : "0..0",
           "nodeId" : "at0006.1",
           "attributes" : [ ],
           "attributeTuples" : [ ]
@@ -3550,7 +3553,21 @@
             "code" : "at0001.1",
             "text" : "Kroppsstruktur",
             "description" : "Angir om det foreligger bildediagnostikk for valgt kroppsdel innenfor samme modalitet. ",
-            "comment" : "Bruker et utvalg av kroppsdeler basert på SNOMED-CT koder. "
+            "comment" : "Designkommentar:\nBruker et utvalg av kroppsdeler basert på SNOMED-CT koder.\n\n"
+          },
+          "at0006.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0006",
+            "text" : "Resymé",
+            "description" : "Enkeltord, frase eller kortfattet beskrivelse som uttrykker den kliniske betydningen av alle funn og observasjoner for den definerte kroppsstrukturen.",
+            "comment" : "Designkommentar:\nEt kort resymé av funnet gjort med den aktuelle modaliteten på den spesifikke kroppsstrukturen, eventuelt inkludert tidspunkt for undersøkelsen."
+          },
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000",
+            "text" : "Bildediagnostisk undersøkelse - kroppsstruktur",
+            "description" : "Funn eller observasjoner ved radiologisk undersøkelse av et definert organ eller en kroppsdel.",
+            "comment" : "Designkommentar:\nDette clusteret kan gjentas for hver kroppsstruktur dersom man ønsker et eget resymé per kroppsstruktur."
           }
         },
         "de" : { }
@@ -3814,7 +3831,7 @@
                               "terminologyId" : {
                                 "value" : "local"
                               },
-                              "constraint" : [ "ac0.122" ],
+                              "constraint" : [ "ac0.125" ],
                               "selectedTerminologies" : [ ]
                             } ]
                           } ],
@@ -3831,7 +3848,7 @@
                     }, {
                       "@type" : "C_COMPLEX_OBJECT",
                       "rmTypeName" : "CLUSTER",
-                      "nodeId" : "at0026",
+                      "nodeId" : "at0026.1",
                       "attributes" : [ {
                         "@type" : "C_ATTRIBUTE",
                         "rmAttributeName" : "items",
@@ -3936,6 +3953,12 @@
                         }, {
                           "@type" : "C_COMPLEX_OBJECT",
                           "rmTypeName" : "ELEMENT",
+                          "nodeId" : "at0047.1",
+                          "attributes" : [ ],
+                          "attributeTuples" : [ ]
+                        }, {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "ELEMENT",
                           "nodeId" : "at0003.1",
                           "attributes" : [ {
                             "@type" : "C_ATTRIBUTE",
@@ -4018,16 +4041,16 @@
             "text" : "Overordnet beskrivelse bildediagnostiske undersøkelse",
             "description" : "Narrative description about the history of any investigations relevant for the screening purpose."
           },
-          "ac0.122" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "(Synthesized)",
-            "code" : "ac0.122",
-            "description" : ""
-          },
           "ac0.124" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "(Synthesized)",
             "code" : "ac0.124",
+            "description" : ""
+          },
+          "ac0.125" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.125",
             "description" : ""
           }
         },
@@ -4058,16 +4081,16 @@
             "text" : "Overordnet beskrivelse bildediagnostiske undersøkelse",
             "description" : "Beschreibung über die Geschichte der Durchführung von Untersuchungen, die für das Screening relevant sind."
           },
-          "ac0.122" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*(Synthesized) (en)",
-            "code" : "ac0.122",
-            "description" : ""
-          },
           "ac0.124" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.124",
+            "description" : ""
+          },
+          "ac0.125" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.125",
             "description" : ""
           }
         },
@@ -4077,7 +4100,7 @@
             "code" : "at0000.1",
             "text" : "Kartlegging bildediagnostikk",
             "description" : "Spørsmål og tilhørende svar som er knyttet til kartlegging om diagnostiske undersøkelser har vært utført eller ikke.",
-            "comment" : "Svarene kan være selvrapporterte."
+            "comment" : "Designkommentar:\nVi bruker en kartleggingsstruktur fordi resultatene som dette skal oppsummere, ligger i fagsystemet. Dette fungerer derfor som et kortfattet sammendrag av en bildediagnostisk undersøkelse som er gjennomført, og skal gi en enkel og overordnet presentasjon av hovedinnholdet."
           },
           "at0023.2" : {
             "@type" : "ARCHETYPE_TERM",
@@ -4091,33 +4114,82 @@
             "code" : "at0027.2",
             "text" : "Er bildediagnostiske undersøkelser gjennomført?",
             "description" : "Innledende spørsmål med tanke på om det er gjort noen form for bildediagnostikk. ",
-            "comment" : "Designkommentar:\nDette er inngangsspørsmålet om det i det hele tatt er gjort noe bildediagnostikk. \nDette har man med for å få en avkreftelse om det faktisk er tatt stilling til spm. mao. egentlig for å få med alternativet nei. "
+            "comment" : "Designkommentar:\nDette er et inngangsspørsmål som skal avklare om det i det hele tatt er utført bildediagnostikk. Spørsmålet er med for å sikre at det tas eksplisitt stilling til dette, og dermed også for å fange opp alternativet «nei»."
           },
           "at0043.2" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0043.2",
             "text" : "Overordnet beskrivelse bildediagnostiske undersøkelse",
             "description" : "Fritekstbeskrivelse om undersøkelser som er tidligere utført og som er innenfor kartleggingsformålet.",
-            "comment" : "Designkommentar:\nHer kan man skrive et resyme for alle bildediagnostiske undersøkelser uten å spesifisere nærmere hvilken modalitet man faktisk har utført. "
+            "comment" : "Designkommentar:\nHer kan man skrive et overordnet resymé for alle bildediagnostiske undersøkelser, uten å måtte spesifisere hvilken modalitet som faktisk er utført."
           },
           "at0040.2" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0040",
             "text" : "Kartleggingsformål",
             "description" : "Angir hva som var årsaken til at bildediagnostikk ble kartlagt. ",
-            "comment" : "Design kommentar: Benytter den spesifikk kodeliste for kartlegging innenfor SJK "
-          },
-          "ac0.122" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*(Synthesized) (en)",
-            "code" : "ac0.122",
-            "description" : ""
+            "comment" : "Design kommentar: \nBenytter den spesifikk kodeliste for kartlegging innenfor SJK \n\nSE listen i Codeberg Wiki https://codeberg.org/openEHR-no/strukturert-journal-kreft/wiki/Kodeverk"
           },
           "ac0.124" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.124",
             "description" : ""
+          },
+          "at0026" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0026",
+            "text" : "Spesifikk undersøkelse",
+            "description" : "Detaljer om en spesifikk undersøkelse eller gruppe av undersøkelser som er innenfor kartleggingsformålet.",
+            "comment" : "Bruk separate instanser av dette CLUSTER'et for å skille mellom spesifikke undersøkelser eller gruppering av undersøkelser.\n\nDesignkommentar:\nMan gjentar hele det interne clusteret Spesifikk undersøkelse i kartleggingsarketypen for hver kombinasjon av: Modalitet + Kroppsstruktur / anatomisk lokalisasjon.\n\nDa får man mulighet til å ha eget resyme per anatomisk lokalisasjon + egen dato for hvert kroppsted/anatomisk lokalisasjon ved å bruke arketypen \"Bildediagnostisk undersøkelse - kroppsstruktur\".\n"
+          },
+          "at0047" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0047",
+            "text" : "Type",
+            "description" : "Metoden, teknikken, modaliteten eller annen mer spesifikk identifikasjon av den diagnostiske undersøkelsen.",
+            "comment" : "For eksempel: kontrastforsterket mammografi, forstørrelsesmammografi, digital tomosyntese av bryst, kontrastbildeteknikk, fluorescens in situ hybridisering (FISH), immunoassay-metode.\n\nDesignkommentar:\nHer har vi lagt inn kode for hvilken type/teknikk man har brukt på undersøkelsen. For mammografi har vi f.eks. brukt SNOMED-CT koden 726551006 -kontrastmammografi  - Contrast enhanced spectral mammography (procedure) og  450566007 - tomosyntese av mamma (DBT), Digital tomosynthesis of breast (procedure)"
+          },
+          "at0002.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0002",
+            "text" : "Konklusjon",
+            "description" : "Kort beskrivelse, oppsummering eller tolkning av funnene på undersøkelsen.",
+            "comment" : "Designkommentar:\nEn kort oppsummering av resultatet eller konklusjonen fra den bildediagnostiske undersøkelsen for den aktuelle modaliteten."
+          },
+          "at0003.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0003",
+            "text" : "Tidsangivelse",
+            "description" : "Tidsangivelse for undersøkelsen.",
+            "comment" : "Designkommentar:\nDette elementet angir tidspunktet for når den aktuelle undersøkelsen med den spesifikke modaliteten ble utført."
+          },
+          "at0021.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0021",
+            "text" : "Undersøkelsesnavn",
+            "description" : "Navnet på en undersøkelse eller gruppe av undersøkelser.",
+            "comment" : "Designkommentar:\nI SJK har vi valgt å legge inn DICOM modalitet i dette feltet.\n\nKodeliste ligger her: https://codeberg.org/openEHR-no/strukturert-journal-kreft/wiki/Bildediagnostikk\n\nI andre prosjektet er det er mulig å bruke f.eks. SNOMED-CT prosedyre direktekoder for undersøkelsene/prosedyren: SCTID: 41747008 - skjelettscintigrafi - Radioisotope scan of bone (procedure)"
+          },
+          "ac0.125" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.125",
+            "description" : ""
+          },
+          "at0047.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0047.1",
+            "text" : "Type",
+            "description" : "Metoden, teknikken, modaliteten eller annen mer spesifikk identifikasjon av den diagnostiske undersøkelsen.",
+            "comment" : "For eksempel: kontrastforsterket mammografi, forstørrelsesmammografi, digital tomosyntese av bryst, kontrastbildeteknikk, fluorescens in situ hybridisering (FISH), immunoassay-metode.\n\nDesignkommentar:\nHer har vi lagt inn kode for hvilken type/teknikk man har brukt på undersøkelsen. For mammografi har vi f.eks. brukt SNOMED-CT koden 726551006 -kontrastmammografi  - Contrast enhanced spectral mammography (procedure) og  450566007 - tomosyntese av mamma (DBT), Digital tomosynthesis of breast (procedure)\n"
+          },
+          "at0026.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0026.1",
+            "text" : "Spesifikk undersøkelse",
+            "description" : "Detaljer om en spesifikk undersøkelse eller gruppe av undersøkelser som er innenfor kartleggingsformålet.",
+            "comment" : "Bruk separate instanser av dette CLUSTER'et for å skille mellom spesifikke undersøkelser eller gruppering av undersøkelser.\n\nDesignkommentar:\nResyme + dato per kroppsstruktur med en spesifikk modalitet: \ngjentar hele «Spesifikk undersøkelse»-clusteret gjentas for hver kombinasjon av modalitet og kroppsstruktur. Dette gjør det mulig å angi både eget resymé og egen dato for hver anatomiske lokalisasjon. Men man får ikke noe overordnet resyme per modalitet. \n\nResyme per modalitet + resyme per kroppsstruktur:\ngjenta Clusteret \n\n\n\n, slik at man kan registrere både eget resymé og egen dato per anatomisk lokalisasjon. \nMerk at dette ikke gir mulighet for å legge inn ett overordnet resymé per modalitet.\n\nDersom man også trenger ulike datoer per modalitet kombinert med kroppsstruktur, må 'Spesifikk undersøkelse' med den spesifikke modaliteten i karleggingsarketypen gjentas.\n"
           }
         },
         "es" : {
@@ -4173,16 +4245,16 @@
             "text" : "*Comment (en)",
             "description" : ""
           },
-          "ac0.122" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*(Synthesized) (en)",
-            "code" : "ac0.122",
-            "description" : ""
-          },
           "ac0.124" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.124",
+            "description" : ""
+          },
+          "ac0.125" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.125",
             "description" : ""
           }
         },
@@ -4239,16 +4311,16 @@
             "text" : "*Comment (en)",
             "description" : ""
           },
-          "ac0.122" : {
-            "@type" : "ARCHETYPE_TERM",
-            "text" : "*(Synthesized) (en)",
-            "code" : "ac0.122",
-            "description" : ""
-          },
           "ac0.124" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.124",
+            "description" : ""
+          },
+          "ac0.125" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.125",
             "description" : ""
           }
         }
@@ -4875,6 +4947,11 @@
           "@type" : "VALUE_SET",
           "id" : "ac0.124",
           "members" : [ "at0036", "at0037", "at0039" ]
+        },
+        "ac0.125" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.125",
+          "members" : [ "at0028", "at0029", "at0030" ]
         }
       }
     },
@@ -4996,330 +5073,6 @@
       "@type" : "C_COMPLEX_OBJECT",
       "rmTypeName" : "SECTION",
       "nodeId" : "at0000.1",
-      "attributes" : [ ],
-      "attributeTuples" : [ ]
-    },
-    "terminology" : {
-      "@type" : "ARCHETYPE_TERMINOLOGY",
-      "conceptCode" : "at0000",
-      "termDefinitions" : {
-        "nb" : {
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000.1",
-            "text" : "Bildediagnostikk - alt2_resyme_alle_nivå",
-            "description" : "En gruppering av data knyttet til bildediagnostikk i forbindelse med pasientforløp for kreft. ",
-            "comment" : "Designkommentar:\nDette mønsteret kan brukes dersom man ønsker en mer detaljert modellering av en bildediagnostisk undersøkelse. Ved å benytte denne modellen kan man registrere både et overordnet resymé per modalitet, samt dokumentere dato og resymé for hver enkelt kroppsstruktur.\n\nHer bruker vi arketypen \"CLUSTER.imaging_exam.v1 - Bildediagnostisk undersøkelse - kroppsstruktur\""
-          }
-        }
-      },
-      "termBindings" : { },
-      "terminologyExtracts" : { },
-      "valueSets" : { }
-    },
-    "adlVersion" : "1.4",
-    "buildUid" : "751b9c4d-690e-3542-bf5b-da5f13613e1f",
-    "rmName" : "openehr",
-    "rmRelease" : "1.1.0",
-    "generated" : true,
-    "otherMetaData" : { },
-    "originalLanguage" : {
-      "terminologyId" : {
-        "value" : "ISO_639-1"
-      },
-      "codeString" : "nb"
-    },
-    "translations" : [ ]
-  }, {
-    "@type" : "TEMPLATE_OVERLAY",
-    "uid" : "e988934b-07cb-4b19-96da-5cb6e188e7a2",
-    "description" : {
-      "@type" : "RESOURCE_DESCRIPTION",
-      "originalAuthor" : { },
-      "otherContributors" : [ ],
-      "ipAcknowledgements" : { },
-      "references" : { },
-      "conversionDetails" : { },
-      "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74"
-      },
-      "details" : { }
-    },
-    "parentArchetypeId" : "openEHR-EHR-SECTION.adhoc.v1",
-    "differential" : true,
-    "archetypeId" : {
-      "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-SECTION.ovl-adhoc-001.v1"
-    },
-    "definition" : {
-      "@type" : "C_COMPLEX_OBJECT",
-      "rmTypeName" : "SECTION",
-      "nodeId" : "at0000.1",
-      "attributes" : [ {
-        "@type" : "C_ATTRIBUTE",
-        "rmAttributeName" : "items",
-        "existence" : "0..1",
-        "cardinality" : {
-          "@type" : "CARDINALITY",
-          "interval" : "1..*",
-          "ordered" : false,
-          "unique" : false
-        },
-        "children" : [ {
-          "@type" : "C_ARCHETYPE_ROOT",
-          "rmTypeName" : "SECTION",
-          "occurrences" : "0..1",
-          "nodeId" : "at0.1",
-          "attributes" : [ ],
-          "attributeTuples" : [ ],
-          "archetypeRef" : "openEHR-EHR-SECTION.ovl-imaging_exam_oncology_no-001.v1",
-          "referenceType" : "archetypeOverlay"
-        }, {
-          "@type" : "C_ARCHETYPE_ROOT",
-          "rmTypeName" : "OBSERVATION",
-          "occurrences" : "0..1",
-          "nodeId" : "at0.6",
-          "attributes" : [ ],
-          "attributeTuples" : [ ],
-          "archetypeRef" : "openEHR-EHR-OBSERVATION.ovl-investigation_screening-002.v1",
-          "referenceType" : "archetypeOverlay"
-        } ]
-      } ],
-      "attributeTuples" : [ ]
-    },
-    "terminology" : {
-      "@type" : "ARCHETYPE_TERMINOLOGY",
-      "conceptCode" : "at0000",
-      "termDefinitions" : {
-        "en" : { },
-        "ru" : { },
-        "es-ar" : { },
-        "sl" : { },
-        "nb" : {
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000.1",
-            "text" : "Bildediagnostikk alt1_resyme_overordnet",
-            "description" : "En generisk seksjonsoverskrift som skal gis nytt navn i en templat for å passe i en gitt klinisk kontekst.",
-            "comment" : "Designkommentar:\nDette er den enkleste modellen for bildediagnostikk, der man kun kan registrere én dato og en kort oppsummering/resymé på overordnet nivå per modalitet. I tillegg kan man angi hvilke kroppsstrukturer som er avbildet med den aktuelle modaliteten gjennom en sjekkliste/avkrysningsbokser. Det er ikke mulig å knytte egne oppsummeringer/resymeer eller datoer til hver enkelt kroppsdel avbildet med denne modaliteten."
-          }
-        },
-        "pt-br" : { },
-        "sv" : { },
-        "de" : { },
-        "it" : { },
-        "fr" : { },
-        "ca" : { },
-        "es" : { },
-        "pt-pt" : { }
-      },
-      "termBindings" : { },
-      "terminologyExtracts" : { },
-      "valueSets" : { }
-    },
-    "adlVersion" : "1.4",
-    "buildUid" : "803f4837-e536-4c19-9bd7-cb71ad9d72fd",
-    "rmName" : "openehr",
-    "rmRelease" : "1.1.0",
-    "generated" : true,
-    "otherMetaData" : { },
-    "originalLanguage" : {
-      "terminologyId" : {
-        "value" : "ISO_639-1"
-      },
-      "codeString" : "en"
-    },
-    "translations" : [ {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "de"
-      },
-      "author" : {
-        "name" : "Ramona Wellmann",
-        "organisation" : "Medizinische Hochschule Hannover",
-        "email" : "wellmann.ramona@mh-hannover.de"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "pt-pt"
-      },
-      "author" : {
-        "name" : "Vanessa Pereira",
-        "organisation" : "Luxembourg Institute of Health (LIH)",
-        "email" : "vanessapereira@protonmail.com"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "ru"
-      },
-      "author" : {
-        "name" : "Art Latyp Латыпов Артур Шамилевич",
-        "organisation" : "RusBITech РусБИТех, Москва"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "sv"
-      },
-      "author" : {
-        "name" : "Daniel Hall",
-        "organisation" : "Region Östergötland",
-        "email" : "daniel.hall@regionostergotland.se"
-      },
-      "accreditation" : "Åsa Skagerhult, Lisa Axelsson",
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "es-ar"
-      },
-      "author" : {
-        "name" : "Alan March",
-        "organisation" : "Hospital Universitario Austral, Buenos Aires, Argentina"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "nb"
-      },
-      "author" : {
-        "einar.fosse@unn.no" : "einar.fosse@unn.no",
-        "name" : "Einar Fosse",
-        "organisation" : "Norwegian Centre for Integrated Care and Telemedicine, Tromsø, Norway"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "pt-br"
-      },
-      "author" : {
-        "name" : "Vladimir Pizzo",
-        "organisation" : "Hospital Sírio Libanês, São Paulo, Brazil",
-        "email" : "vladimir.pizzo@hsl.org.br"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "sl"
-      },
-      "author" : {
-        "name" : "?"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "it"
-      },
-      "author" : {
-        "name" : "Paolo Anedda",
-        "organisation" : "Inpeco",
-        "email" : "paolo.anedda@inpeco.com"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "fr"
-      },
-      "author" : {
-        "name" : "Vanessa Pereira",
-        "organisation" : "Better - Pathfinder",
-        "email" : "vanessapereira@protonmail.com"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "ca"
-      },
-      "author" : {
-        "name" : "Laura Moral Lopez",
-        "organisation" : "Sistema de Salut de Catalunya",
-        "email" : "lmorallopez@gmail.com, lauramoral@catsalut.cat"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "es"
-      },
-      "author" : {
-        "name" : "Laura Moral Lopez",
-        "organisation" : "Sistema de Salut de Catalunya",
-        "email" : "lmorallopez@gmail.com"
-      },
-      "otherDetails" : { }
-    } ]
-  }, {
-    "@type" : "TEMPLATE_OVERLAY",
-    "uid" : "f8b9d612-6378-4ab7-969e-b2920e034bb3",
-    "description" : {
-      "@type" : "RESOURCE_DESCRIPTION",
-      "originalAuthor" : { },
-      "otherContributors" : [ ],
-      "ipAcknowledgements" : { },
-      "references" : { },
-      "conversionDetails" : { },
-      "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74"
-      },
-      "details" : { }
-    },
-    "parentArchetypeId" : "openEHR-EHR-SECTION.adhoc.v1",
-    "differential" : true,
-    "archetypeId" : {
-      "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-SECTION.ovl-adhoc-002.v1"
-    },
-    "definition" : {
-      "@type" : "C_COMPLEX_OBJECT",
-      "rmTypeName" : "SECTION",
-      "nodeId" : "at0000.1",
       "attributes" : [ {
         "@type" : "C_ATTRIBUTE",
         "rmAttributeName" : "items",
@@ -5347,109 +5100,13 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : {
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000.1",
-            "text" : "Ad hoc heading (2)",
-            "description" : "A generic section header which should be renamed in a template to suit a specific clinical context."
-          }
-        },
-        "ru" : {
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000.1",
-            "text" : "заготовка заголовка (2)",
-            "description" : "Образец заголовка раздела"
-          }
-        },
-        "es-ar" : {
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000.1",
-            "text" : "Encabezado ad hoc (2)",
-            "description" : "Un encabezado de sección de tipo genérico que será renombrado en una plantilla para su empleo en un contexto clínico específico."
-          }
-        },
-        "sl" : {
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000.1",
-            "text" : "Naslov sekcije (2)",
-            "description" : "Naslov sekcije"
-          }
-        },
         "nb" : {
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0000.1",
-            "text" : "Bildediagnostikk - alt2_resyme_alle_nivå",
-            "description" : "En generisk seksjonsoverskrift som skal gis nytt navn i en templat for å passe i en gitt klinisk kontekst.",
-            "comment" : "Designkommentar:\nDette mønsteret kan brukes dersom man ønsker en mer detaljert modellering av en bildediagnostisk undersøkelse. Ved å benytte denne modellen kan man registrere både et overordnet resymé per modalitet, samt dokumentere dato og resymé for hver enkelt kroppsstruktur.\n\nHer bruker vi arketypen \"CLUSTER.imaging_exam.v1 - Bildediagnostisk undersøkelse - kroppsstruktur\""
-          }
-        },
-        "pt-br" : {
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000.1",
-            "text" : "Cabeçalho Ad hoc (2)",
-            "description" : "Um cabeçalho de sessão genérico que deve ser renomeado no template para adequar-se a um contexto clínico específico."
-          }
-        },
-        "sv" : {
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000.1",
-            "text" : "Rubrik (2)",
-            "description" : "En allmän avsnittsrubrik som döps om i en openEHR-mall för att passa in i en specifik klinisk kontext."
-          }
-        },
-        "de" : {
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000.1",
-            "text" : "Ad hoc Überschrift (2)",
-            "description" : "Eine generische Abschnittsüberschrift eines Templates, welche entsprechend dem spezifischen klinischen Kontext umbenannt werden sollte."
-          }
-        },
-        "it" : {
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000.1",
-            "text" : "Intestazione di sezione ad hoc (2)",
-            "description" : "Un'intestazione di sezione generica che dovrebbe essere rinominata in un template per adattarsi ad uno specifico contesto clinico."
-          }
-        },
-        "fr" : {
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000.1",
-            "text" : "Rubrique ad hoc (2)",
-            "description" : "Un en-tête de section générique qui doit être renommé dans un modèle pour s'adapter à un contexte clinique spécifique."
-          }
-        },
-        "ca" : {
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000.1",
-            "text" : "Capçalera ad hoc (2)",
-            "description" : "Una capçalera de secció genèrica que s'ha de rebatejar en una plantilla per adaptar-se a un context clínic específic."
-          }
-        },
-        "es" : {
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000.1",
-            "text" : "Encapçalament ad hoc (2)",
-            "description" : "Un encapçalament de secció genèric que s'hauria de reanomenar en una plantilla per adaptar-se a un context clínic específic."
-          }
-        },
-        "pt-pt" : {
-          "at0000.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0000.1",
-            "text" : "Título ad hoc (2)",
-            "description" : "Um cabeçalho de secção genérico que deve ser renomeado ao nível do template para se adequar a um contexto clínico específico."
+            "text" : "Bildediagnostikk_detaljert_modellering",
+            "description" : "En gruppering av data knyttet til bildediagnostikk i forbindelse med pasientforløp for kreft. ",
+            "comment" : "Designkommentar:\nDette mønsteret kan brukes når man ønsker mer detaljert modellering av en bildediagnostisk undersøkelse. \nLøsningen gjør det mulig å registrere et overordnet resymé per modalitet, samtidig som man kan angi resymé  og eventuelt dato for hver kroppsstruktur ved bruk av CLUSTER.imaging_exam.v1 – Bildediagnostisk undersøkelse – kroppsstruktur.\n\nDet er flere detaljeringsgrader man har mulighet til her og man må bruke arketypen Imaging_exam for å sette anatomisk lokalisasjon:\n1. Et overordnet resyme per modalitet + en overordnet dato + liste med anatomisk lokalisasjon. --> gjenta spesifikk undersøkelse for hver modalitet + gjenta clusteret imaging_exam for hver kroppsstruktur. \n\n2. Overordnet modalitet + overordnet dato + resyme per kroppsstruktur --> gjenta spesifikk undersøkelse for hver modalitet + gjenta clusteret imaging_exam for hver kroppsstruktur hvor man har åpnet opp for elementet resyme. \n\n3. Modalitet + dato per kroppsstruktur + resyme per kroppsstruktur \n\nAlternativ 1 gjentar hele «Spesifikk undersøkelse» for hver modalitet og kroppsstruktur. Da har man mulighet til å få overordnet resyme av modaliteten/undersøkelsen med denne modaliteten samtidig som en egen resyme for hvert kroppsstruktur ved å gjenta clusteret  \"CLUSTER.imaging_exam.v1 - Bildediagnostisk undersøkelse - kroppsstruktur\" for hvert anatomisk lokalisasjon under ytterligere detaljer i det interne clusteret. \n\nAlternativ 2 legger imaging_exam-clusteret under «Ytterligere detaljer» og gjentas per kroppsstruktur, slik at man får resymé og dato per modalitet og detaljer per kroppssted – men trenger nye instanser av «Spesifikk undersøkelse» dersom dato må angis per modalitet og kroppsstruktur samtidig.\n\n"
           }
         }
       },
@@ -5458,7 +5115,7 @@
       "valueSets" : { }
     },
     "adlVersion" : "1.4",
-    "buildUid" : "803f4837-e536-4c19-9bd7-cb71ad9d72fd",
+    "buildUid" : "751b9c4d-690e-3542-bf5b-da5f13613e1f",
     "rmName" : "openehr",
     "rmRelease" : "1.1.0",
     "generated" : true,
@@ -5467,174 +5124,9 @@
       "terminologyId" : {
         "value" : "ISO_639-1"
       },
-      "codeString" : "en"
+      "codeString" : "nb"
     },
-    "translations" : [ {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "de"
-      },
-      "author" : {
-        "name" : "Ramona Wellmann",
-        "organisation" : "Medizinische Hochschule Hannover",
-        "email" : "wellmann.ramona@mh-hannover.de"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "pt-pt"
-      },
-      "author" : {
-        "name" : "Vanessa Pereira",
-        "organisation" : "Luxembourg Institute of Health (LIH)",
-        "email" : "vanessapereira@protonmail.com"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "ru"
-      },
-      "author" : {
-        "name" : "Art Latyp Латыпов Артур Шамилевич",
-        "organisation" : "RusBITech РусБИТех, Москва"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "sv"
-      },
-      "author" : {
-        "name" : "Daniel Hall",
-        "organisation" : "Region Östergötland",
-        "email" : "daniel.hall@regionostergotland.se"
-      },
-      "accreditation" : "Åsa Skagerhult, Lisa Axelsson",
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "es-ar"
-      },
-      "author" : {
-        "name" : "Alan March",
-        "organisation" : "Hospital Universitario Austral, Buenos Aires, Argentina"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "nb"
-      },
-      "author" : {
-        "einar.fosse@unn.no" : "einar.fosse@unn.no",
-        "name" : "Einar Fosse",
-        "organisation" : "Norwegian Centre for Integrated Care and Telemedicine, Tromsø, Norway"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "pt-br"
-      },
-      "author" : {
-        "name" : "Vladimir Pizzo",
-        "organisation" : "Hospital Sírio Libanês, São Paulo, Brazil",
-        "email" : "vladimir.pizzo@hsl.org.br"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "sl"
-      },
-      "author" : {
-        "name" : "?"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "it"
-      },
-      "author" : {
-        "name" : "Paolo Anedda",
-        "organisation" : "Inpeco",
-        "email" : "paolo.anedda@inpeco.com"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "fr"
-      },
-      "author" : {
-        "name" : "Vanessa Pereira",
-        "organisation" : "Better - Pathfinder",
-        "email" : "vanessapereira@protonmail.com"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "ca"
-      },
-      "author" : {
-        "name" : "Laura Moral Lopez",
-        "organisation" : "Sistema de Salut de Catalunya",
-        "email" : "lmorallopez@gmail.com, lauramoral@catsalut.cat"
-      },
-      "otherDetails" : { }
-    }, {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "es"
-      },
-      "author" : {
-        "name" : "Laura Moral Lopez",
-        "organisation" : "Sistema de Salut de Catalunya",
-        "email" : "lmorallopez@gmail.com"
-      },
-      "otherDetails" : { }
-    } ]
+    "translations" : [ ]
   } ],
   "originalLanguage" : {
     "terminologyId" : {
