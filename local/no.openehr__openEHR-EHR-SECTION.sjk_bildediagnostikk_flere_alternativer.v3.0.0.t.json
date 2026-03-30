@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "MD5-CAM-1.0.1" : "9741a9d7f7d811e9d291f49a518cec45",
+      "MD5-CAM-1.0.1" : "77f2eb4a1168328cf83d79e23a0cf143",
       "PARENT:MD5-CAM-1.0.1" : "dd9eb4bbddba032d835d00b77665b264",
-      "sem_ver" : "6.0.0",
+      "sem_ver" : "7.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -5116,7 +5116,7 @@
             "code" : "at0000.1",
             "text" : "Bildediagnostikk_detaljert_modellering",
             "description" : "En gruppering av data knyttet til bildediagnostikk i forbindelse med pasientforløp for kreft. ",
-            "comment" : "Designkommentar:\nDette mønsteret kan brukes når man ønsker mer detaljert modellering av en bildediagnostisk undersøkelse. \n\nDet er flere detaljeringsgrader man kan oppnå her  og det brukes arketypen Imaging_exam for å sette både anatomisk lokalisasjon samt resyme per for denne anatomiske loalisasjonen/kroppsstruktur:\n1. Et overordnet resyme per modalitet + en overordnet dato + liste med anatomisk lokalisasjon. --> gjenta spesifikk undersøkelse for hver modalitet + gjenta clusteret imaging_exam for hver kroppsstruktur under denne modaliteten. \n\n2. Overordnet modalitet + overordnet dato + resyme per kroppsstruktur --> gjenta spesifikk undersøkelse for hver modalitet + gjenta clusteret imaging_exam for hver kroppsstruktur under den spesifikke modaliteten og ved å buke elementet resyme i tillegg til kroppsstruktur. \n\n3. Modalitet + dato per kroppsstruktur + resyme per kroppsstruktur --> Gjenta spesifikk undersøkelse + en instans av imaging_exam per kroppsstruktur. \n\n"
+            "comment" : "Designkommentar:\nDette mønsteret brukes når man ønsker en mer detaljert modellering av bildediagnostiske undersøkelser. Arketypen Imaging_exam benyttes for å angi anatomisk lokalisasjon og eventuelt resymé knyttet til hver enkelt kroppsstruktur. Avhengig av ønsket detaljeringsgrad kan man modellere på tre nivåer:\n\n-Man kan registrere et overordnet resymé og én dato per modalitet, og samtidig liste opp aktuelle kroppsstrukturer ved å gjenta «Spesifikk undersøkelse» for hver modalitet og deretter gjenta imaging_exam for hver kroppsstruktur under denne. \n\n-Dersom man ønsker et resymé per kroppsstruktur i tillegg til overordnet informasjon, gjentas «Spesifikk undersøkelse» per modalitet, og imaging_exam brukes både til å angi kroppsstruktur og til å fylle inn resymé for hvert kroppssted. \n\n-For full detaljering, der både dato og resymé skal settes per kroppsstruktur for en modalitet, gjentas «Spesifikk undersøkelse» for modaliteten og man bruker én instans av imaging_exam per kroppsstruktur.\n\n"
           }
         }
       },
@@ -5310,6 +5310,13 @@
             "text" : "Navn på kroppssted",
             "description" : "Navngiving av et enkelt fysisk sted enten på eller i menneskekroppen.",
             "comment" : "Designkommentar:\nDenne må evt. arve anatomisk lokalisering fra kroppsssturkur elementet i imaging_exam arketypen"
+          },
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "Anatomisk lokalisering",
+            "description" : "Et fysisk sted på eller inne i menneskekroppen.",
+            "comment" : "Designkommentar:\nDette clusteret brukes hvis man ønsker å angi kroppsside."
           },
           "at0001.1" : {
             "@type" : "ARCHETYPE_TERM",
