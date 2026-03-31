@@ -8,7 +8,7 @@
     },
     "otherContributors" : [ ],
     "lifecycleState" : {
-      "codeString" : "unmanaged"
+      "codeString" : "deprecated"
     },
     "ipAcknowledgements" : { },
     "references" : { },
@@ -19,8 +19,10 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "59042973b54a9ae58c5e18bb25ea1a1f",
-      "PARENT:MD5-CAM-1.0.1" : "dd9eb4bbddba032d835d00b77665b264"
+      "MD5-CAM-1.0.1" : "8c4718c8b7ed57ff7ec2105b2fffadf0",
+      "PARENT:MD5-CAM-1.0.1" : "dd9eb4bbddba032d835d00b77665b264",
+      "sem_ver" : "0.1.0",
+      "build_uid" : ""
     },
     "details" : {
       "nb" : {
@@ -41,7 +43,7 @@
   "differential" : true,
   "archetypeId" : {
     "@type" : "ARCHETYPE_HRID",
-    "value" : "openEHR-EHR-SECTION.bildediagnostikk- alt2_resyme_alle_nivå.v1"
+    "value" : "openEHR-EHR-SECTION.bildediagnostikk-_alt2_resyme_alle_nivå.v1"
   },
   "definition" : {
     "@type" : "C_COMPLEX_OBJECT",
@@ -97,7 +99,7 @@
     "valueSets" : { }
   },
   "adlVersion" : "1.4",
-  "buildUid" : "751b9c4d-690e-3542-bf5b-da5f13613e1f",
+  "buildUid" : "9f8dd975-d5b0-3a5c-b6f3-d45aa355459f",
   "rmName" : "openehr",
   "rmRelease" : "1.1.0",
   "generated" : true,
