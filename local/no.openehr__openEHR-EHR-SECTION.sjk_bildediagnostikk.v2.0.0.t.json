@@ -11,7 +11,7 @@
     },
     "otherContributors" : [ "Liv Laugen, John Tore Valand" ],
     "lifecycleState" : {
-      "codeString" : "release_candidate"
+      "codeString" : "deprecated"
     },
     "ipAcknowledgements" : { },
     "references" : { },
@@ -22,7 +22,7 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "MD5-CAM-1.0.1" : "78b231fdb2840069d26d1e16846588d7",
+      "MD5-CAM-1.0.1" : "1b944251a69cef67e0cd29110d5c1f00",
       "PARENT:MD5-CAM-1.0.1" : "dd9eb4bbddba032d835d00b77665b264",
       "sem_ver" : "2.0.1",
       "build_uid" : ""
@@ -88,7 +88,7 @@
     "valueSets" : { }
   },
   "adlVersion" : "1.4",
-  "buildUid" : "fb2123b7-8dc5-31fd-8734-fb8c6788a82e",
+  "buildUid" : "4b0cfc14-e144-3e32-8cbd-3cee60e1b4f3",
   "rmName" : "openehr",
   "rmRelease" : "1.1.0",
   "generated" : true,
