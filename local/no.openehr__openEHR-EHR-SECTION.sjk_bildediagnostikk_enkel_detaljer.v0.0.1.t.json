@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "MD5-CAM-1.0.1" : "8456275f75917c06fbe1636404a6d703",
+      "MD5-CAM-1.0.1" : "8f86afef324d3a50997612413940bc84",
       "PARENT:MD5-CAM-1.0.1" : "dd9eb4bbddba032d835d00b77665b264",
-      "sem_ver" : "8.0.1",
+      "sem_ver" : "8.0.2",
       "build_uid" : ""
     },
     "details" : {
@@ -4467,7 +4467,7 @@
             "code" : "at0026.1",
             "text" : "Spesifikk undersøkelse",
             "description" : "Detaljer om en spesifikk undersøkelse eller gruppe av undersøkelser som er innenfor kartleggingsformålet.",
-            "comment" : "Bruk separate instanser av dette CLUSTER'et for å skille mellom spesifikke undersøkelser eller gruppering av undersøkelser.\n\nDesignkommentar:\n1. Resymé per kroppsdel for en spesifikk modalitet. \nGjenta det interne clusteret Spesifikk undersøkelse for hver modalitet og gjenta clusteret imaging_exam clusteret for hver kroppsstruktur. \n- Én dato per undersøkelsestype, med mulighet for enten ett felles resymé eller flere detaljerte resymeer per kroppsdel.\n\n2. Ulike datoer, resymé per kroppsdel per spesifikke modalitet \nDet interne clusteret Spesifikk undersøkelse må gjentas for hver kombinasjon av modalitet + kroppsstruktur. \nHver kombinasjon av modalitet og kroppsdel vises som et eget element (kort/rad), og hvert element har sin egen dato og sitt eget resymé. Det finnes ingen felles, overordnet oppsummering for hele modaliteten i denne modelleringsformen.\n"
+            "comment" : "Bruk separate instanser av dette CLUSTER'et for å skille mellom spesifikke undersøkelser eller gruppering av undersøkelser.\n\nDesignkommentar:\nNår løsningen skal støtte både muligheten for ett overordnet resymé per modalitet og muligheten for flere detaljerte resymeer per kroppsdel, må det interne clusteret Spesifikk undersøkelse gjentas for hver modalitet. Innenfor hver modalitet må clusteret imaging_exam gjentas for hver kroppsstruktur. Dette gir to mulige modelleringsformer:\n\n1. Resymé per kroppsdel for en spesifikk modalitet. \nGjenta det interne clusteret Spesifikk undersøkelse for hver modalitet og gjenta clusteret imaging_exam clusteret for hver kroppsstruktur. \n- Én dato per undersøkelsestype, med mulighet for enten ett felles resymé eller flere detaljerte resymeer per kroppsdel.\n\n2. Ulike datoer, resymé per kroppsdel per spesifikke modalitet \nDet interne clusteret Spesifikk undersøkelse må gjentas for hver kombinasjon av modalitet + kroppsstruktur. \nHver kombinasjon av modalitet og kroppsdel vises som et eget element (kort/rad), og hvert element har sin egen dato og sitt eget resymé. Det finnes ingen felles, overordnet oppsummering for hele modaliteten i denne modelleringsformen."
           }
         },
         "es" : {
