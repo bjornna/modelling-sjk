@@ -19,8 +19,8 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "e5771d19e744511c8b278c71b2708ab1",
-      "PARENT:MD5-CAM-1.0.1" : "E7D2CBE63256A27215D368CB0FCC3960",
+      "MD5-CAM-1.0.1" : "269d92b9695959f5df062522a3438680",
+      "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74",
       "sem_ver" : "2.2.3",
       "build_uid" : ""
     },
@@ -176,6 +176,21 @@
         "misuse" : "No es deixarà sense canvis en una plantilla.",
         "originalResourceUri" : { },
         "otherDetails" : { }
+      },
+      "pt-pt" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "pt-pt"
+        },
+        "purpose" : "Para fornecer um cabeçalho de secção genérico que será renomeado ao nível do template para se adequar a um contexto clínico específico.",
+        "keywords" : [ ],
+        "use" : "Use para criar um título de secção ao nível do template que será renomeado para se adequar ao contexto clínico específico. Por exemplo: «Título ad hoc» renomeado para «Resultados do exame».",
+        "misuse" : "Não deve ser deixado inalterado ao nível do template.",
+        "originalResourceUri" : { },
+        "otherDetails" : { }
       }
     }
   },
@@ -300,7 +315,8 @@
         }
       },
       "ca" : { },
-      "es" : { }
+      "es" : { },
+      "pt-pt" : { }
     },
     "termBindings" : { },
     "terminologyExtracts" : { },
@@ -3740,7 +3756,7 @@
         "original_publisher" : "openEHR Foundation",
         "custodian_namespace" : "org.openehr",
         "MD5-CAM-1.0.1" : "2c55aca8803e2b6ae6b7aec94ce9bf19",
-        "PARENT:MD5-CAM-1.0.1" : "89470078C0364ACBA5B6A5F286E56C79",
+        "PARENT:MD5-CAM-1.0.1" : "36AB7D4555C1BE62F46628C1AF3E79A3",
         "sem_ver" : "7.0.0",
         "build_uid" : ""
       },
@@ -4989,6 +5005,20 @@
       "name" : "Laura Moral Lopez",
       "organisation" : "Sistema de Salut de Catalunya",
       "email" : "lmorallopez@gmail.com"
+    },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "pt-pt"
+    },
+    "author" : {
+      "name" : "Vanessa Pereira",
+      "organisation" : "Luxembourg Institute of Health (LIH)",
+      "email" : "vanessapereira@protonmail.com"
     },
     "otherDetails" : { }
   } ]
