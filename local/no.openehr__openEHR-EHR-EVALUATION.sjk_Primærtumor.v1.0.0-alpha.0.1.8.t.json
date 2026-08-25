@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "4c9478a04405be20547c1dad8fb8b086",
+      "MD5-CAM-1.0.1" : "fd56fa83fd6900d42a76a25f98ee5df7",
       "PARENT:MD5-CAM-1.0.1" : "B6D6F0E50537D76A80BB513DD2024B74",
-      "sem_ver" : "24.0.0",
+      "sem_ver" : "25.0.0",
       "build_uid" : ""
     },
     "details" : {
@@ -768,7 +768,7 @@
         "original_publisher" : "openEHR Foundation",
         "custodian_namespace" : "org.openehr",
         "MD5-CAM-1.0.1" : "431c74b4364223a736fe23d2b494b51a",
-        "PARENT:MD5-CAM-1.0.1" : "89470078C0364ACBA5B6A5F286E56C79"
+        "PARENT:MD5-CAM-1.0.1" : "36AB7D4555C1BE62F46628C1AF3E79A3"
       },
       "details" : {
         "de" : {
@@ -1000,10 +1000,7 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "55342001",
-                        "value" : "Neoplastisk sykdom",
-                        "translations" : {
-                          "nb" : "Neoplastisk sykdom"
-                        }
+                        "value" : "Neoplastisk sykdom"
                       } ]
                     } ]
                   } ],
@@ -1038,10 +1035,7 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "399506006",
-                        "value" : "Multifokal tumor",
-                        "translations" : {
-                          "nb" : "Multifokal tumor"
-                        }
+                        "value" : "Multifokal tumor"
                       } ]
                     } ]
                   } ],
@@ -1082,10 +1076,7 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "??",
-                        "value" : "Bryst",
-                        "translations" : {
-                          "nb" : "Bryst"
-                        }
+                        "value" : "Bryst"
                       } ]
                     } ]
                   } ],
@@ -1119,10 +1110,7 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "1340012009",
-                        "value" : "Stråleindusert",
-                        "translations" : {
-                          "nb" : "Stråleindusert"
-                        }
+                        "value" : "Stråleindusert"
                       } ]
                     } ]
                   } ],
@@ -2168,10 +2156,7 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "399506006",
-                    "value" : "Multifokal tumor",
-                    "translations" : {
-                      "nb" : "Multifokal tumor"
-                    }
+                    "value" : "Multifokal tumor"
                   } ]
                 } ]
               } ],
@@ -2351,129 +2336,75 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "TX",
-                    "value" : "cTX",
-                    "translations" : {
-                      "nb" : "cTX"
-                    }
+                    "value" : "cTX"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "T0",
-                    "value" : "cT0",
-                    "translations" : {
-                      "nb" : "cT0"
-                    }
+                    "value" : "cT0"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "Tis",
-                    "value" : "cTis",
-                    "translations" : {
-                      "nb" : "cTis"
-                    }
+                    "value" : "cTis"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "Tis (DCIS)",
-                    "value" : "cTis (DCIS)",
-                    "translations" : {
-                      "nb" : "cTis (DCIS)"
-                    }
+                    "value" : "cTis (DCIS)"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "Tis (LCIS)",
-                    "value" : "cTis (LCIS)",
-                    "translations" : {
-                      "nb" : "cTis (LCIS)"
-                    }
+                    "value" : "cTis (LCIS)"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "Tis (Paget)",
-                    "value" : "cTis (Paget)",
-                    "translations" : {
-                      "nb" : "cTis (Paget)"
-                    }
+                    "value" : "cTis (Paget)"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "T1",
-                    "value" : "cT1",
-                    "translations" : {
-                      "nb" : "cT1"
-                    }
+                    "value" : "cT1"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "T1mic",
-                    "value" : "cT1mic",
-                    "translations" : {
-                      "nb" : "cT1mic"
-                    }
+                    "value" : "cT1mic"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "T1a",
-                    "value" : "cT1a",
-                    "translations" : {
-                      "nb" : "cT1a"
-                    }
+                    "value" : "cT1a"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "T1b",
-                    "value" : "cT1b",
-                    "translations" : {
-                      "nb" : "cT1b"
-                    }
+                    "value" : "cT1b"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "T1c",
-                    "value" : "cT1c",
-                    "translations" : {
-                      "nb" : "cT1c"
-                    }
+                    "value" : "cT1c"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "T2",
-                    "value" : "cT2",
-                    "translations" : {
-                      "nb" : "cT2"
-                    }
+                    "value" : "cT2"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "T3",
-                    "value" : "cT3",
-                    "translations" : {
-                      "nb" : "cT3"
-                    }
+                    "value" : "cT3"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "T4",
-                    "value" : "cT4",
-                    "translations" : {
-                      "nb" : "cT4"
-                    }
+                    "value" : "cT4"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "T4a",
-                    "value" : "cT4a",
-                    "translations" : {
-                      "nb" : "cT4a"
-                    }
+                    "value" : "cT4a"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "T4b",
-                    "value" : "cT4b",
-                    "translations" : {
-                      "nb" : "cT4b"
-                    }
+                    "value" : "cT4b"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "T4c",
-                    "value" : "cT4c",
-                    "translations" : {
-                      "nb" : "cT4c"
-                    }
+                    "value" : "cT4c"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "T4d",
-                    "value" : "cT4d",
-                    "translations" : {
-                      "nb" : "cT4d"
-                    }
+                    "value" : "cT4d"
                   } ]
                 } ]
               } ],
@@ -2507,53 +2438,43 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "NX",
-                    "value" : "cNX",
-                    "translations" : { }
+                    "value" : "cNX"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "N0",
-                    "value" : "cN0",
-                    "translations" : { }
+                    "value" : "cN0"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "N1",
-                    "value" : "cN1",
-                    "translations" : { }
+                    "value" : "cN1"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "N2",
-                    "value" : "cN2",
-                    "translations" : { }
+                    "value" : "cN2"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "N2a",
-                    "value" : "cN2a",
-                    "translations" : { }
+                    "value" : "cN2a"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "N2b",
-                    "value" : "cN2b",
-                    "translations" : { }
+                    "value" : "cN2b"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "N3",
-                    "value" : "cN3",
-                    "translations" : { }
+                    "value" : "cN3"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "N3a",
-                    "value" : "cN3a",
-                    "translations" : { }
+                    "value" : "cN3a"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "N3b",
-                    "value" : "cN3b",
-                    "translations" : { }
+                    "value" : "cN3b"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "N3c",
-                    "value" : "cN3c",
-                    "translations" : { }
+                    "value" : "cN3c"
                   } ]
                 } ]
               } ],
@@ -2587,23 +2508,19 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "M0",
-                    "value" : "cM0",
-                    "translations" : { }
+                    "value" : "cM0"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "M0(i+)",
-                    "value" : "cM0(i+)",
-                    "translations" : { }
+                    "value" : "cM0(i+)"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "M1",
-                    "value" : "cM1",
-                    "translations" : { }
+                    "value" : "cM1"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "MX",
-                    "value" : "cMX",
-                    "translations" : { }
+                    "value" : "cMX"
                   } ]
                 } ]
               } ],
@@ -2867,38 +2784,23 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "no.onk.tnm.stadium",
                     "code" : "0",
-                    "value" : "Stadium 0",
-                    "translations" : {
-                      "nb" : "Stadium 0"
-                    }
+                    "value" : "Stadium 0"
                   }, {
                     "terminologyId" : "no.onk.tnm.stadium",
                     "code" : "l",
-                    "value" : "Stadium I",
-                    "translations" : {
-                      "nb" : "Stadium I"
-                    }
+                    "value" : "Stadium I"
                   }, {
                     "terminologyId" : "no.onk.tnm.stadium",
                     "code" : "ll",
-                    "value" : "Stadium ll",
-                    "translations" : {
-                      "nb" : "Stadium ll"
-                    }
+                    "value" : "Stadium ll"
                   }, {
                     "terminologyId" : "no.onk.tnm.stadium",
                     "code" : "lll",
-                    "value" : "Stadium lll",
-                    "translations" : {
-                      "nb" : "Stadium lll"
-                    }
+                    "value" : "Stadium lll"
                   }, {
                     "terminologyId" : "no.onk.tnm.stadium",
                     "code" : "lV",
-                    "value" : "Stadium lV",
-                    "translations" : {
-                      "nb" : "Stadium lV"
-                    }
+                    "value" : "Stadium lV"
                   } ]
                 } ]
               } ],
@@ -2932,17 +2834,11 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "UICC-TNM-VERSION",
                     "code" : "Edition8",
-                    "value" : "UICC TNM Versjon 8",
-                    "translations" : {
-                      "nb" : "UICC TNM Versjon 8"
-                    }
+                    "value" : "UICC TNM Versjon 8"
                   }, {
                     "terminologyId" : "UICC-TNM-VERSION",
                     "code" : "Edition9",
-                    "value" : "UICC TNM Versjon 9",
-                    "translations" : {
-                      "nb" : "UICC TNM Versjon 9"
-                    }
+                    "value" : "UICC TNM Versjon 9"
                   } ]
                 } ]
               } ],
@@ -3196,129 +3092,75 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pTX",
-                    "value" : "pTX",
-                    "translations" : {
-                      "nb" : "pTX"
-                    }
+                    "value" : "pTX"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pT0",
-                    "value" : "pT0",
-                    "translations" : {
-                      "nb" : "pT0"
-                    }
+                    "value" : "pT0"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pTis",
-                    "value" : "pTis",
-                    "translations" : {
-                      "nb" : "pTis"
-                    }
+                    "value" : "pTis"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pTis (DCIS)",
-                    "value" : "pTis (DCIS)",
-                    "translations" : {
-                      "nb" : "pTis (DCIS)"
-                    }
+                    "value" : "pTis (DCIS)"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pTis (LCIS)",
-                    "value" : "pTis (LCIS)",
-                    "translations" : {
-                      "nb" : "pTis (LCIS)"
-                    }
+                    "value" : "pTis (LCIS)"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pTis (Paget)",
-                    "value" : "pTis (Paget)",
-                    "translations" : {
-                      "nb" : "pTis (Paget)"
-                    }
+                    "value" : "pTis (Paget)"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pT1",
-                    "value" : "pT1",
-                    "translations" : {
-                      "nb" : "pT1"
-                    }
+                    "value" : "pT1"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pT1mic",
-                    "value" : "pT1mic",
-                    "translations" : {
-                      "nb" : "pT1mic"
-                    }
+                    "value" : "pT1mic"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pT1a",
-                    "value" : "pT1a",
-                    "translations" : {
-                      "nb" : "pT1a"
-                    }
+                    "value" : "pT1a"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pT1b",
-                    "value" : "pT1b",
-                    "translations" : {
-                      "nb" : "pT1b"
-                    }
+                    "value" : "pT1b"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pT1c",
-                    "value" : "pT1c",
-                    "translations" : {
-                      "nb" : "pT1c"
-                    }
+                    "value" : "pT1c"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pT2",
-                    "value" : "pT2",
-                    "translations" : {
-                      "nb" : "pT2"
-                    }
+                    "value" : "pT2"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pT3",
-                    "value" : "pT3",
-                    "translations" : {
-                      "nb" : "pT3"
-                    }
+                    "value" : "pT3"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pT4",
-                    "value" : "pT4",
-                    "translations" : {
-                      "nb" : "pT4"
-                    }
+                    "value" : "pT4"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pT4a",
-                    "value" : "pT4a",
-                    "translations" : {
-                      "nb" : "pT4a"
-                    }
+                    "value" : "pT4a"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pT4b",
-                    "value" : "pT4b",
-                    "translations" : {
-                      "nb" : "pT4b"
-                    }
+                    "value" : "pT4b"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pT4c",
-                    "value" : "pT4c",
-                    "translations" : {
-                      "nb" : "pT4c"
-                    }
+                    "value" : "pT4c"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pT4d",
-                    "value" : "pT4d",
-                    "translations" : {
-                      "nb" : "pT4d"
-                    }
+                    "value" : "pT4d"
                   } ]
                 } ]
               } ],
@@ -3352,129 +3194,75 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pNX",
-                    "value" : "pNX",
-                    "translations" : {
-                      "nb" : "pNX"
-                    }
+                    "value" : "pNX"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pN0",
-                    "value" : "pN0",
-                    "translations" : {
-                      "nb" : "pN0"
-                    }
+                    "value" : "pN0"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pN0(i-)",
-                    "value" : "pN0(i-)",
-                    "translations" : {
-                      "nb" : "pN0(i-)"
-                    }
+                    "value" : "pN0(i-)"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pN0(i+)",
-                    "value" : "pN0(i+)",
-                    "translations" : {
-                      "nb" : "pN0(i+)"
-                    }
+                    "value" : "pN0(i+)"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pN0(mol-)",
-                    "value" : "pN0(mol-)",
-                    "translations" : {
-                      "nb" : "pN0(mol-)"
-                    }
+                    "value" : "pN0(mol-)"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pN0(mol+)",
-                    "value" : "pN0(mol+)",
-                    "translations" : {
-                      "nb" : "pN0(mol+)"
-                    }
+                    "value" : "pN0(mol+)"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pN1mi",
-                    "value" : "pN1mi",
-                    "translations" : {
-                      "nb" : "pN1mi"
-                    }
+                    "value" : "pN1mi"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pN1",
-                    "value" : "pN1",
-                    "translations" : {
-                      "nb" : "pN1"
-                    }
+                    "value" : "pN1"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pN1a",
-                    "value" : "pN1a",
-                    "translations" : {
-                      "nb" : "pN1a"
-                    }
+                    "value" : "pN1a"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pN1b",
-                    "value" : "pN1b",
-                    "translations" : {
-                      "nb" : "pN1b"
-                    }
+                    "value" : "pN1b"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pN1c",
-                    "value" : "pN1c",
-                    "translations" : {
-                      "nb" : "pN1c"
-                    }
+                    "value" : "pN1c"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pN2",
-                    "value" : "pN2",
-                    "translations" : {
-                      "nb" : "pN2"
-                    }
+                    "value" : "pN2"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pN2a",
-                    "value" : "pN2a",
-                    "translations" : {
-                      "nb" : "pN2a"
-                    }
+                    "value" : "pN2a"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pN2b",
-                    "value" : "pN2b",
-                    "translations" : {
-                      "nb" : "pN2b"
-                    }
+                    "value" : "pN2b"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pN3",
-                    "value" : "pN3",
-                    "translations" : {
-                      "nb" : "pN3"
-                    }
+                    "value" : "pN3"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pN3a",
-                    "value" : "pN3a",
-                    "translations" : {
-                      "nb" : "pN3a"
-                    }
+                    "value" : "pN3a"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pN3b",
-                    "value" : "pN3b",
-                    "translations" : {
-                      "nb" : "pN3b"
-                    }
+                    "value" : "pN3b"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pN3c",
-                    "value" : "pN3c",
-                    "translations" : {
-                      "nb" : "pN3c"
-                    }
+                    "value" : "pN3c"
                   } ]
                 } ]
               } ],
@@ -3508,24 +3296,15 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pM0",
-                    "value" : "pM0",
-                    "translations" : {
-                      "nb" : "pM0"
-                    }
+                    "value" : "pM0"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pM1",
-                    "value" : "pM1",
-                    "translations" : {
-                      "nb" : "pM1"
-                    }
+                    "value" : "pM1"
                   }, {
                     "terminologyId" : "no.onk.tmn",
                     "code" : "pMX",
-                    "value" : "pMX",
-                    "translations" : {
-                      "nb" : "pMX"
-                    }
+                    "value" : "pMX"
                   } ]
                 } ]
               } ],
@@ -3795,17 +3574,11 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "UICC-TNM-VERSION",
                     "code" : "Edition8",
-                    "value" : "UICC TNM Versjon 8",
-                    "translations" : {
-                      "nb" : "UICC TNM Versjon 8"
-                    }
+                    "value" : "UICC TNM Versjon 8"
                   }, {
                     "terminologyId" : "UICC-TNM-VERSION",
                     "code" : "Edition9",
-                    "value" : "UICC TNM Versjon 9",
-                    "translations" : {
-                      "nb" : "UICC TNM Versjon 9"
-                    }
+                    "value" : "UICC TNM Versjon 9"
                   } ]
                 } ]
               } ],
@@ -4760,8 +4533,7 @@
                               "includedExternalTerminologyCodes" : [ {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "363679005",
-                                "value" : "Bildediagnostikk",
-                                "translations" : { }
+                                "value" : "Bildediagnostikk"
                               } ]
                             } ]
                           } ],
@@ -5374,7 +5146,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "235D9CDE069C2AEF58B46A00190C05F8",
+        "PARENT:MD5-CAM-1.0.1" : "37f50f4783141069bd72acab752a969b",
         "ip_acknowledgements" : "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org."
       },
       "details" : {
@@ -7071,45 +6843,27 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "110493007",
-                    "value" : "Sentralt",
-                    "translations" : {
-                      "nb" : "Sentralt"
-                    }
+                    "value" : "Sentralt"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "110496004",
-                    "value" : "Øvre ytre kvadrant",
-                    "translations" : {
-                      "nb" : "Øvre ytre kvadrant"
-                    }
+                    "value" : "Øvre ytre kvadrant"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "110494001",
-                    "value" : "Øvre indre kvadrant",
-                    "translations" : {
-                      "nb" : "Øvre indre kvadrant"
-                    }
+                    "value" : "Øvre indre kvadrant"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "110497008",
-                    "value" : "Nedre ytre kvadrant",
-                    "translations" : {
-                      "nb" : "Nedre ytre kvadrant"
-                    }
+                    "value" : "Nedre ytre kvadrant"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "110495000",
-                    "value" : "Nedre indre kvadrant",
-                    "translations" : {
-                      "nb" : "Nedre indre kvadrant"
-                    }
+                    "value" : "Nedre indre kvadrant"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "735379000",
-                    "value" : "Brystvorte",
-                    "translations" : {
-                      "nb" : "Brystvorte"
-                    }
+                    "value" : "Brystvorte"
                   } ]
                 } ]
               } ],
@@ -7150,24 +6904,15 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "30807003",
-                    "value" : "Benign",
-                    "translations" : {
-                      "nb" : "Benign"
-                    }
+                    "value" : "Benign"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "64957009",
-                    "value" : "Usikker",
-                    "translations" : {
-                      "nb" : "Usikker"
-                    }
+                    "value" : "Usikker"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "415684004",
-                    "value" : "Suspekt",
-                    "translations" : {
-                      "nb" : "Suspekt"
-                    }
+                    "value" : "Suspekt"
                   } ]
                 } ]
               } ],
@@ -7207,8 +6952,7 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "129748009",
-                    "value" : "Forkalkning påvist ved røntgenundersøkelse",
-                    "translations" : { }
+                    "value" : "Forkalkning påvist ved røntgenundersøkelse"
                   } ]
                 } ]
               } ],
@@ -14486,28 +14230,23 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "no.onk.breast.markers",
                     "code" : "Savi Scout",
-                    "value" : "Savi Scout",
-                    "translations" : { }
+                    "value" : "Savi Scout"
                   }, {
                     "terminologyId" : "no.onk.breast.markers",
                     "code" : "Seed (radioaktivt frø)",
-                    "value" : "Seed (radioaktivt frø)",
-                    "translations" : { }
+                    "value" : "Seed (radioaktivt frø)"
                   }, {
                     "terminologyId" : "no.onk.breast.markers",
                     "code" : "Hydromark",
-                    "value" : "Hydromark",
-                    "translations" : { }
+                    "value" : "Hydromark"
                   }, {
                     "terminologyId" : "no.onk.breast.markers",
                     "code" : "Metall markør",
-                    "value" : "Metall markør",
-                    "translations" : { }
+                    "value" : "Metall markør"
                   }, {
                     "terminologyId" : "no.onk.breast.markers",
                     "code" : "Annen/ny (spesifiser)",
-                    "value" : "Annen/ny (spesifiser)",
-                    "translations" : { }
+                    "value" : "Annen/ny (spesifiser)"
                   } ]
                 } ]
               } ],
@@ -15457,10 +15196,7 @@
                               "includedExternalTerminologyCodes" : [ {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "108257001",
-                                "value" : "Anatomic pathology procedure",
-                                "translations" : {
-                                  "nb" : "Anatomic pathology procedure"
-                                }
+                                "value" : "Anatomic pathology procedure"
                               } ]
                             } ]
                           } ],
@@ -15533,8 +15269,7 @@
                               "includedExternalTerminologyCodes" : [ {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "714797009",
-                                "value" : "Histology",
-                                "translations" : { }
+                                "value" : "Histology"
                               } ]
                             } ]
                           } ],
@@ -15583,118 +15318,95 @@
                               "includedExternalTerminologyCodes" : [ {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "1162814007",
-                                "value" : "DCIS - intraduktalt carcinoma in situ",
-                                "translations" : { }
+                                "value" : "DCIS - intraduktalt carcinoma in situ"
                               }, {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "408643008",
-                                "value" : "Infiltrerende karsinom NST",
-                                "translations" : { }
+                                "value" : "Infiltrerende karsinom NST"
                               }, {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "77284006",
-                                "value" : "LCIS - lobulær carcinoma in situ",
-                                "translations" : { }
+                                "value" : "LCIS - lobulær carcinoma in situ"
                               }, {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "444739008",
-                                "value" : "Classic lobular carcinoma in situ",
-                                "translations" : { }
+                                "value" : "Classic lobular carcinoma in situ"
                               }, {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "89740008",
-                                "value" : "ILC - infiltrerende lobulært karsinom",
-                                "translations" : { }
+                                "value" : "ILC - infiltrerende lobulært karsinom"
                               }, {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "32968003",
-                                "value" : "IBC - inflammatorisk karsinom",
-                                "translations" : { }
+                                "value" : "IBC - inflammatorisk karsinom"
                               }, {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "32913002",
-                                "value" : "Medullært karsinom",
-                                "translations" : { }
+                                "value" : "Medullært karsinom"
                               }, {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "72495009",
-                                "value" : "Mucinøst (kolloid) adenokarsinom",
-                                "translations" : { }
+                                "value" : "Mucinøst (kolloid) adenokarsinom"
                               }, {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "703596001",
-                                "value" : "Tubulær karsinom",
-                                "translations" : { }
+                                "value" : "Tubulær karsinom"
                               }, {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "25910003",
-                                "value" : "Papilært karsinom",
-                                "translations" : { }
+                                "value" : "Papilært karsinom"
                               }, {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "128674003",
-                                "value" : "Mikropapillært karsinom",
-                                "translations" : { }
+                                "value" : "Mikropapillært karsinom"
                               }, {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "87913009",
-                                "value" : "Malign phylloidestumor",
-                                "translations" : { }
+                                "value" : "Malign phylloidestumor"
                               }, {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "2985005",
-                                "value" : "Pagets sykdom i mamma",
-                                "translations" : { }
+                                "value" : "Pagets sykdom i mamma"
                               }, {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "444591006",
-                                "value" : "PLCIC - pleomorft lobulært carcinoma in situ",
-                                "translations" : { }
+                                "value" : "PLCIC - pleomorft lobulært carcinoma in situ"
                               }, {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "372269006",
-                                "value" : "Histologic type cannot be determined",
-                                "translations" : { }
+                                "value" : "Histologic type cannot be determined"
                               }, {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "860895001",
-                                "value" : "Flat epitelial atypi i mamma (FEA)",
-                                "translations" : { }
+                                "value" : "Flat epitelial atypi i mamma (FEA)"
                               }, {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "55465005",
-                                "value" : "Columnar cell change (CCC) (atypiske sylindereptelceller)",
-                                "translations" : { }
+                                "value" : "Columnar cell change (CCC) (atypiske sylindereptelceller)"
                               }, {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "2",
-                                "value" : "columnar cell hyperplasia (CCH)",
-                                "translations" : { }
+                                "value" : "columnar cell hyperplasia (CCH)"
                               }, {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "427785007",
-                                "value" : "atypisk duktal mammahyperplasi (ADH)",
-                                "translations" : { }
+                                "value" : "atypisk duktal mammahyperplasi (ADH)"
                               }, {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "450697004",
-                                "value" : "atypisk lobulær mammahyperplasi (ALH)",
-                                "translations" : { }
+                                "value" : "atypisk lobulær mammahyperplasi (ALH)"
                               }, {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "444591006",
-                                "value" : "pleomorft lobulært carcinoma in situ",
-                                "translations" : { }
+                                "value" : "pleomorft lobulært carcinoma in situ"
                               }, {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "1290750006",
-                                "value" : "Florid lobular carcinoma in situ",
-                                "translations" : { }
+                                "value" : "Florid lobular carcinoma in situ"
                               }, {
                                 "terminologyId" : "SNOMED-CT",
                                 "code" : "6",
-                                "value" : "Florid LCIS med comedonekrose",
-                                "translations" : { }
+                                "value" : "Florid LCIS med comedonekrose"
                               } ]
                             } ]
                           } ],
@@ -16672,17 +16384,11 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "119376003",
-                    "value" : "Vev",
-                    "translations" : {
-                      "nb" : "Vev"
-                    }
+                    "value" : "Vev"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "48469005",
-                    "value" : "Cytologisk materiale",
-                    "translations" : {
-                      "nb" : "Cytologisk materiale"
-                    }
+                    "value" : "Cytologisk materiale"
                   } ]
                 } ]
               } ],
@@ -16792,59 +16498,35 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "122548005",
-                    "value" : "Sylinder-, grovnål-, pistol-, tru-cut-, eller stansebiopsi av mamma",
-                    "translations" : {
-                      "nb" : "Sylinder-, grovnål-, pistol-, tru-cut-, eller stansebiopsi av mamma"
-                    }
+                    "value" : "Sylinder-, grovnål-, pistol-, tru-cut-, eller stansebiopsi av mamma"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "771625002",
-                    "value" : "Vakuumbiopsi av lesjon i mamma",
-                    "translations" : {
-                      "nb" : "Vakuumbiopsi av lesjon i mamma"
-                    }
+                    "value" : "Vakuumbiopsi av lesjon i mamma"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "274331003",
-                    "value" : "Kirurgisk biopsi av mamma",
-                    "translations" : {
-                      "nb" : "Kirurgisk biopsi av mamma"
-                    }
+                    "value" : "Kirurgisk biopsi av mamma"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "10940003",
-                    "value" : "Eksisjonsbiopsi av mamma med preoperativ lokalisering (Diagnostisk kirurgisk merkebiopsi)",
-                    "translations" : {
-                      "nb" : "Eksisjonsbiopsi av mamma med preoperativ lokalisering (Diagnostisk kirurgisk merkebiopsi)"
-                    }
+                    "value" : "Eksisjonsbiopsi av mamma med preoperativ lokalisering (Diagnostisk kirurgisk merkebiopsi)"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "234271004",
-                    "value" : "Biopsi av aksillær lymfeknute (grovnål)",
-                    "translations" : {
-                      "nb" : "Biopsi av aksillær lymfeknute (grovnål)"
-                    }
+                    "value" : "Biopsi av aksillær lymfeknute (grovnål)"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "58347006",
-                    "value" : "Kirurgisk eksisjon av lymfeknute (tilfeldig funn av lymfeknute) (lymfadenektomi)",
-                    "translations" : {
-                      "nb" : "Kirurgisk eksisjon av lymfeknute (tilfeldig funn av lymfeknute) (lymfadenektomi)"
-                    }
+                    "value" : "Kirurgisk eksisjon av lymfeknute (tilfeldig funn av lymfeknute) (lymfadenektomi)"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "387736007",
-                    "value" : "FNAC (finnålsaspirasjon) av mamma",
-                    "translations" : {
-                      "nb" : "FNAC (finnålsaspirasjon) av mamma"
-                    }
+                    "value" : "FNAC (finnålsaspirasjon) av mamma"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "234282007",
-                    "value" : "FNAC (finnålsaspirasjon) av lymfeknute i aksille",
-                    "translations" : {
-                      "nb" : "FNAC (finnålsaspirasjon) av lymfeknute i aksille"
-                    }
+                    "value" : "FNAC (finnålsaspirasjon) av lymfeknute i aksille"
                   } ]
                 } ]
               } ],
@@ -16885,13 +16567,11 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "73056007",
-                    "value" : "Høyre bryst",
-                    "translations" : { }
+                    "value" : "Høyre bryst"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "19654004",
-                    "value" : "Høyre aksilleregion",
-                    "translations" : { }
+                    "value" : "Høyre aksilleregion"
                   } ]
                 } ]
               } ],
@@ -17246,7 +16926,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "235D9CDE069C2AEF58B46A00190C05F8",
+        "PARENT:MD5-CAM-1.0.1" : "37f50f4783141069bd72acab752a969b",
         "ip_acknowledgements" : "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org."
       },
       "details" : {
@@ -17458,24 +17138,15 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "73056007",
-                    "value" : "Høyre bryst",
-                    "translations" : {
-                      "nb" : "Høyre bryst"
-                    }
+                    "value" : "Høyre bryst"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "19654004",
-                    "value" : "Høyre aksilleregion",
-                    "translations" : {
-                      "nb" : "Høyre aksilleregion"
-                    }
+                    "value" : "Høyre aksilleregion"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "74964007",
-                    "value" : "Annet (spesifiser)",
-                    "translations" : {
-                      "nb" : "Annet (spesifiser)"
-                    }
+                    "value" : "Annet (spesifiser)"
                   } ]
                 } ]
               } ],
@@ -17510,33 +17181,27 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "110493007",
-                    "value" : "Sentralt",
-                    "translations" : { }
+                    "value" : "Sentralt"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "110496004",
-                    "value" : "Øvre ytre kvadrant",
-                    "translations" : { }
+                    "value" : "Øvre ytre kvadrant"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "110494001",
-                    "value" : "Øvre indre kvadrant",
-                    "translations" : { }
+                    "value" : "Øvre indre kvadrant"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "110497008",
-                    "value" : "Nedre ytre kvadrant",
-                    "translations" : { }
+                    "value" : "Nedre ytre kvadrant"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "110495000",
-                    "value" : "Nedre indre kvadrant",
-                    "translations" : { }
+                    "value" : "Nedre indre kvadrant"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "735379000",
-                    "value" : "Brystvorte",
-                    "translations" : { }
+                    "value" : "Brystvorte"
                   } ]
                 } ]
               } ],
@@ -18303,8 +17968,7 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "735379000",
-                    "value" : "Høyre brystvorte",
-                    "translations" : { }
+                    "value" : "Høyre brystvorte"
                   } ]
                 } ]
               } ],
@@ -19695,8 +19359,7 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "NORPAT",
                     "code" : "P31070",
-                    "value" : "Imprintundersøkelse",
-                    "translations" : { }
+                    "value" : "Imprintundersøkelse"
                   } ]
                 } ]
               } ],
@@ -19732,18 +19395,15 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "3898006",
-                    "value" : "Benign tumor",
-                    "translations" : { }
+                    "value" : "Benign tumor"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "86251006",
-                    "value" : "Tumor med usikkert malignitetspotensial",
-                    "translations" : { }
+                    "value" : "Tumor med usikkert malignitetspotensial"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "1240414004",
-                    "value" : "Malign tumor",
-                    "translations" : { }
+                    "value" : "Malign tumor"
                   } ]
                 } ]
               } ],
@@ -19843,8 +19503,7 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "1285484006",
-                    "value" : "Touch imprint cytology technique (qualifier value)",
-                    "translations" : { }
+                    "value" : "Touch imprint cytology technique (qualifier value)"
                   } ]
                 } ]
               } ],
@@ -21175,8 +20834,7 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "309587003",
-                    "value" : "Forkalkning i mamma påvist",
-                    "translations" : { }
+                    "value" : "Forkalkning i mamma påvist"
                   } ]
                 } ]
               } ],
@@ -21212,18 +20870,15 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "442754001",
-                    "value" : "Funn med inkonklusivt svar",
-                    "translations" : { }
+                    "value" : "Funn med inkonklusivt svar"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "18115005",
-                    "value" : "Patologisk forkalkning",
-                    "translations" : { }
+                    "value" : "Patologisk forkalkning"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "23875004",
-                    "value" : "Ingen patologisk funn",
-                    "translations" : { }
+                    "value" : "Ingen patologisk funn"
                   } ]
                 } ]
               } ],
@@ -22703,8 +22358,7 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "HGNC",
                     "code" : "HGNC:3467",
-                    "value" : "ER (østrogenreseptor)",
-                    "translations" : { }
+                    "value" : "ER (østrogenreseptor)"
                   } ]
                 } ]
               } ],
@@ -22740,28 +22394,23 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "no.onk.bryst_pat",
                     "code" : "1",
-                    "value" : "< 10% (Negativ)",
-                    "translations" : { }
+                    "value" : "< 10% (Negativ)"
                   }, {
                     "terminologyId" : "no.onk.bryst_pat",
                     "code" : "2",
-                    "value" : ">10 < 50% (Positiv)",
-                    "translations" : { }
+                    "value" : ">10 < 50% (Positiv)"
                   }, {
                     "terminologyId" : "no.onk.bryst_pat",
                     "code" : "3",
-                    "value" : ">50% (Positiv)",
-                    "translations" : { }
+                    "value" : ">50% (Positiv)"
                   }, {
                     "terminologyId" : "no.onk.bryst_pat",
                     "code" : "442754001",
-                    "value" : "Inkonklusiv",
-                    "translations" : { }
+                    "value" : "Inkonklusiv"
                   }, {
                     "terminologyId" : "no.onk.bryst_pat",
                     "code" : "385660001",
-                    "value" : "Ikke utført",
-                    "translations" : { }
+                    "value" : "Ikke utført"
                   } ]
                 } ]
               } ],
@@ -22797,23 +22446,19 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "52101004",
-                    "value" : "Påvist (tilstede)",
-                    "translations" : { }
+                    "value" : "Påvist (tilstede)"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "2667000",
-                    "value" : "Ikke påvist (ikke tilstede)",
-                    "translations" : { }
+                    "value" : "Ikke påvist (ikke tilstede)"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "82334004",
-                    "value" : "Ubestemt",
-                    "translations" : { }
+                    "value" : "Ubestemt"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "385660001",
-                    "value" : "Ikke utført",
-                    "translations" : { }
+                    "value" : "Ikke utført"
                   } ]
                 } ]
               } ],
@@ -22847,28 +22492,23 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "no.onk.bryst_pat",
                     "code" : "1",
-                    "value" : "< 10% (Negativ)",
-                    "translations" : { }
+                    "value" : "< 10% (Negativ)"
                   }, {
                     "terminologyId" : "no.onk.bryst_pat",
                     "code" : "2",
-                    "value" : ">10 < 50% (Positiv)",
-                    "translations" : { }
+                    "value" : ">10 < 50% (Positiv)"
                   }, {
                     "terminologyId" : "no.onk.bryst_pat",
                     "code" : "3",
-                    "value" : ">50% (Positiv)",
-                    "translations" : { }
+                    "value" : ">50% (Positiv)"
                   }, {
                     "terminologyId" : "no.onk.bryst_pat",
                     "code" : "82334004",
-                    "value" : "Ubestemt",
-                    "translations" : { }
+                    "value" : "Ubestemt"
                   }, {
                     "terminologyId" : "no.onk.bryst_pat",
                     "code" : "385660001",
-                    "value" : "Ikke utført",
-                    "translations" : { }
+                    "value" : "Ikke utført"
                   } ]
                 } ]
               } ],
@@ -24283,8 +23923,7 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "HGNC",
                     "code" : "HGNC:8910",
-                    "value" : "PR (progesteron reseptor)",
-                    "translations" : { }
+                    "value" : "PR (progesteron reseptor)"
                   } ]
                 } ]
               } ],
@@ -24320,28 +23959,23 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "no.onk.bryst_pat",
                     "code" : "1",
-                    "value" : "< 10% (Negativ)",
-                    "translations" : { }
+                    "value" : "< 10% (Negativ)"
                   }, {
                     "terminologyId" : "no.onk.bryst_pat",
                     "code" : "2",
-                    "value" : ">10 < 50% (Positiv)",
-                    "translations" : { }
+                    "value" : ">10 < 50% (Positiv)"
                   }, {
                     "terminologyId" : "no.onk.bryst_pat",
                     "code" : "3",
-                    "value" : ">50% (Positiv)",
-                    "translations" : { }
+                    "value" : ">50% (Positiv)"
                   }, {
                     "terminologyId" : "no.onk.bryst_pat",
                     "code" : "442754001",
-                    "value" : "Inkonklusiv",
-                    "translations" : { }
+                    "value" : "Inkonklusiv"
                   }, {
                     "terminologyId" : "no.onk.bryst_pat",
                     "code" : "385660001",
-                    "value" : "Ikke utført",
-                    "translations" : { }
+                    "value" : "Ikke utført"
                   } ]
                 } ]
               } ],
@@ -24377,23 +24011,19 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "52101004",
-                    "value" : "Påvist (tilstede)",
-                    "translations" : { }
+                    "value" : "Påvist (tilstede)"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "2667000",
-                    "value" : "Ikke påvist (ikke tilstede)",
-                    "translations" : { }
+                    "value" : "Ikke påvist (ikke tilstede)"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "82334004",
-                    "value" : "Ubestemt",
-                    "translations" : { }
+                    "value" : "Ubestemt"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "385660001",
-                    "value" : "Ikke utført",
-                    "translations" : { }
+                    "value" : "Ikke utført"
                   } ]
                 } ]
               } ],
@@ -24427,28 +24057,23 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "no.onk.bryst_pat",
                     "code" : "1",
-                    "value" : "< 10% (Negativ)",
-                    "translations" : { }
+                    "value" : "< 10% (Negativ)"
                   }, {
                     "terminologyId" : "no.onk.bryst_pat",
                     "code" : "2",
-                    "value" : ">10 < 50% (Positiv)",
-                    "translations" : { }
+                    "value" : ">10 < 50% (Positiv)"
                   }, {
                     "terminologyId" : "no.onk.bryst_pat",
                     "code" : "3",
-                    "value" : ">50% (Positiv)",
-                    "translations" : { }
+                    "value" : ">50% (Positiv)"
                   }, {
                     "terminologyId" : "no.onk.bryst_pat",
                     "code" : "82334004",
-                    "value" : "Ubestemt",
-                    "translations" : { }
+                    "value" : "Ubestemt"
                   }, {
                     "terminologyId" : "no.onk.bryst_pat",
                     "code" : "385660001",
-                    "value" : "Ikke utført",
-                    "translations" : { }
+                    "value" : "Ikke utført"
                   } ]
                 } ]
               } ],
@@ -25845,8 +25470,7 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "NORPAT",
                     "code" : "P36555",
-                    "value" : "HER2 (ICH)",
-                    "translations" : { }
+                    "value" : "HER2 (ICH)"
                   } ]
                 } ]
               } ],
@@ -25883,17 +25507,20 @@
                     "terminologyId" : "NORPAT",
                     "code" : "F29601",
                     "value" : "HER2 negativ (0)",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "HER2 negativ (0 og 1+)"
+                    }
                   }, {
                     "terminologyId" : "NORPAT",
                     "code" : "F29602",
                     "value" : "HER2 usikker/borderline (1+2+)",
-                    "translations" : { }
+                    "translations" : {
+                      "nb" : "HER2 usikker/borderline (2+)"
+                    }
                   }, {
                     "terminologyId" : "NORPAT",
                     "code" : "F29603",
-                    "value" : "HER2 positiv (3+)",
-                    "translations" : { }
+                    "value" : "HER2 positiv (3+)"
                   } ]
                 } ]
               } ],
@@ -25937,8 +25564,7 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "NORPAT",
                     "code" : "P34500",
-                    "value" : "immunhisto- og cytokjemisk farging",
-                    "translations" : { }
+                    "value" : "immunhisto- og cytokjemisk farging"
                   } ]
                 } ]
               } ],
@@ -27036,8 +26662,7 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "NORPAT",
                     "code" : "P33760",
-                    "value" : "in situ hybridisering",
-                    "translations" : { }
+                    "value" : "in situ hybridisering"
                   } ]
                 } ]
               } ],
@@ -27073,13 +26698,11 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "NORPAT",
                     "code" : "F29605",
-                    "value" : "HER2 positiv ved ISH",
-                    "translations" : { }
+                    "value" : "HER2 positiv ved ISH"
                   }, {
                     "terminologyId" : "NORPAT",
                     "code" : "F29604",
-                    "value" : "HER2 negativ ved ISH",
-                    "translations" : { }
+                    "value" : "HER2 negativ ved ISH"
                   } ]
                 } ]
               } ],
@@ -27122,8 +26745,7 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "NORPAT",
                     "code" : "P33760",
-                    "value" : "In situ hybridisering",
-                    "translations" : { }
+                    "value" : "In situ hybridisering"
                   } ]
                 } ]
               } ],
@@ -28236,8 +27858,7 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "1255078008",
-                    "value" : "Ki-67 (proliferasjonsmarkør)",
-                    "translations" : { }
+                    "value" : "Ki-67 (proliferasjonsmarkør)"
                   } ]
                 } ]
               } ],
@@ -29644,8 +29265,7 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "HGNC",
                     "code" : "HGNC:17635",
-                    "value" : "PD-L1 (CD274)",
-                    "translations" : { }
+                    "value" : "PD-L1 (CD274)"
                   } ]
                 } ]
               } ],
@@ -29681,23 +29301,19 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "260385009",
-                    "value" : "Negativt",
-                    "translations" : { }
+                    "value" : "Negativt"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "10828004",
-                    "value" : "Positivt",
-                    "translations" : { }
+                    "value" : "Positivt"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "419984006",
-                    "value" : "Inkonklusiv",
-                    "translations" : { }
+                    "value" : "Inkonklusiv"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "385660001",
-                    "value" : "Ikke utført",
-                    "translations" : { }
+                    "value" : "Ikke utført"
                   } ]
                 } ]
               } ],
@@ -31041,8 +30657,7 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "116147009",
-                    "value" : "Cytologisk test (prosedyre)",
-                    "translations" : { }
+                    "value" : "Cytologisk test (prosedyre)"
                   } ]
                 } ]
               } ],
@@ -31078,23 +30693,19 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "168442001",
-                    "value" : "Vevscytologi normal",
-                    "translations" : { }
+                    "value" : "Vevscytologi normal"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "442754001",
-                    "value" : "Funn med inkonklusivt svar",
-                    "translations" : { }
+                    "value" : "Funn med inkonklusivt svar"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "128462008",
-                    "value" : "Metastatisk tumor",
-                    "translations" : { }
+                    "value" : "Metastatisk tumor"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "399374009",
-                    "value" : "Metastase i regionale lymfeknuter til stede",
-                    "translations" : { }
+                    "value" : "Metastase i regionale lymfeknuter til stede"
                   } ]
                 } ]
               } ],
@@ -32017,18 +31628,15 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "no.onk.bryst_pat",
                     "code" : "G1",
-                    "value" : "Sannsynlig grad 1",
-                    "translations" : { }
+                    "value" : "Sannsynlig grad 1"
                   }, {
                     "terminologyId" : "no.onk.bryst_pat",
                     "code" : "G2",
-                    "value" : "Sannsynlig grad 2",
-                    "translations" : { }
+                    "value" : "Sannsynlig grad 2"
                   }, {
                     "terminologyId" : "no.onk.bryst_pat",
                     "code" : "G3",
-                    "value" : "Sannsynlig grad 3",
-                    "translations" : { }
+                    "value" : "Sannsynlig grad 3"
                   } ]
                 } ]
               } ],
@@ -32070,28 +31678,23 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "no.onk_overall_cancer_staging",
                     "code" : "Stage 0",
-                    "value" : "Stadium 0",
-                    "translations" : { }
+                    "value" : "Stadium 0"
                   }, {
                     "terminologyId" : "no.onk_overall_cancer_staging",
                     "code" : "Stage I",
-                    "value" : "Stadium I",
-                    "translations" : { }
+                    "value" : "Stadium I"
                   }, {
                     "terminologyId" : "no.onk_overall_cancer_staging",
                     "code" : "Stage II",
-                    "value" : "Stadium ll",
-                    "translations" : { }
+                    "value" : "Stadium ll"
                   }, {
                     "terminologyId" : "no.onk_overall_cancer_staging",
                     "code" : "Stage lll",
-                    "value" : "Stadium lll",
-                    "translations" : { }
+                    "value" : "Stadium lll"
                   }, {
                     "terminologyId" : "no.onk_overall_cancer_staging",
                     "code" : "Stage IV",
-                    "value" : "Stadium lV",
-                    "translations" : { }
+                    "value" : "Stadium lV"
                   } ]
                 } ]
               } ],
@@ -32275,7 +31878,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "235D9CDE069C2AEF58B46A00190C05F8"
+        "PARENT:MD5-CAM-1.0.1" : "37f50f4783141069bd72acab752a969b"
       },
       "details" : {
         "de" : {
@@ -36705,7 +36308,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "235D9CDE069C2AEF58B46A00190C05F8",
+        "PARENT:MD5-CAM-1.0.1" : "37f50f4783141069bd72acab752a969b",
         "ip_acknowledgements" : "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org."
       },
       "details" : {
@@ -36917,150 +36520,87 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "39607008",
-                    "value" : "Lunge",
-                    "translations" : {
-                      "nb" : "Lunge"
-                    }
+                    "value" : "Lunge"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "113192009",
-                    "value" : "Skjelett",
-                    "translations" : {
-                      "nb" : "Skjelett"
-                    }
+                    "value" : "Skjelett"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "21483005",
-                    "value" : "CNS (sentralnervesystemet)",
-                    "translations" : {
-                      "nb" : "CNS (sentralnervesystemet)"
-                    }
+                    "value" : "CNS (sentralnervesystemet)"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "59441001",
-                    "value" : "Lymfeknuter",
-                    "translations" : {
-                      "nb" : "Lymfeknuter"
-                    }
+                    "value" : "Lymfeknuter"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "68171009",
-                    "value" : "Aksillær lymfeknute",
-                    "translations" : {
-                      "nb" : "Aksillær lymfeknute"
-                    }
+                    "value" : "Aksillær lymfeknute"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "10200004",
-                    "value" : "Lever",
-                    "translations" : {
-                      "nb" : "Lever"
-                    }
+                    "value" : "Lever"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "87784001",
-                    "value" : "Bløtvev",
-                    "translations" : {
-                      "nb" : "Bløtvev"
-                    }
+                    "value" : "Bløtvev"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "82849001",
-                    "value" : "Retroperitoneum",
-                    "translations" : {
-                      "nb" : "Retroperitoneum"
-                    }
+                    "value" : "Retroperitoneum"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "15425007",
-                    "value" : "Peritoneum",
-                    "translations" : {
-                      "nb" : "Peritoneum"
-                    }
+                    "value" : "Peritoneum"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "33840008",
-                    "value" : "Periosteum",
-                    "translations" : {
-                      "nb" : "Periosteum"
-                    }
+                    "value" : "Periosteum"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "699602007",
-                    "value" : "Abdominale organer annet enn lever",
-                    "translations" : {
-                      "nb" : "Abdominale organer annet enn lever"
-                    }
+                    "value" : "Abdominale organer annet enn lever"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "12738006",
-                    "value" : "Hjerne",
-                    "translations" : {
-                      "nb" : "Hjerne"
-                    }
+                    "value" : "Hjerne"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "14016003",
-                    "value" : "Benmarg",
-                    "translations" : {
-                      "nb" : "Benmarg"
-                    }
+                    "value" : "Benmarg"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "12738006",
-                    "value" : "Hjerne",
-                    "translations" : {
-                      "nb" : "Hjerne"
-                    }
+                    "value" : "Hjerne"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "39937001",
-                    "value" : "Hud",
-                    "translations" : {
-                      "nb" : "Hud"
-                    }
+                    "value" : "Hud"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "71616004",
-                    "value" : "Muskulatur",
-                    "translations" : {
-                      "nb" : "Muskulatur"
-                    }
+                    "value" : "Muskulatur"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "3120008",
-                    "value" : "Pleura",
-                    "translations" : {
-                      "nb" : "Pleura"
-                    }
+                    "value" : "Pleura"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "113276009",
-                    "value" : "Tarm",
-                    "translations" : {
-                      "nb" : "Tarm"
-                    }
+                    "value" : "Tarm"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "69695003",
-                    "value" : "Magesekk",
-                    "translations" : {
-                      "nb" : "Magesekk"
-                    }
+                    "value" : "Magesekk"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "431938005",
-                    "value" : "Urinveier",
-                    "translations" : {
-                      "nb" : "Urinveier"
-                    }
+                    "value" : "Urinveier"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "74964007",
-                    "value" : "Annet",
-                    "translations" : {
-                      "nb" : "Annet"
-                    }
+                    "value" : "Annet"
                   } ]
                 } ]
               } ],
@@ -37731,10 +37271,7 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "399374009",
-                    "value" : "Regional lymph node metastasis present (finding)",
-                    "translations" : {
-                      "nb" : "Regional lymph node metastasis present (finding)"
-                    }
+                    "value" : "Regional lymph node metastasis present (finding)"
                   } ]
                 } ]
               } ],
@@ -37795,59 +37332,35 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "58147004",
-                    "value" : "Klinisk vurdering",
-                    "translations" : {
-                      "nb" : "Klinisk vurdering"
-                    }
+                    "value" : "Klinisk vurdering"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "113011001",
-                    "value" : "Palpasjon",
-                    "translations" : {
-                      "nb" : "Palpasjon"
-                    }
+                    "value" : "Palpasjon"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "363679005",
-                    "value" : "Bildediagnostikk",
-                    "translations" : {
-                      "nb" : "Bildediagnostikk"
-                    }
+                    "value" : "Bildediagnostikk"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "116147009",
-                    "value" : "Cytologi",
-                    "translations" : {
-                      "nb" : "Cytologi"
-                    }
+                    "value" : "Cytologi"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "86273004",
-                    "value" : "Biopsi",
-                    "translations" : {
-                      "nb" : "Biopsi"
-                    }
+                    "value" : "Biopsi"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "65801008",
-                    "value" : "Reseksjon",
-                    "translations" : {
-                      "nb" : "Reseksjon"
-                    }
+                    "value" : "Reseksjon"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "74964007",
-                    "value" : "Annet",
-                    "translations" : {
-                      "nb" : "Annet"
-                    }
+                    "value" : "Annet"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "69466000",
-                    "value" : "Ukjent",
-                    "translations" : {
-                      "nb" : "Ukjent"
-                    }
+                    "value" : "Ukjent"
                   } ]
                 } ]
               } ],
@@ -38144,7 +37657,7 @@
         "original_publisher" : "openEHR Foundation",
         "custodian_namespace" : "org.openehr",
         "MD5-CAM-1.0.1" : "479138551b9bd4182bbb2d0fbd13c804",
-        "PARENT:MD5-CAM-1.0.1" : "89470078C0364ACBA5B6A5F286E56C79",
+        "PARENT:MD5-CAM-1.0.1" : "36AB7D4555C1BE62F46628C1AF3E79A3",
         "sem_ver" : "1.1.0",
         "build_uid" : ""
       },
@@ -38379,10 +37892,7 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "399374009",
-                        "value" : "Metastase i regionale lymfeknuter",
-                        "translations" : {
-                          "nb" : "Metastase i regionale lymfeknuter"
-                        }
+                        "value" : "Metastase i regionale lymfeknuter"
                       } ]
                     } ]
                   } ],
@@ -38417,10 +37927,7 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "410674003",
-                        "value" : "Regional",
-                        "translations" : {
-                          "nb" : "Regional"
-                        }
+                        "value" : "Regional"
                       } ]
                     } ]
                   } ],
@@ -38461,103 +37968,83 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "39607008",
-                        "value" : "Lunge",
-                        "translations" : { }
+                        "value" : "Lunge"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "113192009",
-                        "value" : "Skjelett",
-                        "translations" : { }
+                        "value" : "Skjelett"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "21483005",
-                        "value" : "CNS (sentralnervesystemet)",
-                        "translations" : { }
+                        "value" : "CNS (sentralnervesystemet)"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "59441001",
-                        "value" : "Lymfeknuter",
-                        "translations" : { }
+                        "value" : "Lymfeknuter"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "68171009",
-                        "value" : "Aksillær lymfeknute",
-                        "translations" : { }
+                        "value" : "Aksillær lymfeknute"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "10200004",
-                        "value" : "Lever",
-                        "translations" : { }
+                        "value" : "Lever"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "87784001",
-                        "value" : "Bløtvev",
-                        "translations" : { }
+                        "value" : "Bløtvev"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "82849001",
-                        "value" : "Retroperitoneum",
-                        "translations" : { }
+                        "value" : "Retroperitoneum"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "15425007",
-                        "value" : "Peritoneum",
-                        "translations" : { }
+                        "value" : "Peritoneum"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "33840008",
-                        "value" : "Periosteum",
-                        "translations" : { }
+                        "value" : "Periosteum"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "699602007",
-                        "value" : "Abdominale organer annet enn lever",
-                        "translations" : { }
+                        "value" : "Abdominale organer annet enn lever"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "12738006",
-                        "value" : "Hjerne",
-                        "translations" : { }
+                        "value" : "Hjerne"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "14016003",
-                        "value" : "Benmarg",
-                        "translations" : { }
+                        "value" : "Benmarg"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "39937001",
-                        "value" : "Hud",
-                        "translations" : { }
+                        "value" : "Hud"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "71616004",
-                        "value" : "Muskulatur",
-                        "translations" : { }
+                        "value" : "Muskulatur"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "3120008",
-                        "value" : "Pleura",
-                        "translations" : { }
+                        "value" : "Pleura"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "113276009",
-                        "value" : "Tarm",
-                        "translations" : { }
+                        "value" : "Tarm"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "69695003",
-                        "value" : "Magesekk",
-                        "translations" : { }
+                        "value" : "Magesekk"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "431938005",
-                        "value" : "Urinveier",
-                        "translations" : { }
+                        "value" : "Urinveier"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "74964007",
-                        "value" : "Annet",
-                        "translations" : { }
+                        "value" : "Annet"
                       } ]
                     } ]
                   } ],
@@ -39239,7 +38726,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "235D9CDE069C2AEF58B46A00190C05F8",
+        "PARENT:MD5-CAM-1.0.1" : "37f50f4783141069bd72acab752a969b",
         "ip_acknowledgements" : "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the International Health Terminology Standards Development Organisation (IHTSDO). Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact https://www.snomed.org/snomed-ct/get-snomed or info@snomed.org."
       },
       "details" : {
@@ -39451,108 +38938,87 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "39607008",
-                    "value" : "Lunge",
-                    "translations" : { }
+                    "value" : "Lunge"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "113192009",
-                    "value" : "Skjelett",
-                    "translations" : { }
+                    "value" : "Skjelett"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "21483005",
-                    "value" : "CNS (sentralnervesystemet)",
-                    "translations" : { }
+                    "value" : "CNS (sentralnervesystemet)"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "59441001",
-                    "value" : "Lymfeknuter",
-                    "translations" : { }
+                    "value" : "Lymfeknuter"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "68171009",
-                    "value" : "Aksillær lymfeknute",
-                    "translations" : { }
+                    "value" : "Aksillær lymfeknute"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "10200004",
-                    "value" : "Lever",
-                    "translations" : { }
+                    "value" : "Lever"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "87784001",
-                    "value" : "Bløtvev",
-                    "translations" : { }
+                    "value" : "Bløtvev"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "82849001",
-                    "value" : "Retroperitoneum",
-                    "translations" : { }
+                    "value" : "Retroperitoneum"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "15425007",
-                    "value" : "Peritoneum",
-                    "translations" : { }
+                    "value" : "Peritoneum"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "33840008",
-                    "value" : "Periosteum",
-                    "translations" : { }
+                    "value" : "Periosteum"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "699602007",
-                    "value" : "Abdominale organer annet enn lever",
-                    "translations" : { }
+                    "value" : "Abdominale organer annet enn lever"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "12738006",
-                    "value" : "Hjerne",
-                    "translations" : { }
+                    "value" : "Hjerne"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "14016003",
-                    "value" : "Benmarg",
-                    "translations" : { }
+                    "value" : "Benmarg"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "12738006",
-                    "value" : "Hjerne",
-                    "translations" : { }
+                    "value" : "Hjerne"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "39937001",
-                    "value" : "Hud",
-                    "translations" : { }
+                    "value" : "Hud"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "71616004",
-                    "value" : "Muskulatur",
-                    "translations" : { }
+                    "value" : "Muskulatur"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "3120008",
-                    "value" : "Pleura",
-                    "translations" : { }
+                    "value" : "Pleura"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "113276009",
-                    "value" : "Tarm",
-                    "translations" : { }
+                    "value" : "Tarm"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "69695003",
-                    "value" : "Magesekk",
-                    "translations" : { }
+                    "value" : "Magesekk"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "431938005",
-                    "value" : "Urinveier",
-                    "translations" : { }
+                    "value" : "Urinveier"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "74964007",
-                    "value" : "Annet",
-                    "translations" : { }
+                    "value" : "Annet"
                   } ]
                 } ]
               } ],
@@ -40223,10 +39689,7 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "128462008",
-                    "value" : "Metastatic malignant neoplasm (disorder)",
-                    "translations" : {
-                      "nb" : "Metastatic malignant neoplasm (disorder)"
-                    }
+                    "value" : "Metastatic malignant neoplasm (disorder)"
                   } ]
                 } ]
               } ],
@@ -40287,59 +39750,35 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "58147004",
-                    "value" : "Klinisk vurdering",
-                    "translations" : {
-                      "nb" : "Klinisk vurdering"
-                    }
+                    "value" : "Klinisk vurdering"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "113011001",
-                    "value" : "Palpasjon",
-                    "translations" : {
-                      "nb" : "Palpasjon"
-                    }
+                    "value" : "Palpasjon"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "363679005",
-                    "value" : "Bildediagnostikk",
-                    "translations" : {
-                      "nb" : "Bildediagnostikk"
-                    }
+                    "value" : "Bildediagnostikk"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "116147009",
-                    "value" : "Cytologi",
-                    "translations" : {
-                      "nb" : "Cytologi"
-                    }
+                    "value" : "Cytologi"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "86273004",
-                    "value" : "Biopsi",
-                    "translations" : {
-                      "nb" : "Biopsi"
-                    }
+                    "value" : "Biopsi"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "65801008",
-                    "value" : "Reseksjon",
-                    "translations" : {
-                      "nb" : "Reseksjon"
-                    }
+                    "value" : "Reseksjon"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "74964007",
-                    "value" : "Annet",
-                    "translations" : {
-                      "nb" : "Annet"
-                    }
+                    "value" : "Annet"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "69466000",
-                    "value" : "Ukjent",
-                    "translations" : {
-                      "nb" : "Ukjent"
-                    }
+                    "value" : "Ukjent"
                   } ]
                 } ]
               } ],
@@ -40636,7 +40075,7 @@
         "original_publisher" : "openEHR Foundation",
         "custodian_namespace" : "org.openehr",
         "MD5-CAM-1.0.1" : "479138551b9bd4182bbb2d0fbd13c804",
-        "PARENT:MD5-CAM-1.0.1" : "89470078C0364ACBA5B6A5F286E56C79",
+        "PARENT:MD5-CAM-1.0.1" : "36AB7D4555C1BE62F46628C1AF3E79A3",
         "sem_ver" : "1.1.0",
         "build_uid" : ""
       },
@@ -40871,10 +40310,7 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "128462008",
-                        "value" : "Metastase",
-                        "translations" : {
-                          "nb" : "Metastase"
-                        }
+                        "value" : "Metastase"
                       } ]
                     } ]
                   } ],
@@ -40909,10 +40345,7 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "261007001",
-                        "value" : "Fjern",
-                        "translations" : {
-                          "nb" : "Fjern"
-                        }
+                        "value" : "Fjern"
                       } ]
                     } ]
                   } ],
@@ -40953,103 +40386,83 @@
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "39607008",
-                        "value" : "Lunge",
-                        "translations" : { }
+                        "value" : "Lunge"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "113192009",
-                        "value" : "Skjelett",
-                        "translations" : { }
+                        "value" : "Skjelett"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "21483005",
-                        "value" : "CNS (sentralnervesystemet)",
-                        "translations" : { }
+                        "value" : "CNS (sentralnervesystemet)"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "59441001",
-                        "value" : "Lymfeknuter",
-                        "translations" : { }
+                        "value" : "Lymfeknuter"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "68171009",
-                        "value" : "Aksillær lymfeknute",
-                        "translations" : { }
+                        "value" : "Aksillær lymfeknute"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "10200004",
-                        "value" : "Lever",
-                        "translations" : { }
+                        "value" : "Lever"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "87784001",
-                        "value" : "Bløtvev",
-                        "translations" : { }
+                        "value" : "Bløtvev"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "82849001",
-                        "value" : "Retroperitoneum",
-                        "translations" : { }
+                        "value" : "Retroperitoneum"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "15425007",
-                        "value" : "Peritoneum",
-                        "translations" : { }
+                        "value" : "Peritoneum"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "33840008",
-                        "value" : "Periosteum",
-                        "translations" : { }
+                        "value" : "Periosteum"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "699602007",
-                        "value" : "Abdominale organer annet enn lever",
-                        "translations" : { }
+                        "value" : "Abdominale organer annet enn lever"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "12738006",
-                        "value" : "Hjerne",
-                        "translations" : { }
+                        "value" : "Hjerne"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "14016003",
-                        "value" : "Benmarg",
-                        "translations" : { }
+                        "value" : "Benmarg"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "39937001",
-                        "value" : "Hud",
-                        "translations" : { }
+                        "value" : "Hud"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "71616004",
-                        "value" : "Muskulatur",
-                        "translations" : { }
+                        "value" : "Muskulatur"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "3120008",
-                        "value" : "Pleura",
-                        "translations" : { }
+                        "value" : "Pleura"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "113276009",
-                        "value" : "Tarm",
-                        "translations" : { }
+                        "value" : "Tarm"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "69695003",
-                        "value" : "Magesekk",
-                        "translations" : { }
+                        "value" : "Magesekk"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "431938005",
-                        "value" : "Urinveier",
-                        "translations" : { }
+                        "value" : "Urinveier"
                       }, {
                         "terminologyId" : "SNOMED-CT",
                         "code" : "74964007",
-                        "value" : "Annet",
-                        "translations" : { }
+                        "value" : "Annet"
                       } ]
                     } ]
                   } ],
@@ -43524,10 +42937,7 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "?? lokalt kode??",
                     "code" : "?",
-                    "value" : "Er dette en kreftdiagnose på grunnlag av kliniske funn)",
-                    "translations" : {
-                      "nb" : "Er dette en kreftdiagnose på grunnlag av kliniske funn)"
-                    }
+                    "value" : "Er dette en kreftdiagnose på grunnlag av kliniske funn)"
                   } ]
                 } ]
               } ],
@@ -43575,24 +42985,15 @@
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "86251006",
-                    "value" : "Tumor med usikker maligniitetspotensial (Neoplasm of uncertain behavior (morphologic abnormality))",
-                    "translations" : {
-                      "nb" : "Tumor med usikker maligniitetspotensial (Neoplasm of uncertain behavior (morphologic abnormality))"
-                    }
+                    "value" : "Tumor med usikker maligniitetspotensial (Neoplasm of uncertain behavior (morphologic abnormality))"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "127569003",
-                    "value" : "Tumor in situ, morfologi ( In situ neoplasm (morphologic abnormality))",
-                    "translations" : {
-                      "nb" : "Tumor in situ, morfologi ( In situ neoplasm (morphologic abnormality))"
-                    }
+                    "value" : "Tumor in situ, morfologi ( In situ neoplasm (morphologic abnormality))"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "1269006002",
-                    "value" : "Noninvasive premalignant neoplasm (morphologic abnormality)",
-                    "translations" : {
-                      "nb" : "Noninvasive premalignant neoplasm (morphologic abnormality)"
-                    }
+                    "value" : "Noninvasive premalignant neoplasm (morphologic abnormality)"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "395100000",
@@ -43647,10 +43048,7 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "373795004",
-                    "value" : "Bekreftet (kreftdiagnose på grunnlag av kliniske funn)",
-                    "translations" : {
-                      "nb" : "Bekreftet (kreftdiagnose på grunnlag av kliniske funn)"
-                    }
+                    "value" : "Bekreftet (kreftdiagnose på grunnlag av kliniske funn)"
                   } ]
                 } ]
               } ],
@@ -44059,17 +43457,11 @@
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "399374009",
-                    "value" : "Regional lymph node metastasis present (finding)",
-                    "translations" : {
-                      "nb" : "Regional lymph node metastasis present (finding)"
-                    }
+                    "value" : "Regional lymph node metastasis present (finding)"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "128462008",
-                    "value" : "Metastatic malignant neoplasm (disorder)",
-                    "translations" : {
-                      "nb" : "Metastatic malignant neoplasm (disorder)"
-                    }
+                    "value" : "Metastatic malignant neoplasm (disorder)"
                   } ]
                 } ]
               } ],
@@ -44110,10 +43502,7 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "??",
-                    "value" : "snomed-CT begrep",
-                    "translations" : {
-                      "nb" : "snomed-CT begrep"
-                    }
+                    "value" : "snomed-CT begrep"
                   } ]
                 } ]
               } ],
@@ -44161,73 +43550,43 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "58147004",
-                    "value" : "Klinisk vurdering",
-                    "translations" : {
-                      "nb" : "Klinisk vurdering"
-                    }
+                    "value" : "Klinisk vurdering"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "113011001",
-                    "value" : "Palpasjon",
-                    "translations" : {
-                      "nb" : "Palpasjon"
-                    }
+                    "value" : "Palpasjon"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "363679005",
-                    "value" : "Bildediagnostikk",
-                    "translations" : {
-                      "nb" : "Bildediagnostikk"
-                    }
+                    "value" : "Bildediagnostikk"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "116147009",
-                    "value" : "Cytologi",
-                    "translations" : {
-                      "nb" : "Cytologi"
-                    }
+                    "value" : "Cytologi"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "86273004",
-                    "value" : "Biopsi",
-                    "translations" : {
-                      "nb" : "Biopsi"
-                    }
+                    "value" : "Biopsi"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "65801008",
-                    "value" : "Reseksjon",
-                    "translations" : {
-                      "nb" : "Reseksjon"
-                    }
+                    "value" : "Reseksjon"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "74964007",
-                    "value" : "Annet",
-                    "translations" : {
-                      "nb" : "Annet"
-                    }
+                    "value" : "Annet"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "69466000",
-                    "value" : "Ukjent",
-                    "translations" : {
-                      "nb" : "Ukjent"
-                    }
+                    "value" : "Ukjent"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "??",
-                    "value" : "Biomarkører",
-                    "translations" : {
-                      "nb" : "Biomarkører"
-                    }
+                    "value" : "Biomarkører"
                   }, {
                     "terminologyId" : "SNOMED-CT",
                     "code" : "250724005",
-                    "value" : "Tumormarkør måling (prosedyre)",
-                    "translations" : {
-                      "nb" : "Tumormarkør måling (prosedyre)"
-                    }
+                    "value" : "Tumormarkør måling (prosedyre)"
                   } ]
                 } ]
               } ],
